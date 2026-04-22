@@ -1,0 +1,802 @@
+{
+  "metadata": {
+    "title": "Britain's Secret Dirty Tricks: The Cold War Black Propaganda Machine",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, high contrast shadows, desaturated color palette with amber and slate tones",
+    "bg_music_prompt": "Cold War espionage thriller orchestral score, sparse piano motif over slow string tension, building to dramatic brass swells, mid-tempo, dark and suspenseful, reminiscent of 1960s spy film scores by John Barry, no lyrics, loopable background bed with clear dynamic peaks and quiet valleys"
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "",
+      "visual_description": "Black screen, absolute silence. A single typewriter key sound breaks the quiet. Title card fades in slowly from darkness: 'Britain's Secret Dirty Tricks.' Kodachrome 60s film grain overlay, amber light bleeding in from the edges.",
+      "sfx_prompt": "Single typewriter keystroke, then deep silence",
+      "music_intensity": 0.0,
+      "pause_after": 3.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 3,
+      "narration": "Imagine you are a journalist in Nairobi, 1965. An envelope arrives at your home — no return address, marked personal.",
+      "visual_description": "Close-up of a manila envelope on a wooden desk, Nairobi, 1965. Warm afternoon light through wooden blinds casting tiger-stripe shadows. Kodachrome film grain, shallow depth of field. A hand reaches into frame.",
+      "sfx_prompt": "Paper rustling, distant city sounds of Nairobi street ambience",
+      "music_intensity": 0.1,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 16,
+      "narration": "Inside: a pamphlet from something called the Freedom for Africa Movement. It warns that Soviet agents are manipulating African leaders — naming names, citing figures, sounding authoritative.",
+      "visual_description": "Extreme close-up of a leaflet with printed text, hands unfolding it. Stark black ink on yellowed paper, hand-stamped header reading 'FREEDOM FOR AFRICA MOVEMENT.' Noir side-lighting, heavy grain, documentary intimacy.",
+      "sfx_prompt": "Paper unfolding, faint typewriter ambience",
+      "music_intensity": 0.2,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 34,
+      "narration": "What you don't know — what no one knows — is that this organisation does not exist. It was invented in a government building in London.",
+      "visual_description": "Wide shot of a grey Whitehall office building exterior, London, 1965. Overcast sky, black taxis passing. Slow zoom toward a non-descript window on the upper floor. Kodachrome grain, cinematic noir atmosphere.",
+      "sfx_prompt": "London street ambience, distant church bells",
+      "music_intensity": 0.3,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 49,
+      "narration": "The people behind it had offices in the Foreign Office, civil service salaries, and one objective: to reshape how the world thought — without anyone knowing Britain was involved.",
+      "visual_description": "Interior of a 1960s government office. Rows of civil servants at desks, papers stacked high, a large map of Africa pinned to the wall. Fluorescent lighting, muted khaki tones, Kodachrome film grain overhead shot.",
+      "sfx_prompt": "Office ambience — shuffling papers, muffled phone ringing",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 66,
+      "narration": "This is the story of the Information Research Department — the IRD. The longest-running covert propaganda organisation in British history. And almost no one has heard of it.",
+      "visual_description": "Title card dissolves in over a sepia aerial photograph of London circa 1950. Bold sans-serif text: 'THE INFORMATION RESEARCH DEPARTMENT.' Film grain pulses. Dramatic string swell in score.",
+      "sfx_prompt": "Deep orchestral sting, single sustained string note",
+      "music_intensity": 0.7,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 86,
+      "narration": "By the time it was shut down in 1977, the IRD had conducted approximately 350 covert black propaganda operations across Africa, Asia, Latin America, the Middle East, and Europe.",
+      "visual_description": "Animated world map circa 1960, red dots appearing across Africa, Asia, the Middle East, Latin America. Each dot pulses once. Kodachrome color tones, archival paper texture overlay, slow zoom out.",
+      "sfx_prompt": "Map room ambience, distant radio static",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 103,
+      "narration": "It forged documents. It invented organisations. It planted fabricated stories in newspapers around the world. And it did all of this in secret, with a civil service budget, and a mandate signed by a Labour government.",
+      "visual_description": "Montage: extreme close-up of a forged letter with official-looking stamp; then a stack of newspapers in different languages; then a hand stamping 'CONFIDENTIAL' on a document. Fast cuts, noir lighting, heavy grain.",
+      "sfx_prompt": "Rubber stamp striking paper, newspaper press rolling",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 124,
+      "narration": "At its peak in the mid-1960s, it employed between 390 and 600 staff — making it the single largest branch of the British Foreign Office.",
+      "visual_description": "Wide shot of a large government conference room, 1960s. Rows of men in dark suits around an enormous table, documents spread out. Low-angle shot emphasising institutional scale. Kodachrome 60s grain.",
+      "sfx_prompt": "Murmur of official meeting, pen scratching on paper",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 139,
+      "narration": "The British public had no idea it existed. Neither, officially, did the journalists it was feeding. And most astonishingly of all — the Soviet Union knew about it from day one.",
+      "visual_description": "Split frame: left side a British newspaper front page, right side a KGB file folder stamped with Cyrillic text. A gloved hand opens the KGB folder. Stark noir contrast, deep shadow, film grain.",
+      "sfx_prompt": "File folder opening, faint Soviet-era radio broadcast",
+      "music_intensity": 0.5,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 157,
+      "narration": "To understand how Britain built this machine, you need to go back to January 1948 — and to two men who believed the Soviet Union was winning a war most people didn't know was being fought.",
+      "visual_description": "Archival-style photograph of London in winter 1948. Streets slick with rain, men in overcoats and fedoras, bomb damage still visible on building facades. Slow push toward Carlton House Terrace. Noir amber streetlight.",
+      "sfx_prompt": "1948 London street ambience, footsteps on wet cobblestone",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 175,
+      "narration": "Ernest Bevin was Britain's Foreign Secretary — a bulldog of a man, working-class, anti-communist to his core. He had spent decades fighting Soviet influence within the British trade union movement.",
+      "visual_description": "Close-up portrait of Ernest Bevin at his Foreign Office desk, 1948. Papers in hand, heavy-set face, determined expression. Dramatic side lighting, high contrast, Kodachrome archival photo style.",
+      "sfx_prompt": "Clock ticking in a quiet government office",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 191,
+      "narration": "By 1947, Soviet domination of Eastern Europe was complete. The Berlin Blockade was months away. Bevin was watching the map of Europe turn red — and he wanted to fight back.",
+      "visual_description": "1947 map of Europe with Eastern Bloc nations shading to deep red one by one. Animated overlay on aged paper texture. Slow dramatic zoom toward Berlin. Kodachrome grain, candlelit warmth at edges.",
+      "sfx_prompt": "Map room ambience, scratching pen, distant radio news",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 206,
+      "narration": "His instrument was Christopher Mayhew — a junior minister, wartime intelligence veteran, and committed social democrat who had a plan. Not guns. Not spies. Words.",
+      "visual_description": "Medium shot of Christopher Mayhew at a government briefing table, 1948. Young, intense, gesturing over a document. Noir overhead lighting, suits and cigarette smoke, Kodachrome grain.",
+      "sfx_prompt": "Briefing room ambience, chair scraping on floor",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 221,
+      "narration": "On 8 January 1948, Britain's Cabinet adopted the Future Foreign Publicity memorandum, drafted by Mayhew and signed by Bevin. The Information Research Department was born.",
+      "visual_description": "Close-up of an official government memorandum, dated January 8, 1948. A fountain pen signs the bottom. Warm amber desk lamp light, heavy paper texture, deep shadows at frame edge. Slow zoom into the signature.",
+      "sfx_prompt": "Fountain pen signing paper, official stamp pressed down",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 238,
+      "narration": "The original offices were at Carlton House Terrace — a grand Georgian address in Whitehall. From the outside, just another Foreign Office annex. From the inside, a propaganda factory.",
+      "visual_description": "Exterior shot of Carlton House Terrace, London. White Georgian columns, Union Jack visible at a corner window. Slightly ominous overcast sky. Slow dolly down the pavement. Kodachrome film grain, historical archival style.",
+      "sfx_prompt": "London street noise, pigeons, distant traffic",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 254,
+      "narration": "The IRD's founding principle was deception by design. Its cardinal rule: no material could ever identify the British government as its source. Everything had to appear independent.",
+      "visual_description": "Interior of a 1950s intelligence office. A civil servant places a stack of pamphlets into a plain brown envelope, seals it, writes a private address by hand. No departmental stamp. Tight close-up, shallow focus. Noir light.",
+      "sfx_prompt": "Envelope sealing, pen writing, quiet office hum",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 270,
+      "narration": "Journalists received IRD material at their homes, in envelopes marked personal, with no departmental reference. They were told the documents were prepared internally — that they were simply allowed to use them.",
+      "visual_description": "A journalist's flat, London, 1952. Morning light, newspaper spread on a table, a plain envelope being opened. The journalist reads, expression unreadable. Handheld camera feel, Kodachrome grain, intimate framing.",
+      "sfx_prompt": "Morning ambience, paper rustling, kettle boiling in background",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 287,
+      "narration": "By the time the IRD closed, it had over 100 journalists on contact at nearly every major British national newspaper — most of them unaware they were publishing government propaganda.",
+      "visual_description": "Wide shot of a 1960s Fleet Street newsroom. Desks crowded with typewriters, editors shouting, teletype machines chattering. Overhead angle, motion blur of busy reporters. Kodachrome grain, urgent atmosphere.",
+      "sfx_prompt": "Fleet Street newsroom ambience — teletype clatter, shouted headlines",
+      "music_intensity": 0.4,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 307,
+      "narration": "But the IRD had a problem it didn't know about yet. A catastrophic one. It was housed inside a department that had already been penetrated — by one of the most damaging Soviet agents in British history.",
+      "visual_description": "Dark corridor of a government building, 1948. A single overhead light at the far end. A silhouetted figure stops to light a cigarette, the flame illuminating his face briefly. Extreme noir contrast, grain-heavy.",
+      "sfx_prompt": "Echoing footsteps in a corridor, cigarette lighter flicking",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 324,
+      "narration": "Guy Francis de Moncy Burgess. Cambridge-educated. Charming. Chaotic. And since the mid-1930s — a committed KGB agent working at the heart of the British establishment.",
+      "visual_description": "Portrait photograph of Guy Burgess, circa 1948. Well-dressed, slightly dishevelled, a knowing half-smile. Dramatic split lighting — half in shadow. Kodachrome archival style, ominous low strings in score.",
+      "sfx_prompt": "Slow orchestral sting, faint radio static",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 340,
+      "narration": "In early 1948, Burgess was seconded to the newly formed IRD. Within weeks, he passed the department's existence, structure, and personnel to his KGB handlers in Moscow.",
+      "visual_description": "Recreation of a dead-drop exchange, London park, 1948. A folded newspaper left on a park bench. A hand picks it up. Bare winter trees, grey sky, fog. Long lens compression, Kodachrome muted palette.",
+      "sfx_prompt": "Wind through bare trees, distant footsteps on gravel path",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 356,
+      "narration": "Mayhew eventually sacked Burgess — not for espionage, but for being, in his own words, 'dirty, drunk and idle.' The damage, of course, was already done.",
+      "visual_description": "Close-up of a dismissal letter on a government desk. A hand sliding it into an envelope. Bitter winter light through office window. Wry, understated composition. Noir shadows at frame edges. Kodachrome grain.",
+      "sfx_prompt": "Paper sliding into envelope, quiet office clock ticking",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 371,
+      "narration": "The Soviet Union knew about the IRD for its entire 29-year existence. They chose not to expose it publicly — because doing so would have revealed Burgess as their source.",
+      "visual_description": "Interior of KGB Moscow headquarters, stylised reconstruction. A senior officer reads a file, nods, closes it, locks it in a drawer. Dim overhead light, deep shadows, Soviet grey walls. Archival photo style.",
+      "sfx_prompt": "File drawer locking, faint Cyrillic radio broadcast in background",
+      "music_intensity": 0.45,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 390,
+      "narration": "By 1951, the IRD launched its black propaganda program — operations so covert they bore no government fingerprint whatsoever. The unit handling them was called the Special Operations Section.",
+      "visual_description": "Overhead shot of a classified operations room, 1951. A small team of men in shirtsleeves around a table, maps and draft pamphlets spread out. Bare bulb overhead lighting, heavy shadow. Kodachrome grain.",
+      "sfx_prompt": "Muffled conversation, pencil marks on paper, door closing",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 406,
+      "narration": "Their tools: forged documents attributed to real organisations, fictitious groups that existed only on printed letterhead, and fabricated stories fed to a press that didn't ask too many questions.",
+      "visual_description": "Table spread with forged documents, rubber stamps, typewriters, and paper letterheads with fake organisation names. Close-up tilting slowly across the materials. Warm lamp light, dramatic shadows. Noir archival style.",
+      "sfx_prompt": "Typewriter clacking, rubber stamp impact, paper shuffling",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 423,
+      "narration": "The most frequently forged entity was the Novosti Press Agency — the Soviet Union's own official news wire. At least eleven Novosti forgeries were produced between 1965 and 1972.",
+      "visual_description": "Extreme close-up of a forged Novosti Press Agency letterhead. Cyrillic header, official-looking stamp, body text in English. Magnifying glass slowly moves across the page. Noir light, sharp contrast, heavy grain.",
+      "sfx_prompt": "Magnifying glass on paper, faint Soviet radio music",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 439,
+      "narration": "One 1967 forgery, released after the Arab-Israeli War, purported to be a Novosti dispatch urging Nasser not to fight — blaming the Soviets for providing Egypt with defective weaponry.",
+      "visual_description": "Stylised recreation of a 1967 Egyptian newsroom. An editor reads a dispatch, expression shifting to alarm. Desert light through dusty windows, Arabic newspapers on the desk. Kodachrome amber tones, handheld intimacy.",
+      "sfx_prompt": "Arabic radio broadcast, newsroom murmur, paper rustling",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 455,
+      "narration": "Another forged a Muslim Brotherhood communiqué, denouncing Soviet advisors in Egypt as, quote, 'filthy-tongued atheists.' Distributed across the Muslim world.",
+      "visual_description": "Close-up of a pamphlet with Arabic-script header, hand-printed border, distributed in a Cairo street. A man picks it up, reads it, face darkening. Dusty afternoon light, crowded street ambience. Archival grain.",
+      "sfx_prompt": "Cairo street ambience, call to prayer distant in background",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 471,
+      "narration": "These were not clumsy fakes. The IRD used classified intelligence from SIS and GCHQ to make them authentic — accurate enough to pass editorial scrutiny in Cairo, Nairobi, and Delhi.",
+      "visual_description": "Interior of a 1960s signals intelligence centre. Rows of operators with headsets, GCHQ-style. Reel-to-reel tape machines. Low-angle dramatic shot across the room. Green-tinted monitor glow, heavy grain. Kodachrome style.",
+      "sfx_prompt": "Signals room ambience — radio hiss, reel-to-reel spinning, morse code",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 488,
+      "narration": "The IRD also built entirely fictional organisations. At least eight separate fake groups were created, complete with bulletin series, fake addresses in multiple cities, and forged correspondence with real journalists.",
+      "visual_description": "Montage: fake letterheads with names like 'International Committee for the Investigation of Communist Front Organisations,' fake address lists with Vienna, Cairo, Stockholm, Rome. Overhead close-ups, typewriter font, Kodachrome grain.",
+      "sfx_prompt": "Typewriter carriage return, paper stacking",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 507,
+      "narration": "One of them — the International Committee for the Investigation of Communist Front Organisations — claimed offices in Vienna, Munich, Stockholm, Brussels, Rome, Paris, Cairo, and Dakar. None of it was real.",
+      "visual_description": "A single office desk with eight address stamps laid out: Vienna, Munich, Stockholm, Brussels, Rome, Paris, Cairo, Dakar. A hand moves between them, inking each in turn. Stark overhead light, deep shadow. Film grain.",
+      "sfx_prompt": "Address stamps clicking in sequence, quiet office",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 526,
+      "narration": "This fake think tank issued at least twenty bulletins between 1959 and 1968 — distributing 500 to 1,000 copies each to peace organisations, universities, and international media worldwide.",
+      "visual_description": "Wide shot of a sorting room, 1961. Stacks of identical bulletins being inserted into envelopes, addressed by hand, bundled for international post. Workers in silence. Overhead shot, muted colours, archival grain.",
+      "sfx_prompt": "Envelopes being sealed in bulk, sorting room ambience",
+      "music_intensity": 0.4,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 544,
+      "narration": "The primary targets were Africa and Asia — the battlegrounds of decolonisation. The IRD understood that the Cold War's real front line was not in Europe. It was in newly independent nations choosing which world they would join.",
+      "visual_description": "1960 political map of Africa and Asia showing newly independent nations marked in gold. Slow pan across the map. Archival paper texture, colonies turning to independent states. Amber Kodachrome light from above.",
+      "sfx_prompt": "Map room ambience, distant drums of African independence ceremony",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 563,
+      "narration": "Africa alone saw the highest concentration of operations. Ghana, Sudan, the OAU secretariat, Tanzania, Congo, Kenya, Rhodesia — the IRD was working all of them simultaneously.",
+      "visual_description": "Map of Africa circa 1965 with red markers appearing across Ghana, Sudan, Tanzania, Congo, Kenya, Rhodesia. Each marker pulses. Slow overhead zoom. Archival texture, dramatic orchestral pulse in score.",
+      "sfx_prompt": "Map room ambience, orchestral tension swell",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 579,
+      "narration": "In 1964, Prime Minister Alec Douglas-Home personally intervened to escalate IRD operations against Ghana's Kwame Nkrumah — the continent's most prominent independence leader.",
+      "visual_description": "Portrait of Kwame Nkrumah at a podium, 1963. Crowd of thousands behind him. Triumphant but surrounded. Slow zoom toward his face. Dramatic lighting, Kodachrome grain, ominous low string underscore.",
+      "sfx_prompt": "Crowd cheering fading to silence, low orchestral hum",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 594,
+      "narration": "That same year, Labour Foreign Secretary Patrick Gordon Walker recommended the IRD continue its black propaganda capacity — and went further, suggesting, in internal memos, 'stirring racial trouble between Africans and Chinese.'",
+      "visual_description": "Close-up of a classified Foreign Office internal memorandum, typewritten. Key phrase visible but partially redacted in the reconstruction. Heavy Whitehall desk atmosphere, green lamp, dark wood. Kodachrome grain.",
+      "sfx_prompt": "Pen underlining text, quiet government office hum",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 612,
+      "narration": "This was not Cold Warriors in the shadows. This was elected British politicians, signing off on operations to destabilise African governments they found inconvenient.",
+      "visual_description": "Wide shot of the House of Commons exterior at dusk, 1964. Big Ben visible. A black car departing through iron gates. Slow ominous zoom. Desaturated Kodachrome palette, heavy grain, low fog.",
+      "sfx_prompt": "Big Ben tolling, car engine, iron gate closing",
+      "music_intensity": 0.55,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 631,
+      "narration": "Rhodesia became the IRD's single largest operation. After Ian Smith's Unilateral Declaration of Independence in November 1965, the department ran 27 separate operations against the Smith regime in less than two years.",
+      "visual_description": "Archival-style photograph of Ian Smith signing the Rhodesian UDI declaration, November 1965. Suited men at a long table. Slow zoom toward the document. Noir contrast, amber lamplight, Kodachrome grain.",
+      "sfx_prompt": "Pen signing document, formal room silence",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 649,
+      "narration": "One creation: the Matopos Club — a fake organisation of white Rhodesians supposedly opposed to Smith's regime. It issued at least fifteen leaflets. Not one member ever existed.",
+      "visual_description": "A stack of Matopos Club leaflets on a Whitehall desk. A rubber stamp impression of the fake club's name. The hand that stamps them is wearing a London suit. Close-up, tight frame, harsh downlighting. Grain-heavy.",
+      "sfx_prompt": "Rubber stamp, leaflets stacking, quiet irony of office normality",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 664,
+      "narration": "The peak year was 1966. Twenty black operations in the first half of that year alone. The IRD's Hans Welser, director of the Special Operations Section, noted at the time that the operations were proving effective.",
+      "visual_description": "Operations board in a Whitehall office, 1966. String lines connecting operation names to target regions. A hand pins a new card to the board. Overhead amber light, heavy shadows. Spy-thriller aesthetic, Kodachrome grain.",
+      "sfx_prompt": "Pin pressed into cork board, muffled Whitehall office noise",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 681,
+      "narration": "But let's talk about the IRD's most sophisticated operation of all — the one that weaponised the most trusted name in global news.",
+      "visual_description": "Slow push into the Reuters news agency sign on a London building facade, 1969. Authoritative. Respected. Unknowingly compromised. Dramatic low angle, evening light, slight lens flare. Kodachrome grain.",
+      "sfx_prompt": "Wire service teletype clatter fading to silence",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 698,
+      "narration": "In 1969, the IRD approached Reuters to open a Middle East reporting service as part of a covert influence plan. But the arrangement could not be traced back to the government.",
+      "visual_description": "Reconstruction of a discreet meeting in a London club, 1969. Two men in suits, low voices, exchanging a document. Dark wood panelling, brass wall lamps, background murmur. Deep shadow, Kodachrome style.",
+      "sfx_prompt": "Quiet club ambience, crystal glasses, low murmur",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 714,
+      "narration": "The solution was elegant: the BBC would pay Reuters for 'enhanced subscriptions' — far above market rate. The British government would then quietly reimburse the BBC.",
+      "visual_description": "Close-up of a government cheque made out to the BBC, 1970. Hand-signed. Then cut to BBC Broadcasting House exterior. Then to Reuters building. Each shot 3 seconds, cutting on the beat. Kodachrome grain.",
+      "sfx_prompt": "Cheque being torn from a book, BBC interval signal briefly",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 729,
+      "narration": "Government money. Laundered through the BBC. Into Reuters. Out as independently-reported international news. The total: three hundred and fifty thousand pounds over four years.",
+      "visual_description": "Animated flow diagram: British government → BBC logo → Reuters logo → International newspaper front pages. Clean graphic over aged paper texture. Slow reveal of each step. Archival film grain overlay.",
+      "sfx_prompt": "Money counting sound, wire service clatter, newspaper printing press",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 746,
+      "narration": "The reporters who filed those stories didn't know. The editors who published them didn't know. The readers who trusted Reuters — they certainly didn't know.",
+      "visual_description": "Medium shot of a Reuters correspondent typing at a desk in a Beirut bureau, 1970. Through the window, the city. He is focused, professional, unaware. Warm evening light, ceiling fan turning. Kodachrome grain.",
+      "sfx_prompt": "Typewriter keys, distant Beirut street sounds, ceiling fan",
+      "music_intensity": 0.45,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 766,
+      "narration": "Now imagine being George Orwell. 1949. You are dying of tuberculosis in a sanatorium in Gloucestershire. You have weeks to write. Your legacy is already secured — Animal Farm, Nineteen Eighty-Four.",
+      "visual_description": "Interior of a private sanatorium room, Cranham, Gloucestershire, 1949. A gaunt man at a bedside desk writing slowly. Winter light through thin curtains. Sparse, cold room. Extreme quiet. Kodachrome desaturated grain.",
+      "sfx_prompt": "Winter wind outside window, pen scratching paper, distant coughing",
+      "music_intensity": 0.25,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 784,
+      "narration": "A woman visits. Celia Kirwan — a close friend, sister-in-law of Arthur Koestler, and — as of recently — an agent of the Information Research Department.",
+      "visual_description": "Stylised reconstruction of Celia Kirwan entering the sanatorium room. Well-dressed, composed, carrying a briefcase. Orwell looks up from the bed. Low winter light across both figures. Intimate, slightly ominous framing. Grain heavy.",
+      "sfx_prompt": "Door opening quietly, footsteps on linoleum floor",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 800,
+      "narration": "She is there to recruit him as a writer for the IRD's propaganda program. He agrees. But he goes further — he offers her something else entirely.",
+      "visual_description": "Close-up of Orwell's face in profile, 1949. Gaunt cheekbones, intense eyes. He is speaking quietly, seriously. Dramatic narrow light strip across his face, deep shadow. Archival portrait reconstruction. Kodachrome grain.",
+      "sfx_prompt": "Quiet room, faint breathing, barely audible voice",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 815,
+      "narration": "A list. Writers, journalists, broadcasters he considered 'crypto-communists, fellow-travellers, or inclined that way' — people who should not be trusted for government propaganda work.",
+      "visual_description": "Close-up of a handwritten list on notepaper, partially visible. Names in Orwell's handwriting. The camera tilts slowly down the page. Warm desk-lamp light, shallow depth of field. Kodachrome grain, high tension.",
+      "sfx_prompt": "Paper rustling, pen underscoring a name",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 831,
+      "narration": "The list named 38 individuals. Among them: Charlie Chaplin, J.B. Priestley, Michael Redgrave, and Paul Robeson — who Orwell described as 'very anti-white.' He insisted the list be kept 'strictly confidential.'",
+      "visual_description": "Names appear as text overlays on a dark background, typed in a period font: CHARLIE CHAPLIN. J.B. PRIESTLEY. PAUL ROBESON. Each fades in with a typewriter click. Deep shadow, dramatic score pulse beneath.",
+      "sfx_prompt": "Typewriter keys — each name struck one at a time",
+      "music_intensity": 0.4,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 849,
+      "narration": "The author who imagined Big Brother — the man who gave us Doublethink — was, in his final months, compiling a blacklist for a secret government propaganda unit.",
+      "visual_description": "Split screen: Nineteen Eighty-Four first edition book cover, left. The handwritten IRD informant list, right. Slow zoom toward both simultaneously. Dramatic irony made visual. Noir light, Kodachrome grain.",
+      "sfx_prompt": "Slow deep string note sustained, clock ticking underneath",
+      "music_intensity": 0.5,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 869,
+      "narration": "When Orwell's informant list became public in 2003, it caused an immediate controversy. His biographer Bernard Crick had always known about a private notebook with 135 names — 'some plausible, some far-fetched.'",
+      "visual_description": "Guardian newspaper front page, 2003 — headline about Orwell's list. A hand holds the paper. Modern reading room light. Cut to a university library with the Orwell Archive visible in background. Colour photography gives way to black and white.",
+      "sfx_prompt": "Newspaper flipping, library ambience",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 886,
+      "narration": "Even more striking: some of the names appeared to be in Arthur Koestler's handwriting. The two greatest anti-totalitarian writers of their generation — co-authoring a blacklist for British intelligence.",
+      "visual_description": "Close-up of the Orwell informant list, two different handwriting styles visible. Camera slowly moves between the two hands of writing. Archival document atmosphere. Warm desk light, heavy grain.",
+      "sfx_prompt": "Archival room silence, faint pen scratching",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 903,
+      "narration": "The IRD also weaponised Orwell's fiction directly. Animal Farm was translated into at least sixteen languages. Cartoon strip rights were commissioned for newspapers across Africa, the Caribbean, and the Middle East.",
+      "visual_description": "Montage of Animal Farm cover art in multiple languages: Arabic, Japanese, Polish, French, Indonesian. Each cover held up briefly in archival shot. Foreign text visible, pigs and horses. Kodachrome palettes by country.",
+      "sfx_prompt": "Paper flipping, typewriter, multiple language radio snippets",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 920,
+      "narration": "An embassy official noted in an internal memo about the Arabic edition: 'The idea is particularly good for Arabic in view of the fact that both pigs and dogs are unclean animals to Muslims.'",
+      "visual_description": "Close-up of an internal memo on diplomatic letterhead. A key sentence highlighted. A government official's handwritten annotation in the margin. Embassy desk atmosphere, warm amber light, Kodachrome grain.",
+      "sfx_prompt": "Quiet embassy office, pen marking paper",
+      "music_intensity": 0.35,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 938,
+      "narration": "Beyond Orwell, the IRD recruited — knowingly or not — a roster of British intellectual life. Bertrand Russell. Arthur Koestler. Robert Conquest. The historian Leonard Schapiro. The politician Denis Healey.",
+      "visual_description": "Montage of archival portraits: Bertrand Russell at a desk, Arthur Koestler speaking at a podium, Robert Conquest at a typewriter. Each portrait lingers 3 seconds. Noir dramatic lighting. Kodachrome grain.",
+      "sfx_prompt": "Slow orchestral underscore, no sharp sounds",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 952,
+      "narration": "The IRD bulk-ordered thousands of copies of Bertrand Russell's Why Communism Must Fail and distributed them through British embassies globally. Russell was apparently aware of the funding. Many others were not.",
+      "visual_description": "Wide shot of a British embassy post room, 1958. Crates of books being labelled for international diplomatic post. A diplomat signs a manifest. Warm light, official atmosphere. Kodachrome grain, understated noir.",
+      "sfx_prompt": "Crates being sealed, diplomatic mail room ambience",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 969,
+      "narration": "Ampersand Limited — a publishing house operating as a government front — printed books under its own name, but also under mainstream imprints like Bodley Head and Allen and Unwin. Those publishers had no idea.",
+      "visual_description": "A modest publishing office exterior sign reading 'AMPERSAND LIMITED.' Then cut to interior: shelves of books, mundane office. No indication of anything unusual. Dry irony of ordinary-seeming front. Kodachrome grain.",
+      "sfx_prompt": "Office door opening, phone ringing in background",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 985,
+      "narration": "Encounter magazine — edited by poet Stephen Spender, one of the most prestigious intellectual journals in Britain — was jointly funded by the IRD and the CIA through the Congress for Cultural Freedom.",
+      "visual_description": "Encounter magazine cover from 1955. Elegant modernist design, sophisticated typography. A hand flips through pages of essays. British library reading room atmosphere. Kodachrome grain, quiet prestige visuals.",
+      "sfx_prompt": "Magazine pages turning in quiet library",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1000,
+      "narration": "When CIA funding for the Congress for Cultural Freedom was revealed in 1967, Spender resigned in shock. He had not known. The writers, critics, and intellectuals whose work filled its pages had not known either.",
+      "visual_description": "Stephen Spender standing, reading a newspaper. His face changes expression as he reads. 1967 London background. Slow zoom into his face. The look of a man realising the institution he gave his name to was a vehicle. Grain-heavy.",
+      "sfx_prompt": "Newspaper rustling, sudden silence, distant London traffic",
+      "music_intensity": 0.4,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1020,
+      "narration": "Now — Operation TEA-PARTY. During the Cyprus Emergency of 1955 to 1959, the IRD was running black propaganda against EOKA — the Greek Cypriot guerrilla movement fighting for independence.",
+      "visual_description": "Archival photograph of British soldiers in Cyprus, 1956. Narrow street, stone walls, military presence. Tense, colonial. Slow pan across the scene. Kodachrome grain, morning Mediterranean light filtered through dust.",
+      "sfx_prompt": "Mediterranean street ambience, boots on stone, distant shouting",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1037,
+      "narration": "The operation fabricated claims that EOKA guerrillas had raped Cypriot schoolgirls. The pamphlets specified that the youngest victim was twelve years old. These stories were planted with American journalists.",
+      "visual_description": "A pamphlet being printed on a hand press, 1956. The text is visible — disturbing, fabricated. The operator pulls a fresh sheet. Red ink on pale paper. Dark claustrophobic printing room. Heavy grain, noir intensity.",
+      "sfx_prompt": "Hand printing press mechanism, ink smell implied by visual",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1055,
+      "narration": "The stories were published internationally as fact. They were never corrected. They existed in the historical record — as journalism — until the declassified documents exposed their origin.",
+      "visual_description": "Stack of American and British newspapers from 1957. A headline visible but not fully legible — the implication clear. The stack ages, yellows, curls. Time-lapse stylisation. Stark overhead light. Kodachrome grain.",
+      "sfx_prompt": "Newspaper pages turning, time-passing ambient sound",
+      "music_intensity": 0.5,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1075,
+      "narration": "By the late 1960s, the IRD had turned some of its tools inward. In 1969, it drew up plans to target British trade union leaders — specifically Jack Jones of the Transport and General Workers Union and Hugh Scanlon of the engineers.",
+      "visual_description": "Black-and-white photo of a British trade union march, late 1960s. Banners, crowds, union flags. Slow zoom toward the faces in the crowd. Then a cut to an office where a civil servant circles names on a list. Stark contrast.",
+      "sfx_prompt": "Trade union chanting fading to government office quiet",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1093,
+      "narration": "The plan: 'detrimental leaks' — fabricated or distorted information fed to the press to discredit union leadership. The same techniques used against Soviet fronts in Africa, now pointed at British workers.",
+      "visual_description": "Close-up of an internal IRD planning document, 1969. Key phrase 'detrimental leaks' visible in typewritten text. A red pen circles it. Whitehall office atmosphere. Deep shadow, Kodachrome grain, unsettling quiet.",
+      "sfx_prompt": "Pen circling text, clock ticking, office silence",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1110,
+      "narration": "And in Northern Ireland, as The Troubles escalated through the early 1970s, the IRD was performing military intelligence tasks for the British Army — black propaganda now in active conflict zones on home soil.",
+      "visual_description": "Archival photograph of Belfast, early 1970s. Army vehicles, barricades, smoke in the distance. Tense urban patrol. Slow push into the scene. Desaturated palette, Kodachrome grain, heavy shadow.",
+      "sfx_prompt": "Helicopter overhead, distant explosion echo, army radio crackle",
+      "music_intensity": 0.55,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1130,
+      "narration": "By 1971, the IRD had begun to contract. Staff fell from a peak of 390 to 117. Budget cuts hit hard through the early 1970s. The era of vast covert propaganda bureaucracy was ending.",
+      "visual_description": "A large government office slowly emptying. Desks cleared one by one. Filing cabinets moved. An overhead shot shows a room half-full that was once packed. Fading afternoon light. Kodachrome muted palette.",
+      "sfx_prompt": "Boxes being moved, drawers closing, office winding down",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1145,
+      "narration": "By 1973, the IRD's black propaganda programme had effectively wound down. In the final years, the department shifted to distributing articles through press contacts — 650 in 1973 to 1974 alone — but the fabrication operations were over.",
+      "visual_description": "A nearly empty Whitehall corridor, 1973. One civil servant carries a box of files toward an exit. Long shot down the corridor, diminishing perspective. Fluorescent light, institutional grey walls. Quiet, anticlimactic.",
+      "sfx_prompt": "Echoing footsteps in an empty corridor",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1163,
+      "narration": "Then, in 1977, a journalist at The Guardian began pulling at a thread that unravelled everything. David Leigh had noticed something peculiar: an enormous volume of anti-Soviet propaganda appearing in publications connected to St Antony's College, Oxford.",
+      "visual_description": "David Leigh at a desk in a Guardian newsroom, 1977. Papers spread out, notes, red string connecting printed documents pinned to a board behind him. Investigative intensity. Overhead fluorescent light. Kodachrome grain.",
+      "sfx_prompt": "Newsroom ambience, typewriter, phone ringing in background",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1181,
+      "narration": "His investigation led to the article: 'Death of the Department That Never Was.' The first public acknowledgement in British history that the IRD had existed at all.",
+      "visual_description": "A Guardian newspaper front page, 1977. The headline 'Death of the Department That Never Was' prominent. A hand holds it up. London newsstand in background. Dramatic close-up zoom toward the headline. Kodachrome grain.",
+      "sfx_prompt": "Newspaper press rolling, single dramatic orchestral note",
+      "music_intensity": 0.55,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1198,
+      "narration": "Foreign Secretary David Owen read Leigh's article and acted immediately. The IRD was dissolved. Its remaining functions — the black propaganda capability — transferred to SIS. To MI6.",
+      "visual_description": "Exterior of the Foreign and Commonwealth Office, London, 1977. A black government car arrives. A figure steps out, walks briskly inside. Ominous autumn light, leaves on the pavement. Slow zoom to entrance. Noir atmosphere.",
+      "sfx_prompt": "Car door closing, rapid footsteps on stone, heavy door swinging open",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1213,
+      "narration": "The existence of the IRD was not publicly confirmed until 1978. Many of its files remain classified or redacted to this day. The full scope of what it did may never be known.",
+      "visual_description": "Interior of the UK National Archives at Kew. Long rows of shelving holding orange and buff file boxes. A researcher moves through the stacks. Some boxes have red RESTRICTED labels. Slow tracking shot. Archival stillness.",
+      "sfx_prompt": "Archive room silence, distant trolley wheels, paper handling",
+      "music_intensity": 0.35,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1233,
+      "narration": "So what does the IRD's story actually mean? Step back and think about what was built here — not in Moscow, not in Langley, but in a government building on a civil service budget in London.",
+      "visual_description": "Aerial view of central London, 1970. Whitehall visible, Foreign Office roof, Thames beyond. Camera slowly pulls back and upward. The scale of the institution visible. Kodachrome amber tones, documentary gravity.",
+      "sfx_prompt": "Wind at altitude, distant city ambience",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1248,
+      "narration": "A machine that could forge documents in the name of the Soviet news agency. That could create organisations that did not exist and make them seem real to editors across four continents.",
+      "visual_description": "Montage: forged Novosti letterhead, fake International Committee bulletin, Loyal African Brothers leaflet, Matopos Club document. Each held up in close-up for 3 seconds. Stark light, heavy shadow. Grain throughout.",
+      "sfx_prompt": "Document handling sounds in sequence, no music — maximum tension",
+      "music_intensity": 0.2,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1265,
+      "narration": "That could launder government money through the BBC into Reuters and have it emerge as trusted international journalism. That could plant fabricated atrocity stories and have them stick for decades.",
+      "visual_description": "Animated three-step diagram repeating: Government → BBC → Reuters → Newspaper Headline. Then second loop: Government → IRD pamphlet → Foreign press → Archive. Cold graphic clarity over aged paper. Archival grain.",
+      "sfx_prompt": "Wire service teletype, money counting, newspaper rolling — layered",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1282,
+      "narration": "That could deploy the greatest anti-totalitarian novelist of the century as an informant — and distribute his fiction as the centrepiece of its propaganda empire.",
+      "visual_description": "Final wide shot of George Orwell's face — archival portrait, circa 1947. The author gazes directly at the camera. Slow extreme zoom into his eyes. Deep Kodachrome shadow. Held for 5 seconds in silence.",
+      "sfx_prompt": "Complete silence — hold for 3 seconds",
+      "music_intensity": 0.1,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1299,
+      "narration": "And it did all of this while insisting — as a matter of state policy — that Britain, unlike the Soviet Union, did not engage in propaganda.",
+      "visual_description": "Close-up of the original IRD founding memo language: 'maintain the fiction that Britain does not engage in state propaganda.' The camera holds on the words. Amber lamp light. Long pause. Kodachrome archival style.",
+      "sfx_prompt": "Slow dramatic string note rising",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1314,
+      "narration": "The IRD's techniques — front organisations, forged documents, laundered media placement, the co-option of trusted institutions — are not historical curiosities. They are the operating manual of modern information warfare.",
+      "visual_description": "Fast montage: 1960s IRD document, then a modern social media screen, then a fake Twitter account profile, then a bot network visualisation. Each held 2 seconds. The historical and the contemporary rhyme deliberately. Mixed grain.",
+      "sfx_prompt": "1960s typewriter blending into modern keyboard typing",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1331,
+      "narration": "From the Kremlin's troll farms to state-sponsored think tanks to influence operations waged through social media platforms — the IRD wrote the playbook. Britain just classified it for sixty years.",
+      "visual_description": "Split screen: 1965 IRD operations board with string and pins. Right side: 2020s social media influence operation graphic from a government report. The visual symmetry is unmistakeable. Both in mixed grain.",
+      "sfx_prompt": "Orchestral build beginning — strings rising",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1349,
+      "narration": "Rory Cormac, the historian who has done more than anyone to document the IRD's operations, notes that only around ten percent of its black propaganda operations generated any measurable press reaction.",
+      "visual_description": "Professor at a research desk at the University of Nottingham, surrounded by declassified IRD files from the National Archives, FCO 168 series. Academic gravity. Documentary warmth. Slow dolly in. Modern but serious.",
+      "sfx_prompt": "Library quiet, papers being turned",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1365,
+      "narration": "But that may be the wrong metric. The IRD's deeper significance was not in the individual operations. It was in the institutional model — the proof that a democratic government could maintain a permanent, plausibly deniable disinformation apparatus.",
+      "visual_description": "Wide shot of empty Whitehall at dusk. No one visible. The buildings themselves as the subject — permanent, institutional, impersonal. Slow push down the empty street. Amber lamplight, Kodachrome grain, quiet gravity.",
+      "sfx_prompt": "Wind on empty street, distant Big Ben, slow orchestral underscore",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1383,
+      "narration": "It ran for twenty-nine years. It employed hundreds of people. It operated across every continent. It co-opted some of the most celebrated names in British intellectual life.",
+      "visual_description": "Timeline graphic: 1948 to 1977 as a single horizontal bar. Key events marked: 1948 founding, 1951 black ops begin, 1959 Youth Festival, 1966 peak, 1969 Reuters deal, 1977 closure. Slow reveal left to right. Archival style.",
+      "sfx_prompt": "Clock mechanism, each year marked by a subtle click",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1399,
+      "narration": "And when it was finally exposed — not by the KGB, not by a whistleblower, but by a journalist who noticed too many Oxford academics writing the same thing — the government simply shut it down and moved the capability to MI6.",
+      "visual_description": "The Guardian front page, 1977 — Leigh's article. Then a slow dissolve to the MI6 building at Vauxhall Cross. The institution did not end. It transformed. Slow dissolve between eras, Kodachrome to modern. Deliberate.",
+      "sfx_prompt": "Newspaper press, slow dissolve audio — city ambience changing era",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1418,
+      "narration": "The Cold War taught democratic governments a lesson they never forgot: information, shaped in secret, is as powerful as any weapon. And far more deniable.",
+      "visual_description": "Close-up of a plain brown envelope being sealed by a government hand, 1965. No return address. Marked 'Personal.' The hand places it on a stack of identical envelopes. The camera pulls back slowly to reveal the scale of the stack.",
+      "sfx_prompt": "Envelope sealing, silence, slow music building underneath",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1435,
+      "narration": "You have just learned about a department that officially never existed. A machine that forged, fabricated, and laundered reality — for twenty-nine years — in the name of freedom.",
+      "visual_description": "Final wide shot returning to the opening image: a Whitehall office building, exterior. The same non-descript window on the upper floor. Now the window is dark. Empty. The building looks completely ordinary. Slow zoom out.",
+      "sfx_prompt": "Music swelling to full orchestral peak",
+      "music_intensity": 0.8,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1455,
+      "narration": "If you found this valuable, the full research and sources are linked below. The documents are real. The organisations were not. Subscribe, and we'll keep finding the history they tried to classify.",
+      "visual_description": "Clean end card: Cold War Chronicles channel logo centred on a dark slate background with amber typeface. Subscribe button visible. Soft Kodachrome grain overlay. Warm, authoritative finish.",
+      "sfx_prompt": "Music beginning gentle fade — warm low string resolution",
+      "music_intensity": 0.5,
+      "pause_after": 3.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1475,
+      "narration": "",
+      "visual_description": "Black screen. Channel logo fades out last. Complete silence except for the final music tail resolving to quiet.",
+      "sfx_prompt": "Music tail resolving — final note fades to complete silence over 8 seconds",
+      "music_intensity": 0.0,
+      "pause_after": 8.0,
+      "transition": "fade"
+    }
+  ]
+}
