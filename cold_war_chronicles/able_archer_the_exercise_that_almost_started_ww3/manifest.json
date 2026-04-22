@@ -1,93 +1,800 @@
 {
-  "title": "Able Archer: The Exercise That Almost Started WWIII",
-  "channel": "Cold War Chronicles",
-  "estimated_duration_minutes": 11,
-  "target_word_count": 1800,
-  "voice_style": "Deep, resonant. Analytical and suspenseful. Second-person immersion mixed with strategic overview.",
-  "scenes": [
+  "metadata": {
+    "title": "Able Archer 83: The Exercise That Almost Started World War III",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s-80s film grain, cinematic noir lighting, high contrast, cold desaturated tones with occasional warm amber highlights, historical archival photo style",
+    "bg_music_prompt": "Tense Cold War orchestral score, low sustained strings with sparse piano, occasional brass stabs, building slowly from ambient drone to full orchestral tension, reminiscent of a 1980s espionage thriller soundtrack, no lyrics"
+  },
+  "timeline": [
+
     {
-      "id": 1,
-      "label": "Hook — High-Stakes Cold Open",
-      "approx_duration_sec": 75,
-      "dialogue": [
-        {
-          "speaker": "NARRATOR",
-          "text": "Imagine you are a Soviet intelligence officer. It is November 1983. For months, your superiors have warned you: the Americans may be planning a surprise nuclear strike. You have been told to watch for signs. And tonight, as you monitor NATO's radio traffic, something feels different. The communications patterns are changing. Alert levels are shifting. The exercise they call Able Archer looks, from where you sit, disturbingly real. The question is: do you report it as a drill — or as the opening move of World War Three?"
-        }
-      ],
-      "image_prompt": "Soviet intelligence officer at a dim console in 1983, headphones on, wall of radio equipment glowing, maps of NATO countries behind him, cinematic noir lighting, Kodachrome film grain"
+      "timestamp_start": 0,
+      "narration": "November 9th, 1983. Deep inside a hardened bunker in East Germany, Soviet airforce commanders receive an order that has never been issued in peacetime.",
+      "visual_description": "Extreme close-up of a Soviet officer's hand reaching for a red telephone receiver, harsh fluorescent light casting cold shadows across a concrete command bunker wall, Kodachrome 80s film grain, cinematic noir",
+      "sfx_prompt": "Heavy bunker door locking shut, distant electrical hum",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
     },
     {
-      "id": 2,
-      "label": "Introduction — The World in 1983",
-      "approx_duration_sec": 120,
-      "dialogue": [
-        {
-          "speaker": "NARRATOR",
-          "text": "To understand why a NATO war game nearly triggered a nuclear catastrophe, you need to understand how bad things had become by 1983. The Soviet invasion of Afghanistan had shattered détente. In Poland, the Solidarity movement had forced Moscow to impose martial law. In Washington, Ronald Reagan had called the Soviet Union an evil empire and announced a missile defense system that Soviet generals feared was designed to shield America after a first strike. And NATO was deploying Pershing II missiles in West Germany — weapons that could reach Moscow in under ten minutes. This was the age of Brinkmanship at its most dangerous: two nuclear superpowers, each convinced the other might actually press the button."
-        }
-      ],
-      "image_prompt": "Split montage of Soviet troops in Afghan mountains, Polish Solidarity protestors, Reagan at a podium, Pershing II missiles on a West German road, Kodachrome 60s film grain, archival photo style"
+      "timestamp_start": 8,
+      "narration": "Nuclear warheads are to be loaded onto combat aircraft. Immediately. The 4th Air Army is going to war.",
+      "visual_description": "Low-angle wide shot of Soviet Tupolev bombers lined on a dark East German airfield tarmac at night, ground crew moving in shadows, arc lights cutting through freezing fog, historical archival photo style, high contrast",
+      "sfx_prompt": "Aircraft engines spooling up in the distance, boots on wet tarmac",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
     },
     {
-      "id": 3,
-      "label": "The Tension — Operation RYaN and the War Scare",
-      "approx_duration_sec": 150,
-      "dialogue": [
-        {
-          "speaker": "NARRATOR",
-          "text": "Inside the KGB and GRU, a secret program called Operation RYaN — Raketno-Yadernoye Napadenie, or Nuclear Missile Attack — was running at full capacity. Thousands of intelligence officers worldwide had one job: find the signs of an American first strike before it happened. They were told to watch blood bank stocks, government building lighting, unusual political travel patterns. Every anomaly was a potential indicator. And 1983 gave them plenty to worry about. In September, a Korean airliner was shot down by Soviet interceptors, killing 269 people and sending East-West relations into freefall. Weeks later, a Soviet early-warning satellite reported five incoming American ICBMs. The officer on duty, Stanislav Petrov, judged it a false alarm. He was right — but it was a very close call. At the top, General Secretary Yuri Andropov was dying. Bedridden and isolated, he was receiving a filtered picture of a world that seemed to be closing in on the Soviet Union."
-        }
-      ],
-      "image_prompt": "KGB analyst room with world map covered in signal intelligence pins, inset of Soviet early-warning radar screen with false missile trajectory, cinematic noir lighting, historical archival photo style"
+      "timestamp_start": 16,
+      "narration": "Seventy-five mobile nuclear missile launchers vanish into the forests of Eastern Europe, camouflaged and dispersed to field positions. A Soviet submarine slides silently under the Arctic ice.",
+      "visual_description": "Aerial view of dark pine forest with barely visible camouflage netting concealing missile transporter vehicles, cold blue moonlight filtering through snow-dusted branches, Kodachrome film grain, desaturated greens",
+      "sfx_prompt": "Submarine sonar ping fading into silence, wind through frozen trees",
+      "music_intensity": 0.6,
+      "pause_after": 1.0,
+      "transition": "cut"
     },
     {
-      "id": 4,
-      "label": "The Tension — What Was Able Archer?",
-      "approx_duration_sec": 120,
-      "dialogue": [
-        {
-          "speaker": "NARRATOR",
-          "text": "Every autumn, NATO ran a large-scale military exercise series across Western Europe called Autumn Forge. And every year, it concluded with a command-post exercise called Able Archer — a simulation of how NATO's political and military leadership would manage the final stages of a war in Europe, including the decision to use nuclear weapons. In November 1983, Able Archer was different from previous years. New communications formats were used. Simulated DEFCON levels were changed — all the way to DEFCON 1, the threshold of nuclear war. Senior political officials role-played the authorization of nuclear strikes. From NATO's side of the fence, it was a scripted rehearsal. From Moscow's side, watching intercepted communications and troop movements, it looked like something else entirely."
-        }
-      ],
-      "image_prompt": "NATO command post interior with large situation maps, officers in 1980s uniform at communications consoles, simulated DEFCON board in background, Kodachrome film grain, archival documentary style"
+      "timestamp_start": 27,
+      "narration": "Eleven thousand nuclear warheads are placed on maximum combat alert. And here is the terrifying part — NATO had absolutely no idea any of this was happening.",
+      "visual_description": "Split-frame: left side shows NATO officers laughing over a map in a lit Brussels command room; right side shows Soviet generals in grim silence studying readiness reports, Kodachrome grain, hard chiaroscuro lighting",
+      "sfx_prompt": "Ticking clock, distant radio static",
+      "music_intensity": 0.7,
+      "pause_after": 1.5,
+      "transition": "cut"
     },
     {
-      "id": 5,
-      "label": "The Turning Point — When the Exercise Felt Real",
-      "approx_duration_sec": 150,
-      "dialogue": [
-        {
-          "speaker": "NARRATOR",
-          "text": "As Able Archer moved into its nuclear phase, Soviet military intelligence began reporting unusual activity. Units of the Soviet 4th Air Army — responsible for nuclear-capable aircraft in Eastern Europe — raised their readiness levels. Aircraft were placed on shorter response timelines. Some assets were dispersed, following pre-launch protocols. KGB defector Oleg Gordievsky later confirmed that Soviet leadership briefly feared Able Archer might be real. Officers primed by months of RYaN intelligence-gathering were looking at realistic nuclear communications, changing alert states, and senior NATO officials acting out the end of the world — and some of them were not sure it was fiction. And crucially: NATO had absolutely no idea any of this was happening."
-        }
-      ],
-      "image_prompt": "Soviet nuclear-capable aircraft being moved to dispersal positions on a dark airfield, ground crew in urgency, red alert lighting, cinematic noir, Kodachrome film grain, tense documentary framing"
+      "timestamp_start": 38,
+      "narration": "This is Able Archer 83. A NATO training exercise so realistic, so meticulously simulated, that the Soviet Union began preparing a preemptive nuclear strike to stop it.",
+      "visual_description": "Title card over a declassified NATO exercise document stamped TOP SECRET, cold white light, sharp shadows, Kodachrome film grain texture overlay",
+      "sfx_prompt": "Typewriter keys stamping, paper shuffling",
+      "music_intensity": 0.4,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+
+    {
+      "timestamp_start": 51,
+      "narration": "To understand how a military drill nearly ended civilization, you have to go back to 1981. Because the match that lit this fuse was struck two years before the exercise began.",
+      "visual_description": "Slow zoom into a black-and-white archival photograph of the Kremlin exterior in winter, snow falling, Soviet flag against grey sky, cinematic noir vignette, historical archival photo style",
+      "sfx_prompt": "Cold wind across Red Square, distant crowd murmur",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
     },
     {
-      "id": 6,
-      "label": "The Turning Point — How Close Was It?",
-      "approx_duration_sec": 120,
-      "dialogue": [
-        {
-          "speaker": "NARRATOR",
-          "text": "So how close did Able Archer bring the world to nuclear war? Historians disagree. Some, pointing to declassified Western intelligence assessments and Soviet military alert measures, call it a genuine near-miss — a moment when misperception nearly triggered catastrophe. Others argue the danger has been overstated, that Soviet leaders were alarmed but not about to act. What no one disputes is this: Able Archer 83 was more realistic than any previous NATO nuclear drill. Soviet leaders in 1983 were more afraid of a Western first strike than at any time since the Cuban Missile Crisis. And neither side could fully see into the other's thinking. In nuclear strategy, that combination — fear, realism, and blindness — is exactly how accidents happen."
-        }
-      ],
-      "image_prompt": "Split screen: calm NATO command room with officers reviewing routine exercise results on one side; Soviet generals in tense consultation over intelligence reports on the other, historical archival photo style, noir lighting"
+      "timestamp_start": 62,
+      "narration": "In May 1981, a closed-session meeting took place in Moscow — one of the most consequential gatherings in Cold War history. General Secretary Leonid Brezhnev stood before senior KGB officers and made a stunning declaration.",
+      "visual_description": "Wide shot of a wood-panelled Soviet conference room, long table with uniformed officials, heavy curtains drawn, single overhead chandelier, Kodachrome amber tones, cinematic noir shadows",
+      "sfx_prompt": "Heavy doors closing, muffled Soviet-era ambient room tone",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
     },
     {
-      "id": 7,
-      "label": "Legacy & Impact",
-      "approx_duration_sec": 120,
-      "dialogue": [
-        {
-          "speaker": "NARRATOR",
-          "text": "After Able Archer, the West quietly began to reckon with what had almost happened. Intelligence reports — many later declassified — revealed just how alarmed Moscow had been. Reagan, by some accounts, was genuinely shaken when he read them. That awareness fed into the diplomacy of his second term, including the INF Treaty of 1987 which eliminated an entire class of nuclear weapons from Europe. Able Archer became a case study taught in war colleges and intelligence agencies: a reminder that in a world of mutual assured destruction, routine military procedures can look, from the other side, like the beginning of the end. The Cold War did not end with a bang. But in November 1983, it came closer than most people ever knew."
-        }
-      ],
-      "image_prompt": "Reagan and Gorbachev signing the INF Treaty 1987, then slow fade to empty NATO command room after exercise ends, lights dimming, Kodachrome film grain, reflective documentary tone"
+      "timestamp_start": 75,
+      "narration": "The United States, Brezhnev announced, was actively preparing for nuclear war against the Soviet Union. KGB Chairman Yuri Andropov rose and confirmed it. And then he announced the response.",
+      "visual_description": "Close-up portrait of Yuri Andropov at podium, harsh overhead lighting casting deep shadows under his eyes, cinematic noir, Kodachrome grain, Soviet flag blurred in background",
+      "sfx_prompt": "Microphone feedback, silence falling over a room",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 86,
+      "narration": "Operation RYaN. Raketno-Yadernoe Napadenie. Nuclear Missile Attack. The largest peacetime intelligence-gathering operation in Soviet history had just been born.",
+      "visual_description": "Extreme close-up of a classified KGB document in Cyrillic, red SECRET stamp across the corner, hands opening the manila folder, Kodachrome film grain, cold institutional lighting",
+      "sfx_prompt": "Rubber stamp striking paper, paper sliding across a desk",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 96,
+      "narration": "KGB station chiefs across Western Europe, Japan, and the Third World received personal directives. Their mission: watch for signs — any signs — that the West was preparing a surprise nuclear first strike.",
+      "visual_description": "Overhead view of a KGB officer at a cluttered desk in a London safe house, maps pinned to the wall, a single lamp, typed directive papers spread out, Kodachrome warm amber glow, cinematic noir",
+      "sfx_prompt": "Pen scratching on paper, rain against a window",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 109,
+      "narration": "The indicator list was vast. Check the lighting in government buildings late at night. Monitor blood bank stock levels. Observe the movements of NATO policymakers. Note any change — any deviation — from routine.",
+      "visual_description": "Montage-style shot: a Soviet agent at night photographing a lit Foreign Office window from the street, Kodachrome grain, rain-slicked London pavement, amber streetlights reflecting on cobblestones",
+      "sfx_prompt": "Camera shutter clicking, distant traffic, rain",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 122,
+      "narration": "The problem was structural. Station chiefs felt implicit pressure to report alarming findings — even when they didn't believe them. As double agent Oleg Gordievsky later revealed, the result was a vicious spiral of intelligence-gathering and evaluation.",
+      "visual_description": "Close-up of Gordievsky in later life, interview framing, plain background, serious expression, soft documentary lighting, slight film grain texture",
+      "sfx_prompt": "Quiet room ambience, clock ticking softly",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 136,
+      "narration": "Agents reported ordinary British blood donation drives as evidence of wartime blood stockpiling. Ordinary. Blood. Drives. RYaN was not preventing nuclear war. It was manufacturing the conditions for one.",
+      "visual_description": "Wide shot of a quiet London street with a Red Cross blood donation sign outside a community hall, ordinary pedestrians passing, Kodachrome warm tones, slightly tilted handheld camera angle suggesting unease",
+      "sfx_prompt": "Street ambience, footsteps on pavement",
+      "music_intensity": 0.35,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 149,
+      "narration": "Now layer on top of that: Ronald Reagan. Elected in 1980, the new American president wasted no time signalling what kind of adversary he intended to be.",
+      "visual_description": "Archival-style photograph of Reagan at a podium, American flags flanking him, crowd visible in background, Kodachrome warm amber lighting, sharp focus on his expression of resolve",
+      "sfx_prompt": "Crowd applause fading, microphone ambient hiss",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 159,
+      "narration": "March 8th, 1983. Orlando, Florida. Reagan addresses the National Association of Evangelicals and calls the Soviet Union, quote, the focus of evil in the modern world.",
+      "visual_description": "Close-up of Reagan at the Orlando Sheraton podium, spotlit from above, crowd blurred in background, Kodachrome grain, high contrast, on-screen text appearing alongside",
+      "sfx_prompt": "Applause burst, then silence",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 170,
+      "narration": "In Moscow, the Soviet state press agency TASS responded that the words proved the Reagan administration could only think in terms of confrontation and, quote, bellicose, lunatic anti-communism.",
+      "visual_description": "Extreme close-up of a TASS wire teletype machine printing in Russian, paper spooling out, Kodachrome institutional lighting, cinematic noir shadow on the wall behind",
+      "sfx_prompt": "Teletype machine clacking rapidly, paper feeding",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 182,
+      "narration": "Fourteen days later, Reagan announced the Strategic Defense Initiative — SDI — a proposed missile shield that Soviet analysts immediately identified as something far more dangerous than defense.",
+      "visual_description": "Archival diagram of SDI satellite interceptors in orbit above Earth, cold blue space backdrop, technical schematic lines, Kodachrome grain overlay, cinematic framing",
+      "sfx_prompt": "Television broadcast static, then a clear broadcast tone",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 194,
+      "narration": "If America could shoot down Soviet missiles in flight, then America could launch a first strike — absorb whatever retaliation survived — and win. At least, that was the Soviet calculation. And it terrified them.",
+      "visual_description": "Animated diagram style: ICBM trajectories rising from the American midwest, interceptor beams cutting across the trajectory arcs above the atmosphere, cold technical aesthetic, Kodachrome grain",
+      "sfx_prompt": "Distant alarm tone, low frequency rumble",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 207,
+      "narration": "Then came the Pershing II. NATO was deploying intermediate-range nuclear missiles in Western Germany. From launch to detonation near Moscow: four to six minutes. No time for a Soviet response.",
+      "visual_description": "Low angle shot looking up at a Pershing II missile on its transporter-erector-launcher in a West German forest, pine trees framing the missile against an overcast grey sky, Kodachrome desaturated greens, cinematic noir",
+      "sfx_prompt": "Military transport engine idling, wind through pines",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 219,
+      "narration": "The Pershing II carried a W85 warhead, variable yield between five and eighty kilotons. Its radar guidance system gave it an accuracy of thirty metres. Thirty metres. It could thread a nuclear warhead through a hardened command bunker's ventilation shaft.",
+      "visual_description": "Extreme close-up technical diagram of Pershing II reentry vehicle with guidance system callouts, Kodachrome amber-tinted technical document style, shadows across the schematic",
+      "sfx_prompt": "Technical instrument beeping, pencil on paper",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 234,
+      "narration": "The Soviet high command looked at the Pershing II and saw one thing: a first-strike weapon. A decapitation tool. A missile designed not to deter, but to destroy their ability to fight back before they could react.",
+      "visual_description": "Over-the-shoulder shot of Soviet generals studying a large European map on a conference table, red overlay markers on West Germany, tension in their postures, cold fluorescent bunker lighting, Kodachrome grain",
+      "sfx_prompt": "Map paper rustling, muffled discussion in Russian",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 247,
+      "narration": "The psychological pressure on both sides was immense. The Americans were running deliberate provocation operations — carrier battle groups probing Soviet airspace undetected, Navy fighters buzzing Soviet military installations.",
+      "visual_description": "Archival-style aerial photograph of a US Navy F-14 Tomcat in flight over the North Pacific, cloud layer below, ocean glinting, Kodachrome film grain, high contrast sky",
+      "sfx_prompt": "Jet engine roar passing overhead, then fading",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 259,
+      "narration": "In April 1983, six US Navy F-14 Tomcats from USS Enterprise and USS Midway conducted a simulated bombing run directly over a Soviet military installation at Zeleny Island in the Kurils. The Soviet Air Force did not detect them for hours.",
+      "visual_description": "Low angle shot of an F-14 Tomcat banking hard over a rocky island coastline, undercarriage clearly visible, cold Pacific light, historical archival photo style, Kodachrome grain",
+      "sfx_prompt": "Sonic boom reverberating across water, seabirds scattering",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 273,
+      "narration": "To Moscow, these were not provocations. They were tests. Probes of Soviet radar coverage. Rehearsals for the real thing. Every incident added another data point to RYaN's paranoid calculus.",
+      "visual_description": "Soviet radar dish rotating slowly against a grey Arctic sky, warning lights blinking in a control room through a frost-covered window, Kodachrome cold blue tones, cinematic noir",
+      "sfx_prompt": "Radar sweep tone, wind across tundra",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+
+    {
+      "timestamp_start": 286,
+      "narration": "Then, September 1st, 1983. Korean Air Lines Flight 007. A Boeing 747 carrying 269 people drifts off course over the Pacific and enters Soviet airspace twice.",
+      "visual_description": "Night sky over the Sea of Japan, single blinking aircraft light against a field of stars, Kodachrome film grain, eerie stillness, wide contemplative shot",
+      "sfx_prompt": "Aircraft cabin ambience, then external wind at altitude",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 297,
+      "narration": "Soviet interceptor pilot Major Genadi Osipovich fires two K-8 missiles at the aircraft from three miles behind. The cockpit crew never know he is there. One or both missiles strike the 747 at 35,000 feet.",
+      "visual_description": "Dramatic recreation-style shot from inside a darkened Soviet cockpit, pilot's silhouette against the night horizon, missile exhaust plume just visible, Kodachrome grain, cinematic noir red instrument glow",
+      "sfx_prompt": "Missile launch whoosh, muffled distant explosion",
+      "music_intensity": 0.7,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 311,
+      "narration": "KAL 007 spirals down into the Sea of Japan in vast, widening circles. All 269 people aboard are killed. Among them: US Congressman Larry McDonald of Georgia.",
+      "visual_description": "Slow motion archival-style shot of debris floating on dark ocean water at dawn, Kodachrome desaturated grey-blue palette, heavy silence, wide desolate framing",
+      "sfx_prompt": "Waves lapping against debris, wind across open water",
+      "music_intensity": 0.3,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 323,
+      "narration": "Reagan called it a massacre. An act of barbarism. US-Soviet relations hit their lowest point since the Cuban Missile Crisis. And the world had no idea that something even more dangerous was still twenty-six days away.",
+      "visual_description": "Reagan at a press podium, grim expression, reporters with cameras raised, Kodachrome warm amber lighting from television floodlights, cinematic noir shadows behind him",
+      "sfx_prompt": "Camera shutters rapid-firing, crowd murmur",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 336,
+      "narration": "September 26th, 1983. Just south of Moscow, inside the hardened Serpukhov-15 command bunker, Lieutenant Colonel Stanislav Petrov sits down for his duty shift at the controls of the Soviet early-warning satellite network.",
+      "visual_description": "Interior of a Soviet underground command centre, green-lit screens, uniformed officers at consoles, low ceiling, Kodachrome institutional green tones, cinematic noir, single overhead lamp above Petrov's station",
+      "sfx_prompt": "Electronic hum of equipment, fan ventilation noise",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 350,
+      "narration": "The satellite system is called Oko. It watches for ICBM launches from American soil. At midnight, a single word appears on Petrov's screen: LAUNCH.",
+      "visual_description": "Extreme close-up of a Soviet-era monitor screen, Cyrillic text reading ПУСК — LAUNCH — in red, green phosphor glow, Kodachrome grain, Petrov's face reflected in the screen",
+      "sfx_prompt": "Alarm klaxon blaring, immediate crew commotion in background",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 362,
+      "narration": "One American ICBM. Then the system updates. Four more. Five missiles inbound. The automated system is not issuing a warning. It is issuing a launch order.",
+      "visual_description": "Wide shot of Petrov standing frozen at his console, other operators looking to him, red alarm lights pulsing across the bunker ceiling, Kodachrome grain, cinematic tension",
+      "sfx_prompt": "Multiple alarm tones layering, voices shouting in Russian",
+      "music_intensity": 0.9,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 372,
+      "narration": "Petrov has to decide. Right now. He helped write the code for the Oko system. He knows it can malfunction. He also knows that a genuine American first strike would involve hundreds of simultaneous launches — not five.",
+      "visual_description": "Close-up of Petrov's face, jaw set, eyes scanning data screens rapidly, red alarm glow across his features, Kodachrome grain, extreme tension in framing",
+      "sfx_prompt": "Alarm continues, Petrov breathing audibly",
+      "music_intensity": 0.85,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 384,
+      "narration": "He waits. Twenty-three minutes of silence from land radar — which cannot see beyond the horizon. The missiles don't arrive. Petrov calls it a false alarm. He is right. A rare alignment of sunlight on high-altitude clouds had fooled the satellite sensors.",
+      "visual_description": "Time-lapse style shot of a satellite orbit arc over the Earth's terminator, sunlight catching cloud formations far below, cold blue space, Kodachrome grain overlay, scientific and eerie simultaneously",
+      "sfx_prompt": "Alarm cutting off suddenly, silence, exhaled breath",
+      "music_intensity": 0.3,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 399,
+      "narration": "Petrov saves the world. He is not decorated. The incident is suppressed. It stays classified for fifteen years. And thirty-seven days later, the second near-miss of 1983 begins.",
+      "visual_description": "Petrov alone in the command room after the others have left, sitting in the half-dark, overhead lamp extinguished, only the glow of dormant screens, Kodachrome desaturated blue, quiet melancholy",
+      "sfx_prompt": "Distant ventilation hum, footsteps fading down a corridor",
+      "music_intensity": 0.25,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+
+    {
+      "timestamp_start": 413,
+      "narration": "Autumn 1983. NATO is preparing its annual command-post exercise. Every year, allied commanders rehearse the unthinkable: coordinating a nuclear war against the Warsaw Pact. This year's exercise is called Able Archer 83.",
+      "visual_description": "Wide aerial shot of SHAPE headquarters at Casteau, Belgium, autumn trees surrounding the compound, NATO flags visible, overcast sky, Kodachrome desaturated greens and greys, slightly elevated angle",
+      "sfx_prompt": "NATO radio chatter, typewriter in background",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 426,
+      "narration": "Able Archer is part of the larger Autumn Forge exercise cycle. What comes before it is already alarming enough: a 170-flight, radio-silent airlift of 19,000 American soldiers to Europe. No radio. No public announcement. Just troops appearing.",
+      "visual_description": "Low angle shot of military transport C-141 Starlifter landing at a fog-covered European airfield at dusk, landing lights cutting through mist, Kodachrome grain, documentary archival style",
+      "sfx_prompt": "Turboprop engines descending, runway lights clicking on",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 440,
+      "narration": "Soviet signals intelligence is watching all of it. The radio silence alone is a deviation from routine. And RYaN's instructions are explicit: watch for deviations.",
+      "visual_description": "Soviet SIGINT listening station, banks of receivers, uniformed officers with headphones, reel-to-reel tape machines recording, Kodachrome institutional grey-green, cinematic noir overhead lighting",
+      "sfx_prompt": "Shortwave radio static, reel-to-reel tape recording",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 450,
+      "narration": "Then Able Archer begins on November 2nd, and for the first time in the exercise's history, everything is different. New coded communications formats, never before intercepted. Extended radio silence. Something called a shift to the Alternate War Headquarters.",
+      "visual_description": "NATO communications technician routing cables in a hardened underground command post, racks of radio equipment, green indicator lights, Kodachrome amber glow from equipment panels, cinematic noir",
+      "sfx_prompt": "Radio equipment switching frequencies, relay circuits clicking",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 464,
+      "narration": "The exercise simulates every DEFCON level from five to one. DEFCON 1 means nuclear war is imminent and may begin at any moment. Soviet intelligence doctrine says that when DEFCON 1 is declared — war is inevitable.",
+      "visual_description": "Close-up of a DEFCON status board with backlit indicators, the number 1 illuminated in red, dim surroundings, Kodachrome grain, dramatic side lighting casting deep shadows",
+      "sfx_prompt": "Warning tone sustaining, alert system cycling",
+      "music_intensity": 0.65,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 477,
+      "narration": "NATO aircraft practice loading dummy nuclear warheads. They taxi down runways in warhead-loaded configurations. At multiple points during the exercise, NATO personnel refer to B-52 sorties as nuclear strikes — out loud, in unencrypted communications.",
+      "visual_description": "Ground-level shot of a B-52 Stratofortress taxiing slowly at a European NATO airbase at night, navigation lights blinking, ordnance crew visible beneath the wings, Kodachrome grain, documentary style",
+      "sfx_prompt": "B-52 engines at low power taxi, radio chatter fragments",
+      "music_intensity": 0.6,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 491,
+      "narration": "Senior political leaders participate in the nuclear simulations. British Prime Minister Margaret Thatcher. West German Chancellor Helmut Kohl. The exercise is supposed to make NATO's nuclear command chain more realistic. It succeeds beyond anyone's intention.",
+      "visual_description": "Archival-style photograph of Thatcher in formal dress surrounded by military aides in a secure briefing room, Kodachrome warm amber light, on-screen text nameplate",
+      "sfx_prompt": "Briefing room ambience, papers shuffling",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 504,
+      "narration": "Reagan, Bush, and Weinberger were all scheduled to participate. National Security Advisor Robert McFarlane — two weeks into his new job — recognizes this would be interpreted by Soviet intelligence as unprecedented, and vetoes their inclusion.",
+      "visual_description": "Close-up of McFarlane at a wooden desk in the White House, reviewing exercise plans, slight frown, lamp lighting in warm amber, Kodachrome grain, cinematic framing",
+      "sfx_prompt": "Pen scratching paper, clock ticking on a mantle",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 517,
+      "narration": "Meanwhile, in the Soviet intelligence world, the preceding weeks have already been catastrophic. Late October: communications between Washington and London spike dramatically. Soviet analysts don't know it's because of the Grenada invasion. RYaN flags it as a pre-attack indicator.",
+      "visual_description": "Soviet analyst at a desk covered in signals transcripts, red pen circling items on a graph showing communications volume, face tense, cold institutional lighting, Kodachrome desaturated grey",
+      "sfx_prompt": "Radio signals being logged, pen marking paper",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 532,
+      "narration": "American bases tighten security — because of the Beirut barracks bombing. To RYaN's operators, this looks like pre-strike base lockdown. Every innocent explanation has a terrifying Soviet mirror image.",
+      "visual_description": "American military base gate at night, guards doubled up, additional barriers deployed, jeeps with searchlights, Kodachrome cold blue night tones, cinematic noir",
+      "sfx_prompt": "Gate mechanism locking, guard boots on gravel",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 544,
+      "narration": "November 2nd, the day Able Archer begins, Marshal Nikolai Ogarkov — Chief of the Soviet General Staff — reportedly moves to his wartime command bunker deep beneath Moscow. He orders a heightened alert for some forces. In the greatest secrecy, so as not to generate the crisis he fears he is already inside.",
+      "visual_description": "Rear view of a black ZIL limousine moving through empty Moscow streets before dawn, snow falling, distant Kremlin towers lit in cold blue, Kodachrome grain, cinematic noir",
+      "sfx_prompt": "Car engine on empty streets, snow falling quietly",
+      "music_intensity": 0.6,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 559,
+      "narration": "November 5th: KGB Moscow Centre sends a telegram to the London residency. The assessment is clinical and chilling. A NATO strike could come with as little as seven to ten days warning from preliminary political decision to launch order.",
+      "visual_description": "Close-up of a KGB cipher machine in a secure communications room, operator typing, paper tape emerging, red warning light on wall, Kodachrome institutional lighting, cinematic noir",
+      "sfx_prompt": "Cipher machine encoding, paper tape threading",
+      "music_intensity": 0.65,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 572,
+      "narration": "November 7th. NATO's nuclear release phase begins. SACEUR formally requests political authorization to use nuclear weapons. It is scripted. It is theatre. But to Soviet signal intelligence officers reading the encrypted traffic — it reads as real.",
+      "visual_description": "NATO SHAPE command room, officers at illuminated plotting tables, large status board on the wall showing exercise force dispositions, Kodachrome amber-green overhead lighting, wide establishing shot",
+      "sfx_prompt": "Military radio traffic, keyboard typing, quiet urgency",
+      "music_intensity": 0.7,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 585,
+      "narration": "And then, November 7th is also Revolution Day. The most significant holiday in the Soviet calendar. Soviet military doctrine held that a surprise attack was most likely on a holiday — when Soviet forces would be at minimum readiness.",
+      "visual_description": "Archival photograph of a Soviet Revolution Day parade in Moscow, missiles on transporter vehicles rolling through Red Square, crowds lining the route, Kodachrome 1980s colour palette, overcast sky",
+      "sfx_prompt": "Military parade drums and brass, crowd cheering",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 597,
+      "narration": "The exercise had started on the one day of the year when Soviet commanders were doctrinally most primed to believe an attack was coming. Whether this was coincidence or planning, no one in NATO ever clarified.",
+      "visual_description": "Split-frame: Revolution Day celebration fireworks over Moscow on one side, NATO officers bent over nuclear release procedures in a dark command room on the other, Kodachrome grain, hard cinematic contrast",
+      "sfx_prompt": "Fireworks over Moscow, crossfading with radio alert tones",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+
+    {
+      "timestamp_start": 611,
+      "narration": "November 8th. The intelligence coming into Moscow Centre has reached a new threshold. KGB dispatches a flash telegram to every residency worldwide. The message is stark: American forces may be on alert. A nuclear first strike under cover of Able Archer may have begun.",
+      "visual_description": "Wide shot of the KGB First Chief Directorate headquarters at Yasenevo at night, lights burning in upper-floor windows, cold blue exterior lighting, bare winter trees, Kodachrome grain, cinematic noir",
+      "sfx_prompt": "Teletype machines running simultaneously, urgent voices in corridor",
+      "music_intensity": 0.75,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 626,
+      "narration": "In East Germany and Poland, nuclear-capable aircraft are placed on high alert. The Soviet 4th Air Army stands down all regular flight operations and begins loading nuclear warheads onto combat bombers. This has never happened before in peacetime.",
+      "visual_description": "Night-time airfield, Soviet ground crew in heavy winter gear moving purposefully under bomber fuselages, arc light flooding the scene, steam from breath in freezing air, Kodachrome cold blue-white tones",
+      "sfx_prompt": "Hydraulic equipment operating, metal components being fitted",
+      "music_intensity": 0.8,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 641,
+      "narration": "Group of Soviet Forces Germany places fighter-bombers on 30-minute alert. Seventy-five of 150 mobile nuclear missile launchers disappear into forest cover across Eastern Europe. A Soviet submarine descends beneath the Arctic ice, undetectable to American sonar.",
+      "visual_description": "Periscope view from just below the Arctic ice surface, ice shelf visible above, cold dark water, Kodachrome blue-black palette, eerie quiet framing, bubble trail ascending",
+      "sfx_prompt": "Submarine diving klaxon, water rushing over hull",
+      "music_intensity": 0.75,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 655,
+      "narration": "Yuri Andropov is governing from a clinic outside Moscow. Gravely ill, bedridden, with no direct communication to the Politburo. He has never visited the United States. He does not understand that what he is watching is theatre. And the weapon is cocked.",
+      "visual_description": "Dimly lit clinic room, an elderly official under grey blankets, a single reading lamp, classified documents on the bedside table, outside window a Moscow winter night, Kodachrome cold grey tones, deeply melancholy",
+      "sfx_prompt": "Hospital ambient hum, muffled voices in corridor",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 669,
+      "narration": "Now imagine you are Rainer Rupp. West German. Head of NATO's Current Intelligence Group in Brussels. You have access to every classified document moving through NATO headquarters. You are also — secretly — an East German spy.",
+      "visual_description": "Rupp at his NATO desk, neat suit, stacks of classified folders, Brussels office environment, Kodachrome warm amber lighting, on-screen text: RAINER RUPP — CODENAME: TOPAZ, cinematic framing",
+      "sfx_prompt": "Office ambience, photocopier running in background",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 681,
+      "narration": "On November 9th, his East German handlers make urgent contact. Moscow needs to know: is Able Archer real? Rupp scans every document in his reach. Every classified file. Every intelligence summary. He sends the complete package to East Berlin with all serial numbers intact so Moscow can verify nothing is missing.",
+      "visual_description": "Extreme close-up of a document being photographed with a miniature spy camera under a desk lamp, Kodachrome warm amber, the camera half-hidden in Rupp's palm, cinematic noir shadow",
+      "sfx_prompt": "Miniature camera shutter, paper turning quietly",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 696,
+      "narration": "His message: there is no evidence of a genuine attack being prepared. None. He follows it with daily updates. KGB Chief Vladimir Kryuchkov would later say, in a 2005 television interview, that Rupp's actions kept the conflict from escalating.",
+      "visual_description": "Rupp in later life, interview setting, calm demeanour, hands folded, slight weariness in his expression, soft documentary lighting, slight film grain, portrait framing",
+      "sfx_prompt": "Interview room quiet, distant traffic outside",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 708,
+      "narration": "A NATO spy — a traitor by the laws of his nation — may have prevented nuclear war. Rupp was arrested in 1993, sentenced to twelve years in prison. When asked if he saved the world, he said only: I'm not so presumptuous.",
+      "visual_description": "Court room sketch-style framing of a formal legal proceeding, defendant at a table, judges at elevated bench, Kodachrome muted tones, solemnity of the scene, slight film grain",
+      "sfx_prompt": "Gavel striking, murmur in a courtroom",
+      "music_intensity": 0.3,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 721,
+      "narration": "Meanwhile, on the NATO side, there is one man watching Soviet alert indicators accumulate in real time. US Air Force Lieutenant General Leonard Perroots. Assistant Chief of Staff for Intelligence, U.S. Air Forces Europe.",
+      "visual_description": "Perroots at an intelligence briefing table, uniformed, looking at a map covered in Soviet alert notations, aides on either side, Kodachrome amber-green institutional lighting, cinematic wide shot",
+      "sfx_prompt": "Map table ambience, low voice briefing in background",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 733,
+      "narration": "The 4th Air Army going to high alert. Nuclear warheads being loaded. 36 Soviet surveillance flights over NATO territory — described later as unprecedented. Every instinct in the military playbook says: if they alert, you alert back.",
+      "visual_description": "Intelligence officer annotating a status board with Soviet alert icons across a map of East Germany and Poland, each new notation drawn in red grease pencil, Kodachrome grain, close over-shoulder framing",
+      "sfx_prompt": "Grease pencil on glass board, radio updates incoming",
+      "music_intensity": 0.6,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 746,
+      "narration": "Perroots does not reciprocate. He recommends against raising NATO's readiness level. He does not fully understand why. He acts, as the President's Intelligence Advisory Board will later put it, out of instinct — not informed guidance.",
+      "visual_description": "Perroots alone in an office after hours, desk lamp on, one hand on a phone receiver he has not lifted, staring at a report, Kodachrome warm amber, cinematic melancholy framing",
+      "sfx_prompt": "Clock ticking in quiet office, distant base operations",
+      "music_intensity": 0.4,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 759,
+      "narration": "His instinct breaks the escalatory feedback loop. Because if NATO had raised its alert level in response to Soviet alert — and the Soviets had seen that — they would have raised theirs again. And then NATO. And then the Soviets. Until the fiction became reality.",
+      "visual_description": "Abstract visual metaphor: two identical rows of dominoes facing each other, the first domino in each row frozen mid-fall, Kodachrome muted tones, harsh overhead light, extreme close-up on the gap between them",
+      "sfx_prompt": "Single domino falling on a wooden surface, then silence",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 772,
+      "narration": "November 11th, 1983. Able Archer 83 concludes. The exercise ends. Soviet forces observe that no strike materialises. The nuclear alert is stood down. The warheads are unloaded. The submarines surface. The mobile missiles return to garrison.",
+      "visual_description": "Time-lapse style sunrise over an East German airfield, Soviet aircraft returning to dispersal points, ground crew moving in morning light, Kodachrome warm amber sunrise tones, wide establishing shot",
+      "sfx_prompt": "Aircraft engines powering down, morning birds beginning",
+      "music_intensity": 0.3,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 785,
+      "narration": "One week later, the Soviet Minister of Defense publishes a warning in Pravda. NATO's military exercises, he writes, are becoming increasingly difficult to distinguish from a real deployment of armed forces for aggression. The message is unambiguous. They know what they saw.",
+      "visual_description": "Close-up of a Pravda newspaper front page, Cyrillic headline, being read by a Soviet officer in uniform, Kodachrome desaturated grey-yellow newsprint tones, cinematic noir lighting",
+      "sfx_prompt": "Newspaper rustling, distant Soviet military march on radio",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+
+    {
+      "timestamp_start": 799,
+      "narration": "So how close did it actually get? This is where historians disagree. And the disagreement matters, because it shapes how we understand the danger we were in.",
+      "visual_description": "Slow zoom into a declassified document marked PFIAB, red TOP SECRET stamp, Kodachrome grain, dramatic side lighting, cinematic texture",
+      "sfx_prompt": "Archive paper being handled, quiet archival room ambience",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 809,
+      "narration": "The maximalist view comes from the 1990 report of the President's Foreign Intelligence Advisory Board — PFIAB — declassified in 2015. It concludes that the United States may have inadvertently placed its relationship with the Soviet Union on a hair trigger.",
+      "visual_description": "Interior of a secure government conference room, serious-faced officials around a table reviewing bound reports, Kodachrome amber institutional lighting, formal and ominous atmosphere",
+      "sfx_prompt": "Paper turning, quiet deliberation murmur",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 823,
+      "narration": "It confirms that nuclear warheads were loaded onto Soviet bombers. That the US intelligence community did not — at the time, or for years afterward — attach sufficient weight to the possibility that the war scare was real.",
+      "visual_description": "CIA analysis room, walls of filing cabinets, analysts under fluorescent lighting reviewing intercept printouts, red stamps on documents, Kodachrome institutional green, cinematic noir",
+      "sfx_prompt": "Filing cabinet drawers, photocopier in background",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 836,
+      "narration": "The revisionist view, advanced by historian Simon Miles in 2020 using Warsaw Pact archives, argues the danger has been seriously overstated. Key Soviet leaders — Marshal Akhromeyev, Ambassador Dobrynin, Deputy Foreign Minister Kornienko — all denied knowledge of any genuine war scare.",
+      "visual_description": "Wide shot of a European archive reading room, historian at a long table surrounded by Warsaw Pact-era binders, natural window light, Kodachrome warm tones, scholarly quiet",
+      "sfx_prompt": "Archive room quiet, paper pages turning",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 850,
+      "narration": "Akhromeyev told a journalist he couldn't even remember Able Archer specifically. The most dangerous exercises, he said, were Autumn Forge and Reforger — the large troop movements that preceded it, not the command-post drill itself.",
+      "visual_description": "Black and white archival portrait of Marshal Akhromeyev in full dress uniform, medals prominent, serious expression, Kodachrome grain overlay, plain background, portrait framing",
+      "sfx_prompt": "Quiet archival ambience, distant clock",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 862,
+      "narration": "Both views contain truth. No smoking gun proves the Kremlin leadership was seconds from ordering a launch. But the physical actions — the warheads loaded, the missiles dispersed, the submarine under the ice — those are documented. Those happened.",
+      "visual_description": "Split composition: left side a secure Kremlin meeting room, empty chairs, untouched; right side a dark airfield with bomber silhouettes, arc lights, crew moving — Kodachrome grain, cinematic tension",
+      "sfx_prompt": "Tension drone, low sustained string note",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 875,
+      "narration": "The PFIAB's own conclusion is perhaps the most precise: there may have existed a serious potential for inadvertent escalation due to misperception at lower levels of command. Not a finger on the button at the top. But fingers on triggers all the way down.",
+      "visual_description": "Close-up of a uniformed hand resting near — but not touching — a military control panel switch, red safety cover open, Kodachrome cold light, extreme tension in the framing, cinematic noir",
+      "sfx_prompt": "Near-silence, single electronic tone, breathing",
+      "music_intensity": 0.7,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 890,
+      "narration": "And then there is the question of what happened in the days that followed. Because the most important consequence of Able Archer 83 did not occur in a bunker. It occurred in the mind of Ronald Reagan.",
+      "visual_description": "Reagan alone in the Oval Office at night, desk lamp on, reading a classified intelligence briefing, the rest of the room in darkness, Kodachrome warm amber glow on his face, cinematic introspection",
+      "sfx_prompt": "Night quiet, pen set down on desk, distant White House ambience",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 901,
+      "narration": "Through the intelligence being passed by Gordievsky — who was still inside the KGB at the time, not yet defected — British intelligence transmitted a crucial message to Washington. The Soviets genuinely feared Able Archer was real.",
+      "visual_description": "British SIS handler passing a folded document across a park bench in autumn, both figures in overcoats, leaves on the ground, Kodachrome warm amber-brown seasonal tones, cinematic noir surveillance framing",
+      "sfx_prompt": "Wind through autumn leaves, distant traffic, footsteps",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 914,
+      "narration": "Reagan's National Security Advisor McFarlane reported the president's reaction as one of genuine anxiety. Reagan wrote in his diary that he had been struck by how an aggressive, confident United States looked from the other side of the Iron Curtain.",
+      "visual_description": "Reagan's handwritten diary pages, close-up, warm amber lamp light illuminating the handwriting, Kodachrome grain, only the page visible — intimate and human scale after scenes of vast geopolitical machinery",
+      "sfx_prompt": "Pen writing on paper, quiet room",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 926,
+      "narration": "This is the man who called the Soviet Union an evil empire. Who funded SDI. Who authorised the Pershing II deployment. And he was genuinely surprised to discover that the other side was afraid of him.",
+      "visual_description": "Reagan standing at an Oval Office window looking out across the South Lawn in winter, back to camera, reflective posture, Kodachrome cold blue-white winter light, cinematic introspection",
+      "sfx_prompt": "Wind outside the window, distant grounds crew, quiet",
+      "music_intensity": 0.35,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 938,
+      "narration": "The lesson Reagan took from Able Archer was direct and consequential. His posture began to shift — from confrontation to a willingness for engagement. The groundwork for the Geneva Summit of November 1985 was being laid.",
+      "visual_description": "Archival photograph of Reagan and Gorbachev walking together along a lakeside path in Geneva, both in overcoats, relaxed body language, Kodachrome autumn tones, natural light",
+      "sfx_prompt": "Lakeside ambience, footsteps on gravel path, quiet conversation",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 950,
+      "narration": "December 8th, 1987. Reagan and Gorbachev sign the Intermediate-Range Nuclear Forces Treaty in Washington. Every Pershing II missile in Europe is eliminated. Every Soviet SS-20 is eliminated. The weapon that nearly triggered war is dismantled.",
+      "visual_description": "Wide shot of the INF Treaty signing ceremony in the White House East Room, both leaders at the signing table, delegations watching, American and Soviet flags, Kodachrome warm ceremonial lighting",
+      "sfx_prompt": "Formal pen on document, applause building in the room",
+      "music_intensity": 0.45,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 963,
+      "narration": "Gordievsky defected in September 1985, smuggled out of the Soviet Union by British SIS. CIA Director Bill Casey flew immediately to Britain to debrief him. Reagan later thanked Gordievsky personally in the Oval Office. It was the first time a KGB officer had ever been in that room.",
+      "visual_description": "Dramatic low-angle shot of the Oval Office from the doorway, Reagan standing in the centre shaking hands with a civilian figure, Kodachrome warm amber, American flags, gravity of the moment in the body language",
+      "sfx_prompt": "Handshake and muffled greeting, White House interior quiet",
+      "music_intensity": 0.35,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 975,
+      "narration": "And what of the Perroots memorandum — the document that first described how close it had all come? It was classified in 1989, partially released in 2021. Then, in 2025, the US State Department quietly deleted fifteen pages of it from the official historical record.",
+      "visual_description": "Close-up of a government document with entire paragraphs blacked out by thick redaction bars, Kodachrome institutional lighting, cinematic framing — the redactions themselves tell a story",
+      "sfx_prompt": "Filing cabinet drawer closing with finality, lock turning",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 988,
+      "narration": "The first known instance in history of the State Department removing previously declassified and published material from an official Foreign Relations of the United States volume. The National Security Archive published the deleted pages in November 2025.",
+      "visual_description": "NSArchive website displayed on a computer screen in a dim room, the headline about censored Able Archer pages visible, Kodachrome grain effect overlay, modern but filtered through Cold War aesthetic",
+      "sfx_prompt": "Computer keyboard typing, page loading notification",
+      "music_intensity": 0.4,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+
+    {
+      "timestamp_start": 1001,
+      "narration": "So what do we take from all of this? What does Able Archer 83 actually mean, forty years later?",
+      "visual_description": "Wide shot of an empty former Soviet military airfield now reclaimed by nature, weeds growing through cracked concrete, rusted equipment at the edges, Kodachrome desaturated melancholy palette, overcast sky",
+      "sfx_prompt": "Wind across open concrete, distant bird call",
+      "music_intensity": 0.25,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1010,
+      "narration": "It means that nuclear deterrence is not a stable equilibrium. It is a system maintained by human beings — with imperfect information, institutional biases, and psychological blind spots. And it can fail.",
+      "visual_description": "Slow zoom into a nuclear missile silo hatch from above, massive circular steel door, warning markings, cold grey concrete surround, Kodachrome desaturated, ominous and industrial",
+      "sfx_prompt": "Low bass drone, mechanical hum from deep underground",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1022,
+      "narration": "It means that Operation RYaN — a system designed to prevent war by detecting it — actually increased the probability of war by making Soviet analysts see threats everywhere. The instrument of safety became the instrument of danger.",
+      "visual_description": "Close-up of a Soviet RYaN indicator checklist, items ticked in red pen, the list itself mundane — blood banks, lighting schedules, official routines — yet marked with the urgency of a war warning, Kodachrome grain",
+      "sfx_prompt": "Red pen checking boxes methodically, quiet urgency",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1034,
+      "narration": "It means that mirror-imaging — assuming the adversary understands your intentions the way you do — is one of the most dangerous cognitive failures in international relations. NATO thought the exercise was obviously fake. The Soviets could not afford to assume that.",
+      "visual_description": "Two mirrors facing each other, reflections receding into infinity, cold clinical lighting, Kodachrome desaturated palette, abstract and unsettling — the visual metaphor for mutual misperception",
+      "sfx_prompt": "Glass chime, then silence",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1046,
+      "narration": "And it means that individuals matter. Stanislav Petrov, working a night shift. Leonard Perroots, trusting an instinct. Rainer Rupp, feeding documents to East Berlin. Robert McFarlane, vetoing a scheduling decision. Any one of them making a different choice, and this is a different world.",
+      "visual_description": "Four-panel composition: Petrov at his console; Perroots at his desk; Rupp at NATO headquarters; McFarlane in the White House — all in Kodachrome grain, all unaware of each other, all connected",
+      "sfx_prompt": "Quiet heartbeat pulse under ambient silence",
+      "music_intensity": 0.55,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1061,
+      "narration": "Today, as NATO and Russia conduct large exercises near contested borders — in the Baltic, in the Black Sea, in the Arctic — Able Archer's lesson endures. Routine procedure, in extreme tension, is not routine at all.",
+      "visual_description": "Contemporary-style aerial shot of NATO warships in formation on the Baltic Sea, grey water, grey sky, flags visible, Kodachrome grain applied to a modern image, bridging past and present",
+      "sfx_prompt": "Naval radio communication, waves against steel hull",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1073,
+      "narration": "In November 1983, the world came as close to nuclear war as it has since the Cuban Missile Crisis. Not because anyone wanted war. Not because anyone made a reckless decision to launch. But because two massive, armed, frightened institutions looked at each other across a fog of incomplete information — and almost flinched.",
+      "visual_description": "Long slow fade from a map of Cold War Europe with missile trajectories drawn in — a NATO exercise planning map — to a modern photograph of the same geography in peace, green and quiet, Kodachrome grain dissolving",
+      "sfx_prompt": "Low orchestral swell beginning, sustained and building",
+      "music_intensity": 0.7,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1089,
+      "narration": "The exercise ended on November 11th. The warheads were unloaded. The alert was cancelled. And the world went back to not knowing how close it had come.",
+      "visual_description": "Final wide shot: a lone figure walking across an empty airfield at dusk, long shadow ahead of them, cracked runway markings, Kodachrome warm dying-light amber, contemplative and final",
+      "sfx_prompt": "Footsteps on concrete fading, orchestral swell resolving to quiet",
+      "music_intensity": 0.4,
+      "pause_after": 2.5,
+      "transition": "fade"
     }
   ]
 }
