@@ -1,0 +1,16 @@
+{
+  "video_id": "wk9e5Q22BRY",
+  "url": "https://www.youtube.com/watch?v=wk9e5Q22BRY",
+  "title": "When the War Game Became Real \u2014 Able Archer 83",
+  "privacy_status": "private",
+  "category_id": "27",
+  "thumbnail_uploaded": true,
+  "mode": "sync",
+  "synced_at": "2026-04-22T18:55:30Z",
+  "changed_fields": [
+    "snippet.title",
+    "snippet.description",
+    "snippet.tags",
+    "status.selfDeclaredMadeForKids"
+  ]
+}
