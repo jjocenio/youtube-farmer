@@ -1,0 +1,883 @@
+{
+  "metadata": {
+    "title": "Stanislav Petrov: The Man Who Saved the World",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Historical archival photo style, Kodachrome 60s–80s film grain, cinematic noir lighting, high-contrast shadows, desaturated Cold War palette with occasional bursts of amber and blue",
+    "bg_music_prompt": "Tense Cold War orchestral score with low brass drones, sparse piano motifs, and sub-bass pulse. Build slowly through acts 1 and 2. Peak with dissonant strings and percussive hits in act 3. Resolve to quiet, melancholic solo piano in act 4. Inspired by Hans Zimmer's Dunkirk score mixed with Soviet-era military march undertones."
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "",
+      "visual_description": "Extreme close-up of a Soviet military console's warning light, unlit, in total darkness. Kodachrome 80s film grain. Complete silence. Slow dolly-in toward the dark panel.",
+      "sfx_prompt": "deep silence, very faint hum of ventilation systems underground",
+      "music_intensity": 0.0,
+      "pause_after": 4.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 4,
+      "narration": "September 26th, 1983. Just past midnight. In a fortified bunker sixty-two miles south of Moscow, a man sits alone before a screen that has not changed in hours.",
+      "visual_description": "Medium shot of a lone Soviet officer in profile, face partially illuminated by green monitor glow in a darkened underground bunker. Historical archival photo style, deep shadow, Kodachrome 80s grain.",
+      "sfx_prompt": "quiet clock ticking, distant ventilation hum",
+      "music_intensity": 0.1,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 16,
+      "narration": "His name is Stanislav Petrov. He is a lieutenant colonel in the Soviet Air Defense Forces. He helped design this very bunker.",
+      "visual_description": "Close-up of hands resting on a keyboard, Soviet military insignia visible on the wrist cuff. Underlit by console glow, deep blacks, cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "subtle key click, quiet ambient hum",
+      "music_intensity": 0.15,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 25,
+      "narration": "Tonight, he is not supposed to be here. He was called in to replace a senior officer who couldn't make the shift.",
+      "visual_description": "Over-the-shoulder shot looking at a glowing early-warning display board, empty chair to the left suggesting an absent colleague. Historical archival photo style, cold blue and amber lighting.",
+      "sfx_prompt": "distant footstep echo, ambient underground silence",
+      "music_intensity": 0.15,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 34,
+      "narration": "In twelve minutes, the screen in front of him will scream a single word: LAUNCH.",
+      "visual_description": "Extreme close-up of a Soviet warning panel, the ЗАПУСК label just visible in Cyrillic, backlit red. Cinematic noir lighting, heavy grain, lens slightly out of focus for dread effect.",
+      "sfx_prompt": "low rumbling sub-bass builds",
+      "music_intensity": 0.3,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 41,
+      "narration": "And the decision he makes in the next few minutes — alone, against protocol, with no certainty — will quietly save the lives of hundreds of millions of people.",
+      "visual_description": "Aerial map graphic of Earth's northern hemisphere at night, with a single pulsing point over the Soviet Union and another over North America. Cold War-era cartographic style, Kodachrome film grain.",
+      "sfx_prompt": "orchestral tension swell, sub-bass drone",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 54,
+      "narration": "To understand what Petrov faced that night, you need to understand the world that created him. Because by September 1983, the Cold War was no longer cold.",
+      "visual_description": "Archival-style montage opener: split map of NATO vs. Warsaw Pact territories, bold boundary lines, Cold War-era geopolitical graphic with Kodachrome 80s film stock treatment.",
+      "sfx_prompt": "teletype clatter, radio news static",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 66,
+      "narration": "Imagine you are in the Kremlin in 1981. A new American president has just arrived — and he is unlike anything the Soviet leadership has seen before.",
+      "visual_description": "Exterior wide shot of the Kremlin at dusk, Soviet flag flying, grey winter sky. Cinematic noir lighting, historical archival photo style, Kodachrome color cast.",
+      "sfx_prompt": "wind through open plaza, distant Soviet military march",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 78,
+      "narration": "Ronald Reagan had not come to negotiate. He had come to win. And in Moscow, the aging men of the Politburo were terrified.",
+      "visual_description": "Split-screen archival photograph: Reagan at podium left, Politburo figures in gray suits right. Historical archival photo style, black and white with slight Kodachrome tint.",
+      "sfx_prompt": "crowd murmur fading, distant applause",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 88,
+      "narration": "In May 1981, at a secret KGB conference in Moscow, General Secretary Brezhnev made a declaration that would set the Cold War on its most dangerous trajectory yet.",
+      "visual_description": "Interior wide shot of a Soviet conference hall, long table, uniformed figures, cigarette smoke. Cinematic noir lighting, Kodachrome 80s grain, claustrophobic low ceiling.",
+      "sfx_prompt": "murmuring voices, papers shuffling, door closing",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 100,
+      "narration": "Standing beside him was Yuri Andropov — the head of the KGB — who announced that the United States was, quote, actively preparing for nuclear war against the Soviet Union.",
+      "visual_description": "Close-up of archival photograph of Andropov in KGB uniform, stern expression, Soviet banners behind. Historical archival photo style, high contrast, cinematic noir lighting.",
+      "sfx_prompt": "gavel strike, sharp silence",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 113,
+      "narration": "From that meeting, a new intelligence program was born. The Soviets called it Operation RYAN — an acronym for Raketno-Yadernoye Napadenie. Nuclear Missile Attack.",
+      "visual_description": "Classified document graphic: Cyrillic text header РЯН, stamped СЕКРЕТНО — TOP SECRET — red ink, worn paper texture. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "typewriter keys, stamp impact",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 123,
+      "narration": "RYAN was the largest peacetime intelligence operation in KGB history. Three hundred new positions were created to staff it. The mission: watch the West for any sign — any sign at all — that the Americans were preparing to strike first.",
+      "visual_description": "Wide shot of a KGB operations room, agents at desks, phone banks, world map on the wall with pins and string lines. Cinematic noir lighting, amber overhead light, historical archival photo style.",
+      "sfx_prompt": "overlapping phone conversations, radio chatter",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 141,
+      "narration": "KGB agents in Washington, London, and Bonn were instructed to monitor blood drives near military bases. Power outages near government buildings. Whether officials' families were suddenly leaving town.",
+      "visual_description": "Street-level surveillance perspective: blurred figures outside a Western embassy building, 1980s cars, overcast sky. Historical archival photo style, telephoto compression, Kodachrome film grain.",
+      "sfx_prompt": "city traffic, distant typewriter, footsteps on pavement",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 153,
+      "narration": "Every routine activity in the West became a potential indicator of imminent war. Paranoia had been institutionalized.",
+      "visual_description": "Close-up of a KGB intelligence dossier with surveillance photographs clipped to it, notes in Russian. Cinematic noir side-lighting, worn paper, Kodachrome 80s grain.",
+      "sfx_prompt": "paper rustling, pen scratching on paper",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 160,
+      "narration": "Then, on March 8th, 1983, Reagan walked to a podium in Orlando, Florida — and gave the Soviet leadership exactly what it feared most.",
+      "visual_description": "Archival photograph of Reagan at a lectern, American flag behind, evangelical crowd visible. Historical archival photo style, Kodachrome warm tone, slight film flicker.",
+      "sfx_prompt": "crowd murmur, microphone feedback hiss",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 170,
+      "narration": "Quote: 'I urge you to beware the temptation of pride — the temptation to ignore the facts of history and the aggressive impulses of an evil empire.' The Soviet Union. Evil. Empire.",
+      "visual_description": "Extreme close-up of a newspaper front page: REAGAN CALLS USSR 'EVIL EMPIRE' headline, bold black type, 1983 print texture. Historical archival photo style, high contrast.",
+      "sfx_prompt": "gasps from crowd, news camera shutter clicks",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 185,
+      "narration": "In Moscow, the state press agency TASS called the speech evidence that the Reagan administration could, quote, think only in terms of confrontation and bellicose, lunatic anti-communism.",
+      "visual_description": "Soviet TASS newsroom, teletype machines spitting paper, urgent atmosphere. Cinematic noir lighting, dim overhead fluorescents, historical archival photo style.",
+      "sfx_prompt": "teletype machines hammering, urgent murmuring",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 197,
+      "narration": "Two weeks later, Reagan announced the Strategic Defense Initiative — a space-based missile shield the Soviets called 'Star Wars.' In Moscow, this was read as only one thing: a first-strike enabler.",
+      "visual_description": "Concept illustration style: orbital platform with laser beams, Cold War-era technical drawing aesthetic, blueprint blue tones. Kodachrome grain overlay.",
+      "sfx_prompt": "futuristic electronic hum, news broadcast static",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 210,
+      "narration": "And there was something even more concrete to fear: the Pershing II. One hundred and eight nuclear missiles being deployed to West Germany, capable of striking targets deep inside the Soviet Union in as little as four minutes.",
+      "visual_description": "Ground-level photograph of a Pershing II missile on its launch erector in a West German forest, uniformed U.S. soldiers visible. Historical archival photo style, Kodachrome grain, overcast sky.",
+      "sfx_prompt": "heavy machinery, military vehicle engine rumble",
+      "music_intensity": 0.45,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 226,
+      "narration": "Four minutes. That was the window the Soviet leadership had to confirm an attack and respond before losing the ability to respond at all.",
+      "visual_description": "Extreme close-up of an analog clock face, second hand ticking, slightly out of focus, backlit by red warning light. Cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "ticking clock, sub-bass drone builds",
+      "music_intensity": 0.5,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 237,
+      "narration": "By June 1983, Andropov — now Soviet leader, his kidneys failing, conducting state business from a clinic outside Moscow — told a former American emissary: 'This war may perhaps not occur through evil intent, but could happen through miscalculation.'",
+      "visual_description": "Interior of a sparse Soviet medical facility: a figure in suit at a hospital bed with documents, grey light from a narrow window. Historical archival photo style, heavy shadows, Kodachrome 80s grain.",
+      "sfx_prompt": "medical monitor beep, soft shuffling of papers",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 254,
+      "narration": "He was right. And the miscalculation was already building — twenty-six days away from the worst moment of the Cold War.",
+      "visual_description": "Calendar close-up: September 1983, dates ticking toward the 26th, circled in red. Historical archival photo style, slightly worn paper texture, Kodachrome warm tone.",
+      "sfx_prompt": "page turning, low ominous hum",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 263,
+      "narration": "But first — September 1st, 1983. A Boeing 747 is en route from Anchorage, Alaska to Seoul, South Korea. It carries two hundred and sixty-nine passengers and crew.",
+      "visual_description": "Aerial shot of a Boeing 747 in flight over dark ocean at night, navigation lights blinking. Historical archival photo style, Kodachrome grain, dramatic cloudscape below.",
+      "sfx_prompt": "jet engine roar, wind",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 275,
+      "narration": "Korean Air Lines Flight 007 has drifted more than two hundred miles off its intended route — due to a navigational error — and has entered Soviet airspace over the Kamchatka Peninsula.",
+      "visual_description": "Cold War-era map graphic showing KAL 007's actual track versus the planned route, the deviation curving deep into Soviet territory. Historical archival cartographic style, Kodachrome film grain.",
+      "sfx_prompt": "radar ping, radio static burst",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 289,
+      "narration": "Soviet air defenses scrambled. A Sukhoi Su-15 interceptor closed in. The pilot reported: 'Target destroyed.' Among the dead: two hundred and sixty-nine passengers, including U.S. Congressman Larry McDonald.",
+      "visual_description": "Night-sky silhouette of a Soviet Su-15 interceptor pulling into a firing position, exhaust plume visible, Kamchatka coastline far below. Cinematic noir lighting, Kodachrome 80s grain.",
+      "sfx_prompt": "missile launch burst, radio crosstalk, sudden silence",
+      "music_intensity": 0.55,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 302,
+      "narration": "The Soviets had made their decision in seconds, under ambiguity, under pressure. They had chosen to shoot. The world reacted with horror.",
+      "visual_description": "Archival photograph of international newspaper front pages spread on a table: KAL 007 headlines in multiple languages. Historical archival photo style, overhead angle, warm Kodachrome tone.",
+      "sfx_prompt": "news broadcast audio, crowd protest sounds",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 311,
+      "narration": "Reagan called it a massacre. Inside the Soviet military, General Anatoly Kornukov — the man who gave the order to fire — had shown exactly the reflex that Soviet command culture rewarded: strike first, ask questions never.",
+      "visual_description": "Close-up of a Soviet general in formal uniform, medals visible, stern expression, blurred Soviet military backdrop. Historical archival photo style, cinematic noir side lighting.",
+      "sfx_prompt": "military march drumbeat, fading to silence",
+      "music_intensity": 0.45,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 327,
+      "narration": "Twenty-five days later, the same reflex would be tested again. This time, in a bunker under the ground — with a man whose instincts pointed in a completely different direction.",
+      "visual_description": "Dark underground corridor, single fluorescent light strip overhead, a door with СЕКРЕТНО — SECRET stenciled in red at the far end. Historical archival photo style, cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "underground echo, heavy door creak",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 341,
+      "narration": "To understand what Petrov was watching that night, you need to understand the machine he was watching it through. The Soviets called it Oko. The Eye.",
+      "visual_description": "Illustration-style diagram of the Oko early-warning satellite system — satellites in elliptical orbit above the Earth, ground station indicated below. Cold War technical drawing aesthetic, blueprint blue tones, Kodachrome grain.",
+      "sfx_prompt": "electronic hum, space static",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 352,
+      "narration": "Oko was a constellation of satellites placed in highly elliptical Molniya orbits — swinging out to an apogee of nearly forty thousand kilometers before plunging back to a perigee of just six hundred.",
+      "visual_description": "Animated diagram of a Molniya orbit path, elongated ellipse visible against a star field, Earth shown below. Cold War technical drawing style, pale blue and white on dark background, Kodachrome film grain.",
+      "sfx_prompt": "orbital mechanics tone, low electronic pulse",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 366,
+      "narration": "Each satellite carried a telescope with a fifty-centimeter mirror and an infrared sensor array designed to detect the heat signature of a Minuteman ICBM's exhaust plume against the cold black of space.",
+      "visual_description": "Close-up technical illustration of the Oko satellite body: cylindrical frame, main telescope aperture forward, solar panels extended. Blueprint-style Cold War technical drawing, Kodachrome grain.",
+      "sfx_prompt": "scientific instrument hum, subtle electronic ping",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 380,
+      "narration": "The system had only entered combat duty in 1982 — barely a year old. Its designers knew it had problems. There had been malfunctions. The software was not fully trusted.",
+      "visual_description": "Interior close-up of Soviet engineers in lab coats leaning over oscilloscopes and circuit boards, concerned expressions. Historical archival photo style, warm tungsten light, Kodachrome 80s grain.",
+      "sfx_prompt": "oscilloscope whine, technician murmuring, tools clinking",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 393,
+      "narration": "The system's critical vulnerability: at certain times of year, when the geometry of the sun, the Earth's orbit, and the satellite's position aligned — sunlight reflected off high-altitude clouds could produce a heat signature indistinguishable from a missile launch.",
+      "visual_description": "Diagram showing the geometric alignment: the sun at low angle, its reflection bouncing off cloud deck, infrared sensor line of sight converging at satellite. Technical illustration style, Cold War aesthetic.",
+      "sfx_prompt": "quiet ominous hum, very low sub-bass",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 410,
+      "narration": "Petrov knew all of this. He had helped build the system. He was not a career soldier conditioned to obey — he was an engineer conditioned to doubt.",
+      "visual_description": "Close-up of Petrov in profile at his console, the glow of monitors reflecting in his eyes, expression focused and pensive. Cinematic noir lighting, deep shadows, Kodachrome 80s grain.",
+      "sfx_prompt": "soft ambient hum, slow clock tick",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 422,
+      "narration": "His colleagues that night were career military officers — professional soldiers trained to give and obey orders. Petrov was the only man on the team with a formal civilian engineering education. The only man whose training told him to question the machine.",
+      "visual_description": "Wide shot of the Serpukhov-15 command room: rows of uniformed Soviet officers at consoles, Petrov's position visible at center. Historical archival photo style, cold blue lighting, Kodachrome grain.",
+      "sfx_prompt": "background console activity, distant radio, keyboard clicks",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 440,
+      "narration": "And then — shortly after midnight on September 26th — the alarm sounded.",
+      "visual_description": "Extreme close-up of a single warning light snapping on: ЗАПУСК — LAUNCH — burning red against black. Cinematic noir lighting, sharp cut from darkness to red.",
+      "sfx_prompt": "loud alarm klaxon, sudden silence after two beats",
+      "music_intensity": 0.7,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 448,
+      "narration": "The main screen flared red. The Soviet early-warning computer, operating with the highest degree of certainty, reported: one Minuteman intercontinental ballistic missile, launched from the United States, inbound to Soviet territory.",
+      "visual_description": "First-person perspective: looking at a large Soviet display board lit up in red, a single missile trajectory arc drawn across the Atlantic, Cyrillic text reading ПУСК ЗАФИКСИРОВАН — LAUNCH CONFIRMED. Cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "alarm cycling, computer processing tone, officers' urgent voices in background",
+      "music_intensity": 0.75,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 462,
+      "narration": "Impact: twelve minutes.",
+      "visual_description": "Countdown timer graphic: 12:00, digits in Soviet red-LED style, black background, stark. Kodachrome grain overlay.",
+      "sfx_prompt": "single clock tick in silence",
+      "music_intensity": 0.6,
+      "pause_after": 2.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 465,
+      "narration": "Protocol was explicit. Petrov's duty was to pick up the dedicated phone line to his superiors — to the general staff, to the chain that led ultimately to Yuri Andropov — and report the attack as confirmed.",
+      "visual_description": "Close-up of a Soviet red telephone handset on its cradle, in sharp focus against a blurred bunker background. Cinematic noir lighting, single overhead light, Kodachrome grain.",
+      "sfx_prompt": "telephone receiver rattle, hum of open line",
+      "music_intensity": 0.65,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 481,
+      "narration": "Under Soviet launch-on-warning doctrine, that report would trigger a retaliatory nuclear strike while there was still time — before the American missiles hit and destroyed the Soviet capacity to respond.",
+      "visual_description": "Diagram-style graphic: Soviet ICBM silos activating in sequence, warheads arcing toward American cities on a Cold War-era map. Technical Cold War illustration style, harsh red and blue tones.",
+      "sfx_prompt": "deep sub-bass throb, ominous string swell",
+      "music_intensity": 0.7,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 494,
+      "narration": "Andropov — a man who believed Reagan was genuinely planning a first strike, who had built the largest intelligence network in Soviet history to watch for exactly this moment — would have been handed confirmation.",
+      "visual_description": "Archival photograph of Andropov at a desk with documents, Soviet flag behind, stern expression. Historical archival photo style, high contrast, cinematic noir lighting.",
+      "sfx_prompt": "tense orchestral string tremolo, quiet",
+      "music_intensity": 0.65,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 509,
+      "narration": "Former KGB officer Oleg Kalugin later described the danger precisely: 'The Soviet leadership was thinking: the Americans may attack, so we better attack first.'",
+      "visual_description": "Close-up of a KGB officer's face partially obscured by shadow, collar insignia just visible. Cinematic noir lighting, extreme contrast, historical archival photo style.",
+      "sfx_prompt": "low whispered voice echo, quiet phone static",
+      "music_intensity": 0.6,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 520,
+      "narration": "Petrov reached for the phone. And then — he stopped.",
+      "visual_description": "Extreme close-up of a hand hovering one inch above a telephone receiver, not touching it, trembling slightly. Cinematic noir lighting, stark overhead light, Kodachrome grain.",
+      "sfx_prompt": "absolute silence, single slow heartbeat sound",
+      "music_intensity": 0.4,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 526,
+      "narration": "He later described that moment to BBC News: 'All I had to do was reach for the phone; to raise the direct line to our top commanders — but I couldn't move. I felt like I was sitting on a hot frying pan.'",
+      "visual_description": "Extreme close-up of a Soviet officer's face, eyes fixed on a monitor, jaw set, not moving. Deep shadow, a line of red warning light across one cheek. Kodachrome 80s grain, cinematic noir.",
+      "sfx_prompt": "heartbeat pulse, slow ticking clock",
+      "music_intensity": 0.45,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 545,
+      "narration": "Then: a second alarm. A third. A fourth. A fifth. The computer reported five Minuteman ICBMs in the air, all inbound, all confirmed — at the highest certainty level the system could generate.",
+      "visual_description": "Rapid sequence of five red missile icons appearing on a Soviet display board one after another, each with trajectory arc, Cyrillic launch confirmations accumulating. Kodachrome grain, red and black color palette.",
+      "sfx_prompt": "alarm escalating with each count, rising pitch, overlapping klaxons",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 560,
+      "narration": "The room was alive with alarm. Fifty other personnel were staring at the same screens. Everyone was waiting for Petrov to pick up the phone.",
+      "visual_description": "Wide shot of the Serpukhov-15 command room in full alert: officers on their feet, faces lit red by warning lights, all eyes turned toward one position. Cinematic noir, deep red ambient light.",
+      "sfx_prompt": "overlapping urgent voices, alarm klaxon constant",
+      "music_intensity": 0.85,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 571,
+      "narration": "Petrov thought: when people start a war, they don't start it with only five missiles. He told The Washington Post exactly that, years later.",
+      "visual_description": "Close-up of Petrov's face again: eyes scanning data on multiple screens, mind working, not moving for the phone. Historical archival photo style, Kodachrome grain, cinematic tension.",
+      "sfx_prompt": "alarm continues under, Petrov's voice echo effect low",
+      "music_intensity": 0.75,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 581,
+      "narration": "An American first strike — designed to destroy the Soviet Union's ability to retaliate — would involve hundreds of missiles launched simultaneously. Not five. Never just five.",
+      "visual_description": "Archival-style diagram: U.S. Minuteman silo fields across Montana, North Dakota, Wyoming — hundreds of launch points marked. Cold War military map aesthetic, harsh contrast, Kodachrome grain.",
+      "sfx_prompt": "low rumbling tension, sub-bass pulse",
+      "music_intensity": 0.7,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 593,
+      "narration": "And the ground radar — the only other system that could confirm an inbound missile — had returned nothing. No corroboration. Silence.",
+      "visual_description": "Close-up of a circular radar screen, sweeping arm rotating, empty — no return signals. Underlit by green phosphor glow in a dark room. Cinematic noir lighting, Kodachrome 80s grain.",
+      "sfx_prompt": "radar sweep tone, empty ping, no secondary alert",
+      "music_intensity": 0.65,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 603,
+      "narration": "He assessed the probability of the warnings being real at fifty-fifty. 'I thought the chances were 50-50 that the warnings were real,' he told TIME Magazine in 2015. 'But I didn't want to be the one responsible for starting a third world war.'",
+      "visual_description": "Medium shot of Petrov from behind, sitting rigid in his chair, both consoles visible, warning lights reflected on his back. Cinematic noir, deep shadows, slow zoom-out. Kodachrome grain.",
+      "sfx_prompt": "low orchestral swell, heartbeat pulse, alarms fading slightly",
+      "music_intensity": 0.7,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 622,
+      "narration": "He waited. Five minutes. He told his duty officer the alarm was a computer malfunction. He did not report it up the chain of command.",
+      "visual_description": "Clock graphic: time advancing slowly from 00:15 to 00:20, each second stretched. Soviet-era clock face, red hand ticking, stark contrast. Cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "slow clock ticks amplified, ambient alarm fading",
+      "music_intensity": 0.6,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 634,
+      "narration": "He waited another eight minutes. Fifteen total. Any real warheads from a genuine American strike would have detonated by now.",
+      "visual_description": "Black screen with a single point of white light, then darkness again. Soviet bunker interior barely visible at the edges. Total audio near-silence. Cinematic noir, minimal grain.",
+      "sfx_prompt": "near-total silence, single ventilation fan hum",
+      "music_intensity": 0.2,
+      "pause_after": 2.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 645,
+      "narration": "Nothing hit. No missile. No detonation. No third world war. The screens began to clear.",
+      "visual_description": "Soviet display board: missile icons fading one by one, red warning lights clicking off in sequence, room returning to green standby glow. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "alarms shutting down one by one, exhale of breath, quiet",
+      "music_intensity": 0.25,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 653,
+      "narration": "Petrov had been right. The investigation that followed — lasting six months — determined the cause: a rare geometric alignment of the autumnal equinox, high-altitude cloud formations over North Dakota, and the grazing-angle geometry of the Molniya orbit.",
+      "visual_description": "Technical diagram: the sun at low autumn angle, its reflection off high-altitude cloud deck, the infrared sensor path of the Oko satellite intersecting the reflection exactly. Cold War technical illustration style.",
+      "sfx_prompt": "quiet lab environment, papers shuffling",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 669,
+      "narration": "In Petrov's own words: 'Can you imagine? It was as though a child had been playing with a vanity mirror, throwing around the sun's reflection. And by chance that blinding light landed right in the center of the system's eye.'",
+      "visual_description": "Metaphorical close-up: sunlight refracted through a small mirror, a brilliant point of light landing on a dark surface, blooming wider. Artistic, slightly abstract, Kodachrome warm tones.",
+      "sfx_prompt": "soft ambient light shimmer sound, gentle music resolve",
+      "music_intensity": 0.3,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 687,
+      "narration": "But the story does not end with the false alarm. Because six weeks after Petrov's night in the bunker, the 1983 war scare reached its second and even more dangerous peak.",
+      "visual_description": "Calendar fast-forward graphic: September 26 to November 2, 1983, days flickering past in Soviet red. Cold War calendar aesthetic, Kodachrome grain.",
+      "sfx_prompt": "calendar pages flipping sound, low tension hum returning",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 700,
+      "narration": "On November 2nd, NATO launched its annual military training exercise: Able Archer 83. A command post simulation of nuclear release procedures — on paper, routine.",
+      "visual_description": "NATO headquarters building exterior, flags of member nations, 1983 autumn setting. Historical archival photo style, Kodachrome grain, overcast sky.",
+      "sfx_prompt": "military radio traffic, distant vehicle engines",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 711,
+      "narration": "But Able Archer 83 was different. It involved a 170-flight, radio-silent airlift of nineteen thousand American soldiers to Europe. It progressed nuclear readiness all the way to DEFCON 1 — higher than any previous exercise. And heads of state participated directly.",
+      "visual_description": "Aerial shot of a European NATO air base: transport aircraft on taxiways, military vehicles clustered, autumn light. Historical archival photo style, wide-angle lens, Kodachrome grain.",
+      "sfx_prompt": "aircraft engine noise, mass movement of troops, radio static",
+      "music_intensity": 0.45,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 729,
+      "narration": "For the KGB's Operation RYAN analysts, filtered through two years of institutionalized paranoia, this looked exactly like what they had been trained to detect. Cover for a real first strike.",
+      "visual_description": "Soviet intelligence operations room: analysts at maps, urgent gestures, red pins being added to a map of Western Europe. Historical archival photo style, cinematic noir lighting.",
+      "sfx_prompt": "frantic teletype, overlapping phone calls, paper tearing",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 742,
+      "narration": "On November 8th, KGB headquarters sent an emergency telegram to every residency in Europe: watch for immediate indicators of nuclear attack preparation.",
+      "visual_description": "Close-up of a telex machine printing an urgent classified message, Cyrillic text emerging, red URGENT header stamp. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "telex machine hammering, urgent bell",
+      "music_intensity": 0.55,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 751,
+      "narration": "Soviet air forces loaded aircraft with nuclear munitions configurations they had never loaded before. Eleven thousand nuclear warheads were placed on maximum combat alert. A gravely ill Andropov conferred with his generals from his clinic outside Moscow.",
+      "visual_description": "Soviet air base at night: ground crew working under artificial light around a military jet, specialized munitions handling equipment visible. Historical archival photo style, cold night atmosphere, Kodachrome grain.",
+      "sfx_prompt": "aircraft ground power units, urgent shouted commands, night wind",
+      "music_intensity": 0.65,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 767,
+      "narration": "The world was eight days away from what the 1990 President's Foreign Intelligence Review Board would later call, in a classified report, placing Soviet-American relations on a hair trigger.",
+      "visual_description": "Archival declassified document graphic: PFIAB header, 1990 date stamp, the phrase 'hair trigger' highlighted in the text. Historical archival photo style, high contrast.",
+      "sfx_prompt": "document page turn, tension drone",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 779,
+      "narration": "What pulled the world back from the edge was not American restraint. It was a Russian spy. Oleg Gordievsky — KGB colonel and resident in London — had been passing intelligence to British MI6 since 1974.",
+      "visual_description": "Close-up of a hand slipping a folded document beneath a park bench in a rainy London street, 1980s cars passing. Historical archival photo style, overcast grey sky, Kodachrome grain.",
+      "sfx_prompt": "rain on pavement, distant traffic, footsteps",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 794,
+      "narration": "Gordievsky was feeding British intelligence real-time assessments of how seriously the KGB was treating Able Archer 83. His intelligence reached Margaret Thatcher, and then Ronald Reagan.",
+      "visual_description": "Archival photograph of Thatcher at 10 Downing Street, documents in hand, advisors visible. Historical archival photo style, Kodachrome warm tone, 1983 period-accurate.",
+      "sfx_prompt": "Number 10 door opening, whispered briefing audio",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 805,
+      "narration": "Reagan's private diary entry from November 18th, 1983, revealed the shift: 'I feel the Soviets are so defense minded, so paranoid about being attacked — what the hell have they got that anyone would want?'",
+      "visual_description": "Archival photograph of Reagan at his desk in the Oval Office, alone, writing in a diary by lamp light. Historical archival photo style, warm amber light, Kodachrome grain.",
+      "sfx_prompt": "pen on paper, fireplace crackle, quiet night ambience",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 821,
+      "narration": "Two days later, Reagan watched a television film: The Day After. A dramatization of nuclear war over Kansas. He described it as deeply depressing and it changed him.",
+      "visual_description": "A 1983 American living room: family on a sofa watching a television screen showing a nuclear blast sequence, faces pale, stunned. Cinematic noir lighting, Kodachrome 80s grain.",
+      "sfx_prompt": "TV audio of distant explosion, family silence",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 833,
+      "narration": "In his 1984 State of the Union address, Reagan declared: 'A nuclear war cannot be won and must never be fought.' The rhetorical climate that had fed Soviet RYAN paranoia for three years had begun, at last, to cool.",
+      "visual_description": "Archival photograph of Reagan delivering State of the Union address to joint Congress, 1984, American flags, formal setting. Historical archival photo style, Kodachrome warm tone.",
+      "sfx_prompt": "congressional applause, formal atmosphere",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 851,
+      "narration": "Stanislav Petrov returned home from the bunker after three days of interrogation. He went to sleep. He did not speak about what had happened — not to his wife Raisa, not to his children.",
+      "visual_description": "Exterior of a Soviet apartment block in autumn, a lone figure walking toward the entrance, head down. Historical archival photo style, grey October light, Kodachrome grain.",
+      "sfx_prompt": "wind through bare trees, distant urban hum, footsteps on concrete",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 866,
+      "narration": "His immediate superior, General Yuri Votintsev, initially praised his actions and promised him a reward. That reward never came.",
+      "visual_description": "Interior: a Soviet general's office, two figures in conversation across a large desk, sunlight through venetian blinds casting stripes of light and shadow. Cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "clock ticking, muffled conversation",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 874,
+      "narration": "The logic was institutional — and brutal. To reward Petrov would require officially acknowledging the incident. To acknowledge the incident would require revealing that the Oko system had produced a false alarm at maximum confidence.",
+      "visual_description": "Soviet bureaucratic interior: a file being stamped CLASSIFIED, placed in a drawer, the drawer locked. Cinematic noir lighting, overhead fluorescent, Kodachrome grain.",
+      "sfx_prompt": "stamp impact, drawer sliding shut, lock click",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 889,
+      "narration": "And that would mean the scientists and generals who had rushed the system into service — who had known about its flaws — would have to be held accountable. The Soviet machine protected itself.",
+      "visual_description": "Wide shot of a Soviet military committee meeting: uniformed generals around a table, faces obscured in shadow, central figure's hands flat on the table. Cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "muffled voices, formal silence, paper shuffling",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 904,
+      "narration": "Instead, Petrov was reprimanded — for failing to describe the incident in the duty log. His defense: 'Because I had a phone in one hand and the intercom in the other, and I don't have a third hand.'",
+      "visual_description": "Close-up of an official Soviet military reprimand document with a red stamp, the paper slightly crumpled. Historical archival photo style, side lighting, Kodachrome grain.",
+      "sfx_prompt": "stamp impact, pen scratching signature",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 920,
+      "narration": "He was reassigned to a less sensitive post. The following year, 1984, he took early retirement — not forced out, he insisted — and went to work at a research institute.",
+      "visual_description": "A man in civilian clothes carrying a box of personal items out of a military building, walking away from the camera. Historical archival photo style, grey sky, autumn leaves, Kodachrome grain.",
+      "sfx_prompt": "footsteps on gravel, distant traffic, wind",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 933,
+      "narration": "He suffered a nervous breakdown. His wife Raisa died of cancer in 1997. He lived alone in Fryazino — a suburb of Moscow — on a small military pension. At one point he grew potatoes to supplement his food supply.",
+      "visual_description": "A quiet Soviet-era apartment interior: small table, single window looking onto a grey courtyard, sparse furnishings. Historical archival photo style, dim natural light, Kodachrome 80s grain.",
+      "sfx_prompt": "distant traffic, very quiet, clock ticking",
+      "music_intensity": 0.15,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 950,
+      "narration": "The incident itself was buried. For a decade after the Soviet collapse, it stayed secret. Then, in 1998, General Votintsev published a memoir crediting Petrov for the first time. Russian newspapers began running the story. It crossed into the Western press.",
+      "visual_description": "Montage of newspaper front pages across different countries, all bearing Petrov's name: Russian, German, British, American headlines. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "newspaper press printing, radio broadcast snippets",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 968,
+      "narration": "The world called him a hero. Petrov deflected every characterization. 'I was just at the right place at the right time.' That was all he would say.",
+      "visual_description": "Archival photograph of Petrov in later years: modest clothing, home setting, no military insignia, slight smile. Historical archival photo style, warm natural light, Kodachrome grain.",
+      "sfx_prompt": "quiet room ambience, soft wind outside",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 980,
+      "narration": "In 2004, he was honored by the Association of World Citizens in San Francisco. In 2006, at the United Nations. In 2014, a Danish documentary — The Man Who Saved the World — brought his story to a global audience.",
+      "visual_description": "Photograph of Petrov receiving an award at a formal ceremony, modest expression, audience visible behind. Historical archival photo style, warm ambient light, Kodachrome grain.",
+      "sfx_prompt": "polite applause, formal event ambience",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 997,
+      "narration": "But the Russian Federation pushed back. At the 2006 UN ceremony, Russia's Permanent Mission issued a press release insisting — that under no circumstances could a decision to use nuclear weapons be made on data from a single source.",
+      "visual_description": "United Nations General Assembly Hall: wide shot from upper gallery, flags of member nations, formal atmosphere. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "formal UN hall ambience, distant microphone hum",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1014,
+      "narration": "The official line: Petrov did his job. No single man could have started or stopped a nuclear war. The system had safeguards.",
+      "visual_description": "Close-up of the Russian Federation seal on an official document, crisp white paper, formal letterhead. Historical archival photo style, side lighting.",
+      "sfx_prompt": "paper rustling, formal silence",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1023,
+      "narration": "But Cold War nuclear strategy expert Bruce G. Blair disagreed. He called the Petrov incident the closest the United States had ever come to accidental nuclear war — and described the Soviet system at the time as quote: very nervous and prone to mistakes and accidents.",
+      "visual_description": "Academic study setting: a scholar at a desk covered with classified documents and Cold War-era books, reading under a lamp. Historical archival photo style, warm tungsten light, Kodachrome grain.",
+      "sfx_prompt": "quiet study ambience, pen on paper",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1043,
+      "narration": "The more that has been declassified over the decades, the more dangerous the picture looks. Documents showing Soviet nuclear forces on hair-trigger alert during Able Archer. Soviet aircraft loading munition configurations never used before.",
+      "visual_description": "Archival declassified Soviet military document spread on a research table, highlighted passages, researcher's notes in margins. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "archive room ambience, document handling",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1058,
+      "narration": "CIA deputy director Robert Gates later said: 'We may have been at the brink of nuclear war and not even known it.'",
+      "visual_description": "CIA headquarters building exterior at dusk, American flags, security perimeter. Historical archival photo style, Kodachrome grain, wide establishing shot.",
+      "sfx_prompt": "wind, distant traffic, solemn ambience",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1068,
+      "narration": "In his final years, Stanislav Petrov watched the world he had helped preserve begin to develop the same fault lines he had seen in 1983. U.S.-Russia relations cooling. Nuclear arsenals modernizing. Politicians trading nuclear threats.",
+      "visual_description": "Slow dissolve montage: Cold War missile launch footage transitioning to modern news broadcast of nuclear rhetoric. Documentary film grain, both eras' visual textures blending.",
+      "sfx_prompt": "TV news static, overlapping news voices from different decades",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1083,
+      "narration": "In a 2015 interview with TIME Magazine, from his Moscow suburb apartment, he offered his final warning: 'The slightest false move can lead to colossal consequences. That hasn't changed.'",
+      "visual_description": "Intimate close-up of an elderly Petrov at a small kitchen table, window light behind him, hands folded, direct gaze into camera. Historical documentary style, natural light, Kodachrome warm tone.",
+      "sfx_prompt": "quiet apartment, window traffic, slow clock",
+      "music_intensity": 0.25,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1096,
+      "narration": "He also said something that has stayed with every scholar who studied the case: 'One way or another, you still need a person to order a launch of one of these weapons. And a person can always make a mistake.'",
+      "visual_description": "Slow zoom into Petrov's face, eyes carrying the weight of the memory. The Kodachrome warm tones gradually desaturate toward monochrome as the zoom completes. Cinematic noir, deliberate pace.",
+      "sfx_prompt": "silence deepening, single piano note held",
+      "music_intensity": 0.2,
+      "pause_after": 2.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1115,
+      "narration": "Stanislav Yevgrafovich Petrov died on May 19th, 2017, in Fryazino, Russia. He was seventy-seven years old. His death was not announced publicly for four months.",
+      "visual_description": "Exterior shot of a quiet Russian town in spring, an apartment block visible, a church in the background, ordinary life continuing. Historical documentary style, desaturated Kodachrome tones.",
+      "sfx_prompt": "church bells in the distance, birds, quiet street",
+      "music_intensity": 0.15,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1127,
+      "narration": "No state funeral. No monument. No official acknowledgment from the Russian government that he had ever done anything extraordinary.",
+      "visual_description": "Empty park bench in a Russian suburb, autumn leaves fallen, quiet afternoon. Historical documentary style, wide angle, melancholic Kodachrome warm tones.",
+      "sfx_prompt": "wind through leaves, absolute quiet",
+      "music_intensity": 0.12,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1136,
+      "narration": "Consider what the night of September 26th, 1983 actually was. Not a triumph of diplomacy. Not a success of deterrence theory. Not a product of MAD working as designed.",
+      "visual_description": "Cold War-era textbook open to a chapter titled 'Mutual Assured Destruction' — the title visible, the text blurred. Cinematic composition, side lighting, Kodachrome grain.",
+      "sfx_prompt": "page turn, quiet room, low contemplative tone",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1148,
+      "narration": "It was an accident of scheduling. One engineer, called in to replace an absent officer, who happened to have the technical knowledge to doubt a machine that everyone else was trained to trust.",
+      "visual_description": "Duty roster graphic: a name crossed out, another written in — old Soviet military paper, pen marks, Kodachrome grain. The substituted name quietly highlighted.",
+      "sfx_prompt": "pen scratching on paper, bureaucratic quiet",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1162,
+      "narration": "The system was designed to remove human judgment from the equation. To replace it with automated certainty. Petrov's presence reinserted exactly the human judgment the system was built to eliminate.",
+      "visual_description": "Abstract split-screen: left side shows a cold machine circuit board with a launch button; right side shows a human hand, hesitating. Cinematic noir composition, Kodachrome grain, stark contrast.",
+      "sfx_prompt": "circuit hum on left channel, heartbeat on right channel, fading together",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1176,
+      "narration": "And the structural fragilities that made the false alarm possible — the premature deployment of an untested system, the absence of redundancy, the single-source confirmation architecture — were never publicly investigated or acknowledged.",
+      "visual_description": "Classified filing cabinet, drawer half-open revealing stacked files labeled СЕКРЕТНО. A hand slowly pushes the drawer closed. Cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "filing cabinet closing, lock engaging, silence",
+      "music_intensity": 0.25,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1190,
+      "narration": "The 1983 war scare — the Petrov incident, Able Archer 83, the KAL 007 shootdown — forms the most sustained near-catastrophe of the nuclear age. More dangerous, in many assessments, than the Cuban Missile Crisis.",
+      "visual_description": "Historical timeline graphic: Cuban Missile Crisis 1962 marked — then 1983 war scare marked larger and bolder. Cold War-era cartographic style, Kodachrome grain.",
+      "sfx_prompt": "low orchestral swell, contemplative",
+      "music_intensity": 0.35,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1205,
+      "narration": "Because in 1962, Kennedy and Khrushchev knew they were in a crisis. They were communicating, negotiating, choosing. In 1983, neither side fully understood how close they were. The danger was invisible until it was almost too late.",
+      "visual_description": "Side-by-side Cold War images: Kennedy-Khrushchev correspondence letters on one side; Soviet classified operation files on the other — contrasting the visible and invisible crises. Kodachrome grain.",
+      "sfx_prompt": "contrast audio: Kennedy broadcast voice fading into Soviet radio static",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1221,
+      "narration": "Petrov's decision did not prevent a nuclear war by design. It prevented one by chance, by instinct, and by the quiet defiance of a man who refused to be a cog in a machine.",
+      "visual_description": "Final portrait: Stanislav Petrov's face in soft focus, eyes looking off-camera, expression contemplative. Warm Kodachrome light slowly fading. Cinematic, still, respectful.",
+      "sfx_prompt": "solo piano motif, gentle and melancholic",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1237,
+      "narration": "He was asked, later in life, whether he considered himself a hero. He answered the same way every time.",
+      "visual_description": "Close-up of Petrov's hands resting on a table, older and weathered. Soft natural window light, quiet domestic setting, Kodachrome warm tones.",
+      "sfx_prompt": "quiet apartment, clock, distant street sounds",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1245,
+      "narration": "'I was just at the right place at the right time.'",
+      "visual_description": "Final wide shot of the underground bunker corridor at Serpukhov-15 — long and empty, a single light at the far end. Slow zoom-out into darkness. Cinematic noir, Kodachrome grain fading to black.",
+      "sfx_prompt": "solo piano last note, fade to silence",
+      "music_intensity": 0.15,
+      "pause_after": 3.0,
+      "transition": "fade"
+    }
+  ]
+}
