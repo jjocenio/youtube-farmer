@@ -1,0 +1,3 @@
+# Stanislav Petrov: The Man Who Saved the World
+
+This video tells the story of Soviet Lieutenant Colonel Stanislav Petrov, the officer who, on September 26, 1983, chose not to report a false nuclear launch alarm to his superiors — a decision made alone, in real time, and against every protocol he had been trained to follow. Set against the backdrop of the 1983 war scare, Operation RYAN, and the KAL 007 shootdown, the video explores how Cold War paranoia created the conditions for Petrov's impossible choice. Viewers will walk away understanding that the world was saved not by diplomacy or deterrence, but by the quiet courage of one exhausted man who trusted his instincts over a broken machine.
