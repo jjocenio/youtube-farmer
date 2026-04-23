@@ -348,6 +348,7 @@ def print_runtime_env_summary() -> None:
 
 
 def pick_background_music(project_dir: Path, metadata: dict[str, Any]) -> Optional[Path]:
+    repo_root = Path(__file__).resolve().parent.parent
     candidates: list[Path] = []
     for key in ("background_music", "bg_music", "music", "background_music_path"):
         value = metadata.get(key)
@@ -356,10 +357,18 @@ def pick_background_music(project_dir: Path, metadata: dict[str, Any]) -> Option
 
     candidates.extend(
         [
+            repo_root / "assets" / "music" / "background_music.mp3",
+            repo_root / "assets" / "music" / "background_music.wav",
+            repo_root / "assets" / "music" / "music.mp3",
+            repo_root / "assets" / "music" / "music.wav",
             project_dir / "background_music.mp3",
             project_dir / "background_music.wav",
             project_dir / "music.mp3",
             project_dir / "music.wav",
+            project_dir / "assets" / "music" / "background_music.mp3",
+            project_dir / "assets" / "music" / "background_music.wav",
+            project_dir / "assets" / "music" / "music.mp3",
+            project_dir / "assets" / "music" / "music.wav",
             project_dir / "assets" / "background_music.mp3",
             project_dir / "assets" / "background_music.wav",
         ]
@@ -684,6 +693,7 @@ async def acquire_assets(
         background_music_path = await maybe_generate_background_music(
             manifest,
             sorted_assets,
+            Path.cwd(),
             asset_paths["music"],
             args,
             elevenlabs,
@@ -700,6 +710,7 @@ async def acquire_assets(
         )
         await maybe_generate_outro_narration(
             manifest=manifest,
+            project_dir=Path.cwd(),
             outro_dir=asset_paths["outro"],
             args=args,
             elevenlabs=elevenlabs,
@@ -769,6 +780,7 @@ def extract_thumbnail_prompt(youtube_md_path: Path) -> Optional[str]:
 async def maybe_generate_background_music(
     manifest: Manifest,
     scene_assets: list[SceneAssets],
+    project_dir: Path,
     music_dir: Path,
     args: argparse.Namespace,
     elevenlabs: ElevenLabsClient,
@@ -778,6 +790,10 @@ async def maybe_generate_background_music(
     prompt = str(manifest.metadata.get("bg_music_prompt", "")).strip()
     if not prompt:
         return None
+
+    existing_music = pick_background_music(project_dir, manifest.metadata)
+    if existing_music and not args.force_music:
+        return existing_music
 
     destination = music_dir / "background_music.mp3"
     if destination.exists() and not args.force_music:
@@ -806,6 +822,7 @@ def estimate_total_runtime_seconds(scene_assets: list[SceneAssets]) -> float:
 
 async def maybe_generate_outro_narration(
     manifest: Manifest,
+    project_dir: Path,
     outro_dir: Path,
     args: argparse.Namespace,
     elevenlabs: ElevenLabsClient,
@@ -821,6 +838,10 @@ async def maybe_generate_outro_narration(
     ).strip()
     if not outro_text:
         return None
+
+    existing_outro = resolve_outro_narration_path(project_dir)
+    if existing_outro and not args.force_audio:
+        return existing_outro
 
     destination = outro_dir / OUTRO_NARRATION_NAME
     if destination.exists() and not args.force_audio:
@@ -1005,8 +1026,16 @@ def build_scene_clip(
 
 
 def resolve_outro_narration_path(project_dir: Path) -> Optional[Path]:
-    candidate = project_dir / "assets" / "outro" / OUTRO_NARRATION_NAME
-    return candidate if candidate.exists() else None
+    repo_root = Path(__file__).resolve().parent.parent
+    candidates = [
+        repo_root / "assets" / "outro" / OUTRO_NARRATION_NAME,
+        project_dir / "assets" / "outro" / OUTRO_NARRATION_NAME,
+        project_dir / "outro" / OUTRO_NARRATION_NAME,
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return None
 
 
 def build_extended_final_scene_clip(
