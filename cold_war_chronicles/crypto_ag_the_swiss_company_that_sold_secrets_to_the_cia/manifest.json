@@ -1,0 +1,880 @@
+{
+  "metadata": {
+    "title": "Crypto AG: The Swiss Company That Sold Your Secrets to the CIA for 70 Years",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Cinematic noir lighting, Kodachrome 60s-70s film grain, cold color grading with desaturated blues and amber highlights, historical archival photo style",
+    "bg_music_prompt": "Cold War espionage thriller score, slow tension-building strings, sparse piano, occasional sharp brass stabs, reminiscent of John le Carré film scores, tempo 60bpm, builds from near-silence to urgent intensity across four acts"
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "",
+      "visual_description": "Extreme close-up of a mechanical cipher machine rotor spinning in slow motion, brass gears catching dim light, no other context, black background, Kodachrome 60s film grain, cinematic macro lens",
+      "on_screen_text": "",
+      "sfx_prompt": "Single mechanical click, cipher rotor spinning, ambient silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 3,
+      "narration": "For fifty years, over one hundred and twenty governments believed they were sending their most secret messages in perfect safety. They were wrong. Every single word was being read.",
+      "visual_description": "Tight shot of a classified diplomatic telegram being fed into a cipher machine, hands in shadow, blue-white light from a desk lamp, cinematic noir lighting, Kodachrome film grain, 1970s government office aesthetic",
+      "on_screen_text": "",
+      "sfx_prompt": "Teletype machine clatter, distant hum of electronics",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 15,
+      "narration": "Iran. Argentina. Libya. The Vatican. India. Pakistan. One hundred and twenty nations — allies, adversaries, neutral states — all compromised. All paying the CIA for the privilege of being spied upon.",
+      "visual_description": "Animated world map slowly filling with highlighted countries one by one, cold blue glow on a darkened surface, intelligence dossier aesthetic, Kodachrome film grain overlay",
+      "on_screen_text": "120+ NATIONS COMPROMISED",
+      "sfx_prompt": "Low ominous drone building under quiet string note",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 30,
+      "narration": "This is the story of Operation Rubicon — the most audacious intelligence operation of the twentieth century. And it was hiding in plain sight, inside a perfectly ordinary Swiss company.",
+      "visual_description": "Wide establishing shot of Steinhausen, Zug, Switzerland — an unremarkable suburban office district, overcast Alpine sky, 1970s architecture, muted color palette, slow push-in on a nondescript office building, Kodachrome film grain",
+      "on_screen_text": "STEINHAUSEN, ZUG, SWITZERLAND",
+      "sfx_prompt": "Alpine wind, distant church bell",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 44,
+      "narration": "Crypto AG. Founded in 1952. Headquartered in the Swiss canton of Zug. To the outside world: the world's most trusted manufacturer of encryption machines. In reality: a wholly owned subsidiary of the CIA.",
+      "visual_description": "Close-up of a Crypto AG product brochure from the 1970s, glossy cover with mechanical cipher machine illustration, hands turning pages, cinematic noir lighting, archival photo style, desaturated color grading",
+      "on_screen_text": "CRYPTO AG — STEINHAUSEN, SWITZERLAND — EST. 1952",
+      "sfx_prompt": "Paper rustling, subtle typewriter ambience",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 60,
+      "narration": "But to understand how the CIA came to own a Swiss encryption company, you need to go back to a man named Boris Hagelin — and to a friendship forged in wartime Washington.",
+      "visual_description": "Black-and-white archival photograph aesthetic of 1940s Washington D.C., wide shot of government buildings in overcast light, military uniforms visible, historical newsreel grain, slow dissolve transition",
+      "on_screen_text": "WASHINGTON D.C. — 1940",
+      "sfx_prompt": "1940s newsreel audio ambience, distant city traffic",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 74,
+      "narration": "Boris Hagelin was born in 1892 in the Russian Empire — the son of a Swedish oil engineer. He was a brilliant inventor, a shrewd businessman, and, by 1940, a man running out of time.",
+      "visual_description": "Portrait-style shot of a distinguished European businessman in a tailored 1940s suit, hands on a desk covered with mechanical drawings, warm desk lamp, shadows deep, Kodachrome archival aesthetic",
+      "on_screen_text": "BORIS HAGELIN — FOUNDER, CRYPTO AG",
+      "sfx_prompt": "Ticking clock, faint paper shuffling",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 88,
+      "narration": "When the Nazis invaded Norway in April 1940, Hagelin fled to the United States. In his luggage: the prototype of a small, hand-cranked cipher machine called the C-38. It would change everything.",
+      "visual_description": "Cinematic shot of a man in a heavy coat boarding a transatlantic ship, pier in shadow, ocean fog, 1940 wartime port atmosphere, low-angle camera, Kodachrome film grain, dramatic side lighting",
+      "on_screen_text": "APRIL 1940",
+      "sfx_prompt": "Ship horn, harbor ambience, wartime newsreel crackle",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 103,
+      "narration": "In Washington, Hagelin demonstrated the C-38 to the U.S. Army Signal Corps. The Americans were impressed. More than impressed. They licensed the design, renamed it the M-209, and mass-produced it at the Smith Corona typewriter factory in Syracuse, New York.",
+      "visual_description": "Wide shot of a wartime factory floor, rows of workers assembling small mechanical devices under harsh industrial lighting, American flags on the walls, 1940s black-and-white newsreel aesthetic, slight camera movement",
+      "on_screen_text": "SMITH CORONA FACTORY — SYRACUSE, NEW YORK",
+      "sfx_prompt": "Factory machinery, stamping presses, wartime industrial ambience",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 122,
+      "narration": "One hundred and forty thousand M-209 units were built. American soldiers carried them into every theater of World War Two. And Hagelin collected royalties — netting him the equivalent of nearly two million dollars.",
+      "visual_description": "Close-up of a soldier's hands operating a small M-209 cipher machine in a muddy field setting, military dispatch papers beside it, 1944 war correspondent photo aesthetic, shallow depth of field, film grain",
+      "on_screen_text": "140,000 UNITS PRODUCED — $1.8M IN ROYALTIES TO HAGELIN",
+      "sfx_prompt": "Distant artillery rumble, field radio static",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 140,
+      "narration": "But more valuable than the money was the relationship. During his years in the United States, Hagelin became close personal friends with Army Colonel William Friedman — the man the NSA would later call the father of modern American cryptology.",
+      "visual_description": "Two men in conversation across a desk scattered with cipher machine components and documents, warm desk lamp glow, government office 1940s aesthetic, over-the-shoulder shot, Kodachrome noir lighting",
+      "on_screen_text": "WILLIAM FRIEDMAN — CHIEF CRYPTOLOGIST, NSA",
+      "sfx_prompt": "Quiet office ambience, pen on paper",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 157,
+      "narration": "Friedman was a legend. He had broken the Japanese PURPLE cipher in World War Two — arguably the most consequential act of cryptanalysis in American history. And he saw in Hagelin not just a contractor, but a partner.",
+      "visual_description": "Tight close-up of a decryption sheet covered in Japanese characters with pencilled annotations, code-breaking workspace 1940s style, dramatic overhead lamp, shadows across the page, archival photo style",
+      "on_screen_text": "WILLIAM FRIEDMAN — BROKE JAPANESE PURPLE CIPHER, WWII",
+      "sfx_prompt": "Pencil scratching, tense string note sustained",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 174,
+      "narration": "In 1952, Hagelin moved his company — now called Crypto AG — to Steinhausen, Switzerland. Officially: to escape Sweden's high taxes and restrictive export laws. In practice: to plant it in neutral territory, perfectly positioned to sell to everyone.",
+      "visual_description": "Aerial view of the Swiss countryside, a small industrial town nestled between green hills and grey Alpine sky, 1950s color palette, Kodachrome warm tones, slow drone push-in toward town center",
+      "on_screen_text": "CRYPTO AG RELOCATES TO SWITZERLAND — 1952",
+      "sfx_prompt": "Alpine wind, propeller aircraft distant",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 191,
+      "narration": "And sell to everyone they did. Iran. Libya. Egypt. Argentina. Italy. The Vatican. India. Pakistan. Yugoslavia. NATO allies and Warsaw Pact neighbours alike — all queuing to purchase what Crypto AG promised was unbreakable encryption.",
+      "visual_description": "Montage-style sequence of flags from multiple nations rendered in muted Kodachrome tones, slowly fading in and out against a dark background, intelligence dossier overlay texture",
+      "on_screen_text": "CLIENTS: IRAN · LIBYA · ARGENTINA · INDIA · PAKISTAN · ITALY · VATICAN · 120+ NATIONS",
+      "sfx_prompt": "Faint radio transmissions overlapping, global communications ambience",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 208,
+      "narration": "By the 1950s, Crypto AG had grown from a small workshop into a global enterprise. Revenue exploded from a hundred thousand Swiss francs in the early years to fourteen million francs by the 1970s. The machines were everywhere.",
+      "visual_description": "Wide shot of a busy 1960s corporate office, suited executives studying sales charts, world map on the wall with pins marking client countries, Kodachrome office aesthetic, warm tungsten lighting",
+      "on_screen_text": "REVENUE: CHF 100K (1950s) → CHF 14M (1970s)",
+      "sfx_prompt": "Office chatter murmur, adding machine clatter",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 224,
+      "narration": "But even before Crypto AG became the world's most trusted name in encryption, the United States had already begun quietly corrupting it. The gentleman's agreement between Hagelin and Friedman dated back to 1954.",
+      "visual_description": "Two shadowy figures shaking hands across a mahogany desk, neither face fully visible, single overhead lamp creating dramatic shadows, Kodachrome noir, 1950s government office aesthetic",
+      "on_screen_text": "THE GENTLEMAN'S AGREEMENT — 1954",
+      "sfx_prompt": "Deep string note, clock ticking slowly",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 238,
+      "narration": "It was never written down. There was no contract, no signature. Just an understanding: Hagelin would supply the NSA with complete technical specifications for every machine he built. He would tell them which countries were buying which models.",
+      "visual_description": "Close-up of technical blueprint drawings of a cipher machine, engineering diagrams spread across a table, a hand pointing at rotor mechanisms, shadowy office, Kodachrome 1950s film grain",
+      "on_screen_text": "",
+      "sfx_prompt": "Paper sliding across desk, low ambient hum",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 254,
+      "narration": "And crucially — he would deny his most secure machines to certain countries. The nations on that list would receive cipher equipment that the NSA could crack. The nations not on the list got the real thing.",
+      "visual_description": "Tight shot of a typed list of country names on yellowed paper, some crossed out in red pencil, desk lamp casting amber light, dramatic shadow, archival document aesthetic, Kodachrome grain",
+      "on_screen_text": "APPROVED BUYER LIST — CLASSIFIED",
+      "sfx_prompt": "Typewriter keys, single deliberate keystroke",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 270,
+      "narration": "The NSA even wrote the operations manuals for some CX-52 machines sold to targeted countries — ensuring those governments would configure them sub-optimally, reducing the work needed to break their traffic from impossible to merely routine.",
+      "visual_description": "Close-up of an official-looking operations manual for a cipher machine, pages dense with technical instructions, government document formatting, desk lamp illumination, slightly worn edges, Kodachrome archival style",
+      "on_screen_text": "NSA WRITES OPERATIONS MANUALS FOR TARGETED NATIONS",
+      "sfx_prompt": "Manual pages turning, tense low string",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 287,
+      "narration": "In 1960, the CIA formalized the arrangement — replacing the NSA as Hagelin's primary handler — under a licensing operation codenamed SPARTAN. Hagelin received six hundred thousand dollars upfront and seventy-five thousand dollars every year.",
+      "visual_description": "Overhead shot of a signed agreement document with monetary figures visible, a government seal partially shown, hands placing cash bundles beside it, cinematic noir overhead light, Kodachrome noir",
+      "on_screen_text": "OPERATION SPARTAN — 1960 · $600K + $75K/YEAR TO HAGELIN",
+      "sfx_prompt": "Pen signing document, briefcase clasp clicking",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 304,
+      "narration": "Imagine you are Boris Hagelin in 1967. You are seventy-five years old. You are wealthy beyond most men's dreams. And you are approached by two visitors with a proposition that will define your legacy — or destroy it.",
+      "visual_description": "Elegant 1960s Zurich hotel lobby, an elderly distinguished man in a dark suit seated in a leather chair, two other men approaching from opposite sides, overhead chandelier, cinematic wide shot, Kodachrome warm amber tones",
+      "on_screen_text": "PARIS — JANUARY 1967",
+      "sfx_prompt": "Hotel lobby ambience, footsteps on marble",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 321,
+      "narration": "French intelligence officer André Mueller had approached Hagelin in Paris with an offer: sell Crypto AG to a joint French-German partnership. Hagelin listened carefully. And then he picked up the phone and called the CIA.",
+      "visual_description": "Tight shot of a rotary phone handset being lifted from its cradle, a man's hand in a tailored suit sleeve, dim hotel room background, single lamp, Kodachrome 1960s noir aesthetic",
+      "on_screen_text": "",
+      "sfx_prompt": "Rotary phone dial spinning, phone ringing once",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 336,
+      "narration": "The CIA moved immediately. France was shut out. West Germany's BND was brought in as a fifty-fifty partner. And Siemens — one of West Germany's most powerful corporations — was used as the public front for the purchase.",
+      "visual_description": "Wide shot of a 1960s West German corporate headquarters, Siemens signage visible, suited men entering through revolving doors, grey overcast sky, Kodachrome cold color palette",
+      "on_screen_text": "BND + CIA — SIEMENS AS FRONT COMPANY",
+      "sfx_prompt": "Revolving door, city traffic, Cold War news broadcast crackle",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 351,
+      "narration": "On the fourth of June 1970, Boris Hagelin signed the papers. Crypto AG — the company he had built over five decades — passed to the Bundesnachrichtendienst and the Central Intelligence Agency for twenty-five million Swiss francs.",
+      "visual_description": "Close-up of hands signing a document, fountain pen, aged paper, a second hand placing a stack of banded currency notes beside the document, overhead lamp, deep shadows, Kodachrome noir",
+      "on_screen_text": "4 JUNE 1970 — CRYPTO AG SOLD FOR CHF 25 MILLION (~$7M)",
+      "sfx_prompt": "Pen scratching signature, papers folding",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 368,
+      "narration": "Eight days later, the CIA and BND signed their own memorandum of understanding. Each held fifty percent. The operation was renamed THESAURUS — Greek for treasury. Crypto AG was internally codenamed MINERVA.",
+      "visual_description": "Two sets of hands reaching across a conference table to shake, national intelligence agency seals blurred in background, overhead fluorescent light, government conference room 1970s aesthetic, Kodachrome cold blue tones",
+      "on_screen_text": "12 JUNE 1970 — OPERATION THESAURUS BEGINS · CRYPTO AG = 'MINERVA'",
+      "sfx_prompt": "Handshake, briefcase latching, low drone music sting",
+      "music_intensity": 0.6,
+      "pause_after": 0.8,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 387,
+      "narration": "The genius of the operation was its simplicity. Crypto AG did not need to change. It kept its Swiss headquarters, its Swiss employees, its Swiss reputation for neutrality. The only thing that changed was invisible: the mathematics inside the machines.",
+      "visual_description": "Interior of the Crypto AG factory floor, technicians in white coats assembling electronic components under clean fluorescent lighting, 1970s industrial aesthetic, Kodachrome warm tones, slow tracking shot",
+      "on_screen_text": "",
+      "sfx_prompt": "Electronics assembly line hum, soldering iron, ventilation",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 403,
+      "narration": "The NSA designed the algorithms embedded in Crypto AG's new electronic cipher machines. Motorola and Siemens provided covert technical support and components. And deep inside each device, imperceptible to any buyer, was a deliberate mathematical weakness.",
+      "visual_description": "Extreme close-up of a circuit board with integrated circuits and soldered components, electron microscope aesthetic, cold clinical lighting, technical detail visible, Kodachrome grain overlay on modern electronics aesthetic",
+      "on_screen_text": "NSA DESIGNS THE ALGORITHMS · MOTOROLA + SIEMENS: COVERT VENDORS",
+      "sfx_prompt": "Oscilloscope tone, electronic hum",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 420,
+      "narration": "Not a backdoor in the conventional sense. Subtler than that. The encryption appeared mathematically sound. It would defeat any amateur attacker. But the NSA — and only the NSA — knew the precise structure of the weakness. They could read it as easily as plain text.",
+      "visual_description": "Visualization of encrypted text transforming into readable words on a vintage green-screen terminal, operator seated before it in a dark NSA-style operations room, 1970s technology aesthetic, low red ambient light",
+      "on_screen_text": "",
+      "sfx_prompt": "Terminal key clatter, printer paper rolling",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 438,
+      "narration": "And this was not limited to adversaries. America's stated neutrality made no difference inside Operation Rubicon. The machines read by the CIA included traffic from Italy, Spain, Portugal, Turkey, Belgium — NATO allies — along with Iran, Iraq, Libya, and every major Latin American government.",
+      "visual_description": "CIA operations center, 1970s era, multiple analysts at desks with headsets and paper printouts, world map on the wall with lights marking active intercept feeds, low overhead lighting, Kodachrome amber",
+      "on_screen_text": "TARGETS: ALLIES + ADVERSARIES + NEUTRAL STATES",
+      "sfx_prompt": "Radio intercept static, teletype machine continuous",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 457,
+      "narration": "By 1977, NSA analysts were reading fifty-seven percent of all foreign encrypted traffic that passed through their intercept stations. Without MINERVA, that figure had been twenty-nine percent. Crypto AG had nearly doubled the NSA's window into the world.",
+      "visual_description": "Bar chart overlay in vintage infographic style — two bars labeled 'WITHOUT MINERVA' and 'WITH MINERVA', deep red color scheme, intelligence briefing document aesthetic, Kodachrome paper texture",
+      "on_screen_text": "SIGINT READABLE: 29% → 57% WITH MINERVA",
+      "sfx_prompt": "Briefing room ambience, pointer tapping board",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 474,
+      "narration": "By 1980, ninety-six percent of that intercept traffic was coming from electronic sources — the very generation of machines the NSA had designed. And the CIA's own internal history, later declassified, called it simply: the intelligence coup of the century.",
+      "visual_description": "Close-up of a stamped TOP SECRET CIA document header, text partially redacted with black bars, a single unredacted phrase visible, dramatic lamp illumination, Kodachrome document grain",
+      "on_screen_text": "\"THE INTELLIGENCE COUP OF THE CENTURY\" — CIA INTERNAL HISTORY",
+      "sfx_prompt": "Rubber stamp thud, paper slide",
+      "music_intensity": 0.5,
+      "pause_after": 0.8,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 492,
+      "narration": "Consider what that meant in practice. In 1978, President Jimmy Carter sat down with Egyptian President Anwar Sadat and Israeli Prime Minister Menachem Begin at Camp David. The negotiations to broker a Middle East peace deal were extraordinarily sensitive.",
+      "visual_description": "Wide establishing shot of Camp David retreat, wooded surroundings, 1978 late summer light, American flags, suited diplomats walking between buildings, Kodachrome warm tones, slow push-in",
+      "on_screen_text": "CAMP DAVID ACCORDS — SEPTEMBER 1978",
+      "sfx_prompt": "Crickets, distant helicopter, diplomatic ambience",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 509,
+      "narration": "What Sadat did not know was that the Carter administration was reading every encrypted cable he sent back to Cairo. Every negotiating position. Every private instruction to his delegation. The Americans knew Egypt's bottom line before Sadat spoke a single word at the table.",
+      "visual_description": "Tight shot of diplomatic cables being handed to a senior intelligence official in a suit, Situation Room 1978 aesthetic, American flags, wood paneling, Kodachrome amber light",
+      "on_screen_text": "",
+      "sfx_prompt": "Paper passing hands, quiet room tension",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 527,
+      "narration": "Eight years later, in April 1986, a bomb tore through La Belle discotheque in West Berlin. Two American soldiers and a Turkish civilian were killed. Seventy-nine people were injured. Reagan wanted answers.",
+      "visual_description": "Night shot of a West Berlin street, emergency vehicles outside a damaged nightclub, overturned chairs visible through shattered windows, 1986 news photograph aesthetic, harsh flash photography, Kodachrome cold blue and amber",
+      "on_screen_text": "LA BELLE DISCOTHEQUE — WEST BERLIN · 4 APRIL 1986",
+      "sfx_prompt": "Distant explosion echo, emergency sirens, crowd noise",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 545,
+      "narration": "He got them immediately. The CIA had intercepted diplomatic traffic between Tripoli and the Libyan embassy in East Berlin via Libyan Crypto AG machines. The messages were unambiguous: Libyan intelligence had planned the attack and was congratulating itself on the results.",
+      "visual_description": "Tight close-up of a decoded intercept printout, key phrases highlighted in yellow marker, CIA analyst's desk, 1986 operations room aesthetic, red desk lamp, Kodachrome noir",
+      "on_screen_text": "LIBYAN DIPLOMATIC TRAFFIC — INTERCEPTED VIA CRYPTO AG",
+      "sfx_prompt": "Teletype print, urgent low string",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 563,
+      "narration": "Ten days later, Reagan announced on national television that he had — quote — irrefutable evidence linking Muammar Gaddafi to the bombing. He then ordered air strikes on Tripoli and Benghazi. One hundred and seven people were killed.",
+      "visual_description": "1986 television broadcast aesthetic, Reagan at the Oval Office desk, American flags, slight scan-line TV distortion, Kodachrome warm tones, slight vignette",
+      "on_screen_text": "\"IRREFUTABLE EVIDENCE\" — PRESIDENT REAGAN · APRIL 14, 1986",
+      "sfx_prompt": "1980s television broadcast static, applause, military jet audio",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 581,
+      "narration": "Reagan never said how he knew. The word Crypto AG was never mentioned. But the moment he said irrefutable evidence in public, intelligence analysts in Iran and elsewhere began asking a very uncomfortable question: how could America be so certain?",
+      "visual_description": "Split composition — left: Reagan at podium; right: Iranian intelligence analyst studying a Crypto AG cipher machine, both in Kodachrome color, cinematic noir split screen, cold blue tones",
+      "on_screen_text": "",
+      "sfx_prompt": "TV broadcast fade, tense string note rising",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 598,
+      "narration": "Meanwhile, in 1982, Argentina and Britain went to war over the Falkland Islands in the South Atlantic. Argentina's military communicated through HC-500 and HC-520 cipher machines — both manufactured by Crypto AG. Both designed by the NSA.",
+      "visual_description": "Wide South Atlantic seascape, grey skies and heavy swells, Argentine naval vessels visible on horizon, 1982 war photography aesthetic, Kodachrome cold blue-grey palette, dramatic low clouds",
+      "on_screen_text": "FALKLANDS WAR — APRIL–JUNE 1982",
+      "sfx_prompt": "Ocean waves, distant ship engines, wind",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 614,
+      "narration": "The CIA was reading Argentina's military dispatches and diplomatic cables in real time. That intelligence was passed directly to GCHQ — Britain's signals intelligence agency — and from there to the commanders of the British task force.",
+      "visual_description": "1982 GCHQ operations center, analysts at long consoles with early computer terminals, printed intercept rolls, low fluorescent lighting, British institutional aesthetic, Kodachrome green-grey tones",
+      "on_screen_text": "CIA → GCHQ → BRITISH TASK FORCE",
+      "sfx_prompt": "Radio intercept hiss, naval command radio chatter",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 630,
+      "narration": "Britain's stated justification for the Falklands campaign was sovereignty. But Britain also had something else: a real-time intelligence advantage of incalculable value, derived from the cipher machines Argentina believed were protecting them.",
+      "visual_description": "Overhead shot of an Argentine cipher operator working a portable HC-520 machine in a field command post, radio equipment surrounding, camouflage netting, Falklands terrain, 1982 military aesthetic, Kodachrome cold tones",
+      "on_screen_text": "",
+      "sfx_prompt": "Military radio static, wind over hills",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 647,
+      "narration": "After the war, Argentine cryptographers grew suspicious. Suspiciously specific British intelligence decisions during the conflict seemed to track Argentine movements too precisely. They began examining their HC-500 machines.",
+      "visual_description": "Post-war Argentine intelligence office, uniformed officers bent over a disassembled cipher machine on a table, technical manuals open beside it, harsh single overhead lamp, Kodachrome amber",
+      "on_screen_text": "",
+      "sfx_prompt": "Tools on metal, quiet analytical tension",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 663,
+      "narration": "The CIA moved to contain the damage. They dispatched a Swedish cryptomathematician known inside the operation as ATHENA — his real name, Kjell-Ove Widman — to Buenos Aires. His job: convince Argentina their machines were unbreakable.",
+      "visual_description": "Suited man in his forties descending aircraft stairs at Buenos Aires international airport, 1982 era, overcast Patagonian sky, briefcase in hand, cinematic low-angle shot, Kodachrome film grain",
+      "on_screen_text": "CODENAME: ATHENA — KJELL-OVE WIDMAN",
+      "sfx_prompt": "Jet engine wind-down, airport ambience",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 679,
+      "narration": "Widman met with Argentine cryptographic officials. He ran technical demonstrations. He produced analysis. He told them the problem lay with their voice scramblers — not the cipher machines. Argentina accepted his explanation and continued buying Crypto AG equipment.",
+      "visual_description": "Conference room scene, a technical expert presenting diagrams to uniformed military officers, pointing at cipher machine components on a table, 1982 Buenos Aires government building aesthetic, Kodachrome warm tones",
+      "on_screen_text": "",
+      "sfx_prompt": "Projector hum, pointer on board, tense silence",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 696,
+      "narration": "Widman had lied directly to the faces of Argentine intelligence officers, while the CIA was still reading their traffic. He served in this crisis-management role for fifteen years — from 1980 to 1995 — under the CIA cryptonym ATHENA.",
+      "visual_description": "Close-up of a man's face in partial shadow, slight smile, government office background, moral ambiguity visible in expression, cinematic noir portrait, Kodachrome desaturated",
+      "on_screen_text": "ATHENA — ACTIVE 1980–1995",
+      "sfx_prompt": "Clock ticking, low hum",
+      "music_intensity": 0.5,
+      "pause_after": 0.8,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 714,
+      "narration": "But keeping the secret required more than just managing suspicious governments. It required managing suspicious employees. And in 1977, Crypto AG's own Head of Research and Development came dangerously close to exposing everything.",
+      "visual_description": "Hallway of a corporate office building, a lone figure carrying a box of personal belongings walking toward an exit, fluorescent lighting casting harsh shadows, 1977 Swiss office aesthetic, Kodachrome cold blue",
+      "on_screen_text": "",
+      "sfx_prompt": "Echoing footsteps on tiled floor, door closing",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 729,
+      "narration": "His name was Peter Frutiger. He was Crypto AG's most technically capable cryptographic engineer. And in the mid-1970s, he made a discovery that put his career — and possibly his life — in danger.",
+      "visual_description": "Engineer's desk covered in algorithm printouts and cipher machine schematics, a lamp casting tight yellow light, a man's hands frozen mid-analysis, Kodachrome technical noir aesthetic",
+      "on_screen_text": "PETER FRUTIGER — HEAD OF R&D, CRYPTO AG",
+      "sfx_prompt": "Pencil pausing, clock ticking",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 744,
+      "narration": "Frutiger had found the weaknesses. He didn't know they were deliberate — he simply recognized flawed cryptography when he saw it. And being a professional, he fixed them. Twice. In the MCC-314 in 1974. In the CSE-280 voice encryptor in 1976.",
+      "visual_description": "Close-up of a cipher machine circuit board with a hand replacing a component, precision engineering, clean laboratory table, 1970s electronics, Kodachrome clinical lighting",
+      "on_screen_text": "MCC-314 FIXED: 1974 · CSE-280 FIXED: 1976",
+      "sfx_prompt": "Precision tools, electronic component click",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 760,
+      "narration": "Each time he improved a machine's security, panic rippled through the CIA-BND management chain. NSA controllers operating through CIA Station Munich — codenamed SPACEPORT — ordered the improvements reversed. Frutiger was overruled by his own superiors, for reasons no one would explain.",
+      "visual_description": "Split screen: left — engineer studying algorithm on paper; right — suited CIA handler on a secure telephone in a Munich station office, both in Kodachrome noir tones, cinematic parallel composition",
+      "on_screen_text": "CIA STATION MUNICH: CODENAME 'SPACEPORT'",
+      "sfx_prompt": "Secure phone line static, urgent tones",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 778,
+      "narration": "On the tenth of March 1977, Peter Frutiger was fired. The same day he was fired, he walked to the Swiss Ministry of Justice and filed formal criminal charges: Crypto AG was selling deliberately compromised cipher machines to foreign governments.",
+      "visual_description": "Man in a winter coat climbing stone steps of a Swiss government building, grey Zurich sky, 1977 era, Kodachrome cold tones, wide shot, purposeful stride",
+      "on_screen_text": "10 MARCH 1977 — FRUTIGER FILES CRIMINAL CHARGES",
+      "sfx_prompt": "Winter wind, heavy door opening, echoing entrance hall",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 795,
+      "narration": "The Swiss Bundespolizei investigated. They examined Crypto AG machines. They found that — and this is their own wording — the algorithms were not what they should be. But the evidence, they concluded, was insufficient for prosecution.",
+      "visual_description": "Swiss police examination of a cipher machine on an evidence table, white-gloved hands, forensic laboratory lighting, institutional grey, 1977 aesthetic, Kodachrome cool tones",
+      "on_screen_text": "SWISS POLICE: \"ALGORITHMS WERE NOT WHAT THEY SHOULD BE\"",
+      "sfx_prompt": "Evidence table scrape, institutional silence",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 813,
+      "narration": "Why insufficient? Because Swiss military intelligence officials — who were fully aware of the CIA-BND operation — had quietly steered the investigation away from conclusions. One official privately told the CIA he could handle four of the five cryptomathematicians likely to examine the machines.",
+      "visual_description": "Dark suited figure making a phone call in a wood-paneled Swiss government office, night outside the window, single desk lamp, briefing document visible, Kodachrome noir amber",
+      "on_screen_text": "",
+      "sfx_prompt": "Rotary phone dial, muffled voice on line",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 831,
+      "narration": "Switzerland — officially neutral, officially uninvolved — was, in fact, complicit. Its intelligence services had known about Operation Rubicon since at least 1993. Its officials had actively protected it. The country that sold neutrality to the world was anything but.",
+      "visual_description": "Swiss flag against an overcast sky, neutral institutional facade, pedestrians in business dress below, Zurich financial district 1970s aesthetic, slow zoom-out, Kodachrome muted tones",
+      "on_screen_text": "SWISS INTELLIGENCE: AWARE OF OPERATION — ACTIVELY PROTECTED IT",
+      "sfx_prompt": "Wind over open square, distant tram",
+      "music_intensity": 0.5,
+      "pause_after": 0.8,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 849,
+      "narration": "Frutiger's warning died quietly in Swiss bureaucracy. The operation continued. The machines kept selling. And by 1988, the CIA was decrypting nineteen thousand Iranian messages in a single year — eighty to ninety percent of Iran's entire diplomatic traffic.",
+      "visual_description": "CIA operations center at night, multiple analysts under low lighting, walls covered in intercept data printouts pinned to boards, green-screen terminals glowing, 1988 era, Kodachrome amber and green",
+      "on_screen_text": "1988: 19,000 IRANIAN MESSAGES DECRYPTED — 80–90% OF TOTAL TRAFFIC",
+      "sfx_prompt": "Operations center hum, printer rolling, quiet urgency",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 866,
+      "narration": "Then came the crack in the foundation. On the seventh of August 1991, the body of former Iranian Prime Minister Shapour Bakhtiar was found murdered in his Paris apartment. He had been stabbed twenty-six times.",
+      "visual_description": "Paris apartment building exterior at night, gendarmerie vehicles with flashing lights, 1991 crime scene press photography aesthetic, rain-slicked cobblestones, Kodachrome cold blue night tones",
+      "on_screen_text": "PARIS — 7 AUGUST 1991",
+      "sfx_prompt": "Distant police siren, rain on pavement",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 882,
+      "narration": "The previous day — one day before the body was discovered — Iranian intelligence had transmitted a coded message to its embassies via Crypto AG machines asking a simple question: is Bakhtiar dead? Western services intercepted and decoded it instantly.",
+      "visual_description": "Decoded intelligence message on a terminal screen, Farsi text with English translation beside it, timestamp visible, CIA operations room 1991, low red ambient light, Kodachrome grain",
+      "on_screen_text": "INTERCEPT: \"IS BAKHTIAR DEAD?\" — IRANIAN INTELLIGENCE, 6 AUG 1991",
+      "sfx_prompt": "Terminal key click, sharp low string note",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 899,
+      "narration": "Iran now knew. Their most sensitive diplomatic cipher machines had been compromised. The evidence was irrefutable. And they needed someone to blame. They found him six months later, on a routine sales trip to Tehran.",
+      "visual_description": "Tehran airport arrival hall, 1992 era, suited Western businessman with briefcase approaching customs, Iranian officials watching, fluorescent institutional lighting, Kodachrome cold tones",
+      "on_screen_text": "TEHRAN — MARCH 1992",
+      "sfx_prompt": "Airport ambience, foreign language announcements overhead",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 915,
+      "narration": "Hans Bühler was fifty-one years old. He had spent his career as Crypto AG's top salesman across the Arab world — Iran, Saudi Arabia, the Gulf states. He was passionate about his work. He believed in the product. He had absolutely no idea it was rigged.",
+      "visual_description": "Portrait-style shot of a middle-aged European businessman, warm professional lighting, sales presentation materials visible in background, honest open expression, 1990s corporate aesthetic, Kodachrome warm amber",
+      "on_screen_text": "HANS BÜHLER — CRYPTO AG SALES REPRESENTATIVE",
+      "sfx_prompt": "Briefcase opening, presentation papers",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 931,
+      "narration": "On the fourteenth of March 1992, Bühler flew to Tehran for a standard sales call. He had a return ticket for six days later. He would not use it.",
+      "visual_description": "Window seat of a commercial aircraft, man looking out at clouds, boarding pass visible, melancholy mood, 1992 air travel aesthetic, Kodachrome overcast blue-grey",
+      "on_screen_text": "14 MARCH 1992",
+      "sfx_prompt": "Jet engine hum, cabin ambience",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 944,
+      "narration": "Iranian authorities arrested him on charges of espionage, bribery, and illegal contacts. He was held with three others including his local distributor. For the CIA, this was a crisis of the first order.",
+      "visual_description": "Stark Iranian interrogation room, bare walls, single hanging bulb, a man seated across from uniformed officials, 1992 era, harsh shadows, Kodachrome cold institutional tones",
+      "on_screen_text": "ARRESTED: 14 MARCH 1992 — CHARGES: ESPIONAGE",
+      "sfx_prompt": "Door slamming, institutional echo",
+      "music_intensity": 0.7,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 959,
+      "narration": "Not because Bühler knew the secret — he didn't. But because if Iran's interrogators were thorough enough, they might find a thread that led back to the operation. The CIA scrambled to assess exactly how much Bühler knew. The answer was a relief: nothing.",
+      "visual_description": "CIA officer in a secure communications room, reading a classified cable under a lamp, hand on forehead, tension visible, 1992 Langley aesthetic, Kodachrome cold blue",
+      "on_screen_text": "",
+      "sfx_prompt": "Secure fax printing, anxious quiet",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 977,
+      "narration": "For nine months, Hans Bühler was interrogated three times a day. He told his captors everything he knew about his Iranian business contacts — information that led to fifteen additional arrests. But on the question of cipher machine backdoors, he could tell them nothing. Because there was nothing to tell.",
+      "visual_description": "Close-up of a man's hands on an interrogation table, exhausted, chapped, 1992 Iranian detention aesthetic, harsh overhead bulb, deep shadows, Kodachrome desaturated",
+      "on_screen_text": "9 MONTHS IN CUSTODY — INTERROGATED 3× DAILY",
+      "sfx_prompt": "Chair scraping concrete, long silence",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 996,
+      "narration": "Iran set bail at one million U.S. dollars. The CIA agreed — in principle — to split the cost with the BND. Then the White House intervened. It was deemed legally and politically impossible for the CIA to pay ransom for a Swiss civilian. The CIA's contribution was blocked.",
+      "visual_description": "White House exterior, 1992, overcast Washington D.C. sky, suited officials entering through side entrance, institutional distance, Kodachrome cold tones",
+      "on_screen_text": "BAIL: $1,000,000 — WHITE HOUSE BLOCKS CIA CONTRIBUTION",
+      "sfx_prompt": "Helicopter distant, formal ambience",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1013,
+      "narration": "The BND paid the entire one million dollars alone — transferred through a covert West German financial mechanism called the Bundesvermögensverwaltung, a shadow treasury that channeled classified funds without parliamentary oversight.",
+      "visual_description": "German banking office 1992, suited official completing a wire transfer, stacks of documents, foreign account numbers on screen, Bundesvermögensverwaltung interior aesthetic, Kodachrome cold Germanic tones",
+      "on_screen_text": "BND PAYS FULL $1M — VIA COVERT 'BVV' MECHANISM",
+      "sfx_prompt": "Keyboard entering transfer, printer confirmation",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1030,
+      "narration": "On the fifth of January 1993, Hans Bühler landed at Zürich airport. He was gaunt. He was traumatized. And at the arrival gate, a journalist who had been tracking the story slipped a business card into his coat pocket.",
+      "visual_description": "Zürich airport arrivals hall, 1993, a thin hollow-eyed man in a winter coat, press photographers at the barrier, cold Swiss winter light through tall windows, Kodachrome pale tones",
+      "on_screen_text": "5 JANUARY 1993 — HANS BÜHLER ARRIVES ZÜRICH",
+      "sfx_prompt": "Airport crowd murmur, camera shutters clicking",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1046,
+      "narration": "Crypto AG fired Bühler in March 1993 — against the explicit wishes of the CIA and BND, who wanted to keep him close and contained. The firing was the worst decision the operation ever made.",
+      "visual_description": "Man carrying a cardboard box of personal items through a corporate lobby, receptionist watching, harsh fluorescent light, 1993 Swiss office building, Kodachrome clinical tones",
+      "on_screen_text": "10 MARCH 1993 — BÜHLER FIRED",
+      "sfx_prompt": "Lobby door opening, outdoor sound rushing in",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1061,
+      "narration": "Bühler found that business card in his pocket. He called the number. It was answered by Peter Frutiger — the same R&D engineer the CIA had fired in 1977 for making the machines too secure. The two men who had come closest to the truth found each other.",
+      "visual_description": "Man holding a phone to his ear in a small apartment, looking at a crumpled business card in his other hand, 1993 Swiss domestic interior, lamp-lit, Kodachrome warm amber, slight tension in posture",
+      "on_screen_text": "",
+      "sfx_prompt": "Phone ringing, click of answer",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1076,
+      "narration": "On the twenty-third of March 1994, Hans Bühler and Peter Frutiger appeared on Swiss and Austrian national television. Bühler recounted his nine months in an Iranian prison. Frutiger appeared in silhouette, his voice digitally distorted, and stated: my life might be in danger.",
+      "visual_description": "1994 television studio broadcast, a man in silhouette against a bright back-lit screen being interviewed, voice distortion equipment visible, broadcast studio cables, Kodachrome TV grain aesthetic",
+      "on_screen_text": "\"MY LIFE MIGHT BE IN DANGER\" — PETER FRUTIGER · 23 MARCH 1994",
+      "sfx_prompt": "TV broadcast static, distorted voice effect, studio ambience",
+      "music_intensity": 0.7,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1094,
+      "narration": "The broadcast reached hundreds of thousands of viewers across Switzerland and Austria. For the first time, the possibility of CIA manipulation of Crypto AG was on mainstream television. Inside Langley, the panic was extraordinary.",
+      "visual_description": "CIA headquarters corridors, 1994, suited officials walking quickly with files, urgent atmosphere, Kodachrome institutional fluorescent, slight motion blur suggesting urgency",
+      "on_screen_text": "",
+      "sfx_prompt": "Rapid footsteps on linoleum, urgent muffled voices",
+      "music_intensity": 0.7,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1110,
+      "narration": "But the operation survived. The CIA's strategy: bury Bühler in legal process. A restraining order was obtained. Then a lawsuit. A settlement was reached in 1995 — Bühler would declare there were no grounds for his accusations. The CIA paid his legal bills, up to one hundred and fifty thousand Swiss francs.",
+      "visual_description": "Swiss court building exterior, a man in a dark coat descending steps alone, legal documents under his arm, overcast Zurich sky, Kodachrome cold tones, defeated posture",
+      "on_screen_text": "1995 SETTLEMENT — BÜHLER SILENCED",
+      "sfx_prompt": "Court door closing, city ambience",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1128,
+      "narration": "The Bühler affair had one lasting casualty — the CIA-BND partnership. The Germans had been forced to pay the entire million-dollar bail. They resented the White House veto that left them exposed. By December 1993, the BND had negotiated its exit.",
+      "visual_description": "West German federal intelligence service building, 1993, overcast Pullach sky, black government cars in the forecourt, Bundesnachrichtendienst signage, Kodachrome cold grey",
+      "on_screen_text": "DECEMBER 1993 — BND EXITS OPERATION RUBICON",
+      "sfx_prompt": "Car door, formal handshake ambience",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1143,
+      "narration": "The CIA bought out the BND's fifty percent share for seventeen point one million dollars — paid in December 1993. From July 1994 onwards, Crypto AG — and every government's most secret communications — belonged exclusively to the Central Intelligence Agency.",
+      "visual_description": "CIA officer signing a transfer agreement, Liechtenstein holding company documents visible, covert ownership paperwork spread across a table, single lamp, cinematic overhead shot, Kodachrome noir",
+      "on_screen_text": "CIA BUYOUT: $17.1M — JULY 1994, CIA SOLE OWNER",
+      "sfx_prompt": "Pen signing, papers folding",
+      "music_intensity": 0.5,
+      "pause_after": 0.8,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1162,
+      "narration": "The operation continued for another twenty-four years. Through Clinton. Through Bush. Through Obama. Through Trump's first term. The world changed around it — the Cold War ended, the internet transformed communications, the War on Terror reshaped intelligence priorities — and Crypto AG kept selling.",
+      "visual_description": "Montage-style timeline visualization, decade markers passing — 1994, 2001, 2008, 2016 — against a dark background with Cold War icons fading into modern technology imagery, Kodachrome grain transitioning to digital aesthetic",
+      "on_screen_text": "1994 → 2018: CIA SOLE OWNERSHIP",
+      "sfx_prompt": "News broadcast fragments across decades, clock ticking",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1179,
+      "narration": "In January 2018, with little fanfare, Crypto AG was liquidated. Its assets were split into two new companies: CyOne Security for the Swiss domestic market, and Crypto International AG for international sales, acquired by Swedish entrepreneur Andreas Linde.",
+      "visual_description": "Aerial shot of the Steinhausen office building in winter, 2018, cleared parking lot, a few moving boxes visible through glass lobby, corporate dissolution aesthetic, cold white winter light, Kodachrome desaturated",
+      "on_screen_text": "JANUARY 2018 — CRYPTO AG LIQUIDATED",
+      "sfx_prompt": "Empty building ambient hum, final papers",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1194,
+      "narration": "The CIA never announced the closure. The liquidation of MINERVA generated no press release, no congressional statement, no acknowledgment. The operation simply stopped, as quietly as it had begun.",
+      "visual_description": "Empty corporate office interior, chairs stacked on tables, lights off except for emergency exit signs, 2018 abandoned building aesthetic, cold blue ambient light, Kodachrome grain",
+      "on_screen_text": "",
+      "sfx_prompt": "Single drip of water, profound silence",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1208,
+      "narration": "Then, on the eleventh of February 2020, everything changed. The Washington Post, Germany's ZDF television, and Switzerland's SRF public broadcaster published a joint investigation. They had obtained a declassified CIA history — two hundred and eighty pages — that confirmed everything.",
+      "visual_description": "Washington Post newsroom 2020, journalists at multiple monitors displaying the breaking story, large screens showing the front page headline, dramatic overhead lighting, modern newsroom aesthetic",
+      "on_screen_text": "11 FEBRUARY 2020 — WASHINGTON POST / ZDF / SRF INVESTIGATION PUBLISHED",
+      "sfx_prompt": "Newsroom ambient, keyboard typing, breaking news alert tone",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1225,
+      "narration": "The CIA history's own conclusion, now public, was direct: it was the intelligence coup of the century. Foreign governments were paying good money to the United States and West Germany for the privilege of having their most secret communications read by at least two — and possibly as many as five or six — foreign countries.",
+      "visual_description": "Close-up of a newspaper front page with the headline 'The Intelligence Coup of the Century', reader's hands visible at edges, dramatic lamp light, slight newsprint texture, Kodachrome warm amber",
+      "on_screen_text": "\"THE INTELLIGENCE COUP OF THE CENTURY\" — CIA INTERNAL HISTORY, DECLASSIFIED 2020",
+      "sfx_prompt": "Newspaper pages, television broadcast ambient",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1245,
+      "narration": "The reaction from client nations was immediate and furious. Jordan called it a grave breach of trust. Italy opened inquiries. Switzerland launched a parliamentary investigation that confirmed Swiss intelligence had known about the operation since at least 1993 — and had protected it.",
+      "visual_description": "United Nations assembly hall, delegations murmuring, national flags in rows, 2020 diplomatic confrontation aesthetic, television broadcast wide shot, cold fluorescent institutional lighting",
+      "on_screen_text": "SWISS PARLIAMENTARY INVESTIGATION: SWISS INTEL KNEW FROM 1993",
+      "sfx_prompt": "Assembly hall murmur, microphone feedback",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1261,
+      "narration": "The diplomatic fallout extended even to Sweden. Switzerland had imposed export controls on Crypto International AG following the revelations. Sweden cancelled plans to mark a hundred years of diplomatic relations with Switzerland in protest. Two countries bound together by one company's secret.",
+      "visual_description": "Swedish and Swiss flags side by side, 2020, European governmental building exterior, diplomatic tension visible in body language of officials at a press conference, Kodachrome cold tones",
+      "on_screen_text": "",
+      "sfx_prompt": "Wind, quiet diplomatic tension",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1277,
+      "narration": "Hans Bühler never learned the truth. He died on the twenty-seventh of July 2018 — five months after Crypto AG was liquidated, and eighteen months before the public exposure. The man who came closest to unraveling the secret died still under the shadow of the settlement that had silenced him.",
+      "visual_description": "Empty chair at a small kitchen table, a cup of tea going cold, a newspaper folded nearby, afternoon light through Swiss apartment window, 2018 domestic aesthetic, Kodachrome warm amber with slight sadness",
+      "on_screen_text": "HANS BÜHLER — 12 JULY 1941 – 27 JULY 2018",
+      "sfx_prompt": "Quiet room, clock ticking, distant birdsong",
+      "music_intensity": 0.3,
+      "pause_after": 0.8,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 1296,
+      "narration": "What does Operation Rubicon mean? Considered purely as an intelligence achievement, it was without parallel. For nearly seven decades, the United States possessed the private communications of over a hundred and twenty governments — allies, adversaries, and everyone in between.",
+      "visual_description": "Wide cinematic shot of a globe in low lamplight, continents faintly visible, spy network lines overlaid as thin light traces connecting capitals, Kodachrome amber-blue gradient, slow rotation",
+      "on_screen_text": "",
+      "sfx_prompt": "Deep bass note, contemplative strings building",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1312,
+      "narration": "It shaped wars. The Falklands. Panama. Libya. It shaped negotiations — Camp David. It shaped the surveillance apparatus of entire nations — Mexico built its modern intelligence infrastructure, in part, through its CIA partnership. It shaped who lived and who died, though most of that will remain classified forever.",
+      "visual_description": "Intelligence dossier spread across a table — photographs, cables, intercepts — each document representing a country or event, overhead dramatic lamp, slow camera drift across the documents, Kodachrome noir",
+      "on_screen_text": "",
+      "sfx_prompt": "Slow page turning, ambient string tension",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1329,
+      "narration": "And it exposed something profound about the architecture of trust in the international system. Every government that purchased a Crypto AG machine had done its due diligence. Switzerland: neutral. The company: private, commercially reputable, technically sophisticated.",
+      "visual_description": "Crypto AG product showcase — sleek 1980s cipher machines in a corporate display case, polished glass, professional lighting, a customer's hands examining the equipment, 1983 trade fair aesthetic, Kodachrome warm",
+      "on_screen_text": "",
+      "sfx_prompt": "Trade fair ambience, quiet professional conversations",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1345,
+      "narration": "Due diligence meant nothing. Swiss neutrality was a fiction. Commercial reputations were engineered. And the most trusted product in the global communications security market was a precision instrument for mass surveillance.",
+      "visual_description": "Slow zoom-in on the Crypto AG logo on a product case, the Swiss cross visible in the company branding, light gradually narrowing until only the logo remains in darkness, Kodachrome noir cinematic",
+      "on_screen_text": "",
+      "sfx_prompt": "Silence, single deep string note",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1360,
+      "narration": "Academics who have studied Rubicon — including intelligence historians Richard Aldrich and Erich Schmidt-Eenboom — describe it as a missing link in the history of signals intelligence: the bridge between Bletchley Park's wartime code-breaking and the Snowden-era revelations about NSA mass surveillance.",
+      "visual_description": "Split-frame composition: left — Bletchley Park 1940s Bombe machines; right — NSA PRISM slides from 2013, bridged by a timeline line through center, Kodachrome on left transitioning to digital blue on right",
+      "on_screen_text": "BLETCHLEY PARK → OPERATION RUBICON → NSA / PRISM",
+      "sfx_prompt": "WWII mechanical computation sound transitioning to modern data center hum",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1377,
+      "narration": "Because the logic of Operation Rubicon did not die in 2018. Every modern debate about encryption backdoors — whether governments should have the ability to access encrypted communications — is Rubicon's direct descendant. The question was never whether it could be done. Operation Rubicon proved it could.",
+      "visual_description": "Modern smartphone with an encrypted messaging app open, a government seal reflected in the screen, close-up, contemporary sleek aesthetic, cold blue tech lighting, slight Kodachrome film grain overlay",
+      "on_screen_text": "THE ENCRYPTION BACKDOOR DEBATE — TODAY",
+      "sfx_prompt": "Digital notification tone, contemporary ambient",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1394,
+      "narration": "The question was always whether, when governments demand that private companies build exploitable weaknesses into their products, those governments can be trusted not to use those weaknesses against allies, innocents, and the very concept of private communication itself.",
+      "visual_description": "Wide shot of a modern internet exchange point, rows of blinking servers, cold blue technical lighting, data cables running in all directions, contemporary data center aesthetic with Kodachrome grain overlay",
+      "on_screen_text": "",
+      "sfx_prompt": "Server hum, cooling fans, data center ambience",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1411,
+      "narration": "Operation Rubicon's answer — confirmed across seven decades, four American presidencies after the Cold War ended, and one hundred and twenty nations — was unambiguous. They cannot.",
+      "visual_description": "Final close-up of the Crypto AG HC-500 cipher machine, illuminated in dramatic noir side-lighting, the machine slowly going dark as the lamp fades, Kodachrome grain, cinematic slow-motion final frame",
+      "on_screen_text": "",
+      "sfx_prompt": "Single deep piano note, long decay, silence",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "fade"
+    }
+  ]
+}
