@@ -1,0 +1,3 @@
+# The Tunnel That Betrayed Itself: CIA's Operation Gold
+
+In 1954, the CIA and MI6 dug a secret tunnel beneath East Berlin to wiretap Soviet military cables — one of the boldest intelligence operations of the Cold War. The operation ran for nearly a year delivering thousands of intercepted messages, yet the KGB knew about it from the very beginning, tipped off by double agent George Blake who had helped plan it. This video explores how a masterpiece of Cold War tradecraft became an elaborate piece of theater, what it reveals about the intelligence failures at the heart of the Western alliance, and why both sides had strong reasons to let the farce play out.

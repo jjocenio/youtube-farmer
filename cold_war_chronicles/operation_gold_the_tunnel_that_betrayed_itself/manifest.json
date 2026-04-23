@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "The Tunnel That Betrayed Itself: CIA's Operation Gold",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, high contrast shadows, desaturated tones with selective warm highlights",
+    "bg_music_prompt": "Tense Cold War espionage underscore. Low, brooding strings with sparse piano motifs. Occasional orchestral swell at dramatic moments. Sparse percussion — distant, muffled, like footsteps underground. Inspired by Bernard Herrmann and John Barry. Tone: dread, suspense, inevitability."
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "",
+      "visual_description": "Extreme low-angle shot looking down a long, dark underground tunnel, a single bare bulb casting a pale cone of light in the blackness ahead. Steel-ringed walls glisten with condensation. Silence. Kodachrome 60s film grain, cinematic noir lighting.",
+      "sfx_prompt": "Deep underground silence — faint drip of water echoing, distant hum of diesel generator",
+      "music_intensity": 0.0,
+      "pause_after": 3.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 3,
+      "narration": "April 22nd, 1956. East Berlin. 2 o'clock in the morning. A Soviet repair crew is digging through wet clay near a municipal cemetery in Altglienicke.",
+      "visual_description": "Wide shot of East Berlin at night in heavy spring rain, dim street lamps reflecting in puddles, Soviet military truck parked at roadside, soldiers in rain capes digging in mud. Kodachrome 60s film grain, desaturated cold blues.",
+      "sfx_prompt": "Heavy rain on cobblestones, shovels striking wet earth, distant thunder",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 13,
+      "narration": "The telephone cables have been shorting out for days. Too much rain, too much water in the ground. Their orders are simple: find the fault, fix it, go home.",
+      "visual_description": "Close-up of a Soviet soldier's hands in thick gloves pressing a shovel into dark muddy soil, rain sheeting across the frame. Historical archival photo style, grainy monochrome with worn edges.",
+      "sfx_prompt": "Metal shovel scraping against soil and rock, muffled radio chatter in background",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 24,
+      "narration": "But two meters down, the shovel hits something it should not. A steel wall. A sealed door. And beyond it — a tunnel. An entire secret world, humming with electricity, stretching west under the border.",
+      "visual_description": "POV shot of a flashlight beam revealing a reinforced steel anti-personnel door set into a concrete tunnel wall, rivets and weld seams visible, faint glow leaking from the seam. Cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "Metal clang of shovel on steel, sharp intake of breath, voices speaking in urgent German",
+      "music_intensity": 0.6,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 37,
+      "narration": "At 6:30 AM, a CIA microphone concealed in the tunnel wall picks up three words that end everything: 'The cable is tapped.'",
+      "visual_description": "Extreme close-up of a small cylindrical microphone embedded in a steel tunnel wall, moisture beading on its surface, a thin wire disappearing into shadow. Kodachrome 60s film grain, cold tungsten light.",
+      "sfx_prompt": "Crackle of live audio feed, muffled German voice, then silence",
+      "music_intensity": 0.7,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 47,
+      "narration": "Eleven months and eleven days. That is how long the CIA and MI6 had been listening — tapping three Soviet military cables that carried the most sensitive communications in the Eastern Bloc.",
+      "visual_description": "Montage-style composite: rows of reel-to-reel tape machines running in a dimly lit processing room, analysts in shirtsleeves, headphones on. Warm amber office light against cold grey walls. Historical archival photo style.",
+      "sfx_prompt": "Reel-to-reel tape spinning, typewriter clatter, low murmur of analysts working",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 60,
+      "narration": "Moscow knew about this tunnel from the very first day of planning. They had a man in the room. And they chose to say nothing.",
+      "visual_description": "Tight shot of a man's face in silhouette, back to camera, staring through a rain-streaked window at the grey Berlin skyline. Cinematic noir lighting, Kodachrome grain, smoke rising from an unseen cigarette.",
+      "sfx_prompt": "Rain against glass, distant city ambience, clock ticking",
+      "music_intensity": 0.8,
+      "pause_after": 2.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 74,
+      "narration": "To understand why, you have to go back to the beginning. The year is 1945. Germany has been carved into four occupation zones. Berlin, deep inside Soviet territory, is split the same way — American, British, French, and Soviet sectors jammed against each other.",
+      "visual_description": "Overhead animated map of post-war Berlin divided into colored occupation sectors, boundaries drawn in sharp lines, the Soviet zone in red surrounding the city. Historical archival style, aged paper texture, sepia tones.",
+      "sfx_prompt": "Archival newsreel audio hiss, distant military march, map rustling",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 91,
+      "narration": "Berlin becomes, in the words of historian David Stafford, 'El Dorado for the intelligence services' — a gap in the Iron Curtain where East and West press their ears to the same wall.",
+      "visual_description": "Street-level shot of a divided Berlin checkpoint, sandbags and barbed wire visible, Western military jeep on one side, Soviet guard booth on the other. Kodachrome 60s film grain, late afternoon harsh shadows.",
+      "sfx_prompt": "Checkpoint barrier lowering, vehicle idling, wind through wire",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 104,
+      "narration": "By the early 1950s, the Soviets have done something that terrifies Western analysts: they have moved their most secure military communications off radio and onto buried landlines — copper cables running underground across the continent.",
+      "visual_description": "Wide shot of Soviet military engineers laying thick copper cable across a snowy Eastern European field, a convoy of military trucks in the background. Monochrome archival photo style, heavy grain, flat winter light.",
+      "sfx_prompt": "Heavy cable dragged across frozen ground, military vehicle engines, wind",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 119,
+      "narration": "Radio intercepts had been the West's greatest intelligence advantage since World War II. Now that advantage is gone. U.S. Chief of Staff George Marshall put it simply: 'I don't care what it takes. I just want twenty-four hours' notice of a Soviet attack.'",
+      "visual_description": "Close-up of a large military radio receiver going dark, dials dropping to zero, a technician's hand turning a dial uselessly. Cinematic noir lighting, single overhead lamp, Kodachrome film grain.",
+      "sfx_prompt": "Radio static fading to silence, equipment powering down",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 135,
+      "narration": "In 1952, a CIA analyst makes a discovery in captured East Berlin postal records: a thick copper cable connecting Soviet military headquarters at Karlshorst to the Red Army's German command at Wünsdorf — and it runs very close to the American sector border.",
+      "visual_description": "Close-up of a worn engineering map spread on a table, a finger tracing the route of an underground cable through a city grid, red pencil marks circling a border crossing point. Warm desk lamp, archival document texture.",
+      "sfx_prompt": "Paper rustling, pencil on map, clock ticking in a quiet office",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 151,
+      "narration": "The idea takes shape. What if you could go underground? What if you could dig from the American sector, under the border, and tap into that cable — without anyone on the surface ever knowing?",
+      "visual_description": "Overhead architectural drawing of a tunnel cross-section, measurement annotations, engineer's compass and ruler overlaid on the blueprint. Warm amber light, historical technical document style, Kodachrome grain.",
+      "sfx_prompt": "Drafting pencil scratching paper, ruler sliding, quiet contemplative silence",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 165,
+      "narration": "It was not an entirely new idea. The British had done it first — in Vienna. Under the codename Operation Silver, MI6 had already tapped Soviet cables by tunneling through the city's sewer network. Their monitoring station above was disguised as a Scottish tweed shop.",
+      "visual_description": "Exterior of a modest Vienna shopfront circa 1950, a sign reading a clothing import shop, a man in a suit entering casually. Kodachrome 60s color palette, slightly overexposed European street scene.",
+      "sfx_prompt": "Shop door bell, Vienna street ambience, horse-drawn cart in distance",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 179,
+      "narration": "Vienna proved it could be done. Now the CIA wanted to scale it up — dramatically. If Vienna was Operation Silver, Berlin would be Operation Gold. A joint CIA-MI6 venture, officially designated PBJOINTLY. And one of the men in the planning room was named George Blake.",
+      "visual_description": "Wide shot of a formal meeting room, men in suits around a long table covered with classified documents, faces obscured or in shadow. Cinematic noir overhead lighting, cigarette smoke drifting upward. Kodachrome grain.",
+      "sfx_prompt": "Papers shuffling, quiet murmur of men talking, a match striking for a cigarette",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 195,
+      "narration": "George Blake was, by all appearances, exactly the kind of officer the British Secret Intelligence Service produced. Charming. Meticulous. Multilingual. He had worked in the Dutch resistance as a teenager. He had survived three years as a prisoner of war in North Korea.",
+      "visual_description": "Portrait-style medium shot of a composed, well-dressed British intelligence officer type, standing at a rain-streaked office window, looking out over grey rooftops. Cinematic noir, Kodachrome grain, cold grey sky.",
+      "sfx_prompt": "Distant traffic, rain on glass, paper being folded",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 212,
+      "narration": "But inside those North Korean prison camps, a KGB officer named Nikolai Loyenko had been watching him. And somewhere between the interrogations and the cold and the long months of captivity, George Blake decided to change sides.",
+      "visual_description": "Dark, bleak interior of a North Korean prisoner of war barracks, bare wooden bunks, a single barred window casting pale winter light, a lone figure sitting on a bunk in shadow. Monochrome archival photo style, harsh grain.",
+      "sfx_prompt": "Wind through cracks in wooden barracks walls, distant guard footsteps, silence",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 227,
+      "narration": "He would later say: 'My decision to work with the Soviets had been entirely my own.' The KGB gave him a codename: Diomid — diamond. And when he returned to London in March 1953, his new handler was waiting.",
+      "visual_description": "Low-angle shot of a man in a trench coat at a rainy London street corner at dusk, collar turned up, glancing sideways. A black cab passing reflects wet light. Cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "London rain, taxi splash, footsteps on wet pavement",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 241,
+      "narration": "By the time Blake took his seat at No. 2 Carlton Gardens, London, in late 1953 — taking meticulous minutes of the planning meetings for Operation Gold — every detail was flowing to Moscow within days.",
+      "visual_description": "Close-up of a hand writing notes in precise handwriting on an official document, a fountain pen moving deliberately across the page. Single desk lamp illumination, dark wood table, cinematic noir lighting.",
+      "sfx_prompt": "Fountain pen scratching paper, clock ticking, distant street noise",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 254,
+      "narration": "In January 1954, CIA Director Allen Dulles approved the operation and ordered — with characteristic caution — that 'as little as possible should be reduced to writing.' It was too late. The damage was already done.",
+      "visual_description": "Medium shot of a senior official signing a classified document at a large mahogany desk, American flag visible in background, expression serious and satisfied. Historical archival photo style, warm Washington DC office light.",
+      "sfx_prompt": "Pen signing paper, folder closing, official silence",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 268,
+      "narration": "Construction began on September 2nd, 1954, in the Rudow district of the American sector. From above, it looked like a routine U.S. Air Force radar installation — chain-link fencing, parabolic antennas, a nondescript warehouse.",
+      "visual_description": "Aerial-style wide shot of a fenced military radar installation in a flat Berlin suburban landscape, antenna array visible, warehouse buildings inside the compound. Desaturated Kodachrome 60s palette, overcast sky.",
+      "sfx_prompt": "Military base ambience, distant aircraft, wind through radar array",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 281,
+      "narration": "Beneath it, the warehouse had an extraordinarily deep basement — seven meters down — purpose-built to absorb the 3,000 tons of sandy soil that crews would excavate, working in three-man shifts, around the clock.",
+      "visual_description": "Interior of a deep underground staging area, rough concrete walls, wooden support beams, soil piled in corners, construction workers in work clothes operating by electric lamp. Cinematic noir, Kodachrome grain, warm yellow light.",
+      "sfx_prompt": "Pickaxes, shovels, men working in confined space, hydraulic ram hiss",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 294,
+      "narration": "The engineering challenge was extraordinary. The soil was sandy, unstable, prone to collapse. To prevent cave-ins, engineers used the shield method — a hydraulic ram forcing a steel cylinder forward inch by inch, lining the tunnel with 125 tons of steel ring plates as it advanced.",
+      "visual_description": "Close-up of the tunnel boring face, a circular steel shield pressing into loose sandy soil, workers bolting curved steel plates behind it, bare electric bulbs on a cable strung overhead. Monochrome technical document style, Kodachrome grain.",
+      "sfx_prompt": "Hydraulic rams hissing, steel plates being bolted, soil trickling",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 311,
+      "narration": "They also tested it first. In Richmond, Virginia, engineers built a 450-foot test tunnel — identical in method — to prove the system would work before committing to the real thing beneath one of the most heavily patrolled borders in the world.",
+      "visual_description": "Wide shot of a rural American field, a discreet construction site with a temporary access shaft, two engineers examining a soil core sample. Flat, bright American daylight, archival photo documentary style.",
+      "sfx_prompt": "American countryside ambience, birds, soil sample being extracted",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 324,
+      "narration": "By February 28th, 1955, the tunnel shell was complete. One thousand four hundred and seventy-six feet long. Six feet in diameter. Stretching from the American sector, under the East German border, into Altglienicke — Soviet-controlled territory.",
+      "visual_description": "Perspective shot down the finished tunnel, steel-ringed walls receding to a vanishing point in the distance, a string of bare bulbs casting pools of light. Kodachrome film grain, cinematic noir, slight upward slope toward darkness.",
+      "sfx_prompt": "Generator hum, subtle electrical buzz, deep underground silence",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 337,
+      "narration": "British Royal Engineers then dug the vertical shaft on the East Berlin side to reach the cables — less than half a meter beneath a busy street above. Cable specialist Blake Rymer — described simply as 'the best jointer they had' — made the physical taps.",
+      "visual_description": "Close-up of a technician's hands in thin rubber gloves carefully splicing copper wire from a military cable, a magnifying lamp overhead, the work surface a steel shelf in a cramped underground chamber. Kodachrome grain, tight cinematic framing.",
+      "sfx_prompt": "Delicate wire work, faint electrical hum, held breath of concentration",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 351,
+      "narration": "Three cables. Three taps. The first on May 11th, 1955. The second on May 21st. The third on August 2nd. From that moment, Operation Gold — known inside the NSA as Operation REGAL — was fully operational.",
+      "visual_description": "Split-screen graphic of three cable cross-sections with dates labeled, signals pulsing through them illustrated as light traces. Archival technical document style, warm sepia background, Kodachrome grain overlay.",
+      "sfx_prompt": "Electrical signal tone, relay click, reel-to-reel tape beginning to roll",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 365,
+      "narration": "What followed was an intelligence bonanza. Up to 1,200 simultaneous communication channels — voice calls and teletype — flowing from Moscow through Berlin to Warsaw, Bucharest, and beyond. Unguarded. Unencrypted in significant portions. Entirely genuine.",
+      "visual_description": "Wide shot of a large processing room, rows of reel-to-reel machines, analysts at desks wearing headphones, stacks of transcribed documents, a supervisor walking the floor. Warm period office light, Kodachrome grain.",
+      "sfx_prompt": "Reel-to-reel machines, typewriters, overlapping quiet voices of transcribers",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 379,
+      "narration": "In London, 317 Russian émigrés and German linguists worked through 20,000 Soviet voice reels, transcribing 368,000 conversations. In Washington, 350 analysts processed 18,000 Soviet teletype reels. The daily teletype output alone, if printed, would fill a room ten feet wide, fifteen feet long, and eight feet high.",
+      "visual_description": "Long shot of a cavernous government processing facility, filing shelves floor to ceiling stacked with labeled tape reels, a lone archivist on a rolling ladder retrieving a reel. Historical archival style, cool fluorescent light, Kodachrome grain.",
+      "sfx_prompt": "Filing cabinets sliding, tape reel clicking into place, paper stacking",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 397,
+      "narration": "And the intelligence was real. Soviet military users of the cables had not been warned. The KGB could not warn them — to do so would expose its knowledge of the tunnel, and that knowledge could only have come from one source: the man in the planning room.",
+      "visual_description": "Medium shot of a Soviet Army signals officer speaking casually into a telephone handset at a military communications desk, maps on the wall behind him. Monochrome archival photo style, flat institutional lighting.",
+      "sfx_prompt": "Military telephone ring tone, casual Russian-language conversation (muffled), relay switching",
+      "music_intensity": 0.4,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 412,
+      "narration": "So the conversations flowed freely. Marshal Grechko, commander of Soviet forces in Germany, speaking openly. Soviet Air Warning Control Center coordinating defenses. Internal Warsaw Pact tensions crackling through the wires. The formation of the East German Army — discussed, planned, scheduled — intercepted in real time.",
+      "visual_description": "Composite of overlapping intercept transcripts, red-stamped TOP SECRET REGAL, pages fanning across a table surface. Close-up of typed Cyrillic text with English translations penciled in margin. Warm desk light, cinematic noir.",
+      "sfx_prompt": "Paper turning, red stamp impact, hushed urgent voices",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 428,
+      "narration": "The CIA's own classified history confirmed it: 'We have no evidence that the Soviets attempted to feed us deceptive material through this source.' The tunnel betrayed by their own man was generating authentic intelligence — because protecting that man required silence.",
+      "visual_description": "Close-up of a declassified CIA document, black redaction bars over some text, the visible line reading partial quoted confirmation text. Warm document scan tones, aged paper, archival photo style.",
+      "sfx_prompt": "Quiet office, clock ticking, paper document handled carefully",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 443,
+      "narration": "Then the rains came. April 1956. An exceptionally wet spring turned Berlin's aging cable network into a system of slow failures. Somewhere in the Altglienicke district, a fault developed in cable FK150 — the line connecting Moscow directly to Marshal Grechko and four of his generals. Communications went dark.",
+      "visual_description": "Wide shot of East Berlin in heavy spring downpour, streets reflecting grey sky, a military telephone exchange building with dark windows, no lights inside. Kodachrome 60s grain, cold blue-grey palette.",
+      "sfx_prompt": "Torrential rain, thunder, crackling telephone static cutting to silence",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 459,
+      "narration": "East German Post and Telegraph workers were dispatched under Soviet pressure. Dig up the cable. Find the fault. Fix it. And among the 'workers' present at Altglienicke that night was a young East German intelligence officer named Markus Wolf — who would one day become the most feared spymaster in the Eastern Bloc.",
+      "visual_description": "Night scene: a group of workers in civilian rain gear gathered around a dig site near a cemetery wall, two military vehicles parked nearby with headlights on the excavation. Cinematic noir, Kodachrome grain, rain catching the beams.",
+      "sfx_prompt": "Shovels in wet soil, rain, idling truck engine, muffled commands",
+      "music_intensity": 0.7,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 475,
+      "narration": "At 2 AM, they hit steel. At 6:30 AM, a CIA microphone still active inside the tunnel captured the moment of recognition. Three words in German, crackling through headphones in the warehouse half a mile away in West Berlin: 'Das Kabel ist angezapft.' The cable is tapped.",
+      "visual_description": "Extreme close-up of a CIA analyst's face lit by the green glow of monitoring equipment, headphones clamped to ears, eyes widening in realization. Tight cinematic framing, Kodachrome grain, single instrument light source.",
+      "sfx_prompt": "Crackling audio feed, sudden sharp German voice, sharp intake of breath",
+      "music_intensity": 0.9,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 490,
+      "narration": "What followed was an eerie kind of theater. CIA operators listened through the microphone as Soviet and East German officers explored the tap chamber, marveling at the engineering. One officer reportedly compared it to 'the communications center of a battleship.'",
+      "visual_description": "POV from inside the tap chamber looking outward toward an opened hatch, Soviet military boots and pant legs visible against the light, voices echoing in the steel-walled space. Cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "Echoing voices in steel chamber, boots on metal floor, flashlight beams sweeping",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 503,
+      "narration": "At 3:30 PM, the teletype lines went silent. The tap wires had been cut. Twenty minutes later, at 3:50 PM, the microphone itself was removed. After eleven months and eleven days, Operation Gold was over.",
+      "visual_description": "Close-up of a reel-to-reel tape machine gradually slowing, the tape going slack, a technician reaching forward to stop the reels. Sparse, clinical light. Kodachrome grain. Slow zoom out.",
+      "sfx_prompt": "Tape machine decelerating, reels slowing, then deep silence",
+      "music_intensity": 0.4,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 516,
+      "narration": "The Soviets had already planned the next move. On April 23rd, Colonel Ivan Kotsyuba, acting Soviet commander in Berlin, called the entire Western press corps underground. He described what they found as — and this is a direct quote — 'a breach of the norms of international law' and 'a gangster act.'",
+      "visual_description": "Wide shot of Soviet and East German officials in uniform leading a group of Western journalists through the brightly lit tunnel, cameras flashing, officials gesturing proudly at exposed equipment. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "Camera flashbulbs popping, crowd of journalists, echoing official voice through tunnel",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 534,
+      "narration": "The Soviets expected global condemnation. They got something else. The Western press was fascinated — not outraged. Newspapers ran photographs of the tap chamber and called it a masterpiece of engineering. The propaganda campaign backfired spectacularly.",
+      "visual_description": "Montage of newspaper front pages from 1956 with banner headlines about the Berlin tunnel, photographs of the chamber, sub-headings expressing admiration. Archival newsprint texture, Kodachrome warm yellow tones.",
+      "sfx_prompt": "Newspaper printing press rolling, paper stacking, radio broadcast voice",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 547,
+      "narration": "There was one more detail that the press would not understand for another five years. The Soviets' indignation — their outrage at Western lawlessness — was performed by people who had known about the tunnel since before the first shovel of earth was turned.",
+      "visual_description": "Close-up of a Soviet official at a podium, face set in practiced indignation, a map of the tunnel projected on a screen behind him, journalists visible in silhouette before him. Cinematic noir lighting, Kodachrome grain.",
+      "sfx_prompt": "Official speech echoing in a large room, flashbulb pops, murmur of press corps",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 563,
+      "narration": "The truth about George Blake emerged in January 1961. A defector — Michael Goleniewski, a senior Polish counterintelligence officer — provided information that led British investigators back to the Carlton Gardens planning meetings.",
+      "visual_description": "Medium shot of a Western intelligence officer at a desk reviewing a file folder, black-and-white surveillance photographs spread before him, one circled in red ink. Cinematic noir, desk lamp, Kodachrome grain.",
+      "sfx_prompt": "Classified folder opening, photographs placed on a desk, tense silence",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 576,
+      "narration": "Blake was confronted over 48 hours of interrogation. He denied everything — until the moment investigators suggested he had been coerced during his Korean captivity. His response sealed his fate. He snapped back: 'My decision to work with the Soviets had been entirely my own.'",
+      "visual_description": "Tight shot of a man alone at a bare interrogation table, two figures in suits across from him, a single bright overhead lamp casting harsh shadows downward. Cinematic noir, high contrast black-and-white with Kodachrome grain.",
+      "sfx_prompt": "Chair scraping on floor, tense silence, a voice asking a question",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 591,
+      "narration": "Blake confessed to compromising approximately 400 Western agents. MI6's own assessment concluded that at least 40 had been executed. On May 14th, 1961, he received the longest sentence in British legal history: 42 years.",
+      "visual_description": "Exterior of the Old Bailey court, London, photographers and reporters gathered outside stone steps, a black police vehicle pulling away. Historical archival photo style, grey English sky, Kodachrome muted tones.",
+      "sfx_prompt": "Camera shutters, crowd murmur, car engine pulling away on wet stone",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 604,
+      "narration": "He served five years. On October 22nd, 1966, Blake went over the wall at Wormwood Scrubs prison on a rope ladder made of knitting needles. An Irish writer named Sean Bourke helped him vanish into London — then smuggled him across the Channel in a camper van to East Germany.",
+      "visual_description": "Night exterior of a Victorian prison wall, a rope ladder swinging against old brick, a dark figure dropping down to the far side into shadows. Cinematic noir, Kodachrome grain, single distant street lamp.",
+      "sfx_prompt": "Rope scraping on brick wall, footsteps landing on gravel, running feet fading",
+      "music_intensity": 0.7,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 619,
+      "narration": "George Blake lived out his days in Moscow, celebrated and decorated. Vladimir Putin awarded him the Order of Friendship. He gave interviews praising the Soviet experiment until the end. He died on December 26th, 2020 — aged 98.",
+      "visual_description": "Interior of a modest Moscow apartment, an elderly man in a chair by a window with frosted glass, snow visible outside, books and a framed Soviet-era decoration on the wall. Warm interior light, Kodachrome grain, contemplative stillness.",
+      "sfx_prompt": "Moscow winter ambience, wind, muffled city sounds through double-glazed windows",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 634,
+      "narration": "So what do we make of Operation Gold? The CIA called it 'one of the most valuable and daring projects ever undertaken.' The NSA's internal assessment was cooler — more skeptical of whether the $6.7 million operation had delivered intelligence proportionate to its cost.",
+      "visual_description": "Split-frame composition: left side CIA seal and formal document, right side NSA classified history cover page. Both slightly worn, archival document style, warm desk scan light.",
+      "sfx_prompt": "Document pages turning, deliberate silence of institutional review",
+      "music_intensity": 0.2,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 648,
+      "narration": "The intelligence was genuine — that much is confirmed. Soviet order-of-battle data, nuclear energy personnel, early warning of the East German Army's formation, internal Warsaw Pact fractures. Fifty thousand reels. 443,000 transcribed conversations. 1,750 formal intelligence reports.",
+      "visual_description": "Montage of archival intelligence report covers stamped TOP SECRET REGAL, stacked in rows in a secure filing room, an analyst's hands flipping through them. Cool clinical light, Kodachrome grain.",
+      "sfx_prompt": "Report pages flipping, filing drawer opening, hushed official environment",
+      "music_intensity": 0.3,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 663,
+      "narration": "And yet. The entire enterprise rested on a foundation that had been cracked before construction began. Every brick, every cable tap, every reel of tape — all of it was known to the enemy before a single word was intercepted.",
+      "visual_description": "Abstract low shot looking up through a cracked concrete floor toward dim light, the crack running diagonally across the frame. Cold, stark light. Cinematic metaphor framing. Kodachrome grain.",
+      "sfx_prompt": "Low structural creak, distant rumble, unsettling silence",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 676,
+      "narration": "Operation Gold taught the Western intelligence community a lesson it would spend the next four decades trying to absorb: that no technical system — however brilliant, however expensive, however precisely engineered — is more secure than the humans who know about it.",
+      "visual_description": "Wide shot of the Berlin Wall under construction in 1961, East German soldiers with rifles, West Berliners watching from windows across the divide. Archival photo documentary style, Kodachrome desaturated palette.",
+      "sfx_prompt": "Construction sounds, wall being built, distant crowd, radio announcement",
+      "music_intensity": 0.5,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 690,
+      "narration": "The East German government used Operation Gold as one of the justifications for building the Berlin Wall in 1961. The tunnel that was supposed to pierce the Iron Curtain had, in the end, helped forge another section of it.",
+      "visual_description": "Close-up of a section of the Berlin Wall, concrete blocks freshly mortared, a guard tower rising in the background against a white winter sky. Monochrome archival photo style with Kodachrome grain overlay.",
+      "sfx_prompt": "Concrete blocks being set, mortar trowel scraping, wind across an open border",
+      "music_intensity": 0.6,
+      "pause_after": 0.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 703,
+      "narration": "Today, a twelve-meter section of the original tunnel is preserved at the Allied Museum in Berlin. You can stand inside it. You can look down the steel-lined throat of the Cold War's most elaborate double-cross and ask yourself: who, exactly, was deceiving whom?",
+      "visual_description": "Interior of the Allied Museum tunnel exhibit, modern visitors standing inside the steel-ringed tunnel section, soft museum lighting illuminating the curved walls and rusted steel. Kodachrome grain, warm amber museum light contrasting with cold steel.",
+      "sfx_prompt": "Museum ambience, quiet footsteps on concrete, faint echo in a cylindrical space",
+      "music_intensity": 0.3,
+      "pause_after": 1.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 718,
+      "narration": "Because in the end, the tunnel produced genuine intelligence. The Soviets lost real information trying to protect their mole. The CIA claimed a success that had been compromised before it began. And the mole lived to 98, decorated by a Russian president, in a Moscow apartment, unrepentant.",
+      "visual_description": "Final wide shot: the preserved tunnel section in the Allied Museum, lights dimming at closing time, the far end of the tunnel disappearing into darkness. Slow zoom toward the vanishing point. Kodachrome grain, cinematic fade.",
+      "sfx_prompt": "Museum lights clicking off one by one, deep silence returning underground",
+      "music_intensity": 0.2,
+      "pause_after": 2.0,
+      "transition": "fade"
+    }
+  ]
+}
