@@ -1,0 +1,16 @@
+# Local environment files
+.env
+**/.env
+
+# Keep the template tracked
+!.env.template
+
+# Generated video outputs
+output/*.mp4
+**/output/*.mp4
+assembled*.mp4
+**/assembled*.mp4
+
+# YouTube OAuth secrets/tokens
+bin/client_secrets.json
+bin/youtube_token.json
