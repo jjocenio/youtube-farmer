@@ -1,0 +1,3 @@
+# Crypto AG: The Swiss Company That Sold Secrets to the CIA for 70 Years
+
+This video exposes Operation Rubicon — the CIA and BND's secret co-ownership of Swiss encryption firm Crypto AG, which sold rigged cipher machines to over 120 governments from the 1950s through 2018, allowing Western intelligence to read the world's most classified communications in real time. The core tension lies in the staggering audacity of the deception: allies, adversaries, and neutral nations alike were all victims, paying for machines that guaranteed their own surveillance. Viewers will leave understanding how the most successful intelligence operation in history worked, who it burned, and why it finally collapsed after seven decades.
