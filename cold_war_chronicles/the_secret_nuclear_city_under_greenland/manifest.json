@@ -1,5 +1,910 @@
 {
-  "title": "The Secret Nuclear City Under Greenland",
-  "status": "pending_research",
-  "scenes": []
+  "metadata": {
+    "title": "The Secret Nuclear City Under Greenland",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, Arctic Cold War military realism; desaturated cool palette punctuated by amber instrument glow and orange Arctic horizons; visual texture evoking declassified U.S. government photography from 1955–1968.",
+    "bg_music_prompt": "Dark ambient Cold War documentary score: sparse low string drones layered beneath restrained military-snare percussion; intermittent radio static texture and morse-code-like piano stabs; tension rising act-by-act from near-silence in the hook to a taut climax in Act 3, then retreating to elegiac solo cello and fading synth pads in Act 4; no melodic theme — pure tension, atmosphere, and slow accumulation of dread; occasional distant B-52 engine sub-bass rumble as a textural motif."
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "",
+      "visual_description": "Extreme low-angle aerial of the Greenland ice sheet at dusk, vast featureless white plain meeting a blood-orange horizon, no human presence visible anywhere, Kodachrome 60s film grain, cinematic noir, Arctic Cold War military realism.",
+      "sfx_prompt": "low arctic wind howl, distant ice groan",
+      "music_intensity": 0.0,
+      "pause_after": 1.5,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 3,
+      "narration": "What if the most powerful nuclear arsenal in history was hidden under two miles of ice — and the country that owned the land was never told?",
+      "visual_description": "Tight close-up of a classified document stamped TOP SECRET, fingers spreading it open on a steel desk, single overhead lamp casting hard shadows, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "paper shuffle, metallic desk tap, distant signal tone",
+      "music_intensity": 0.3,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 15,
+      "narration": "Six hundred nuclear missiles. Fifty-two thousand square miles of moving ice. One prime minister who said nothing — and authorized everything.",
+      "visual_description": "Wide interior of a subterranean ice tunnel, arched roof overhead, prefabricated military buildings lining both sides, electric lights casting pale yellow glow, deep shadows at the far end, Kodachrome 60s film grain, cinematic noir.",
+      "sfx_prompt": "distant reactor hum, ice structural groan, faint dripping",
+      "music_intensity": 0.5,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 26,
+      "narration": "It is 1947. The Cold War has begun. The United States faces a strategic problem with no precedent in the history of warfare.",
+      "visual_description": "Archival black-and-white world map on a briefing room wall, a general's pointer tracing the polar great-circle route from Moscow to New York, stark overhead fluorescent light, cinematic noir, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "map pointer tap, ventilation hum, teletype distant",
+      "music_intensity": 0.55,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 37,
+      "narration": "Soviet intercontinental ballistic missiles can now reach any fixed point on American soil. Every Minuteman silo is a known coordinate.",
+      "visual_description": "Slow dolly toward a Cold War operations globe, red grease-pencil strike vectors drawn across the Arctic, amber desk lamp, deep shadow background, Kodachrome 60s film grain, cinematic noir documentary style.",
+      "sfx_prompt": "grease pencil on glass, teletype chatter, bass note rising",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 47,
+      "narration": "Every known coordinate is a target. The doctrine is called Mutually Assured Destruction — MAD. If the Soviets strike first and destroy your missiles on the ground, you cannot retaliate.",
+      "visual_description": "Low-angle shot of a Minuteman ICBM silo blast door, concrete and reinforced steel, grey overcast sky above, Kodachrome 60s film grain, desaturated Cold War palette, wide military realism.",
+      "sfx_prompt": "metal blast door creak, distant wind, low drone",
+      "music_intensity": 0.6,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 61,
+      "narration": "The deterrent collapses. American planners were obsessed with one question: how do you build a nuclear force that can survive a first strike?",
+      "visual_description": "Close-up of a general's face in profile, dim map-room light from the left, eyes fixed on a briefing display, deep shadow on the right side, dramatic cinematic noir, Kodachrome 60s film grain.",
+      "sfx_prompt": "clock ticking, chair creak, low string chord",
+      "music_intensity": 0.62,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 73,
+      "narration": "The answer, as Army planners saw it, was movement. Missiles that cannot be found cannot be targeted. And there was one place on Earth vast enough to hide them.",
+      "visual_description": "Aerial wide shot of the Greenland ice cap, featureless white expanse stretching beyond the horizon, single contrail crossing the frame, overcast polar sky, archival photo style, Kodachrome 60s film grain, Cold War realism.",
+      "sfx_prompt": "jet contrail roar fading to utter silence",
+      "music_intensity": 0.65,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 87,
+      "narration": "Greenland. An island larger than Western Europe. Its interior buried under an ice sheet nearly two miles thick. Temperatures plunging to minus seventy Fahrenheit. Winds to 125 miles per hour.",
+      "visual_description": "Satellite-style top-down map of Greenland, ice sheet extent marked, ocean borders dark, interior blank and featureless, vintage Cold War cartographic style, muted blues and whites, Kodachrome 60s film grain.",
+      "sfx_prompt": "polar wind howl, low drone tone rising slowly",
+      "music_intensity": 0.65,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 101,
+      "narration": "Washington had been working in Greenland since 1941, when Danish Ambassador Kauffmann granted the United States near-unlimited rights to build military facilities there.",
+      "visual_description": "Close-up of a formal diplomatic document with official seals, a fountain pen resting on it, warm amber candlelight, shallow depth-of-field, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "fountain pen scratching paper, clock ticking",
+      "music_intensity": 0.65,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 112,
+      "narration": "He acted without authorization from Nazi-occupied Denmark. The agreement created a legal framework Washington would exploit for decades.",
+      "visual_description": "Wide shot of a formal conference room, flags of two nations visible, officials seated along a long table, cool institutional light, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "chair scrape, formal room silence, pen cap click",
+      "music_intensity": 0.65,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 122,
+      "narration": "By the end of World War II, the U.S. operated seventeen military facilities in Greenland. Truman then offered Denmark one hundred million dollars in gold to purchase the island outright.",
+      "visual_description": "Period newspaper front-page illustration with 1940s headline typography, black-and-white halftone print, dramatic chiaroscuro, archival photo style, Kodachrome 60s film grain, cold press-room light.",
+      "sfx_prompt": "typewriter keys clacking, newspaper press, page tear",
+      "music_intensity": 0.65,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 136,
+      "narration": "Denmark declined. But in April 1951, both nations signed the Defense of Greenland Agreement — confirming Danish sovereignty, while granting U.S. operational control of military facilities.",
+      "visual_description": "Two diplomats shaking hands at a conference table, American and Danish flags visible behind them, formal documentary photo style, cold institutional lighting, Kodachrome 60s film grain.",
+      "sfx_prompt": "formal handshake sound, crowd applause distant, camera shutters",
+      "music_intensity": 0.65,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 148,
+      "narration": "That same summer: 12,000 American workers. 300,000 tons of cargo. Roughly sixty days. The result was Thule Air Base — the northernmost strategic airfield on Earth.",
+      "visual_description": "Wide archival construction shot of Thule Air Base, heavy equipment and cargo ships in a dark Arctic bay, Arctic summer light, dust and exhaust, Kodachrome 60s film grain, Cold War military realism.",
+      "sfx_prompt": "construction machinery roar, cargo crane whine, crowd distant",
+      "music_intensity": 0.7,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 161,
+      "narration": "Thule sat at 77 degrees North, directly across the polar cap from the Soviet Union. Its BMEWS radar, installed by 1960, provided fifteen minutes' warning of an incoming strike.",
+      "visual_description": "Close-up of a large BMEWS radar dish silhouetted against deep-blue Arctic twilight, snow blowing horizontally across the frame, cinematic noir, Kodachrome 60s film grain, Cold War realism.",
+      "sfx_prompt": "radar sweep tone, Arctic wind screech, electrical hum",
+      "music_intensity": 0.7,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 175,
+      "narration": "Fifteen minutes between detection and detonation. In Washington, that number concentrated minds unlike anything else in the history of American strategy.",
+      "visual_description": "Clock face close-up, second hand sweeping, hard light reflected in a general's narrowed eye, high-contrast noir, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "clock ticking accelerating, tension string note rising",
+      "music_intensity": 0.7,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 183,
+      "narration": "In 1960, the Army's Planning Studies Division produced a classified document titled 'Strategic Value of the Greenland Icecap.' Its proposal was without precedent.",
+      "visual_description": "Army officer at a desk at night, reading a classified folder under a lamp, deep shadows on the walls, stacks of folders nearby, cinematic noir, Kodachrome 60s film grain, archival photo style.",
+      "sfx_prompt": "document pages rustling, pen tapping, low bass pulse",
+      "music_intensity": 0.72,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 194,
+      "narration": "The plan: dig four thousand kilometers of tunnels beneath the Greenland ice sheet. Mount six hundred nuclear missiles on rail cars. Keep them moving continuously.",
+      "visual_description": "Conceptual blueprint diagram of a tunnel network beneath the ice, rail lines spreading like capillaries, missile silhouettes on wheeled carriages, drafting style on yellowed paper, cold light, Kodachrome 60s film grain.",
+      "sfx_prompt": "pencil on blueprint, drafting sounds, deep vibration",
+      "music_intensity": 0.75,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 207,
+      "narration": "A classified 1960 Army document put it plainly: 'The missile force is hidden and elusive. Concealment and variability of the deployment pattern prevent the enemy from targeting critical elements.'",
+      "visual_description": "Extreme close-up of typewritten classified text on aged paper, a sentence underlined in pencil, TOP SECRET stamp visible at the edge, warm amber reading lamp, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "paper rustle, deep bass drone, silence",
+      "music_intensity": 0.75,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 220,
+      "narration": "Six hundred 'Iceman' missiles — modified two-stage Minuteman ICBMs, range 3,300 miles — deployed across an area three times the size of Denmark.",
+      "visual_description": "Overhead Cold War map of the Arctic, range circles drawn around northwestern Greenland, Soviet cities labeled at the boundary, Cold War cartographic style, Kodachrome 60s film grain, dramatic map lighting.",
+      "sfx_prompt": "missile deployment tone, radio static burst, low horn chord",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 232,
+      "narration": "Every major Soviet city fell within range. Sixty launch control centers. Missiles buried twenty-eight feet beneath the ice. Launch time from readiness: within twenty minutes.",
+      "visual_description": "Technical cross-section schematic of an underground missile launch station, launch tube through the ice layer, military stencil annotations, blueprint drafting style on yellowed paper, cold light, Kodachrome 60s film grain.",
+      "sfx_prompt": "launch control beep, pencil on blueprint, deep vibration",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 244,
+      "narration": "But all of it required a construction base. The only viable site was 150 miles away. Camp Century would be the proof-of-concept — and the cover story.",
+      "visual_description": "Split composition: a U.S. Army blueprint on the left, a Danish government building facade on the right, cold northern light unifying both panels, archival photo style, Kodachrome 60s film grain, cinematic noir.",
+      "sfx_prompt": "camera shutter click, Arctic wind gust, slow bass note",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 257,
+      "narration": "In May 1957, Danish Prime Minister H.C. Hansen told parliament that Denmark would not receive nuclear weapons 'under the present conditions.'",
+      "visual_description": "Archival-style parliamentary chamber, a statesman at a wooden podium, rows of suited men listening, high-contrast black-and-white, overhead institutional lighting, Kodachrome 60s film grain.",
+      "sfx_prompt": "parliamentary murmur, gavel tap, polite applause",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 268,
+      "narration": "He knew, even as he said it, the statement was a diplomatic fiction. Denmark's public anti-nuclear stance and its private alliance reality had never been reconciled.",
+      "visual_description": "Side-profile close-up of a statesman at the podium, expression controlled, the parliamentary audience blurred behind him, cinematic noir, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "papers shuffling, low ambient murmur, chair creak",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 280,
+      "narration": "Six months later, Ambassador Val Peterson requested a private meeting with Hansen. He raised the question of nuclear deployments in Greenland — deliberately oblique. He submitted no concrete plan.",
+      "visual_description": "Two men at a diplomatic table, one leaning forward in shadow, the other composed, heavy curtains drawn, amber reading lamp, deep cinematic noir, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "clock pendulum, leather chair creak, fireplace crackle distant",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 294,
+      "narration": "He asked for no direct answer. Hansen wrote back. The National Security Archive describes his response as 'vague and indefinite.'",
+      "visual_description": "Close-up of a handwritten diplomatic note on official Danish letterhead, ink visible in daylight from a tall window, formal institutional light, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "pen on paper, paper fold, letter seal",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 304,
+      "narration": "It read: 'I do not think that your remarks give rise to any comments from my side.' A deliberate non-answer. Hansen explicitly requested the exchange be kept secret.",
+      "visual_description": "Extreme close-up of a diplomatic letter's final sentence, emphasis visible in the handwriting, a rubber stamp impression at the corner, warm amber desk lamp, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "pen scratching final line, paper fold, seal press",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 318,
+      "narration": "He understood the domestic and geopolitical dangers if the exchange became known — Denmark had strong anti-nuclear public sentiment and faced Soviet pressure.",
+      "visual_description": "Wide shot of a grey Copenhagen street in winter, official cars parked outside a government building, anonymous figures entering, overcast sky, archival photo style, Kodachrome 60s film grain, Cold War realism.",
+      "sfx_prompt": "wind, distant traffic, institutional door closing",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 329,
+      "narration": "Washington treated that silence as authorization. Within months, Strategic Air Command deployed four nuclear weapons to Thule: two Mark 6 atomic bombs and two MK-36 thermonuclear bombs.",
+      "visual_description": "Silhouette of a B-47 bomber taxiing on a rain-slicked Arctic runway at night, hangar lights behind it, bomb shapes barely visible beneath the wings, cinematic noir, Kodachrome 60s film grain.",
+      "sfx_prompt": "jet engine low rumble, hangar doors closing, distant thunder",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 342,
+      "narration": "The Danish Parliament knew nothing. The Danish public knew nothing. From 1958 through 1965, as many as forty-eight nuclear warheads were continuously stationed at Thule Air Base.",
+      "visual_description": "Low-angle wide shot of a Nike-Hercules missile battery silhouetted against an overcast Arctic sky, launch crew at the base, Cold War military realism, Kodachrome 60s film grain, archival documentary style.",
+      "sfx_prompt": "missile guidance radar ping, Arctic wind, radio static burst",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 355,
+      "narration": "Hans Christian Hansen died in office of cancer on February 19, 1960 — before Camp Century reached its apex. Before the B-52 crash. Before the public reckoning.",
+      "visual_description": "Black-and-white archival portrait of a statesman in formal dress, face shadowed, a grey winter street barely visible behind frosted glass, documentary photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "distant church bell tolling, wind, long pause",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 368,
+      "narration": "His silence had already set the machinery in motion. The nuclear presence at Thule was permanent. And it was permanently denied.",
+      "visual_description": "Aerial shot of Thule Air Base in winter, runways visible from above, the frozen bay behind, cold pale overcast light, archival photo style, Kodachrome 60s film grain, Arctic Cold War realism.",
+      "sfx_prompt": "jet aircraft distant, radio static, Arctic wind",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 379,
+      "narration": "In May 1959, Army Corps of Engineers scouts selected the construction site at 77 degrees 10 minutes North, 61 degrees 08 minutes West — 1,886 meters above sea level.",
+      "visual_description": "Survey team in Arctic gear planting a marker flag in deep compacted snow, vast ice plain in all directions, overcast polar sky, wide archival shot, Kodachrome 60s film grain, Cold War military realism.",
+      "sfx_prompt": "flagpole ringing in wind, boot crunch on hard snow, surveying instrument click",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 393,
+      "narration": "The site was 150 miles from Thule. 127 miles from the nearest human settlement. June 1959: construction began.",
+      "visual_description": "Wide shot of the first U.S. Army equipment convoy arriving at the construction site, vehicles small against the vast ice plain, overcast sky, no landmarks, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "diesel engine arrival, door opening, boot steps on snow",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 402,
+      "narration": "Three Swiss-built Peter Plow snow-milling machines — each removing over 900 cubic meters of ice per hour — began cutting trenches into the polar cap.",
+      "visual_description": "Ground-level shot looking down a freshly cut ice trench, curved walls smooth and blue-white, a Peter Plow machine at the far end, dramatic tunnel perspective, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "machinery roar echoing in ice trench, snow ejection chutes, diesel exhaust",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 414,
+      "narration": "Caterpillar D9 tractors with extra-wide treads hauled the supply convoys. The one-way trip from Thule took seventy hours at three kilometers per hour.",
+      "visual_description": "Wide shot of a D9 tractor convoy hauling cargo sleds across a blizzard-swept ice plain, headlights barely piercing blowing snow, flat horizon, Arctic Cold War military realism, Kodachrome 60s film grain.",
+      "sfx_prompt": "blizzard wind howl, diesel engine strain, cargo chain rattle",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 426,
+      "narration": "The design was a 'backbone and ribs' layout: one main tunnel 1,100 feet long and 26 feet wide, with lateral tunnels branching off to all facilities.",
+      "visual_description": "Schematic bird's-eye diagram of the Camp Century tunnel network, central 'Main Street' spine, lateral branches labeled in military stencil, blueprint drafting style, cold fluorescent light, Kodachrome 60s film grain.",
+      "sfx_prompt": "drafting pencil sounds, blueprint unrolling, quiet base hum",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 438,
+      "narration": "Twenty-one tunnels. Nearly three kilometers of total length. A mess hall, hospital, chapel, theater, barbershop, library. Up to 200 personnel.",
+      "visual_description": "Wide interior of Camp Century's Main Street, prefabricated buildings receding into the distance, soldiers walking, electric lights strung along the arched ice ceiling, Kodachrome 60s film grain, documentary style.",
+      "sfx_prompt": "mess hall ambient, boot steps, distant conversation",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 448,
+      "narration": "Construction was completed October 1, 1960, at a cost of approximately eight million 1959 dollars. The city under the glacier was open for business.",
+      "visual_description": "Exterior wide shot of Camp Century entrance cut into the ice surface, military vehicles parked nearby, a figure silhouetted at the hatch opening, Kodachrome 60s film grain, archival photo style.",
+      "sfx_prompt": "hatch door closing, wind outside, silence settling",
+      "music_intensity": 0.83,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 460,
+      "narration": "Power came from the PM-2A — Portable Medium Power Plant, Model PM-2A — a pressurized light-water nuclear reactor built by ALCO Products of Schenectady, New York.",
+      "visual_description": "Technical diagram of the PM-2A reactor system showing pressurized loop, steam turbine, and generator in engineering cutaway style on drafting paper, cold light, Kodachrome 60s film grain, archival photo style.",
+      "sfx_prompt": "engineering pencil on paper, blueprint rustle, low mechanical hum",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 473,
+      "narration": "Total weight: 330 tons. The equipment arrived at Thule in July 1960, dragged 138 miles across the ice on sleds, and went online at Camp Century in early 1961.",
+      "visual_description": "Close-up of reactor pressure vessel being lowered by crane into the 18-meter-deep reactor trench, workers in hard hats dwarfed by scale, archival industrial photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "crane chain grinding, diesel engine, metal on ice",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 487,
+      "narration": "It delivered 1,560 kilowatts of net electrical power — fueled by approximately 44 pounds of uranium. Over 33 months, it generated more than eleven million kilowatt-hours.",
+      "visual_description": "Close-up of PM-2A control panel instruments, gauges illuminated, operator's gloved hands on controls, orange instrument glow in a darkened control room, cinematic noir, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "reactor hum deepening, electrical transformer buzz, steam pressure hiss",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 499,
+      "narration": "The world was shown a scientific marvel. The Saturday Evening Post profiled Camp Century in 1960. National Geographic ran a full feature in May 1962. The cover story held.",
+      "visual_description": "Vintage magazine cover illustration in Kodachrome 60s color, smiling soldiers in Arctic gear, Camp Century banner visible behind them, cheerful patriotic graphic design, warm printed-page lighting.",
+      "sfx_prompt": "printing press sound, page turn, cheerful newsreel fanfare",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 513,
+      "narration": "What the magazine features omitted: the facility existed primarily to prove that a nuclear missile base could be built under Arctic ice.",
+      "visual_description": "Archival interior shot of a soldier eating alone at the mess hall, tray of food in front of him, arched ice ceiling visible above the prefabricated building, eerie fluorescent light, Kodachrome 60s film grain.",
+      "sfx_prompt": "mess hall quiet, fork on tray, distant reactor hum",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 524,
+      "narration": "Many of the soldiers living there had no idea what they were supporting. They knew only what they had been told: they were supporting Arctic science.",
+      "visual_description": "POV soldier's perspective walking through a pale-lit arched ice tunnel, buildings to both sides, snowflakes drifting from ventilation gaps, quiet and disorienting, Kodachrome 60s film grain, cinematic noir.",
+      "sfx_prompt": "boot steps on packed snow, distant reactor hum, ice creak",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 537,
+      "narration": "Imagine you are stationed there in 1962. No sky. No horizon. No sun. Walls, ceiling, and floor are compacted ice. Two miles of glacier presses down from above.",
+      "visual_description": "Close-up of ice tunnel wall, crystalline blue-white texture inches from the camera, frost breath visible, single electric bulb reflecting in the ice surface, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "ice creak groan, ventilation breath, isolation silence",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 550,
+      "narration": "The Army conducted deliberate psychological research on stationed personnel — studying whether soldiers could maintain operational effectiveness in total subterranean isolation.",
+      "visual_description": "Archival documentary close-up: a soldier staring at a blank wall, a psychologist's clipboard visible in the foreground, cold institutional light, narrow prefabricated room, Kodachrome 60s film grain.",
+      "sfx_prompt": "pencil on paper, institutional quiet, low ambient hum",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 561,
+      "narration": "It needed that answer before committing eleven thousand men to identical conditions under Project Iceworm. The research was never fully declassified.",
+      "visual_description": "Wide shot of a row of identical prefabricated rooms inside the ice tunnel, each door closed, anonymous and repetitive, cold fluorescent corridor light, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "corridor footsteps fading, door closing, institutional silence",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 571,
+      "narration": "The 1963 Army public relations film 'The City Under Ice' presented Camp Century as a triumph. What it didn't show: the chain saws. The collapsing ceilings. The leaking reactor.",
+      "visual_description": "Black-and-white promotional film frame, soldiers at workbenches and in corridors, cheerful and composed, 1960s military promotional reel production style, Kodachrome 60s grain overlay.",
+      "sfx_prompt": "movie projector reel noise, newsreel narrator voice faint, film score strings",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 585,
+      "narration": "The glacier was alive. Army engineers had assumed the ice sheet was essentially static. That tunnels carved into it would hold indefinitely. They were wrong.",
+      "visual_description": "Wide underground shot of a tunnel showing structural deformation, walls pressing inward, support beams bent under load, a work light illuminating the warped geometry, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "deep structural creak, distant drip, low tension chord",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 597,
+      "narration": "Glaciers flow. Under their own colossal weight and internal thermal gradients, they creep continuously toward the coast. The Camp Century trenches had compressed to design margins within four years.",
+      "visual_description": "Schematic illustration of tunnel cross-sections evolving: open, bowing inward, nearly collapsed — three panels left-to-right, blueprint style, blue-white ice tones, cold fluorescent light, Kodachrome 60s film grain.",
+      "sfx_prompt": "deep ice groan building slowly, bass note rising",
+      "music_intensity": 0.87,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 611,
+      "narration": "Electric chain-saw teams rotated through the tunnels continuously, trimming back the encroaching ice walls. Every week the glacier advanced. Every week they cut it back.",
+      "visual_description": "Ground-level shot of a soldier operating an electric chain saw against a blue-white ice wall, crystals flying, single work light, narrow passage behind him, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "chain saw roar echoing in ice, crystals scatter, metallic whine",
+      "music_intensity": 0.87,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 624,
+      "narration": "In 1962, core samples from Camp Century's sump area revealed that liquid wastes had already permeated 52 meters — 170 feet — horizontally through the glacier.",
+      "visual_description": "Extreme close-up of an ice core sample in a laboratory tray, dark staining visible in the translucent column, scientist's gloved hands rotating it, cold-room atmosphere, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "ice core rotation, lab silence, faint chemical drip",
+      "music_intensity": 0.87,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 636,
+      "narration": "The project was leaking. In more ways than one. The ice was crushing the infrastructure — and the waste was already migrating through the glacier.",
+      "visual_description": "Wide underground tunnel shot with water stains visible on ice walls, yellowish-brown discoloration spreading through the tunnel lining, a work light illuminating the contamination, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "dripping water, low structural creak, Geiger counter distant",
+      "music_intensity": 0.88,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 648,
+      "narration": "Then came the reactor trench. The most critical section of the entire installation. The one the Army could not afford to lose.",
+      "visual_description": "Low-angle shot looking up the 18-meter-deep reactor trench, massive steel arch ribs curving overhead, deep shadows beyond the work lights, atmosphere of claustrophobic tension, Kodachrome 60s film grain, cinematic noir.",
+      "sfx_prompt": "low drone tone, ice creak, distant drip accelerating",
+      "music_intensity": 0.9,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 660,
+      "narration": "In the summer of 1962, the reactor trench ceiling drooped so severely it had to be physically raised five feet — to prevent contact with the active PM-2A reactor below.",
+      "visual_description": "Engineering cross-section diagram of the reactor trench, ceiling bowing under pressure, stress arrows visible, 'RAISED 5 FEET' annotation in red, blueprint technical style, cold fluorescent light, Kodachrome 60s film grain.",
+      "sfx_prompt": "structural creak, metallic impact, muffled alarm tone",
+      "music_intensity": 0.9,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 674,
+      "narration": "Lead bricks were packed around a leaking reactor coolant system. The heat from the reactor was destabilizing the ice floor — accelerating compression in the one section that could not fail.",
+      "visual_description": "Close-up of lead brick shielding stacked against a reactor pipe junction, claustrophobic repair zone, harsh work lights, damp walls, Kodachrome 60s film grain, cinematic noir, Cold War military realism.",
+      "sfx_prompt": "lead brick scrape, reactor pressure hiss, metallic clang",
+      "music_intensity": 0.9,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 689,
+      "narration": "For a missile system, these conditions were catastrophic. Steel railways could buckle under lateral ice movement. Missiles on rail cars could tip. Launch coordinates could not be maintained.",
+      "visual_description": "Wide shot of an empty underground rail line in an ice tunnel, one track visibly warped and raised, a work lamp illuminating the deformation, deep shadows, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "metal rail ping, tunnel echo, cold silence",
+      "music_intensity": 0.9,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 702,
+      "narration": "In 1963, the Army's Engineer Studies Center published its verdict: the Greenland ice sheet was too unstable to support Project Iceworm. The program was officially cancelled.",
+      "visual_description": "Close-up of a classified report folder stamped CANCELLED in red on a steel desk, a general's ring on the pressing hand, harsh overhead light, dramatic shadow, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "rubber stamp thud, paper shuffle, silence settling",
+      "music_intensity": 0.92,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 715,
+      "narration": "The cover story remained intact. Camp Century continued as a research station. Most personnel still had no idea what they had been building a proof-of-concept for.",
+      "visual_description": "Archival-style wide shot of scientists at workbenches with ice core samples, soldiers visible in the background, normalcy maintained, eerie quiet competence, cold fluorescent lighting, Kodachrome 60s film grain.",
+      "sfx_prompt": "laboratory equipment sounds, pencil on clipboard, quiet boot steps",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 728,
+      "narration": "Inside the tunnels, legitimate science was producing results that would outlast everything else about Camp Century. Chester Langway Jr. and B. Lyle Hansen had been drilling ice cores since 1961.",
+      "visual_description": "Close-up of an ice core section being extracted from a thermal drilling tube, pale blue translucent ice, Langway's gloved hands steadying the core, deep-drill atmosphere, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "drill motor whir, ice core release hiss, melt water dripping",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 742,
+      "narration": "By summer 1966, their thermal drill reached bedrock at 1,387 meters — 4,560 feet beneath the surface of the Greenland ice sheet.",
+      "visual_description": "Wide shot of the ice drilling platform inside the tunnel, full core length visible alongside the drill housing, the team gathered in quiet achievement, single work light, Kodachrome 60s film grain, archival documentary style.",
+      "sfx_prompt": "drill stopping, breath held, muffled cheer",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 753,
+      "narration": "The first complete deep ice core ever extracted anywhere on Earth. Langway froze and shipped every meter to the CRREL laboratory in Hanover, New Hampshire.",
+      "visual_description": "Archival-style shot of ice core tubes packed in insulated cases being loaded onto a transport aircraft, logistics team in cold gear, Arctic base behind them, Kodachrome 60s film grain, Cold War military realism.",
+      "sfx_prompt": "cargo loading, forklift hum, aircraft engine start",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 765,
+      "narration": "Among the samples were eleven feet of sub-ice sediment — basal material from below the glacier. No one quite knew what to do with it. It was labeled, boxed, and stored.",
+      "visual_description": "Close-up of cardboard boxes stacked in a freezer storage room, labels reading 'Camp Century sub-ice' in stencil font, institutional fluorescent light, frost on box surfaces, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "freezer hum, cardboard scrape, quiet storage room",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 780,
+      "narration": "Willi Dansgaard — the Danish geophysicist blocked from the Camp Century drilling site by U.S. military secrecy in 1964 — received samples from Langway and began his analysis.",
+      "visual_description": "Portrait-style close-up of a scientist examining a thin ice slice on a lightbox, oxygen isotope graphs beside him, cold laboratory atmosphere, cinematic documentary style, Kodachrome 60s film grain.",
+      "sfx_prompt": "lightbox hum, paper turning, quiet scientific concentration",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 793,
+      "narration": "In 1969, Dansgaard published his oxygen isotope analysis in Science: 100,000 years of Earth's climate history, encoded in a column of Arctic ice.",
+      "visual_description": "Extreme close-up of an oxygen isotope ratio graph on academic journal paper, dramatic oscillations across the record visible, warm reading lamp, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "journal page turn, low reverent string chord, silence",
+      "music_intensity": 0.75,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 805,
+      "narration": "The field of modern paleoclimatology — the reconstruction of past climates — was born inside a classified military deception.",
+      "visual_description": "Wide artistic shot of the ice sheet surface at dusk, orange light layering across the horizon, a lone silhouetted figure at the edge, profound quiet, Kodachrome 60s film grain, cinematic noir atmosphere.",
+      "sfx_prompt": "wind subsiding, low cello chord held, silence",
+      "music_intensity": 0.75,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 814,
+      "narration": "On July 9, 1963, the PM-2A reactor was shut down for maintenance and never restarted. By summer 1964, its core had been removed and loaded aboard the USNS Greenville Victory.",
+      "visual_description": "Archival shot of reactor core removal equipment on over-snow trailers, workers in protective gear, Arctic late-summer light, a vessel dim in the background, Kodachrome 60s film grain, Cold War military realism.",
+      "sfx_prompt": "heavy equipment strain, metal on snow, ship horn distant",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 829,
+      "narration": "Camp Century was reduced to summer-only operations in 1964 and fully abandoned between 1966 and 1967. The Army removed the reactor core. It left everything else where it was.",
+      "visual_description": "Low-angle shot of the last military convoy departing across the ice, twin tracks fading into white distance, tunnel entrance barely visible, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "convoy engine fading, wind filling the void, ice groan",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 843,
+      "narration": "Everything: 9,200 metric tons of physical infrastructure. 200,000 liters of diesel fuel. 240,000 liters of biological waste in unlined sumps.",
+      "visual_description": "Schematic overhead diagram of Camp Century waste footprint, color-coded contamination zones marked, 136-acre boundary visible, cold technical style, Kodachrome 60s film grain overlay, archival documentary.",
+      "sfx_prompt": "Geiger counter steady click, deep bass drone, isolation",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 853,
+      "narration": "And an estimated 1.2 billion becquerels of radioactive coolant from the PM-2A's secondary loop. Possible PCBs from era-typical Arctic construction materials.",
+      "visual_description": "Close-up of a hazardous materials schematic, chemical and radiological symbols annotated on a site map, cold blue-white tones, technical drafting style, Kodachrome 60s film grain, archival photo style.",
+      "sfx_prompt": "Geiger counter click, low bass drone deepening, tense silence",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 863,
+      "narration": "The Army's justification was simple: perpetual snowfall would entomb the site forever. Four-plus feet of new snow per year. The waste would sink ever deeper into the glacier.",
+      "visual_description": "Slow-motion close-up of snowflakes falling onto an ice surface, layers accumulating in silence, wide-angle fish-eye lens, peaceful white-on-white, Kodachrome 60s film grain, archival photo style.",
+      "sfx_prompt": "gentle snow fall, near-silence, single low piano note",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 877,
+      "narration": "Operation Chrome Dome, begun in 1961, kept twelve nuclear-armed B-52s continuously airborne along two major routes. One route passed directly over Greenland.",
+      "visual_description": "Silhouette of a B-52 Stratofortress banking against a full Arctic moon, bomb bay barely visible in profile, cold blue lunar light, cinematic noir, Kodachrome 60s film grain, Cold War military realism.",
+      "sfx_prompt": "bomber engine roar banking, radar ping, wind at altitude",
+      "music_intensity": 0.88,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 888,
+      "narration": "Denmark was not informed of the nuclear-armed overflights. On January 21, 1968, a Chrome Dome B-52 crashed on the sea ice of Wolstenholme Fjord near Thule. Six of seven crew survived.",
+      "visual_description": "Wide shot of burning aircraft wreckage on sea ice at night, orange flames against black Arctic sky, debris scattered, helicopter spotlight sweeping the scene, Kodachrome 60s film grain, cinematic noir realism.",
+      "sfx_prompt": "explosion echo fading, helicopter rotor, distress radio signal",
+      "music_intensity": 0.92,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 902,
+      "narration": "The four hydrogen bombs did not achieve nuclear detonation. But their conventional explosive components detonated on impact — scattering plutonium-contaminated debris across miles of Arctic sea ice.",
+      "visual_description": "Helicopter aerial view of contaminated sea ice debris field, dark scorch marks on white ice, cleanup crew in protective suits beginning work, wide documentary shot, Kodachrome 60s film grain, Cold War realism.",
+      "sfx_prompt": "radiation alarm, Arctic wind, boots on frozen ocean",
+      "music_intensity": 0.92,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 916,
+      "narration": "Secretary of Defense McNamara immediately ordered all nuclear-armed airborne alert missions ended worldwide. The crash had exposed what Denmark had been publicly denying for a decade.",
+      "visual_description": "Interior shot of a Danish parliamentary chamber, MPs in debate, tension on faces, flags behind the speaker, high-contrast archival photo style, Kodachrome 60s film grain, Cold War documentary realism.",
+      "sfx_prompt": "parliamentary argument, gavel strike, press cameras clicking",
+      "music_intensity": 0.9,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 928,
+      "narration": "The Danish Parliament demanded absolute guarantees in February 1968: no nuclear weapons in Greenland, no nuclear-armed overflights. By May 1968, a secret bilateral agreement formalized those terms.",
+      "visual_description": "Two senior diplomats signing a document at a plain table, no press present, bare institutional room, single overhead lamp, archival photo style, Kodachrome 60s film grain, Cold War realism.",
+      "sfx_prompt": "pen on paper, door closing, formal silence",
+      "music_intensity": 0.88,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 941,
+      "narration": "Terms that Washington had been violating for a decade. One component of one hydrogen bomb was never recovered from Wolstenholme Fjord. Persistent plutonium contamination was confirmed in the area decades later.",
+      "visual_description": "Dark underwater visualization of the seafloor of North Star Bay, murky cold water, a single sonar light sweeping the silt, darkness beyond the beam edge, cinematic noir, Kodachrome 60s film grain.",
+      "sfx_prompt": "sonar ping, deep water pressure ambient, long silence",
+      "music_intensity": 0.88,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 956,
+      "narration": "In 1979, Greenland achieved Home Rule from Denmark. The Greenlandic people — never consulted on Camp Century, on nuclear deployments, on the 1951 Defense Agreement — gained their first measure of self-governance.",
+      "visual_description": "Wide shot of a Greenlandic coastal settlement against the ice sheet backdrop, Northern Lights faintly visible above, warm house lights below, vast landscape, Kodachrome 60s film grain, archival documentary style.",
+      "sfx_prompt": "wind, distant village sounds, quiet solemnity, light piano note",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 971,
+      "narration": "Declassified documents were obtained by Denmark's Institute for International Affairs in 1996 and published in 1997. Project Iceworm was revealed publicly for the first time.",
+      "visual_description": "Close-up of a declassified document binder being opened, pages stamped DECLASSIFIED fanning forward, press cameras flashing behind, dramatic side-lighting, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "camera flash bursts, document pages fan, press crowd murmur",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 983,
+      "narration": "The revelations arrived alongside separate disclosures of actual nuclear weapons storage at Thule and the coverup of the 1968 B-52 crash. In Danish public life, they became known as Thulegate.",
+      "visual_description": "Newspaper front page illustration with Danish typography, 1997 date, dramatic halftone photography, archival photo style, Kodachrome 60s film grain, cold press-room light.",
+      "sfx_prompt": "printing press, newspaper pages, urgent newscast tone",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 998,
+      "narration": "In June 1995, Danish Foreign Minister Petersen publicly assured parliament that no nuclear weapons had ever been deployed on the ground in Greenland.",
+      "visual_description": "Interior government press conference, a minister at a podium looking composed, reporters facing him, formal press-room setting, Kodachrome 60s film grain, Cold War documentary realism.",
+      "sfx_prompt": "press conference ambient, cameras clicking, microphone hum",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1009,
+      "narration": "Days later, the United States government provided a letter confirming they had been. Foreign Minister Petersen's public assurance had collapsed within forty-eight hours.",
+      "visual_description": "Interior press conference, a minister at a podium looking shaken, a document being passed forward from the back of the room, harsh press lighting, Kodachrome 60s film grain, documentary realism.",
+      "sfx_prompt": "press conference murmur, paper shuffle, microphone feedback burst",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1021,
+      "narration": "A Danish parliamentary investigation formally blamed Prime Minister H.C. Hansen for providing an unauthorized go-ahead in 1957 — calling his deliberate non-answer a fundamental challenge to democratic accountability.",
+      "visual_description": "Black-and-white archival portrait of H.C. Hansen in formal parliamentary attire, face composed and unreadable, framed by institutional architecture, documentary photo style, Kodachrome 60s film grain, cinematic noir.",
+      "sfx_prompt": "gavel strike, institutional silence, low string chord held",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 1034,
+      "narration": "In August 2016, glaciologist William Colgan and colleagues published a landmark study in Geophysical Research Letters. The Army's 'preserved for eternity' assumption had a time limit.",
+      "visual_description": "Climate scientist at a workstation, Greenland ice sheet melt projections on his screen, satellite imagery on a wall monitor behind him, modern laboratory in documentary style, Kodachrome 60s film grain overlay.",
+      "sfx_prompt": "keyboard typing, data processing beep, quiet urgency, low drone",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1047,
+      "narration": "Under a business-as-usual emissions scenario — RCP 8.5 — Camp Century will transition from net snow accumulation to net ablation by approximately 2090.",
+      "visual_description": "Animated-style graphic of the Greenland ice sheet surface, Camp Century waste footprint highlighted in red, '2090' date annotation, scale bar visible, Kodachrome 60s film grain treatment, cold documentary light.",
+      "sfx_prompt": "ice melt drip accelerating, deep bass pulse, Geiger counter steady",
+      "music_intensity": 0.87,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1058,
+      "narration": "Colgan's assessment was direct: 'Once the site transitions from net snowfall to net melt, it's only a matter of time before the wastes melt out. It becomes irreversible.'",
+      "visual_description": "Overhead schematic map of the Camp Century waste footprint, color bands marking contamination zones, 136-acre boundary marked, cold technical documentary style, Kodachrome 60s film grain.",
+      "sfx_prompt": "Geiger counter steady click, low ambient drone, deep bass",
+      "music_intensity": 0.87,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1072,
+      "narration": "The waste covers 55 hectares — 136 acres — roughly 100 football fields. Diesel fuel. Biological waste in unlined sumps. Radioactive coolant. Possible PCBs. All of it in motion beneath the ice.",
+      "visual_description": "Perspective shot looking down a contaminated ice waste map schematic, color zones spreading outward from a central point, scale illustrations, Kodachrome 60s film grain overlay, cold technical style.",
+      "sfx_prompt": "Geiger click rising, deep bass drone, isolation silence",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1087,
+      "narration": "In October 2016, Greenland's Minister of Industry Vittus Qujaukitsoq publicly demanded Denmark prepare for remediation and compensate Greenlandic residents. The question of legal responsibility remains unresolved.",
+      "visual_description": "Wide shot of a Greenlandic governmental building in Nuuk, the Greenlandic flag on the facade, press gathered outside, grey overcast Arctic sky, documentary realism, Kodachrome 60s film grain.",
+      "sfx_prompt": "press crowd ambient, wind, flag snapping",
+      "music_intensity": 0.85,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1099,
+      "narration": "The only applicable treaty is the 1951 bilateral U.S.-Denmark Defense Agreement — written decades before Greenlandic self-governance and before climate change made 'perpetual snowfall' contingent.",
+      "visual_description": "Close-up of the 1951 defense agreement document, official signatures at the bottom, aged yellowed paper, a modern pointing hand at a paragraph, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "aged paper creak, wind outside, contemplative silence",
+      "music_intensity": 0.82,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1112,
+      "narration": "In 2017, Denmark established the Camp Century Climate Monitoring Programme, tasked with tracking changes at the site and updating annual waste-exposure probability estimates.",
+      "visual_description": "Field researchers in Arctic cold-weather gear setting up monitoring instruments on the Greenland ice surface, wide documentary shot, clean white expanse, Kodachrome 60s film grain overlay, Arctic realism.",
+      "sfx_prompt": "equipment setup sounds, Arctic wind, radio communication crackle",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1123,
+      "narration": "In 2018, a freezer cleanout at the University of Copenhagen revealed the forgotten Camp Century sub-ice sediment. Scientists opened the jars to find ancient leaves, seeds, and moss.",
+      "visual_description": "Close-up of a glass jar opened under specimen lighting, ancient plant material visible inside, scientist's expression shifting to wonder, warm specimen light, shallow depth-of-field, Kodachrome 60s film grain.",
+      "sfx_prompt": "jar lid opening, specimen light buzz, quiet wonder",
+      "music_intensity": 0.78,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1136,
+      "narration": "The plant material dated to the Pleistocene. Leaves and seeds from a time when this part of Greenland was green and open. The ice that the Army trusted to hide its secrets had itself preserved evidence of a warmer world.",
+      "visual_description": "Extreme close-up of fossilized plant fragments on a black specimen tray under laboratory white light, fine detail visible — leaf veins, seed casings — cold analytical lighting, archival photo style, Kodachrome 60s film grain.",
+      "sfx_prompt": "specimen tray rattle, microscope focus click, laboratory silence",
+      "music_intensity": 0.75,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1156,
+      "narration": "A 2021 PNAS paper confirmed what the sediment revealed: the Greenland ice sheet had melted and reformed at least once in the past 1.1 million years. Northwestern Greenland had been vegetated.",
+      "visual_description": "Wide shot of a sunlit Arctic tundra, green moss and low vegetation visible, ice sheet edge receding in the background, warm golden light, a glimpse of a warmer past Greenland, Kodachrome 60s film grain.",
+      "sfx_prompt": "wind in tundra grass, birdsong, haunting piano note",
+      "music_intensity": 0.75,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 1170,
+      "narration": "If it happened before, it can happen again. The military cover for a nuclear missile base had given science the tools to measure how close we are to that threshold.",
+      "visual_description": "Wide Arctic panorama at sunset, clouds lit amber and orange over the ice sheet, absolute stillness, a single research tent barely visible at the horizon, Kodachrome 60s film grain, Cold War documentary realism.",
+      "sfx_prompt": "wind dying to near-silence, low cello note, contemplation",
+      "music_intensity": 0.73,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1185,
+      "narration": "In April 2024, a NASA Gulfstream III using UAVSAR radar inadvertently detected Camp Century's buried tunnel structures at over thirty meters depth — 150 miles east of Pituffik Space Base.",
+      "visual_description": "Exterior wide shot of a NASA research aircraft over the Greenland ice sheet, UAVSAR pod beneath the fuselage, vast white landscape below, stark polar light, Kodachrome 60s film grain, Cold War realism reinterpreted.",
+      "sfx_prompt": "aircraft engine hum, radar pulse tone, wind at altitude",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1199,
+      "narration": "The radar images showed the parallel elements of the buried tunnel network with striking clarity — a ghost city, frozen in place sixty years after abandonment. Thirty meters down. Still there.",
+      "visual_description": "Synthetic aperture radar visualization of Camp Century tunnel structures beneath the ice, false-color cold blues and whites, grid scale overlay, NASA data aesthetic with Kodachrome 60s film grain.",
+      "sfx_prompt": "radar sweep tone, deep synthesizer hum, ghost-echo effect",
+      "music_intensity": 0.8,
+      "pause_after": 1.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 1214,
+      "narration": "In 2025 and 2026, the Trump administration's renewed interest in acquiring Greenland reignited debate over American Arctic military posture. Camp Century's classified legacy resurfaced as a live argument.",
+      "visual_description": "Archival-style Arctic map with modern political overlays, a contemporary government press briefing blurred in background, Greenland highlighted at center, Kodachrome 60s film grain overlay, documentary lighting.",
+      "sfx_prompt": "news broadcast faint and unintelligible, map pointer tap, radio static",
+      "music_intensity": 0.72,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1227,
+      "narration": "An argument about sovereignty. About environmental debt. About the limits of what alliances built on structured ambiguity can endure.",
+      "visual_description": "Wide shot of a Danish government building at twilight, both the Danish and Greenlandic flags visible, cold northern light, documentary realism, Kodachrome 60s film grain, Cold War archival aesthetic.",
+      "sfx_prompt": "wind, flags snapping, evening quiet settling",
+      "music_intensity": 0.7,
+      "pause_after": 1.5,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 1237,
+      "narration": "Project Iceworm was cancelled in 1963 because the ice defeated it. But the ice is now retreating. What the United States buried beneath Greenland is returning to the surface — carrying the residue of an empire that believed its Cold War secrets could be frozen forever.",
+      "visual_description": "Extreme slow-motion wide shot of meltwater streams carving channels across the Greenland ice surface, rivulets refracting summer light into cold blues and whites, vast and elegiac, Kodachrome 60s film grain, Cold War documentary realism.",
+      "sfx_prompt": "meltwater stream steady, distant ice fracture crack, sustained low drone fading slowly to silence",
+      "music_intensity": 0.65,
+      "pause_after": 2.0,
+      "transition": "fade"
+    }
+  ]
 }
