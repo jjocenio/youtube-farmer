@@ -35,7 +35,7 @@ from moviepy import (
     concatenate_videoclips,
 )
 from pydantic import BaseModel, Field, ValidationError
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 from tqdm import tqdm
 
 
@@ -58,6 +58,8 @@ class Scene(BaseModel):
     index: int
     narration: str
     visual_prompt: str
+    ai_generated_required: bool = True
+    public_images: list[dict[str, Any]] = Field(default_factory=list)
     sfx_prompt: str = ""
     duration: float = Field(gt=0)
     pause_after: float = 0.0
@@ -76,6 +78,7 @@ class SceneAssets:
     narration_path: Path
     image_path: Path
     sfx_path: Optional[Path]
+    image_attribution: Optional[str] = None
 
 
 @dataclass
@@ -262,6 +265,8 @@ def adapt_current_project_manifest(raw: dict[str, Any]) -> Manifest:
                 index=position,
                 narration=str(entry.get("narration", "")).strip(),
                 visual_prompt=visual_prompt,
+                ai_generated_required=bool(entry.get("ai_generated_required", True)),
+                public_images=list(entry.get("public_images") or []),
                 sfx_prompt=str(entry.get("sfx_prompt", "")).strip(),
                 duration=duration,
                 pause_after=float(entry.get("pause_after") or 0.0),
@@ -309,6 +314,8 @@ def adapt_legacy_manifest(raw: dict[str, Any]) -> Manifest:
                 index=int(entry.get("id") or position),
                 narration=narration,
                 visual_prompt=entry.get("image_prompt", ""),
+                ai_generated_required=bool(entry.get("ai_generated_required", True)),
+                public_images=list(entry.get("public_images") or []),
                 sfx_prompt=entry.get("sfx_prompt", "") or "",
                 duration=float(entry.get("approx_duration_sec") or 1.0),
             )
@@ -603,6 +610,28 @@ class FalClient:
             await asyncio.sleep(2.0 if status == "IN_PROGRESS" else 3.0)
 
 
+class PublicImageDownloader:
+    def __init__(self, timeout: float = 60.0) -> None:
+        self.client = httpx.AsyncClient(
+            timeout=httpx.Timeout(timeout),
+            follow_redirects=True,
+            headers={
+                "User-Agent": optional_env(
+                    "IMAGE_DOWNLOAD_USER_AGENT",
+                    "youtube-farmer/1.0 (+https://github.com/)",
+                )
+            },
+        )
+
+    async def close(self) -> None:
+        await self.client.aclose()
+
+    async def download(self, url: str, destination: Path) -> None:
+        response = await self.client.get(url)
+        response.raise_for_status()
+        destination.write_bytes(response.content)
+
+
 def extract_fal_image_url(payload: dict[str, Any]) -> Optional[str]:
     images = payload.get("images") or payload.get("data", {}).get("images") or []
     if not images:
@@ -652,12 +681,14 @@ async def acquire_assets(
         api_key=require_env("FAL_KEY"),
         model_id=optional_env("FAL_MODEL", "fal-ai/flux/dev"),
     )
+    public_image_downloader = PublicImageDownloader()
     costs = CostTracker()
 
     async def process_scene(scene: Scene) -> SceneAssets:
         narration_path = scene_file_path(asset_paths["narration"], scene.index, "narration", "mp3")
         image_path = scene_file_path(asset_paths["images"], scene.index, "image", "jpg")
         sfx_path = scene_file_path(asset_paths["sfx"], scene.index, "sfx", "mp3") if scene.sfx_prompt.strip() else None
+        image_attribution: Optional[str] = None
 
         try:
             async with elevenlabs_semaphore:
@@ -667,12 +698,23 @@ async def acquire_assets(
                     costs.narration_characters += await elevenlabs.generate_narration(scene.narration, narration_path)
                     costs.narration_generated += 1
 
-            async with fal_semaphore:
+            public_images = [item for item in scene.public_images if isinstance(item, dict) and item.get("url")]
+            use_public_image = (not scene.ai_generated_required) and bool(public_images)
+            if use_public_image:
+                selected_image = public_images[0]
+                image_attribution = normalize_public_image_attribution(selected_image.get("attribution"))
                 if image_path.exists() and not args.force_images:
                     pass
                 else:
-                    await fal.generate_image(scene.visual_prompt, image_path)
+                    await public_image_downloader.download(str(selected_image["url"]), image_path)
                     costs.images_generated += 1
+            else:
+                async with fal_semaphore:
+                    if image_path.exists() and not args.force_images:
+                        pass
+                    else:
+                        await fal.generate_image(scene.visual_prompt, image_path)
+                        costs.images_generated += 1
 
             if sfx_path:
                 async with elevenlabs_semaphore:
@@ -684,7 +726,13 @@ async def acquire_assets(
         except Exception as exc:
             raise RuntimeError(f"Scene {scene.index:03d} failed: {exc}") from exc
 
-        return SceneAssets(scene=scene, narration_path=narration_path, image_path=image_path, sfx_path=sfx_path)
+        return SceneAssets(
+            scene=scene,
+            narration_path=narration_path,
+            image_path=image_path,
+            sfx_path=sfx_path,
+            image_attribution=image_attribution,
+        )
 
     try:
         tasks = [asyncio.create_task(process_scene(scene)) for scene in manifest.timeline]
@@ -721,6 +769,7 @@ async def acquire_assets(
     finally:
         await elevenlabs.close()
         await fal.close()
+        await public_image_downloader.close()
 
 
 async def maybe_generate_thumbnail(
@@ -963,6 +1012,27 @@ def build_ken_burns_clip(image_path: Path, duration: float) -> VideoClip:
     return VideoClip(make_frame, duration=duration)
 
 
+def normalize_public_image_attribution(value: Any) -> Optional[str]:
+    if value is None:
+        return None
+    text = " ".join(str(value).split()).strip()
+    return text or None
+
+
+def build_attribution_overlay(text: str, duration: float) -> VideoClip:
+    width, height = VIDEO_SIZE
+    bar_height = 88
+    overlay = Image.new("RGBA", VIDEO_SIZE, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay)
+    draw.rectangle((0, height - bar_height, width, height), fill=(0, 0, 0, 150))
+    try:
+        font = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial.ttf", 30)
+    except Exception:
+        font = ImageFont.load_default()
+    draw.text((42, height - bar_height + 26), text[:160], fill=(255, 255, 255, 230), font=font)
+    return ImageClip(np.array(overlay)).with_duration(duration)
+
+
 def build_scene_clip(
     scene_assets: SceneAssets,
     background_music_path: Optional[Path],
@@ -1011,7 +1081,11 @@ def build_scene_clip(
         layers.append(music_segment.with_start(0))
 
     audio = CompositeAudioClip(layers)
-    video = build_ken_burns_clip(scene_assets.image_path, scene_duration).with_audio(audio)
+    base_video = build_ken_burns_clip(scene_assets.image_path, scene_duration)
+    overlays: list[VideoClip] = [base_video]
+    if scene_assets.image_attribution:
+        overlays.append(build_attribution_overlay(scene_assets.image_attribution, scene_duration))
+    video = CompositeVideoClip(overlays, size=VIDEO_SIZE).with_audio(audio)
 
     close_targets: list[Any] = [silence]
     if narration is not None:

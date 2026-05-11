@@ -14,6 +14,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Optional
 
+import httpx
+
 
 DEFAULT_OUTPUT_NAME = "assembled.mp4"
 DEFAULT_THUMBNAIL_NAME = "thumbnail.png"
@@ -22,6 +24,7 @@ RETRIABLE_STATUS_CODES = {500, 502, 503, 504}
 MAX_RETRIES = 10
 YOUTUBE_TAG_BUDGET = 500
 YOUTUBE_TAG_MAX_LENGTH = 30
+YOUTUBE_DESCRIPTION_MAX_LENGTH = 4900
 
 
 @dataclass
@@ -30,6 +33,7 @@ class PublishMetadata:
     description: str
     tags: list[str]
     selected_title_source: str
+    thumbnail_candidates: list[dict[str, Any]]
 
 
 def parse_args() -> argparse.Namespace:
@@ -102,14 +106,23 @@ def manifest_output_path(project_dir: Path) -> Path:
     return project_dir / "output" / str(filename)
 
 
+def load_manifest(project_dir: Path) -> dict[str, Any]:
+    manifest_path = project_dir / "manifest.json"
+    if not manifest_path.exists():
+        return {}
+    return json.loads(manifest_path.read_text(encoding="utf-8"))
+
+
 def parse_youtube_md(youtube_md_path: Path) -> PublishMetadata:
     if not youtube_md_path.exists():
         raise FileNotFoundError(f"youtube.md not found: {youtube_md_path}")
 
     content = youtube_md_path.read_text(encoding="utf-8")
     title, title_source = select_title(content)
-    description = build_description(content)
+    project_dir = youtube_md_path.parent
+    description = build_description(content, project_dir)
     tags = sanitize_youtube_tags(extract_tags(content))
+    thumbnail_candidates = extract_thumbnail_candidates(content)
 
     if not title:
         raise ValueError("Could not determine a YouTube title from youtube.md.")
@@ -121,6 +134,7 @@ def parse_youtube_md(youtube_md_path: Path) -> PublishMetadata:
         description=description,
         tags=tags,
         selected_title_source=title_source,
+        thumbnail_candidates=thumbnail_candidates,
     )
 
 
@@ -167,20 +181,294 @@ def extract_proposed_titles(content: str) -> dict[str, str]:
     return titles
 
 
-def build_description(content: str) -> str:
+def build_description(content: str, project_dir: Path) -> str:
     hook = extract_section_body(content, "The Hook")
     chapters = extract_code_block_after_heading(content, "Chapter Timestamps")
     seo = extract_section_body(content, "SEO Paragraph")
+    sources_block = build_sources_block(project_dir, max_chars=1600)
 
-    pieces = []
+    pieces: list[str] = []
     if hook:
         pieces.append(hook)
     if chapters:
         pieces.append("Chapters:\n" + chapters)
+    if sources_block:
+        pieces.append(sources_block)
     if seo:
         pieces.append(seo)
 
-    return "\n\n".join(piece.strip() for piece in pieces if piece.strip())
+    description = "\n\n".join(piece.strip() for piece in pieces if piece.strip())
+    if len(description) <= YOUTUBE_DESCRIPTION_MAX_LENGTH:
+        return description
+
+    trimmed = []
+    running = 0
+    for piece in pieces:
+        piece = piece.strip()
+        if not piece:
+            continue
+        separator = 2 if trimmed else 0
+        budget = YOUTUBE_DESCRIPTION_MAX_LENGTH - running - separator
+        if budget <= 0:
+            break
+        if len(piece) > budget:
+            piece = piece[: max(0, budget - 1)].rstrip()
+        trimmed.append(piece)
+        running += len(piece) + separator
+    return "\n\n".join(trimmed).strip()
+
+
+def build_sources_block(project_dir: Path, max_chars: int = 1600) -> str:
+    sources = load_structured_sources(project_dir)
+    if not sources:
+        sources = parse_sources_from_info_md(project_dir / "info.md")
+    if not sources:
+        return ""
+
+    grouped: dict[str, list[dict[str, Any]]] = {key: [] for key in ("book", "document", "article", "archive", "documentary", "other")}
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        source_type = str(source.get("type", "other")).strip().lower()
+        if source_type not in grouped:
+            source_type = "other"
+        grouped[source_type].append(source)
+
+    order = [
+        ("book", "Books", "📖"),
+        ("document", "Declassified Documents", "📄"),
+        ("article", "Articles", "📰"),
+        ("archive", "Archives", "🗂"),
+        ("documentary", "Documentaries", "🎞"),
+        ("other", "Other", "•"),
+    ]
+    lines = ["📚 SOURCES & FURTHER READING"]
+    remaining = max_chars - len(lines[0])
+    for key, label, icon in order:
+        items = grouped.get(key, [])
+        if not items:
+            continue
+        section_header = f"{icon} {label}"
+        candidate_lines = ["", section_header]
+        for source in items:
+            title = str(source.get("title", "")).strip()
+            author = str(source.get("author", source.get("institution", ""))).strip()
+            year = str(source.get("year", "")).strip()
+            meta_bits = ", ".join(bit for bit in (author, year) if bit)
+            candidate_lines.append(f"{title} — {meta_bits}" if meta_bits else title)
+            url = source.get("url")
+            if url:
+                candidate_lines.append(str(url).strip())
+
+        candidate_text = "\n".join(candidate_lines).strip()
+        if len(candidate_text) <= remaining:
+            lines.append("")
+            lines.append(section_header)
+            for entry in candidate_lines[2:]:
+                lines.append(entry)
+            remaining -= len(candidate_text)
+            continue
+
+        for entry in candidate_lines[2:]:
+            entry_cost = len(entry) + 1
+            if entry_cost > remaining:
+                break
+            if not lines or lines[-1] != section_header:
+                if len("\n".join(lines + ["", section_header])) <= max_chars:
+                    lines.append("")
+                    lines.append(section_header)
+                    remaining -= len("\n".join(["", section_header]))
+                else:
+                    break
+            lines.append(entry)
+            remaining -= entry_cost
+        if remaining <= 0:
+            break
+    return "\n".join(lines).strip()[:max_chars]
+
+
+def load_structured_sources(project_dir: Path) -> list[dict[str, Any]]:
+    manifest_path = project_dir / "manifest.json"
+    if not manifest_path.exists():
+        return []
+    raw = json.loads(manifest_path.read_text(encoding="utf-8"))
+    metadata = raw.get("metadata", {}) if isinstance(raw.get("metadata"), dict) else {}
+    sources = metadata.get("sources", [])
+    return sources if isinstance(sources, list) else []
+
+
+def parse_sources_from_info_md(info_md_path: Path) -> list[dict[str, Any]]:
+    if not info_md_path.exists():
+        return []
+
+    content = info_md_path.read_text(encoding="utf-8")
+    sources: list[dict[str, Any]] = []
+
+    for raw_line in re.findall(r"(?m)^\s*\*\*Sources:\*\*\s*(.+?)\s*$", content):
+        sources.extend(parse_inline_sources(raw_line))
+
+    bibliography_match = re.search(r"(?ims)^\s*##\s*Bibliography & Link Map\s*(?P<body>.+?)(?=^\s*##\s|\Z)", content)
+    if bibliography_match:
+        sources.extend(parse_bibliography_entries(bibliography_match.group("body")))
+
+    if not sources:
+        sources.extend(parse_generic_reference_lines(content))
+
+    sources = dedupe_sources(sources)
+    return sources
+
+
+def parse_inline_sources(raw_line: str) -> list[dict[str, Any]]:
+    parts = [part.strip() for part in raw_line.split(";") if part.strip()]
+    sources: list[dict[str, Any]] = []
+    for part in parts:
+        match = re.search(r"\[(?P<title>[^\]]+)\]\((?P<url>https?://[^)]+)\)(?:\s*—\s*(?P<meta>.+))?$", part)
+        if not match:
+            continue
+        title = match.group("title").strip()
+        url = match.group("url").strip()
+        meta = (match.group("meta") or "").strip()
+        sources.append(source_from_title_meta(title, meta, url))
+    return sources
+
+
+def parse_bibliography_entries(body: str) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+    for match in re.finditer(r"(?m)^\s*\d+\.\s+\[(?P<title>[^\]]+)\]\((?P<url>https?://[^)]+)\)\s*—\s*(?P<meta>.+?)\s*$", body):
+        entries.append(source_from_title_meta(match.group("title"), match.group("meta"), match.group("url")))
+    return entries
+
+
+def parse_generic_reference_lines(content: str) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+    for match in re.finditer(r"(?m)^\s*(?:\d+\.\s+)?(?P<title>[^\n]+?)\s*—\s*(?P<meta>.+?)\s*$", content):
+        title = match.group("title").strip()
+        meta = match.group("meta").strip()
+        url_match = re.search(r"https?://\S+", meta)
+        url = url_match.group(0).rstrip(").,]") if url_match else None
+        if not url:
+            continue
+        entries.append(source_from_title_meta(title, meta, url))
+    return entries
+
+
+def source_from_title_meta(title: str, meta: str, url: str) -> dict[str, Any]:
+    year_match = re.search(r"\b(19|20)\d{2}\b", meta)
+    year = year_match.group(0) if year_match else ""
+    author = re.sub(r"https?://\S+", "", meta).strip(" ,—-")
+    if year:
+        author = author.replace(year, "").strip(" ,—-")
+    return {
+        "title": title.strip(),
+        "author": author,
+        "year": year,
+        "url": url,
+        "type": infer_source_type(title, meta, url),
+    }
+
+
+def dedupe_sources(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen: set[tuple[str, str]] = set()
+    deduped: list[dict[str, Any]] = []
+    for source in sources:
+        key = (str(source.get("title", "")).casefold(), str(source.get("url", "")).casefold())
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(source)
+    return deduped
+    return sources
+
+
+def infer_source_type(title: str, meta: str, url: Optional[str]) -> str:
+    haystack = f"{title} {meta} {url or ''}".casefold()
+    if any(word in haystack for word in ("book", "published by", "press")):
+        return "book"
+    if any(word in haystack for word in ("documentary", "film", "tv", "television")):
+        return "documentary"
+    if any(word in haystack for word in ("archive", "national archives", "declassified", "pdf")):
+        return "document"
+    if "substack" in haystack or "blog" in haystack or "magazine" in haystack or "news" in haystack:
+        return "article"
+    return "other"
+
+
+def extract_thumbnail_candidates(content: str) -> list[dict[str, Any]]:
+    match = re.search(r"(?ims)^\s*###\s*Thumbnail Strategy\s*\n+(?P<body>.+?)(?=(?:\n\s*###\s|\n\s*---|\Z))", content)
+    if not match:
+        return []
+    body = match.group("body")
+    candidates = []
+    for url in re.findall(r"https?://\S+", body):
+        candidates.append({"url": url.rstrip(").,]")})
+    return candidates
+
+
+def select_thumbnail_source(project_dir: Path, youtube_md_path: Path, args: argparse.Namespace) -> Optional[dict[str, Any]]:
+    if args.thumbnail:
+        return {"path": str(Path(args.thumbnail).expanduser())}
+
+    manifest = load_manifest(project_dir)
+    metadata = manifest.get("metadata", {}) if isinstance(manifest.get("metadata"), dict) else {}
+    public_candidates = metadata.get("public_images", []) if isinstance(metadata.get("public_images"), list) else []
+    public_candidates = [candidate for candidate in public_candidates if isinstance(candidate, dict) and candidate.get("url")]
+    if public_candidates:
+        return choose_thumbnail_candidate(public_candidates)
+
+    youtube_candidates = extract_thumbnail_candidates(youtube_md_path.read_text(encoding="utf-8")) if youtube_md_path.exists() else []
+    if youtube_candidates:
+        return choose_thumbnail_candidate(youtube_candidates)
+
+    return None
+
+
+def choose_thumbnail_candidate(candidates: list[dict[str, Any]]) -> Optional[dict[str, Any]]:
+    if not candidates:
+        return None
+
+    print("Thumbnail candidates found:")
+    for idx, candidate in enumerate(candidates, start=1):
+        url = str(candidate.get("url", "")).strip()
+        attribution = str(candidate.get("attribution", "")).strip()
+        label = candidate.get("title") or candidate.get("name") or candidate.get("source") or f"Candidate {idx}"
+        print(f"  {idx}. {label}")
+        print(f"     {url}")
+        if attribution:
+            print(f"     attribution: {attribution}")
+
+    default_index = 0
+    if len(candidates) > 1:
+        prompt = f"Choose thumbnail [1-{len(candidates)}] (default 1): "
+        try:
+            raw_choice = input(prompt).strip()
+        except EOFError:
+            raw_choice = ""
+        if raw_choice:
+            try:
+                chosen = int(raw_choice)
+                if 1 <= chosen <= len(candidates):
+                    default_index = chosen - 1
+            except ValueError:
+                print("Invalid choice, using candidate 1.")
+
+    return candidates[default_index]
+
+
+async def download_thumbnail_source(source: dict[str, Any], destination: Path) -> Optional[Path]:
+    if "path" in source:
+        return Path(source["path"]).expanduser()
+    url = source.get("url")
+    if not url:
+        return None
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    async with httpx.AsyncClient(
+        follow_redirects=True,
+        headers={"User-Agent": optional_env("IMAGE_DOWNLOAD_USER_AGENT", "youtube-farmer/1.0 (+https://github.com/)")},
+    ) as client:
+        response = await client.get(str(url))
+        response.raise_for_status()
+        destination.write_bytes(response.content)
+    return destination
 
 
 def extract_section_body(content: str, heading: str) -> str:
@@ -579,9 +867,12 @@ def main() -> int:
         youtube_md_path = project_dir / "youtube.md"
         metadata = parse_youtube_md(youtube_md_path)
         video_path = Path(args.file).expanduser() if args.file else manifest_output_path(project_dir)
+        thumbnail_source = select_thumbnail_source(project_dir, youtube_md_path, args)
         thumbnail_path = Path(args.thumbnail).expanduser() if args.thumbnail else project_dir / "assets" / DEFAULT_THUMBNAIL_NAME
-
-        if thumbnail_path and not thumbnail_path.exists():
+        if thumbnail_source and not args.thumbnail:
+            downloaded = asyncio_run(download_thumbnail_source(thumbnail_source, thumbnail_path))
+            thumbnail_path = downloaded if downloaded and downloaded.exists() else None
+        elif thumbnail_path and not thumbnail_path.exists():
             thumbnail_path = None
 
         if args.sync_existing:
@@ -607,6 +898,12 @@ def main() -> int:
     except Exception as exc:  # noqa: BLE001
         print(f"Publish failed: {exc}", file=sys.stderr)
         return 1
+
+
+def asyncio_run(coro):
+    import asyncio
+
+    return asyncio.run(coro)
 
 
 if __name__ == "__main__":

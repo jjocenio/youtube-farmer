@@ -6,11 +6,10 @@
   "category_id": "27",
   "thumbnail_uploaded": true,
   "mode": "sync",
-  "synced_at": "2026-04-22T18:55:30Z",
+  "synced_at": "2026-05-11T00:54:04Z",
   "changed_fields": [
-    "snippet.title",
     "snippet.description",
     "snippet.tags",
-    "status.selfDeclaredMadeForKids"
+    "status.privacyStatus"
   ]
 }
