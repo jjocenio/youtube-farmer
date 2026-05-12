@@ -5,7 +5,7 @@
 The script is stored in `bin/`, but it must be run from inside a video project directory because it reads:
 
 - `.env` from the project directory, with fallback to `bin/.env`
-- `manifest.json`
+- `manifest.json` by default, or any input JSON file you pass with `--input`
 - optional background music files in the project folder
 
 ## Requirements
@@ -15,6 +15,7 @@ The script is stored in `bin/`, but it must be run from inside a video project d
 - API access for:
   - ElevenLabs
   - fal.ai
+  - Freesound
 
 ## Create A Python Environment
 
@@ -55,6 +56,8 @@ Minimum required variables:
 ELEVENLABS_API_KEY=...
 ELEVENLABS_VOICE_ID=...
 FAL_KEY=...
+FREESOUND_API_KEY=...
+FREESOUND_CLIENT_ID=...
 ```
 
 Useful optional variables:
@@ -102,6 +105,29 @@ assets/
   outro/
 output/
 ```
+
+Current SFX behavior:
+
+- the pipeline reads `scene.sfx` when present
+- it searches Freesound first using `query` and `filters`
+- if Freesound returns no results, it falls back to `fallback_prompt`
+- legacy `sfx_prompt` still works as a fallback
+
+## Shorts Mode
+
+You can render a 9:16 short from a JSON input file instead of `manifest.json`:
+
+```bash
+cd /path/to/your/video-project
+python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --input short_1.json --shorts
+```
+
+Shorts mode behavior:
+
+- renders at `1080x1920`
+- reads the input file you pass with `--input`
+- prefers `background_music_shorts.mp3` if it exists
+- if `background_music_shorts.mp3` is missing, it skips background music instead of generating a new track
 
 ## Manifest Format
 
@@ -161,6 +187,7 @@ python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --force-images --f
 python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --force-music
 python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --threads 8
 python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --sample 20:60
+python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --input short_1.json --shorts
 python /Users/jarbas/Documents/youtube-farmer/bin/publish.py --dry-run
 python /Users/jarbas/Documents/youtube-farmer/bin/publish.py --sync-existing --dry-run
 ```
@@ -176,6 +203,7 @@ python /Users/jarbas/Documents/youtube-farmer/bin/publish.py --sync-existing --d
 - generates images with fal.ai
 - generates optional sound effects with ElevenLabs
 - generates background music from `metadata.bg_music_prompt` with ElevenLabs into `assets/music/background_music.mp3`
+- in shorts mode, uses `background_music_shorts.mp3` if available and otherwise leaves music off
 - reads `youtube.md`, extracts a `Fal.ai Prompt`, and generates `assets/thumbnail.png`
 - appends a CTA outro at the end of the video
 - sets each scene duration from the generated narration length
@@ -222,6 +250,7 @@ output/assembled.mp4
 ```
 
 If `metadata.output_filename` is present in `manifest.json`, that filename is used instead.
+If you pass `--input short_1.json` and no `output_filename` exists, the output defaults to `output/short_1.mp4`.
 
 ## Publish To YouTube
 
@@ -251,6 +280,29 @@ Current `youtube.md` support:
 - otherwise falls back to `## Final Title`, `## Title`, then the proposed titles
 - builds the description from `The Hook`, `Chapter Timestamps`, and `SEO Paragraph`
 - parses tags from `## Tags`
+
+Publishing also writes an internal episode review file at `assets/editorial_review.md` with the selected title source, source basis, and reminder notes for human fact-checking and editorial judgment.
+
+Assembly inserts a short AI disclosure intro before the main program when `ENABLE_AI_DISCLOSURE_INTRO=true`:
+
+- if `AI_DISCLOSURE_INTRO_VIDEO` points to an existing video file, that clip is prepended before the main program
+- if no intro video is configured, the script falls back to a generated disclosure clip
+
+To prepend that same disclosure intro onto an already assembled export, run:
+
+```bash
+python /Users/jarbas/Documents/youtube-farmer/bin/prepend_ai_disclosure.py
+```
+
+Publishing options for already-uploaded videos:
+
+- `--sync-existing` updates metadata and thumbnail only
+- `--replace-existing` sets the current video to private, then uploads the new media file as a replacement
+
+Shorts publishing:
+
+- use `--shorts` to publish the newest `*.mp4` from `output/` as the Shorts upload
+- if you want to target a specific short export, you can still pass `--file`
 
 Run a dry-run first:
 

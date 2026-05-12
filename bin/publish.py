@@ -20,11 +20,13 @@ import httpx
 DEFAULT_OUTPUT_NAME = "assembled.mp4"
 DEFAULT_THUMBNAIL_NAME = "thumbnail.png"
 UPLOAD_RECORD_NAME = "youtube_upload.json"
+EDITORIAL_RECORD_NAME = "editorial_review.md"
 RETRIABLE_STATUS_CODES = {500, 502, 503, 504}
 MAX_RETRIES = 10
 YOUTUBE_TAG_BUDGET = 500
 YOUTUBE_TAG_MAX_LENGTH = 30
 YOUTUBE_DESCRIPTION_MAX_LENGTH = 4900
+AI_DISCLOSURE_LINE = "This video uses AI-generated imagery and visualizations to illustrate historical events"
 
 
 @dataclass
@@ -39,6 +41,7 @@ class PublishMetadata:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--file", type=str, default=None, help="Override video file path.")
+    parser.add_argument("--shorts", action="store_true", help="Publish the newest MP4 from output/ as a Shorts upload.")
     parser.add_argument("--thumbnail", type=str, default=None, help="Override thumbnail file path.")
     parser.add_argument(
         "--privacy-status",
@@ -53,6 +56,11 @@ def parse_args() -> argparse.Namespace:
         "--sync-existing",
         action="store_true",
         help="Update an already uploaded YouTube video's metadata/thumbnail without re-uploading the video file.",
+    )
+    parser.add_argument(
+        "--replace-existing",
+        action="store_true",
+        help="Privatize the existing video first, then upload the new media file as a replacement.",
     )
     parser.add_argument("--dry-run", action="store_true", help="Print metadata and files without uploading.")
     return parser.parse_args()
@@ -106,6 +114,26 @@ def manifest_output_path(project_dir: Path) -> Path:
     return project_dir / "output" / str(filename)
 
 
+def resolve_youtube_md_path(project_dir: Path, shorts: bool) -> Path:
+    return project_dir / "youtube.md"
+
+
+def latest_output_video(project_dir: Path) -> Path:
+    output_dir = project_dir / "output"
+    candidates = sorted(
+        [
+            path
+            for path in output_dir.glob("*.mp4")
+            if path.is_file()
+        ],
+        key=lambda path: path.stat().st_mtime,
+        reverse=True,
+    )
+    if candidates:
+        return candidates[0]
+    return manifest_output_path(project_dir)
+
+
 def load_manifest(project_dir: Path) -> dict[str, Any]:
     manifest_path = project_dir / "manifest.json"
     if not manifest_path.exists():
@@ -113,15 +141,15 @@ def load_manifest(project_dir: Path) -> dict[str, Any]:
     return json.loads(manifest_path.read_text(encoding="utf-8"))
 
 
-def parse_youtube_md(youtube_md_path: Path) -> PublishMetadata:
+def parse_youtube_md(youtube_md_path: Path, *, shorts: bool = False) -> PublishMetadata:
     if not youtube_md_path.exists():
         raise FileNotFoundError(f"youtube.md not found: {youtube_md_path}")
 
     content = youtube_md_path.read_text(encoding="utf-8")
-    title, title_source = select_title(content)
+    title, title_source = select_title(content, shorts=shorts)
     project_dir = youtube_md_path.parent
-    description = build_description(content, project_dir)
-    tags = sanitize_youtube_tags(extract_tags(content))
+    description = build_description(content, project_dir, shorts=shorts)
+    tags = sanitize_youtube_tags(extract_tags(content, shorts=shorts))
     thumbnail_candidates = extract_thumbnail_candidates(content)
 
     if not title:
@@ -138,7 +166,61 @@ def parse_youtube_md(youtube_md_path: Path) -> PublishMetadata:
     )
 
 
-def select_title(content: str) -> tuple[str, str]:
+def write_editorial_record(project_dir: Path, metadata: PublishMetadata, youtube_md_path: Path) -> None:
+    info_md_path = project_dir / "info.md"
+    sources = load_structured_sources(project_dir)
+    if not sources:
+        sources = parse_sources_from_info_md(info_md_path)
+
+    record_path = project_dir / "assets" / EDITORIAL_RECORD_NAME
+    record_path.parent.mkdir(parents=True, exist_ok=True)
+
+    source_lines = []
+    for source in sources[:50]:
+        if not isinstance(source, dict):
+            continue
+        title = str(source.get("title", "")).strip()
+        author = str(source.get("author", source.get("institution", ""))).strip()
+        year = str(source.get("year", "")).strip()
+        url = str(source.get("url", "")).strip()
+        bits = ", ".join(bit for bit in (author, year) if bit)
+        line = f"- {title}" if title else "- Unlabeled source"
+        if bits:
+            line += f" ({bits})"
+        if url:
+            line += f" - {url}"
+        source_lines.append(line)
+
+    body = [
+        "# Editorial Review",
+        "",
+        f"- Project: {project_dir.name}",
+        f"- Title source: {metadata.selected_title_source or 'n/a'}",
+        f"- YouTube metadata: {youtube_md_path.name}",
+        f"- Info sheet: {info_md_path.name if info_md_path.exists() else 'missing'}",
+        "",
+        "## Disclosure / Review Notes",
+        "- AI disclosure line is inserted at the top of the YouTube description.",
+        "- Assembly prepends a short disclosure intro before the main program.",
+        "- Human review should confirm script wording, source selection, and historical claims before publish.",
+        "",
+        "## Source Basis",
+        *(source_lines if source_lines else ["- No structured sources found."]),
+        "",
+        "## Fact-Check Notes",
+        "- Add episode-specific verification notes here before publish.",
+    ]
+    record_path.write_text("\n".join(body).rstrip() + "\n", encoding="utf-8")
+
+
+def select_title(content: str, shorts: bool = False) -> tuple[str, str]:
+    if shorts:
+        seo_match = re.search(r"(?ims)^\s*###\s*(?:\d+\.\s*)?SEO-Focused\s*\n+(?P<body>.+?)(?:\n\s*\n|\n###\s|\n---|\Z)", content)
+        if seo_match:
+            body_lines = [line.strip() for line in seo_match.group("body").splitlines() if line.strip()]
+            if body_lines:
+                return body_lines[0], "Shorts SEO Title"
+
     direct_patterns = [
         (r"(?ims)^\s*##\s*Selected Title\s*\n+(?P<body>.+?)(?:\n\s*\n|\n##\s)", "Selected Title"),
         (r"(?ims)^\s*##\s*Final Title\s*\n+(?P<body>.+?)(?:\n\s*\n|\n##\s)", "Final Title"),
@@ -174,20 +256,33 @@ def extract_proposed_titles(content: str) -> dict[str, str]:
     )
     titles: dict[str, str] = {}
     for label, raw_title in matches:
-        title = " ".join(line.strip() for line in raw_title.splitlines() if line.strip())
+        title = ""
+        for line in raw_title.splitlines():
+            cleaned = line.strip()
+            if cleaned:
+                title = cleaned
+                break
         if title:
             normalized_label = re.sub(r"^\d+\.\s*", "", label.strip())
             titles[normalized_label] = title
     return titles
 
 
-def build_description(content: str, project_dir: Path) -> str:
+def build_description(content: str, project_dir: Path, shorts: bool = False) -> str:
+    if shorts:
+        full_description = extract_section_body(content, "Full Description")
+        hashtags = extract_hashtags(content, shorts=True)
+        if hashtags and full_description:
+            return "\n\n".join([full_description, " ".join(hashtags)])
+        return full_description or " ".join(hashtags)
+
     hook = extract_section_body(content, "The Hook")
-    chapters = extract_code_block_after_heading(content, "Chapter Timestamps")
+    chapters = extract_chapter_timestamps(content)
     seo = extract_section_body(content, "SEO Paragraph")
     sources_block = build_sources_block(project_dir, max_chars=1600)
 
     pieces: list[str] = []
+    pieces.append(AI_DISCLOSURE_LINE)
     if hook:
         pieces.append(hook)
     if chapters:
@@ -196,6 +291,9 @@ def build_description(content: str, project_dir: Path) -> str:
         pieces.append(sources_block)
     if seo:
         pieces.append(seo)
+    hashtags_line = build_hashtags(extract_tags(content, shorts=False))
+    if hashtags_line:
+        pieces.append(" ".join(hashtags_line))
 
     description = "\n\n".join(piece.strip() for piece in pieces if piece.strip())
     if len(description) <= YOUTUBE_DESCRIPTION_MAX_LENGTH:
@@ -285,6 +383,43 @@ def build_sources_block(project_dir: Path, max_chars: int = 1600) -> str:
         if remaining <= 0:
             break
     return "\n".join(lines).strip()[:max_chars]
+
+
+def build_hashtags(tags: list[str]) -> list[str]:
+    normalized: list[str] = []
+    seen: set[str] = set()
+    for tag in tags:
+        cleaned = normalize_hashtag(tag)
+        if not cleaned:
+            continue
+        key = cleaned.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        normalized.append(cleaned)
+        if len(normalized) >= 5:
+            break
+    return normalized
+
+
+def normalize_hashtag(tag: str) -> str:
+    words = re.findall(r"[A-Za-z0-9]+", tag)
+    if not words:
+        return ""
+    return "#" + "".join(word[:1].upper() + word[1:].lower() for word in words)
+
+
+def extract_hashtags(content: str, shorts: bool = False) -> list[str]:
+    if not shorts:
+        return []
+    match = re.search(r"(?ims)^\s*##\s*Hashtags\s*\n+(?P<body>.+?)(?=(?:\n\s*---|\n\s*##\s|\Z))", content)
+    if not match:
+        return []
+    body = match.group("body")
+    hashtags = []
+    for urlish in re.findall(r"#\w[\w-]*", body):
+        hashtags.append(urlish.strip())
+    return hashtags[:5]
 
 
 def load_structured_sources(project_dir: Path) -> list[dict[str, Any]]:
@@ -487,13 +622,59 @@ def extract_code_block_after_heading(content: str, heading: str) -> str:
     return match.group("body").strip() if match else ""
 
 
-def extract_tags(content: str) -> list[str]:
-    match = re.search(r"(?ims)^\s*##\s*Tags\s*\n+(?P<body>.+?)(?=(?:\n\s*---|\n\s*##\s|\Z))", content)
-    if not match:
+def extract_chapter_timestamps(content: str) -> str:
+    fenced = extract_code_block_after_heading(content, "Chapter Timestamps")
+    if fenced:
+        return fenced
+
+    patterns = [
+        r"(?ims)^\s*###\s*Chapter Timestamps\s*\n+(?P<body>.+?)(?=(?:\n\s*###\s|\n\s*---|\n\s*##\s|\Z))",
+        r"(?ims)^\s*##\s*Chapter Timestamps\s*\n+(?P<body>.+?)(?=(?:\n\s*##\s|\Z))",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, content)
+        if match:
+            body = match.group("body").strip()
+            return "\n".join(
+                line.strip().lstrip("-*•").strip()
+                for line in body.splitlines()
+                if line.strip()
+            )
+    return ""
+
+
+def extract_tags(content: str, shorts: bool = False) -> list[str]:
+    if shorts:
+        match = re.search(r"(?ims)^\s*##\s*Tags\s*\n+(?P<body>.+?)(?=(?:\n\s*##\s*Hashtags|\n\s*---|\n\s*##\s|\Z))", content)
+        if not match:
+            return []
+        body = match.group("body")
+        rows = re.findall(r"(?m)^\s*\|\s*\d+\s*\|\s*(?P<tag>[^|]+?)\s*\|\s*\d+\s*\|\s*$", body)
+        return [tag.strip() for tag in rows if tag.strip()]
+    block_patterns = [
+        r"(?ims)^\s*##\s*Tags\s*\n+(?P<body>.+?)(?=(?:\n\s*---|\n\s*##\s|\Z))",
+        r"(?ims)^\s*###\s*Tags\s*\n+(?P<body>.+?)(?=(?:\n\s*---|\n\s*##\s|\n\s*###\s|\Z))",
+        r"(?ims)^\s*Tags\s*:?\s*\n+(?P<body>.+?)(?=(?:\n\s*---|\n\s*##\s|\Z))",
+    ]
+    body = ""
+    for pattern in block_patterns:
+        match = re.search(pattern, content)
+        if match:
+            body = match.group("body").strip()
+            break
+    if not body:
         return []
-    raw = " ".join(line.strip() for line in match.group("body").splitlines() if line.strip())
-    tags = [tag.strip() for tag in raw.split(",")]
-    return [tag for tag in tags if tag]
+
+    tags: list[str] = []
+    for line in body.splitlines():
+        cleaned = line.strip().lstrip("-*•").strip()
+        if not cleaned:
+            continue
+        if "," in cleaned:
+            tags.extend(tag.strip() for tag in cleaned.split(",") if tag.strip())
+        else:
+            tags.append(cleaned)
+    return tags
 
 
 def sanitize_youtube_tags(tags: list[str]) -> list[str]:
@@ -827,6 +1008,37 @@ def sync_existing_video(
     return result
 
 
+def privatize_existing_video(project_dir: Path, script_dir: Path, video_id: str, args: argparse.Namespace) -> None:
+    youtube = get_authenticated_service(project_dir, script_dir)
+    existing_video = fetch_existing_video(youtube, video_id)
+    youtube.videos().update(
+        part="status",
+        body={
+            "id": existing_video["id"],
+            "status": {
+                "privacyStatus": "private",
+            },
+        },
+    ).execute()
+
+
+def replace_existing_video(
+    project_dir: Path,
+    script_dir: Path,
+    video_id: str,
+    video_path: Path,
+    thumbnail_path: Optional[Path],
+    metadata: PublishMetadata,
+    args: argparse.Namespace,
+) -> dict[str, Any]:
+    privatize_existing_video(project_dir, script_dir, video_id, args)
+    result = upload_video(project_dir, script_dir, video_path, thumbnail_path, metadata, args)
+    result["replaced_video_id"] = video_id
+    result["mode"] = "replace"
+    write_upload_record(project_dir, result)
+    return result
+
+
 def resumable_upload(insert_request) -> dict:
     from googleapiclient.errors import HttpError
 
@@ -864,10 +1076,16 @@ def main() -> int:
     load_runtime_env(project_dir, script_dir)
 
     try:
-        youtube_md_path = project_dir / "youtube.md"
-        metadata = parse_youtube_md(youtube_md_path)
-        video_path = Path(args.file).expanduser() if args.file else manifest_output_path(project_dir)
-        thumbnail_source = select_thumbnail_source(project_dir, youtube_md_path, args)
+        metadata_path = resolve_youtube_md_path(project_dir, args.shorts)
+        metadata = parse_youtube_md(metadata_path, shorts=args.shorts)
+        write_editorial_record(project_dir, metadata, metadata_path)
+        if args.file:
+            video_path = Path(args.file).expanduser()
+        elif args.shorts:
+            video_path = latest_output_video(project_dir)
+        else:
+            video_path = manifest_output_path(project_dir)
+        thumbnail_source = select_thumbnail_source(project_dir, metadata_path, args)
         thumbnail_path = Path(args.thumbnail).expanduser() if args.thumbnail else project_dir / "assets" / DEFAULT_THUMBNAIL_NAME
         if thumbnail_source and not args.thumbnail:
             downloaded = asyncio_run(download_thumbnail_source(thumbnail_source, thumbnail_path))
@@ -875,12 +1093,19 @@ def main() -> int:
         elif thumbnail_path and not thumbnail_path.exists():
             thumbnail_path = None
 
-        if args.sync_existing:
+        if args.replace_existing:
             video_id = resolve_existing_video_id(project_dir, args.video_id)
             print_sync_summary(video_id, thumbnail_path, metadata)
-            result = sync_existing_video(project_dir, script_dir, video_id, thumbnail_path, metadata, args)
             if args.dry_run:
                 return 0
+            result = replace_existing_video(project_dir, script_dir, video_id, video_path, thumbnail_path, metadata, args)
+            print("\nReplace complete")
+        elif args.sync_existing:
+            video_id = resolve_existing_video_id(project_dir, args.video_id)
+            print_sync_summary(video_id, thumbnail_path, metadata)
+            if args.dry_run:
+                return 0
+            result = sync_existing_video(project_dir, script_dir, video_id, thumbnail_path, metadata, args)
             print("\nSync complete")
         else:
             if not video_path.exists():

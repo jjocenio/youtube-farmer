@@ -10,6 +10,9 @@ output/*.mp4
 **/output/*.mp4
 assembled*.mp4
 **/assembled*.mp4
+assets/intro/*.mp4
+**/assets/intro/*.mp4
+**/*.mp4.bkp
 
 # YouTube OAuth secrets/tokens
 bin/client_secrets.json

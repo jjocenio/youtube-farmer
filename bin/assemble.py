@@ -40,6 +40,7 @@ from tqdm import tqdm
 
 
 VIDEO_SIZE = (1920, 1080)
+SHORTS_VIDEO_SIZE = (1080, 1920)
 DEFAULT_FPS = 24
 DEFAULT_EXPORT_THREADS = 4
 DEFAULT_MANIFEST = "manifest.json"
@@ -49,6 +50,9 @@ MAX_CONCURRENCY = 5
 DEFAULT_ELEVENLABS_CONCURRENCY = 2
 THUMBNAIL_NAME = "thumbnail.png"
 OUTRO_NARRATION_NAME = "like_subscribe_narration.mp3"
+INTRO_VIDEO_NAME = "ai_disclosure_intro.mp4"
+AI_DISCLOSURE_TEXT = "This video uses AI-generated imagery and visualizations to illustrate historical events."
+AI_DISCLOSURE_INTRO_VIDEO_ENV = "AI_DISCLOSURE_INTRO_VIDEO"
 
 ELEVENLABS_BASE_URL = "https://api.elevenlabs.io"
 FAL_QUEUE_BASE_URL = "https://queue.fal.run"
@@ -60,6 +64,7 @@ class Scene(BaseModel):
     visual_prompt: str
     ai_generated_required: bool = True
     public_images: list[dict[str, Any]] = Field(default_factory=list)
+    sfx: Optional[dict[str, Any]] = None
     sfx_prompt: str = ""
     duration: float = Field(gt=0)
     pause_after: float = 0.0
@@ -90,6 +95,7 @@ class CostTracker:
     sfx_generated: int = 0
     music_generated: int = 0
     outro_generated: int = 0
+    intro_generated: int = 0
 
     @property
     def total_characters(self) -> int:
@@ -120,6 +126,8 @@ class SampleWindow:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", type=str, default=DEFAULT_MANIFEST, help="Input manifest or short JSON filename.")
+    parser.add_argument("--shorts", action="store_true", help="Render in 9:16 shorts format.")
     parser.add_argument("--force-audio", action="store_true", help="Re-generate narration assets.")
     parser.add_argument("--force-images", action="store_true", help="Re-generate image assets.")
     parser.add_argument("--force-sfx", action="store_true", help="Re-generate SFX assets.")
@@ -178,6 +186,7 @@ def ensure_directories(project_dir: Path) -> dict[str, Path]:
         "sfx": asset_root / "sfx",
         "music": asset_root / "music",
         "outro": asset_root / "outro",
+        "intro": asset_root / "intro",
         "output": project_dir / "output",
     }
     for path in paths.values():
@@ -232,6 +241,10 @@ def load_manifest(manifest_path: Path, limit: Optional[int] = None) -> Manifest:
     return manifest
 
 
+def load_manifest_from_path(manifest_path: Path, limit: Optional[int] = None) -> Manifest:
+    return load_manifest(manifest_path, limit=limit)
+
+
 def is_native_manifest(raw: dict[str, Any]) -> bool:
     timeline = raw.get("timeline")
     if not isinstance(timeline, list) or not timeline:
@@ -267,6 +280,7 @@ def adapt_current_project_manifest(raw: dict[str, Any]) -> Manifest:
                 visual_prompt=visual_prompt,
                 ai_generated_required=bool(entry.get("ai_generated_required", True)),
                 public_images=list(entry.get("public_images") or []),
+                sfx=normalize_scene_sfx(entry.get("sfx")),
                 sfx_prompt=str(entry.get("sfx_prompt", "")).strip(),
                 duration=duration,
                 pause_after=float(entry.get("pause_after") or 0.0),
@@ -316,6 +330,7 @@ def adapt_legacy_manifest(raw: dict[str, Any]) -> Manifest:
                 visual_prompt=entry.get("image_prompt", ""),
                 ai_generated_required=bool(entry.get("ai_generated_required", True)),
                 public_images=list(entry.get("public_images") or []),
+                sfx=normalize_scene_sfx(entry.get("sfx")),
                 sfx_prompt=entry.get("sfx_prompt", "") or "",
                 duration=float(entry.get("approx_duration_sec") or 1.0),
             )
@@ -333,6 +348,28 @@ def require_env(name: str) -> str:
 
 def optional_env(name: str, default: str) -> str:
     return os.getenv(name, default)
+
+
+def normalize_scene_sfx(value: Any) -> Optional[dict[str, Any]]:
+    if not isinstance(value, dict):
+        return None
+    query = str(value.get("query", "")).strip()
+    fallback_prompt = str(value.get("fallback_prompt", "")).strip()
+    filters = value.get("filters", {})
+    if not query and not fallback_prompt:
+        return None
+    if not isinstance(filters, dict):
+        filters = {}
+    return {
+        "query": query,
+        "filters": {
+            "license": str(filters.get("license", "")).strip(),
+            "max_duration": filters.get("max_duration"),
+            "min_duration": filters.get("min_duration"),
+            "min_rating": filters.get("min_rating"),
+        },
+        "fallback_prompt": fallback_prompt,
+    }
 
 
 def mask_secret(value: str, *, prefix: int = 6, suffix: int = 4) -> str:
@@ -354,9 +391,27 @@ def print_runtime_env_summary() -> None:
             print(f"  {key}={value}")
 
 
-def pick_background_music(project_dir: Path, metadata: dict[str, Any]) -> Optional[Path]:
+def pick_background_music(project_dir: Path, metadata: dict[str, Any], shorts: bool = False) -> Optional[Path]:
     repo_root = Path(__file__).resolve().parent.parent
     candidates: list[Path] = []
+    if shorts:
+        candidates.extend(
+            [
+                repo_root / "assets" / "music" / "background_music_shorts.mp3",
+                repo_root / "assets" / "music" / "background_music_shorts.wav",
+                project_dir / "background_music_shorts.mp3",
+                project_dir / "background_music_shorts.wav",
+                project_dir / "assets" / "music" / "background_music_shorts.mp3",
+                project_dir / "assets" / "music" / "background_music_shorts.wav",
+                project_dir / "assets" / "background_music_shorts.mp3",
+                project_dir / "assets" / "background_music_shorts.wav",
+            ]
+        )
+        for candidate in candidates:
+            if candidate.exists():
+                return candidate
+        return None
+
     for key in ("background_music", "bg_music", "music", "background_music_path"):
         value = metadata.get(key)
         if value:
@@ -387,8 +442,8 @@ def pick_background_music(project_dir: Path, metadata: dict[str, Any]) -> Option
     return None
 
 
-def output_path(project_dir: Path, metadata: dict[str, Any]) -> Path:
-    filename = metadata.get("output_filename") or DEFAULT_OUTPUT_NAME
+def output_path(project_dir: Path, metadata: dict[str, Any], input_path: Path) -> Path:
+    filename = metadata.get("output_filename") or f"{input_path.stem}.mp4"
     return project_dir / "output" / str(filename)
 
 
@@ -632,6 +687,62 @@ class PublicImageDownloader:
         destination.write_bytes(response.content)
 
 
+class FreesoundClient:
+    def __init__(self, api_key: str, timeout: float = 60.0) -> None:
+        self.client = httpx.AsyncClient(
+            timeout=httpx.Timeout(timeout),
+            follow_redirects=True,
+            headers={
+                "Authorization": f"Token {api_key}",
+                "User-Agent": optional_env("FREESOUND_USER_AGENT", "youtube-farmer/1.0"),
+            },
+        )
+
+    async def close(self) -> None:
+        await self.client.aclose()
+
+    async def search_and_download(self, query: str, filters: dict[str, Any], destination: Path) -> bool:
+        params = {
+            "query": query,
+            "page_size": int(optional_env("FREESOUND_PAGE_SIZE", "1")),
+            "fields": "previews,license,duration,score",
+            "filter": self.build_filter_string(filters),
+            "sort": "score",
+        }
+        response = await self.client.get("https://freesound.org/apiv2/search/text/", params=params)
+        response.raise_for_status()
+        payload = response.json()
+        results = payload.get("results") or []
+        if not results:
+            return False
+
+        top = results[0]
+        previews = top.get("previews") or {}
+        preview_url = previews.get("preview-hq-mp3") or previews.get("preview-lq-mp3")
+        if not preview_url:
+            return False
+
+        download = await self.client.get(preview_url)
+        download.raise_for_status()
+        destination.write_bytes(download.content)
+        return True
+
+    def build_filter_string(self, filters: dict[str, Any]) -> str:
+        parts: list[str] = []
+        if str(filters.get("license", "")).strip():
+            parts.append(f'license:"{filters["license"]}"')
+        max_duration = filters.get("max_duration")
+        if max_duration is not None:
+            parts.append(f"duration:[0 TO {float(max_duration)}]")
+        min_duration = filters.get("min_duration")
+        if min_duration is not None:
+            parts.append(f"duration:[{float(min_duration)} TO *]")
+        min_rating = filters.get("min_rating")
+        if min_rating is not None:
+            parts.append(f"rating:[{float(min_rating)} TO *]")
+        return " ".join(parts)
+
+
 def extract_fal_image_url(payload: dict[str, Any]) -> Optional[str]:
     images = payload.get("images") or payload.get("data", {}).get("images") or []
     if not images:
@@ -667,7 +778,7 @@ async def acquire_assets(
     manifest: Manifest,
     asset_paths: dict[str, Path],
     args: argparse.Namespace,
-) -> tuple[list[SceneAssets], CostTracker, Optional[Path], Optional[Path]]:
+) -> tuple[list[SceneAssets], CostTracker, Optional[Path], Optional[Path], Optional[Path]]:
     fal_semaphore = asyncio.Semaphore(MAX_CONCURRENCY)
     elevenlabs_semaphore = asyncio.Semaphore(int(optional_env("ELEVENLABS_MAX_CONCURRENCY", str(DEFAULT_ELEVENLABS_CONCURRENCY))))
     metadata_voice_id = str(manifest.metadata.get("voice_id", "")).strip()
@@ -682,12 +793,13 @@ async def acquire_assets(
         model_id=optional_env("FAL_MODEL", "fal-ai/flux/dev"),
     )
     public_image_downloader = PublicImageDownloader()
+    freesound = FreesoundClient(api_key=require_env("FREESOUND_API_KEY"))
     costs = CostTracker()
 
     async def process_scene(scene: Scene) -> SceneAssets:
         narration_path = scene_file_path(asset_paths["narration"], scene.index, "narration", "mp3")
         image_path = scene_file_path(asset_paths["images"], scene.index, "image", "jpg")
-        sfx_path = scene_file_path(asset_paths["sfx"], scene.index, "sfx", "mp3") if scene.sfx_prompt.strip() else None
+        sfx_path = scene_file_path(asset_paths["sfx"], scene.index, "sfx", "mp3") if (scene.sfx or scene.sfx_prompt.strip()) else None
         image_attribution: Optional[str] = None
 
         try:
@@ -713,16 +825,36 @@ async def acquire_assets(
                     if image_path.exists() and not args.force_images:
                         pass
                     else:
-                        await fal.generate_image(scene.visual_prompt, image_path)
+                        await fal.generate_image(
+                            scene.visual_prompt,
+                            image_path,
+                            image_size="portrait_16_9" if args.shorts else "landscape_16_9",
+                        )
                         costs.images_generated += 1
 
             if sfx_path:
-                async with elevenlabs_semaphore:
-                    if sfx_path.exists() and not args.force_sfx:
-                        pass
-                    else:
-                        costs.sfx_characters += await elevenlabs.generate_sfx(scene.sfx_prompt, scene.duration, sfx_path)
+                if sfx_path.exists() and not args.force_sfx:
+                    pass
+                else:
+                    matched = False
+                    if scene.sfx:
+                        query = str(scene.sfx.get("query", "")).strip()
+                        filters = scene.sfx.get("filters", {}) if isinstance(scene.sfx.get("filters", {}), dict) else {}
+                        if query:
+                            matched = await freesound.search_and_download(query, filters, sfx_path)
+                    if matched:
                         costs.sfx_generated += 1
+                    else:
+                        fallback_prompt = ""
+                        if scene.sfx:
+                            fallback_prompt = str(scene.sfx.get("fallback_prompt", "")).strip()
+                        if not fallback_prompt:
+                            fallback_prompt = scene.sfx_prompt.strip()
+                        if not fallback_prompt:
+                            raise RuntimeError(f"Scene {scene.index:03d} has no Freesound match and no fallback SFX prompt.")
+                        async with elevenlabs_semaphore:
+                            costs.sfx_characters += await elevenlabs.generate_sfx(fallback_prompt, scene.duration, sfx_path)
+                            costs.sfx_generated += 1
         except Exception as exc:
             raise RuntimeError(f"Scene {scene.index:03d} failed: {exc}") from exc
 
@@ -747,6 +879,7 @@ async def acquire_assets(
             elevenlabs,
             elevenlabs_semaphore,
             costs,
+            shorts=args.shorts,
         )
         thumbnail_path = await maybe_generate_thumbnail(
             project_dir=Path.cwd(),
@@ -764,12 +897,22 @@ async def acquire_assets(
             elevenlabs=elevenlabs,
             elevenlabs_semaphore=elevenlabs_semaphore,
             costs=costs,
+            shorts=args.shorts,
         )
-        return sorted_assets, costs, background_music_path, thumbnail_path
+        intro_narration_path = await maybe_generate_intro_video(
+            project_dir=Path.cwd(),
+            intro_dir=asset_paths["intro"],
+            args=args,
+            elevenlabs=elevenlabs,
+            elevenlabs_semaphore=elevenlabs_semaphore,
+            costs=costs,
+        )
+        return sorted_assets, costs, background_music_path, thumbnail_path, intro_narration_path
     finally:
         await elevenlabs.close()
         await fal.close()
         await public_image_downloader.close()
+        await freesound.close()
 
 
 async def maybe_generate_thumbnail(
@@ -835,7 +978,11 @@ async def maybe_generate_background_music(
     elevenlabs: ElevenLabsClient,
     elevenlabs_semaphore: asyncio.Semaphore,
     costs: CostTracker,
+    shorts: bool = False,
 ) -> Optional[Path]:
+    if shorts:
+        return pick_background_music(project_dir, manifest.metadata, shorts=True)
+
     prompt = str(manifest.metadata.get("bg_music_prompt", "")).strip()
     if not prompt:
         return None
@@ -877,8 +1024,9 @@ async def maybe_generate_outro_narration(
     elevenlabs: ElevenLabsClient,
     elevenlabs_semaphore: asyncio.Semaphore,
     costs: CostTracker,
+    shorts: bool = False,
 ) -> Optional[Path]:
-    if optional_env("ENABLE_OUTRO", "true").lower() != "true":
+    if shorts or optional_env("ENABLE_OUTRO", "true").lower() != "true":
         return None
 
     outro_text = optional_env(
@@ -901,6 +1049,55 @@ async def maybe_generate_outro_narration(
         costs.narration_generated += 1
         costs.outro_generated += 1
     return destination
+
+
+async def maybe_generate_intro_video(
+    *,
+    project_dir: Path,
+    intro_dir: Path,
+    args: argparse.Namespace,
+    elevenlabs: ElevenLabsClient,
+    elevenlabs_semaphore: asyncio.Semaphore,
+    costs: CostTracker,
+) -> Optional[Path]:
+    if optional_env("ENABLE_AI_DISCLOSURE_INTRO", "true").lower() != "true":
+        return None
+
+    prerecorded_intro = resolve_configured_intro_video(project_dir)
+    if prerecorded_intro:
+        return prerecorded_intro
+
+    destination = intro_dir / INTRO_VIDEO_NAME
+    if destination.exists() and not args.force_audio:
+        return destination
+
+    return None
+
+
+def resolve_intro_video_path(project_dir: Path) -> Optional[Path]:
+    repo_root = Path(__file__).resolve().parent.parent
+    candidates = [
+        repo_root / "assets" / "intro" / INTRO_VIDEO_NAME,
+        project_dir / "assets" / "intro" / INTRO_VIDEO_NAME,
+        project_dir / "intro" / INTRO_VIDEO_NAME,
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return None
+
+
+def resolve_configured_intro_video(project_dir: Path) -> Optional[Path]:
+    raw_value = optional_env(AI_DISCLOSURE_INTRO_VIDEO_ENV, "").strip()
+    if not raw_value:
+        return None
+
+    candidate = Path(raw_value).expanduser()
+    if not candidate.is_absolute():
+        candidate = (project_dir / candidate).resolve()
+    if candidate.exists():
+        return candidate
+    return None
 
 
 def loop_audio_clip(source: AudioFileClip, duration: float, start_offset: float = 0.0) -> AudioClip:
@@ -1037,6 +1234,7 @@ def build_scene_clip(
     scene_assets: SceneAssets,
     background_music_path: Optional[Path],
     timeline_start: float = 0.0,
+    ignore_music_intensity: bool = False,
 ) -> CompositeVideoClip:
     narration: Optional[AudioFileClip] = None
     narration_duration = 0.0
@@ -1073,8 +1271,10 @@ def build_scene_clip(
     if background_music_path and background_music_path.exists():
         music_source = AudioFileClip(str(background_music_path))
         music_segment = loop_audio_clip(music_source, scene_duration, start_offset=timeline_start)
-        base_music_intensity = scene_assets.scene.music_intensity if scene_assets.scene.music_intensity is not None else float(
-            optional_env("DEFAULT_MUSIC_INTENSITY", "0.25")
+        base_music_intensity = 1.0 if ignore_music_intensity else (
+            scene_assets.scene.music_intensity if scene_assets.scene.music_intensity is not None else float(
+                optional_env("DEFAULT_MUSIC_INTENSITY", "0.25")
+            )
         )
         music_segment = music_segment.with_volume_scaled(base_music_intensity)
         music_segment = apply_volume_envelope(music_segment, background_ducking_envelope(scene_duration))
@@ -1117,6 +1317,7 @@ def build_extended_final_scene_clip(
     background_music_path: Optional[Path],
     project_dir: Path,
     timeline_start: float = 0.0,
+    ignore_music_intensity: bool = False,
 ) -> Optional[CompositeVideoClip]:
     if optional_env("ENABLE_OUTRO", "true").lower() != "true":
         return None
@@ -1125,7 +1326,12 @@ def build_extended_final_scene_clip(
     if not narration_path:
         return None
 
-    base_clip = build_scene_clip(scene_assets, background_music_path, timeline_start=timeline_start)
+    base_clip = build_scene_clip(
+        scene_assets,
+        background_music_path,
+        timeline_start=timeline_start,
+        ignore_music_intensity=ignore_music_intensity,
+    )
     outro_narration = AudioFileClip(str(narration_path))
     gap_seconds = float(optional_env("OUTRO_GAP_SECONDS", "1.0"))
     gap_seconds = max(0.0, gap_seconds)
@@ -1146,17 +1352,53 @@ def build_extended_final_scene_clip(
     return video
 
 
+def build_intro_clip(intro_video_path: Optional[Path], enabled: bool = True) -> Optional[VideoClip]:
+    if not enabled or optional_env("ENABLE_AI_DISCLOSURE_INTRO", "true").lower() != "true":
+        return None
+    if intro_video_path and intro_video_path.exists():
+        clip = VideoFileClip(str(intro_video_path))
+        if clip.duration >= 10.0:
+            return clip
+
+        close_targets = [clip]
+        try:
+            pad = ColorClip(size=clip.size, color=(0, 0, 0), duration=10.0 - clip.duration)
+            padded = concatenate_videoclips([clip, pad], method="compose")
+            setattr(padded, "_close_targets", [clip, pad])
+            close_targets = []
+            return padded
+        finally:
+            for item in close_targets:
+                item.close()
+
+    overlay = Image.new("RGBA", VIDEO_SIZE, (8, 8, 8, 255))
+    draw = ImageDraw.Draw(overlay)
+    try:
+        title_font = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial Bold.ttf", 72)
+        body_font = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial.ttf", 42)
+    except Exception:
+        title_font = ImageFont.load_default()
+        body_font = ImageFont.load_default()
+
+    draw.text((120, 360), "AI-Assisted Visualization", fill=(255, 255, 255, 255), font=title_font)
+    draw.text((120, 470), AI_DISCLOSURE_TEXT, fill=(230, 230, 230, 255), font=body_font)
+    return ImageClip(np.array(overlay)).with_duration(10.0)
+
+
 def assemble_video(
     scenes: list[SceneAssets],
     project_dir: Path,
     metadata: dict[str, Any],
+    input_path: Path,
     threads: int,
     sample_window: Optional[SampleWindow] = None,
     background_music_path: Optional[Path] = None,
+    intro_narration_path: Optional[Path] = None,
+    shorts: bool = False,
 ) -> Path:
-    music_path = background_music_path or pick_background_music(project_dir, metadata)
+    music_path = background_music_path or pick_background_music(project_dir, metadata, shorts=shorts)
     fps = int(metadata.get("fps", DEFAULT_FPS))
-    output = sampled_output_path(output_path(project_dir, metadata), sample_window)
+    output = sampled_output_path(output_path(project_dir, metadata, input_path), sample_window)
     output.parent.mkdir(parents=True, exist_ok=True)
     if output.exists():
         print(f"Render skipped: {output} already exists.")
@@ -1165,6 +1407,7 @@ def assemble_video(
     temp_dir.mkdir(parents=True, exist_ok=True)
 
     rendered_scene_paths: list[Path] = []
+    intro_clip = build_intro_clip(intro_narration_path, enabled=not shorts)
     progress = tqdm(scenes, desc="Assembling video", unit="scene")
     timeline_cursor = 0.0
     try:
@@ -1172,12 +1415,28 @@ def assemble_video(
             progress.set_postfix(scene=scene_assets.scene.index)
             scene_output = temp_dir / f"scene_{scene_assets.scene.index:03d}.mp4"
             is_last_scene = scene_assets == scenes[-1]
-            if is_last_scene:
-                clip = build_extended_final_scene_clip(scene_assets, music_path, project_dir, timeline_start=timeline_cursor)
+            if is_last_scene and not shorts:
+                clip = build_extended_final_scene_clip(
+                    scene_assets,
+                    music_path,
+                    project_dir,
+                    timeline_start=timeline_cursor,
+                    ignore_music_intensity=shorts,
+                )
                 if clip is None:
-                    clip = build_scene_clip(scene_assets, music_path, timeline_start=timeline_cursor)
+                    clip = build_scene_clip(
+                        scene_assets,
+                        music_path,
+                        timeline_start=timeline_cursor,
+                        ignore_music_intensity=shorts,
+                    )
             else:
-                clip = build_scene_clip(scene_assets, music_path, timeline_start=timeline_cursor)
+                clip = build_scene_clip(
+                    scene_assets,
+                    music_path,
+                    timeline_start=timeline_cursor,
+                    ignore_music_intensity=shorts,
+                )
             render_clip = clip
             try:
                 clip_start = timeline_cursor
@@ -1213,8 +1472,24 @@ def assemble_video(
                     item.close()
                 clip.close()
 
+        if intro_clip is not None and sample_window is None:
+            intro_path = temp_dir / "scene_000_intro.mp4"
+            intro_clip.write_videofile(
+                str(intro_path),
+                fps=fps,
+                codec="libx264",
+                audio_codec="aac",
+                threads=threads,
+                preset="medium",
+                logger=None,
+            )
+            rendered_scene_paths.insert(0, intro_path)
         concat_scene_files(rendered_scene_paths, output)
     finally:
+        if intro_clip is not None:
+            for item in getattr(intro_clip, "_close_targets", []):
+                item.close()
+            intro_clip.close()
         shutil.rmtree(temp_dir, ignore_errors=True)
     return output
 
@@ -1279,6 +1554,7 @@ def print_cost_summary(costs: CostTracker, started_at: float) -> None:
     print(f"  SFX files generated: {costs.sfx_generated}")
     print(f"  Music files generated: {costs.music_generated}")
     print(f"  Outro narration files generated: {costs.outro_generated}")
+    print(f"  Intro narration files generated: {costs.intro_generated}")
     print(f"  Elapsed time: {elapsed:.1f}s")
 
 
@@ -1296,9 +1572,13 @@ def main() -> int:
     load_runtime_env(project_dir, script_dir)
     print_runtime_env_summary()
     asset_paths = ensure_directories(project_dir)
+    input_path = project_dir / args.input
+    global VIDEO_SIZE
+    if args.shorts:
+        VIDEO_SIZE = SHORTS_VIDEO_SIZE
 
     try:
-        manifest = load_manifest(project_dir / DEFAULT_MANIFEST, limit=args.limit)
+        manifest = load_manifest_from_path(input_path, limit=args.limit)
         validate_inputs(manifest)
     except (FileNotFoundError, ValidationError, ValueError) as exc:
         print(f"Manifest error: {exc}", file=sys.stderr)
@@ -1309,14 +1589,19 @@ def main() -> int:
 
     try:
         sample_window = parse_sample_window(args.sample)
-        scene_assets, costs, background_music_path, thumbnail_path = asyncio.run(acquire_assets(manifest, asset_paths, args))
+        scene_assets, costs, background_music_path, thumbnail_path, intro_narration_path = asyncio.run(
+            acquire_assets(manifest, asset_paths, args)
+        )
         output = assemble_video(
             scene_assets,
             project_dir,
             manifest.metadata,
+            input_path=input_path,
             threads=args.threads,
             sample_window=sample_window,
             background_music_path=background_music_path,
+            intro_narration_path=intro_narration_path,
+            shorts=args.shorts,
         )
     except ConfigError as exc:
         print(f"Configuration error: {exc}", file=sys.stderr)
