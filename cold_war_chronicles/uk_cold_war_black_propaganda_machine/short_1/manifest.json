@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Britain's Secret Propaganda Department",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, high-contrast shadows, desaturated color palette with amber and slate tones. 9:16 vertical framing. Fast cuts — visual change every 3 seconds minimum.",
+    "bg_music_prompt": null,
+    "bg_music_note": "No background music. Intentional — maximizes Shorts revenue pool allocation. All audio is narration and SFX only.",
+    "short_goal": "long-form funnel",
+    "source_video_id": "TO_BE_SET",
+    "duration_seconds": 58
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "For 29 years, Britain secretly ran the largest propaganda operation in its history. Almost no one has heard of it.",
+      "visual_description": "Black screen. Large white sans-serif text snaps in: 'BRITAIN HAD A PROPAGANDA DEPARTMENT.' Cold, stark. 9:16 vertical frame.",
+      "sfx_prompt": "single typewriter keystroke, then deep silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 5,
+      "narration": "It was called the Information Research Department — the IRD. Born in 1948, shut down in 1977. And in between: 350 covert propaganda operations worldwide.",
+      "visual_description": "Animated world map, red dots appearing across Africa, Asia, the Middle East, Latin America, Europe. Each dot pulses once. Kodachrome color tones, archival paper texture overlay.",
+      "sfx_prompt": "map room ambience, distant radio static",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 10,
+      "narration": "The IRD invented fake organizations, forged documents, and planted fabricated stories in newspapers around the world.",
+      "visual_description": "Rapid montage: extreme close-up of a forged letter with official-looking stamps; stack of newspapers in multiple languages; a hand stamping CONFIDENTIAL on a document. Fast cuts, noir lighting, heavy grain.",
+      "sfx_prompt": "rubber stamp striking paper, newspaper press rolling",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 14,
+      "narration": "Its cardinal rule: no material could ever identify Britain as the source. Everything had to appear completely independent.",
+      "visual_description": "Interior of a 1950s intelligence office. A civil servant seals a plain brown envelope, writes a private address by hand — no departmental stamp. Tight close-up, shallow focus, noir light.",
+      "sfx_prompt": "envelope sealing, pen writing, quiet office hum",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 18,
+      "narration": "Journalists received IRD material at their homes — marked personal, no government reference. Most of them had no idea they were publishing state propaganda.",
+      "visual_description": "A journalist's flat, London, 1952. Morning light, plain envelope being opened on a kitchen table. The journalist reads, expression unreadable. Handheld camera feel, Kodachrome grain, intimate framing.",
+      "sfx_prompt": "morning ambience, paper rustling, kettle in background",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 22,
+      "narration": "By the 1960s, the IRD had over 100 journalists on contact across nearly every major British newspaper.",
+      "visual_description": "Wide shot of a 1960s Fleet Street newsroom. Desks crowded with typewriters, editors shouting, teletype machines chattering. Overhead angle, motion blur. Kodachrome grain, urgent atmosphere.",
+      "sfx_prompt": "Fleet Street newsroom ambience — teletype clatter, shouted headlines",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 26,
+      "narration": "At its peak it employed 600 staff — making it the single largest branch of the British Foreign Office.",
+      "visual_description": "Wide shot of a 1960s government conference room. Rows of men in dark suits around an enormous table, documents spread out. Low-angle shot emphasizing institutional scale. Kodachrome 60s grain.",
+      "sfx_prompt": "murmur of official meeting, pen scratching",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 30,
+      "narration": "Here's what makes it worse. The IRD was penetrated by the KGB from day one.",
+      "visual_description": "Split frame: a British newspaper front page on one side; a KGB file folder stamped in Cyrillic on the other. A gloved hand opens the KGB folder. Stark noir contrast, deep shadow, heavy grain.",
+      "sfx_prompt": "file folder opening, faint Soviet-era radio broadcast",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 34,
+      "narration": "Guy Burgess. Cambridge-educated. Charming. And a KGB agent since the 1930s working at the heart of the British establishment.",
+      "visual_description": "Portrait photograph of Guy Burgess — well-dressed, slightly dishevelled, a knowing half-smile. Dramatic split lighting, half in shadow. Kodachrome archival photo style.",
+      "sfx_prompt": "slow string tone, faint radio static",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 38,
+      "narration": "Burgess was seconded to the newly-formed IRD in 1948. Within weeks, he had passed its existence, structure, and personnel list to Moscow.",
+      "visual_description": "Dark government corridor, 1948. A silhouetted figure stops to light a cigarette, flame briefly illuminating his face. Echoing footsteps. Extreme noir contrast, grain-heavy.",
+      "sfx_prompt": "echoing footsteps in corridor, cigarette lighter flicking",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 42,
+      "narration": "Britain spent three decades running propaganda operations that the Soviets had full visibility into from the beginning.",
+      "visual_description": "Side-by-side: a stack of IRD propaganda leaflets with a KGB dossier marked OPERATSIYA alongside it. A Soviet archivist's hands laid flat on both. Overhead shot, amber desk lamp. Kodachrome grain.",
+      "sfx_prompt": "paper stack sound, bureaucratic silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 46,
+      "narration": "The IRD was quietly shut down in 1977 by Foreign Secretary David Owen. No announcement. No public inquiry. Its files were sealed for decades.",
+      "visual_description": "Exterior of Carlton House Terrace, London — lights going off in a upper-floor window, one by one, final closure. Overcast evening sky, Kodachrome grain, slight underexposure.",
+      "sfx_prompt": "light switch click, London street ambient fading",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 50,
+      "narration": "The full story is on the channel. Every operation. Every front organization. Every journalist who never knew.",
+      "visual_description": "Channel-branded card — the UK Black Propaganda documentary thumbnail with bold text overlay: 'FULL STORY: 24 MINUTES'. Chronicles of Eras channel name and logo. Dark background.",
+      "sfx_prompt": "silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 54,
+      "narration": "",
+      "visual_description": "LOOP SETUP — identical to opening frame: Black screen. White text: 'BRITAIN HAD A PROPAGANDA DEPARTMENT.' Holds for 4 seconds. Seamless replay trigger.",
+      "sfx_prompt": "single typewriter keystroke, then deep silence",
+      "music_intensity": 0.0,
+      "pause_after": 4.0,
+      "transition": "fade"
+    }
+  ]
+}

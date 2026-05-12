@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "The US Built a Nuclear City Under Greenland's Ice",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, Arctic Cold War military realism. Desaturated cool palette with amber instrument glow and orange Arctic horizons. 9:16 vertical framing. Fast cuts — visual change every 3 seconds minimum.",
+    "bg_music_prompt": null,
+    "bg_music_note": "No background music. Intentional — maximizes Shorts revenue pool allocation. All audio is narration and SFX only.",
+    "short_goal": "long-form funnel",
+    "source_video_id": "TO_BE_SET",
+    "duration_seconds": 58
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "The US secretly built a nuclear city under two miles of Greenland's ice. Denmark had no idea.",
+      "visual_description": "Black screen. Large white sans-serif text snaps in: 'THEY BUILT A CITY UNDER THE ICE.' Cold, stark. 9:16 vertical frame.",
+      "sfx_prompt": "low arctic wind howl, distant ice structural groan",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 4,
+      "narration": "It was called Camp Century. From the outside: a research station. From the inside: a full underground military base carved into the Greenland ice sheet.",
+      "visual_description": "Wide interior of a subterranean ice tunnel — arched roof overhead, prefabricated military buildings lining both sides, electric lights casting pale yellow glow, deep shadows at the far end. Kodachrome 60s film grain, cinematic noir.",
+      "sfx_prompt": "distant reactor hum, ice groan, faint dripping",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 9,
+      "narration": "It had running water. A hospital. A church. A movie theater. Powered by a portable nuclear reactor — the first mobile nuclear reactor ever deployed.",
+      "visual_description": "Interior montage: mess hall with soldiers eating; a small chapel with a cross on the wall; a compact nuclear reactor unit mounted in a cylindrical chamber. Kodachrome 60s institutional lighting, archival photo style.",
+      "sfx_prompt": "cafeteria murmur, reactor hum, ventilation",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 14,
+      "narration": "But Camp Century was the cover story. The real plan was called Project Iceworm.",
+      "visual_description": "Extreme close-up of a classified Army document stamped TOP SECRET — PROJECT ICEWORM. A finger spreads it open on a steel desk. Single overhead lamp, hard shadows. Kodachrome 60s film grain.",
+      "sfx_prompt": "paper shuffle, metallic desk tap, signal tone",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 18,
+      "narration": "Project Iceworm: 4,000 kilometers of tunnels under the ice sheet. 600 nuclear missiles mounted on rail cars, kept moving continuously so the Soviets could never target them.",
+      "visual_description": "Conceptual blueprint diagram of a tunnel network beneath the ice — rail lines spreading like capillaries, missile silhouettes on wheeled carriages. Drafting style on yellowed paper, cold light, Kodachrome 60s film grain.",
+      "sfx_prompt": "pencil on blueprint, deep vibration, rail car wheels distant",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 23,
+      "narration": "Every major Soviet city was in range. The missiles were to be buried 28 feet under the ice. Launch time from readiness: 20 minutes.",
+      "visual_description": "Overhead Cold War map of the Arctic — range circles drawn from northwestern Greenland, Soviet cities labeled at the strike boundary. Cold War cartographic style, Kodachrome 60s film grain.",
+      "sfx_prompt": "missile deployment tone, radio static burst, low horn chord",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 27,
+      "narration": "Denmark knew nothing. The 1951 Defense Agreement gave the US operational control of Greenland's military facilities — but said nothing about nuclear missiles.",
+      "visual_description": "Two diplomats shaking hands at a conference table, American and Danish flags behind them. Formal documentary photo style, cold institutional lighting, Kodachrome 60s film grain.",
+      "sfx_prompt": "formal handshake, camera shutters, distant applause",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 31,
+      "narration": "The Danish Prime Minister was privately briefed and chose to say nothing to his own parliament.",
+      "visual_description": "Close-up of a Danish government minister's face in profile in a darkened meeting room. Expression grave, eyes cast down. Single lamp, deep shadow behind. Cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "clock ticking, formal room silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 35,
+      "narration": "Project Iceworm was cancelled in 1966. Not because of Denmark. Because the ice moved. The sheet shifted and fractured the tunnels faster than engineers had calculated.",
+      "visual_description": "Time-lapse style animation of an ice tunnel cross-section slowly deforming — walls bowing inward, ceiling cracking, prefabricated structures buckling under ice pressure. Technical diagram style, Kodachrome grain overlay.",
+      "sfx_prompt": "deep structural ice groan, metal bending sound, slow collapse",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 39,
+      "narration": "Camp Century was abandoned. But the nuclear reactor's coolant, the fuel waste, and 200,000 liters of sewage were left under the ice. The plan was that the ice would bury it permanently.",
+      "visual_description": "Interior of an abandoned ice tunnel — lights off, prefabricated structures half-buried in encroaching ice walls. Flashlight beam sweeping across the forgotten debris. Kodachrome 60s grain, cold blue abandonment.",
+      "sfx_prompt": "dripping water, deep structural groan, eerie silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 44,
+      "narration": "It won't. As Greenland's ice melts, researchers now estimate that contaminated waste will resurface within decades.",
+      "visual_description": "Aerial wide shot of the Greenland ice cap — vast white expanse, but with melt pools visible, dark water patches breaking the surface in summer. Blood-orange horizon. Kodachrome grain, Cold War realism meeting present.",
+      "sfx_prompt": "water dripping from melting ice, distant wind, low drone",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 48,
+      "narration": "Denmark only learned the full extent of what happened in 1997, when the US declassified the Project Iceworm documents.",
+      "visual_description": "Close-up of declassified Project Iceworm documents spread on a table, date stamps visible — DECLASSIFIED 1997. Overhead shot, harsh single light, Kodachrome grain.",
+      "sfx_prompt": "paper unfolding, quiet, weight of revelation",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 52,
+      "narration": "The full documentary is on the channel. The base, the missiles, and what's still under the ice.",
+      "visual_description": "Channel-branded card — the Camp Century/Greenland long-form documentary thumbnail with bold text overlay: 'FULL STORY: 20 MINUTES'. Chronicles of Eras channel name and logo. Dark background.",
+      "sfx_prompt": "silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 55,
+      "narration": "",
+      "visual_description": "LOOP SETUP — identical to opening frame: Black screen. White text: 'THEY BUILT A CITY UNDER THE ICE.' Holds for 3 seconds. Seamless replay trigger.",
+      "sfx_prompt": "low arctic wind howl, ice groan",
+      "music_intensity": 0.0,
+      "pause_after": 3.0,
+      "transition": "fade"
+    }
+  ]
+}

@@ -1,17 +1,11 @@
 {
-  "video_id": "0gB-Jf1b8oc",
-  "url": "https://www.youtube.com/watch?v=0gB-Jf1b8oc",
+  "video_id": "9qWlUQs9HSM",
+  "url": "https://www.youtube.com/watch?v=9qWlUQs9HSM",
   "title": "The Last Man Standing Between the World and Nuclear Fire",
   "privacy_status": "private",
   "category_id": "27",
   "thumbnail_uploaded": true,
-  "mode": "sync",
-  "synced_at": "2026-05-11T00:56:50Z",
-  "changed_fields": [
-    "snippet.description",
-    "snippet.tags",
-    "snippet.defaultLanguage",
-    "snippet.defaultAudioLanguage",
-    "status.privacyStatus"
-  ]
+  "mode": "replace",
+  "uploaded_at": "2026-05-12T01:06:02Z",
+  "replaced_video_id": "0gB-Jf1b8oc"
 }

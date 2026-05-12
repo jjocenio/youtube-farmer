@@ -34,7 +34,6 @@ This pairs directly with the silhouetted figure — the viewer's eye lands on th
 For 70 years, over 120 governments trusted a Swiss encryption company to protect their most sensitive secrets — not knowing the company was secretly owned by the CIA. Iran, Argentina, the Vatican, India, Pakistan — all paying the United States for the privilege of being spied upon.
 
 ### Chapter Timestamps
-```
 00:00 The Intelligence Coup of the Century
 00:30 Who Was Boris Hagelin?
 01:14 The M-209 and the Birth of a Partnership
@@ -60,7 +59,7 @@ For 70 years, over 120 governments trusted a Swiss encryption company to protect
 20:28 The 2020 Exposure: Washington Post, ZDF, SRF
 22:17 What Operation Rubicon Really Means
 23:24 The Encryption Backdoor Debate Today
-```
+
 
 ### SEO Paragraph
 Operation Rubicon is the true story of how the CIA and West Germany's BND secretly purchased Swiss encryption company Crypto AG in 1970 and used it to read the classified communications of over 120 governments for nearly 70 years. From the Iranian Hostage Crisis to the Falklands War, the 1986 Berlin disco bombing to the Camp David Accords, this Cold War spy operation shaped some of the most consequential events in modern history — all while foreign governments unknowingly paid the United States for the privilege of being surveilled. This video covers the full story of Operation Rubicon and Operation MINERVA: the gentlemen's agreement between Boris Hagelin and NSA cryptologist William Friedman, the deliberate weaknesses engineered into cipher machines like the HC-500, the Hans Bühler affair in Iran, and the 2020 Washington Post investigation that finally exposed the intelligence coup of the century.

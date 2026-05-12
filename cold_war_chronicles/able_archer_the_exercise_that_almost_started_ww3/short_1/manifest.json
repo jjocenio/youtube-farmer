@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "The NATO Exercise That Triggered Nuclear Alert",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s–80s film grain, cinematic noir lighting, historical archival photo style, high-contrast shadows, desaturated cold tones with selective amber highlights. 9:16 vertical framing. Fast cuts — visual change every 3 seconds minimum.",
+    "bg_music_prompt": null,
+    "bg_music_note": "No background music. Intentional — maximizes Shorts revenue pool allocation. All audio is narration and SFX only.",
+    "short_goal": "long-form funnel",
+    "source_video_id": "TO_BE_SET",
+    "duration_seconds": 58
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "In 1983, NATO ran a military exercise so realistic, the Soviet Union began preparing a nuclear strike to stop it.",
+      "visual_description": "Black screen. Large white sans-serif text snaps in: 'IT WAS JUST AN EXERCISE.' Cold, stark. 9:16 vertical frame.",
+      "sfx_prompt": "complete silence, then distant alarm tone rising",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 5,
+      "narration": "November 1983. Deep inside a hardened bunker in East Germany, Soviet Air Force commanders receive an order never issued in peacetime.",
+      "visual_description": "Extreme close-up of a Soviet officer's hand reaching for a red telephone receiver in a concrete command bunker. Harsh fluorescent light, cold shadow. Kodachrome 80s film grain, cinematic noir.",
+      "sfx_prompt": "heavy bunker door locking, distant electrical hum",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 10,
+      "narration": "Nuclear warheads are to be loaded onto combat aircraft. Immediately.",
+      "visual_description": "Low-angle wide shot of Soviet Tupolev bombers lined on a dark East German airfield tarmac at night. Ground crew in shadows, arc lights cutting through freezing fog. Historical archival photo style, high contrast.",
+      "sfx_prompt": "aircraft engines spooling up, boots on wet tarmac",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 14,
+      "narration": "Seventy-five mobile nuclear missile launchers vanish into the forests of Eastern Europe. A Soviet submarine slides under the Arctic ice.",
+      "visual_description": "Aerial view of dark pine forest, barely visible camouflage netting concealing missile transporter vehicles beneath. Cold blue moonlight through snow-dusted branches. Kodachrome grain, desaturated greens.",
+      "sfx_prompt": "submarine sonar ping fading to silence, wind through frozen trees",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 18,
+      "narration": "Eleven thousand nuclear warheads are placed on maximum combat alert.",
+      "visual_description": "Split-frame: left — NATO officers laughing over a map in a lit Brussels command room; right — Soviet generals in grim silence studying readiness reports. Hard chiaroscuro, Kodachrome grain.",
+      "sfx_prompt": "ticking clock, distant radio static",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 22,
+      "narration": "NATO had absolutely no idea any of this was happening. They thought they were running a training drill.",
+      "visual_description": "Declassified NATO exercise document stamped TOP SECRET — ABLE ARCHER 83. Cold white light, sharp shadows, Kodachrome film grain texture overlay.",
+      "sfx_prompt": "typewriter keys stamping, paper shuffling",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 26,
+      "narration": "Able Archer 83 was the most realistic war simulation NATO had ever conducted. New communication protocols. Realistic radio silence. Simulated heads-of-state involvement.",
+      "visual_description": "NATO command center interior, 1983 — officers at terminals, maps on wall displays, headsets on. Warm amber operational lighting against cold grey walls. Historical archival photo style, Kodachrome grain.",
+      "sfx_prompt": "military radio chatter, overlapping communications",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 31,
+      "narration": "The Soviets, already convinced the US was planning a first strike, saw Able Archer as the cover story for the real thing.",
+      "visual_description": "Soviet intelligence analysis room, officers in uniform bent over decoded intercepts and maps of Western Europe. Single overhead lamp, deep shadows. Cinematic noir, Kodachrome 80s grain.",
+      "sfx_prompt": "urgent murmuring in Russian, paper turning",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 35,
+      "narration": "The only person who knew both sides of this was a British double agent inside the KGB — Oleg Gordievsky.",
+      "visual_description": "Silhouetted figure in a trench coat at a rainy London street corner at dusk, collar turned up. A black cab passing reflects wet light. Cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "London rain, distant traffic, quiet footsteps",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 39,
+      "narration": "Gordievsky passed the alarm to British intelligence. Margaret Thatcher passed it to Reagan. What Reagan learned genuinely shocked him.",
+      "visual_description": "Split archival: Thatcher left, Reagan right — both at separate official desks, serious expressions, papers in hand. Historical archival photo style, Kodachrome warm tone.",
+      "sfx_prompt": "telephone ring, formal office ambience",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 43,
+      "narration": "Reagan had not understood that the Soviets genuinely believed the United States might strike first. He thought the fear was theater.",
+      "visual_description": "Reagan at his Oval Office desk, reading a classified briefing document, expression shifting — from confidence to something resembling genuine unease. Archival photo style, warm Washington light. Kodachrome grain.",
+      "sfx_prompt": "paper rustling, clock ticking quietly",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 47,
+      "narration": "Able Archer ended on November 11th. The warheads were unloaded. The war that almost happened by accident quietly stood down.",
+      "visual_description": "Soviet bomber on the tarmac, ground crew removing equipment — nuclear warheads being returned to storage. Night scene, arc lights, exhaled relief in postures. Kodachrome grain, cinematic noir.",
+      "sfx_prompt": "aircraft engines powering down, cargo equipment sounds, quiet returning",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 51,
+      "narration": "The full 20-minute documentary is on the channel. Everything NATO didn't know it nearly started.",
+      "visual_description": "Channel-branded card — the Able Archer 83 long-form documentary thumbnail with bold text overlay: 'FULL STORY: 20 MINUTES'. Chronicles of Eras channel name and logo. Dark background.",
+      "sfx_prompt": "silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 55,
+      "narration": "",
+      "visual_description": "LOOP SETUP — identical to opening frame: Black screen. White text: 'IT WAS JUST AN EXERCISE.' Holds for 3 seconds. Seamless replay trigger.",
+      "sfx_prompt": "complete silence",
+      "music_intensity": 0.0,
+      "pause_after": 3.0,
+      "transition": "fade"
+    }
+  ]
+}

@@ -33,7 +33,6 @@ One line. Three words. They force the question: why? — and the only way to ans
 On September 26, 1983, a Soviet lieutenant colonel stared at a screen reporting five incoming American nuclear missiles — and chose not to tell anyone. That decision, made alone at midnight in a bunker south of Moscow, may be the reason you are alive today.
 
 ### Chapter Timestamps
-```
 00:00 Introduction
 00:04 September 26, 1983 — The Night That Almost Ended Everything
 01:06 The World Petrov Inherited: Reagan, the Evil Empire & the Arms Race
@@ -54,7 +53,7 @@ On September 26, 1983, a Soviet lieutenant colonel stared at a screen reporting 
 17:38 Legacy: Were We Really at the Brink?
 19:50 What 1983 Actually Was
 20:37 Final Words
-```
+
 
 ### SEO Paragraph
 Stanislav Petrov was a Soviet Air Defense lieutenant colonel who, on September 26, 1983, prevented a potential nuclear war when he correctly identified a false alarm from the Soviet OKO early-warning satellite system at the Serpukhov-15 bunker near Moscow. The false alert — caused by sunlight reflecting off high-altitude clouds — reported five Minuteman ICBM launches from the United States, but Petrov chose not to escalate, defying Soviet launch-on-warning protocol. His decision came during the most dangerous period of Cold War tensions since the Cuban Missile Crisis, just weeks before the Able Archer 83 nuclear war scare and 25 days after the Soviet military shot down Korean Air Lines Flight 007. Petrov received no reward — only a reprimand — and lived the rest of his life in quiet obscurity in a Moscow suburb, dying in 2017. This is the full story of the 1983 nuclear false alarm, Operation RYAN, and the man history nearly forgot.

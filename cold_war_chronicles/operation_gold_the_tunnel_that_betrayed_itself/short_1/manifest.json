@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "The CIA Dug a Tunnel. The KGB Already Knew.",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, high-contrast shadows, desaturated tones with selective warm highlights. 9:16 vertical framing. Fast cuts — visual change every 3 seconds minimum.",
+    "bg_music_prompt": null,
+    "bg_music_note": "No background music. Intentional — maximizes Shorts revenue pool allocation. All audio is narration and SFX only.",
+    "short_goal": "long-form funnel",
+    "source_video_id": "TO_BE_SET",
+    "duration_seconds": 58
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "The CIA spent three years secretly digging a tunnel under Berlin to tap Soviet cables. The KGB knew about it before the first shovel went in.",
+      "visual_description": "Black screen. Large white sans-serif text snaps in: 'THEY KNEW THE WHOLE TIME.' Cold, stark. 9:16 vertical frame.",
+      "sfx_prompt": "deep underground silence, faint drip of water",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 5,
+      "narration": "April 1956. East Berlin. A Soviet repair crew is digging near a municipal cemetery in the middle of the night.",
+      "visual_description": "Wide shot of East Berlin at night in heavy spring rain. Soviet military truck parked roadside, soldiers in rain capes digging in mud. Dim street lamps reflecting in puddles. Kodachrome 60s grain, desaturated cold blues.",
+      "sfx_prompt": "heavy rain on cobblestones, shovels striking wet earth",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 9,
+      "narration": "Two meters down, the shovel hits a steel wall. A sealed door. And beyond it — a tunnel, humming with electricity, stretching west under the border.",
+      "visual_description": "POV shot of a flashlight beam revealing a reinforced steel anti-personnel door set into a concrete tunnel wall. Rivets and weld seams visible, faint electric glow leaking from the seam. Cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "metal clang of shovel on steel, sharp intake of breath, urgent voices",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 14,
+      "narration": "At exactly 6:30 AM, a CIA microphone concealed in the tunnel wall picks up three words: 'The cable is tapped.'",
+      "visual_description": "Extreme close-up of a small cylindrical microphone embedded in a steel tunnel wall, moisture beading on its surface, a thin wire disappearing into shadow. Kodachrome 60s grain, cold tungsten light.",
+      "sfx_prompt": "crackle of live audio feed, muffled voice, then hard silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 18,
+      "narration": "Eleven months and eleven days. That is how long the CIA and MI6 had been listening — tapping the most sensitive Soviet military communications in the Eastern Bloc.",
+      "visual_description": "Rows of reel-to-reel tape machines running in a dimly lit CIA processing room. Analysts in shirtsleeves, headphones on, logging intercepts. Warm amber office light against cold grey walls. Historical archival photo style.",
+      "sfx_prompt": "reel-to-reel tape spinning, typewriter clatter, low murmur of analysts",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 23,
+      "narration": "But here is the part that changes everything. Moscow knew about this tunnel from the very first day of planning.",
+      "visual_description": "Tight shot of a man's face in silhouette, back to camera, staring through a rain-streaked window at the grey Berlin skyline. Cinematic noir, Kodachrome grain, smoke rising from an unseen cigarette.",
+      "sfx_prompt": "rain against glass, distant city ambience, clock ticking",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 28,
+      "narration": "The man who gave them the plans was George Blake. British intelligence officer. MI6 operative. And a KGB agent since 1953.",
+      "visual_description": "Portrait-style shot of a composed, well-dressed British intelligence officer type at a rain-streaked office window. Cinematic noir, Kodachrome grain, cold grey sky beyond the glass.",
+      "sfx_prompt": "rain on glass, paper being folded, quiet",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 32,
+      "narration": "Blake had sat in every planning meeting. He wrote the minutes. And within days, those minutes were in Moscow.",
+      "visual_description": "Close-up of a hand writing precise notes in a fountain pen on an official document. Single desk lamp illumination, dark wood table, cinematic noir. Kodachrome grain.",
+      "sfx_prompt": "fountain pen scratching paper, clock ticking, quiet street noise",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 36,
+      "narration": "The KGB chose to say nothing. Exposing the tunnel would expose Blake — their most valuable asset inside British intelligence.",
+      "visual_description": "Soviet KGB operations room — senior officers around a table, a single classified document on the surface between them. One officer's hand laid flat over it, decision made. Amber overhead light, cinematic noir, Kodachrome grain.",
+      "sfx_prompt": "muffled discussion in Russian, heavy decision silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 40,
+      "narration": "So for nearly a year, they let the CIA listen. They carefully controlled which calls passed through those cables — keeping the real secrets off the tapped lines.",
+      "visual_description": "Split frame: CIA analysts listening intently through headphones on one side; Soviet communications officer deliberately routing a call on a switchboard on the other. Kodachrome 60s grain, parallel noir.",
+      "sfx_prompt": "headphone ambient hum, soft switchboard clicks",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 44,
+      "narration": "The 1956 'discovery' was staged. A Soviet repair crew was sent in at the precise moment the KGB decided Blake was safely out of reach.",
+      "visual_description": "Soviet soldiers peering into the open tunnel entrance, flashlights sweeping the interior, expressions performing surprise. Rain still falling. Kodachrome 60s grain, cold blue night light.",
+      "sfx_prompt": "boots on wet ground, surprised voices in German and Russian",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 48,
+      "narration": "The CIA called it a successful intelligence operation. They had no idea they'd been running inside a trap for a year.",
+      "visual_description": "CIA headquarters corridor, an officer carrying a stack of OPERATION GOLD files past a bulletin board. Expression satisfied, unaware. Warm institutional lighting, historical archival photo style. Kodachrome grain.",
+      "sfx_prompt": "footsteps on linoleum, files rustling, satisfied quiet",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 52,
+      "narration": "The full story is on the channel. The tunnel, Blake, and the intelligence operation that spied on itself.",
+      "visual_description": "Channel-branded card — the Operation Gold long-form documentary thumbnail with bold text overlay: 'FULL STORY: 22 MINUTES'. Chronicles of Eras channel name and logo. Dark background.",
+      "sfx_prompt": "silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 55,
+      "narration": "",
+      "visual_description": "LOOP SETUP — identical to opening frame: Black screen. White text: 'THEY KNEW THE WHOLE TIME.' Holds for 3 seconds. Seamless replay trigger.",
+      "sfx_prompt": "deep underground silence, faint drip of water",
+      "music_intensity": 0.0,
+      "pause_after": 3.0,
+      "transition": "fade"
+    }
+  ]
+}

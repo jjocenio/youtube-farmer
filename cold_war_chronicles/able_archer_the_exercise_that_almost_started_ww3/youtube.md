@@ -34,7 +34,6 @@ One word — the same word on Petrov's screen — placed in cold white stencil t
 In November 1983, NATO ran a training exercise so realistic that the Soviet Union loaded nuclear warheads onto combat aircraft and placed 11,000 warheads on maximum alert — without NATO knowing any of it was happening. One American general's instinct, one Soviet officer's night-shift judgment, and one East German spy's document camera stood between the world and nuclear war.
 
 ### Chapter Timestamps
-```
 00:00 Introduction — The Night the Warheads Were Loaded
 00:51 Operation RYaN — The Soviet Machine Built to Detect the End
 03:12 Reagan, the Evil Empire, and the Pershing II
@@ -47,7 +46,7 @@ In November 1983, NATO ran a training exercise so realistic that the Soviet Unio
 14:25 How Close Was It, Really?
 16:50 Reagan's Reckoning and the INF Treaty
 18:09 What Able Archer Means Today
-```
+
 
 ### SEO Paragraph
 In November 1983, NATO's Able Archer 83 exercise brought the world to the edge of nuclear war — closer than the Cuban Missile Crisis, according to declassified intelligence assessments. As NATO simulated a full nuclear release sequence including DEFCON 1 transitions and command-authority drills involving Margaret Thatcher and Helmut Kohl, Soviet intelligence analysts interpreted the exercise as potential cover for a real first strike. The Soviet 4th Air Army in East Germany loaded nuclear warheads onto bombers, 75 mobile missile launchers dispersed into forests, and a nuclear submarine vanished beneath Arctic ice. Stanislav Petrov had already averted one catastrophe that September when a Soviet satellite falsely reported five incoming American ICBMs — a false alarm he chose to ignore. Cold War historian Nate Jones, double agent Oleg Gordievsky, General Leonard Perroots, and East German spy Rainer Rupp each played a crucial role in preventing nuclear escalation during the most dangerous week of the 1980s Cold War.

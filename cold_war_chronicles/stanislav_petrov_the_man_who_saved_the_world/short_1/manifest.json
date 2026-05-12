@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "He Had 5 Minutes to Decide",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Historical archival photo style, Kodachrome 60s–80s film grain, cinematic noir lighting, high-contrast shadows, desaturated Cold War palette with occasional bursts of amber and red console glow. 9:16 vertical framing. Fast cuts — visual change every 3 seconds minimum.",
+    "bg_music_prompt": null,
+    "bg_music_note": "No background music. Intentional — maximizes Shorts revenue pool allocation. All audio is narration and SFX only.",
+    "short_goal": "long-form funnel",
+    "source_video_id": "TO_BE_SET",
+    "duration_seconds": 58
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "On September 26th, 1983, one man had 5 minutes to decide if World War III had started.",
+      "visual_description": "Black screen. Large white sans-serif text snaps in: 'HE HAD 5 MINUTES.' Cold, stark, no other visual elements. 9:16 vertical frame.",
+      "sfx_prompt": "complete silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 4,
+      "narration": "Just past midnight. In a fortified Soviet bunker sixty-two miles south of Moscow, Stanislav Petrov sits alone at an early-warning console.",
+      "visual_description": "Medium shot of a lone Soviet officer in profile, face partially lit by green monitor glow in a darkened underground bunker. Kodachrome 80s grain, deep shadow, cinematic noir.",
+      "sfx_prompt": "faint ventilation hum, quiet clock ticking",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 9,
+      "narration": "He wasn't even supposed to be there. He was covering for an absent officer.",
+      "visual_description": "Over-the-shoulder shot looking at a glowing early-warning display board, an empty chair to the left suggesting an absent colleague. Cold blue and amber lighting, Kodachrome grain.",
+      "sfx_prompt": "quiet ambient hum, footstep echo in the distance",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 13,
+      "narration": "Then the alarm hits. The screen flashes a single word in red: LAUNCH.",
+      "visual_description": "Extreme close-up of a Soviet warning panel — the ЗАПУСК label blazes red, backlit, filling the frame. Cinematic noir lighting, heavy Kodachrome grain, lens slightly out of focus for dread effect.",
+      "sfx_prompt": "sharp alarm blare, red console light flickering on",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 17,
+      "narration": "The system says five American intercontinental ballistic missiles are inbound. Headed for the Soviet Union.",
+      "visual_description": "Early-warning display screen showing five glowing trajectory lines arcing from North America toward the USSR. Cold blue monitor glow in total darkness. Kodachrome 80s grain.",
+      "sfx_prompt": "alarm continuing, warning tones layering",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 21,
+      "narration": "Protocol is clear: report it up the chain immediately. The Soviet nuclear arsenal goes on alert.",
+      "visual_description": "Extreme close-up of Petrov's hand hovering over a red telephone receiver, not yet lifting it. Console glow illuminates the hand from below. Soviet military insignia on the wrist cuff. Cinematic noir.",
+      "sfx_prompt": "alarm blaring, phone ready to ring, tense silence beneath",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 25,
+      "narration": "But something doesn't feel right. A real American first strike would launch hundreds of missiles. Not five.",
+      "visual_description": "Petrov's face reflected in the console screen, expression of focused doubt, green light washing over his features. Slow push-in toward his eyes. Kodachrome 80s film grain, deep blacks.",
+      "sfx_prompt": "alarm blaring under, clock ticking",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 29,
+      "narration": "He also knows the satellite system is new. Untested under these exact conditions.",
+      "visual_description": "Schematic diagram of the Soviet Oko early-warning satellite system, orbit lines over a Cold War-era globe. Aged technical document style, blueprint tones, Kodachrome grain.",
+      "sfx_prompt": "electronic hum, alarm fading slightly",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 33,
+      "narration": "He picks up the phone. He tells his superiors it's a false alarm. He has no proof. Just instinct.",
+      "visual_description": "Petrov's hand lifts the red receiver. His lips moving. Expression steady, voice calm. Side-lit by console amber glow, deep shadow behind. Kodachrome 80s grain, cinematic noir.",
+      "sfx_prompt": "phone receiver lifting, quiet voice, alarm continuing in background",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 37,
+      "narration": "For twenty-three minutes, the alarm keeps screaming. Every second is a second he could be wrong.",
+      "visual_description": "Analog clock face, second hand sweeping, backlit red. Rapid cuts between the clock and the blaring alarm panel. Heavy Kodachrome grain, extreme close-up, dread lighting.",
+      "sfx_prompt": "clock ticking loud, alarm pulsing, silence underneath threatening",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 41,
+      "narration": "Then ground radar confirms it. No missiles. A satellite malfunction — sunlight reflecting off cloud tops had fooled the sensor.",
+      "visual_description": "Ground radar display showing clear, empty skies — no inbound tracks. A Soviet technician leaning back, expression of exhaled relief. Amber overhead light, Kodachrome 80s grain.",
+      "sfx_prompt": "alarm cutting off abruptly, sudden silence, exhale",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 45,
+      "narration": "Petrov was right. He never received a commendation. He was quietly reprimanded for failing to fill in his logbook correctly that night.",
+      "visual_description": "Close-up of a logbook, a page conspicuously blank where entries should be. Red administrative stamp on the side. Cold institutional lighting, Kodachrome grain.",
+      "sfx_prompt": "pen set down on desk, quiet bureaucratic silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 49,
+      "narration": "He died in 2017. Most of the world had no idea he existed. The full story is on the channel.",
+      "visual_description": "Channel-branded card — the Stanislav Petrov long-form documentary thumbnail with bold text overlay: 'FULL STORY: 21 MINUTES'. Chronicles of Eras channel name. Dark background, clean composition.",
+      "sfx_prompt": "silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 53,
+      "narration": "",
+      "visual_description": "LOOP SETUP — identical to opening frame: Black screen. White text snaps in: 'HE HAD 5 MINUTES.' Holds for 5 seconds. Seamless replay trigger.",
+      "sfx_prompt": "complete silence",
+      "music_intensity": 0.0,
+      "pause_after": 5.0,
+      "transition": "fade"
+    }
+  ]
+}

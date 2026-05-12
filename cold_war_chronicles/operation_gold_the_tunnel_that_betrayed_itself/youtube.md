@@ -34,13 +34,12 @@ Two words placed in the upper-left third, bold white serif font with a dark drop
 In 1954, the CIA dug a secret tunnel beneath East Berlin and listened to Soviet military secrets for nearly a year — and the KGB knew about every inch of it before construction even began. This is the story of how the most expensive wiretap in Cold War history became an elaborate performance, and the double agent who made it all possible.
 
 ### Chapter Timestamps
-```
 00:00 Introduction — The Discovery
 01:14 Act I: Berlin Divided
 02:51 Act II: Building the Tunnel
 07:28 Act III: The Tap Goes Live
 11:43 Act IV: Betrayal Revealed
-```
+
 
 ### SEO Paragraph
 Operation Gold — also known as Operation Stopwatch by British MI6 — was a joint CIA and SIS covert operation that dug a 1,476-foot tunnel beneath Cold War Berlin to wiretap Soviet military cables connecting Moscow to East Germany. The operation ran from May 1955 to April 1956, intercepting 443,000 conversations and generating 50,000 reels of tape — yet KGB mole George Blake had betrayed the entire plan to Soviet intelligence before a single brick was laid. This documentary explores the Berlin spy tunnel, George Blake's double-agent career, the KGB's impossible dilemma, and how Cold War espionage created intelligence operations that deceived both sides at once. If you're fascinated by Cold War secrets, CIA covert operations, Soviet KGB history, or real-life spy stories from behind the Iron Curtain, this is the video for you.
