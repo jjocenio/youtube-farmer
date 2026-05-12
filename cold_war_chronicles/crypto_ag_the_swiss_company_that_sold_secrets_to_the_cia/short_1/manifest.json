@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "title": "They Were Paying the CIA",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Historical archival photo style, Kodachrome 60s–80s film grain, cinematic noir lighting, high-contrast shadows, desaturated Cold War palette with occasional bursts of amber and blue. 9:16 vertical framing. Fast cuts — visual change every 3 seconds minimum.",
+    "bg_music_prompt": null,
+    "bg_music_note": "No background music. Intentional — maximizes Shorts revenue pool allocation. All audio is narration and SFX only.",
+    "short_goal": "long-form funnel",
+    "source_video_id": "RzpnCEOy06Y",
+    "duration_seconds": 58
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "narration": "For 70 years, 120 governments paid a Swiss company to keep their secrets safe.",
+      "visual_description": "Black screen. Large white sans-serif text appears center frame: 'THEY WERE PAYING THE CIA.' Text snaps in on the first word, cold and stark. No other visual elements. Vertical 9:16 frame.",
+      "sfx_prompt": "complete silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 2,
+      "narration": "The company was called Crypto AG.",
+      "visual_description": "Vintage documentary-style world map, Europe centered, Switzerland highlighted with a soft golden pulse radiating outward. Kodachrome warm tones on aged parchment-texture map. Country borders in thin ink lines.",
+      "sfx_prompt": "faint paper rustle, near silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 4,
+      "narration": "The CIA secretly owned it.",
+      "visual_description": "CIA seal — sharp eagle emblem — fills the frame, slightly over-exposed, institutional. Then cuts to an aerial photograph of Langley headquarters in muted 1970s Kodachrome tones. Flat, cold morning light.",
+      "sfx_prompt": "low ambient hum, institutional silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 6,
+      "narration": "Iran. Argentina. The Vatican. Pakistan. India.",
+      "visual_description": "Rapid staccato montage — each national flag fills the frame for half a second in sequence: Iran, Argentina, Vatican City, Pakistan, India. Flat dark background, flags slightly desaturated, Kodachrome grain over each cut.",
+      "sfx_prompt": "each flag cut lands with a quiet sharp percussive tick",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 9,
+      "narration": "Every message they sent through Crypto AG's machines — the CIA could read it.",
+      "visual_description": "Extreme close-up of a mechanical cipher machine — brass rotors, key switches, type bars. Hands visible at the edges, pressing keys in deliberate rhythm. Warm amber light catches the metal. Kodachrome film grain, shallow depth of field.",
+      "sfx_prompt": "rhythmic mechanical key presses, metal cipher rotor clicks, faint whirring",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 12,
+      "narration": "The encryption looked real. It wasn't. The backdoor was built in from the start.",
+      "visual_description": "Split screen — left: a foreign diplomat in formal dress transmitting a cable, expression confident; right: a CIA analyst at a Langley desk reading the decoded printout, expressionless. Cinematic noir lighting, 1970s institutional interiors. Kodachrome muted greens.",
+      "sfx_prompt": "faint teletype machine sound, quiet office ambient",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 16,
+      "narration": "During the Falklands War, the CIA read every Argentine naval communication in real time.",
+      "visual_description": "Archival-style photograph of Argentine naval vessels at sea — grey water, overcast sky, military silhouettes. Horizon line low in frame. Desaturated Kodachrome, slight vignette, documentary news-reel feel.",
+      "sfx_prompt": "distant ocean wind, faint ship engine hum",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 20,
+      "narration": "Britain knew every Argentine move before it happened.",
+      "visual_description": "British military command room — uniformed officers gathered around a large tactical map table, markers and flags positioned. WWII-era documentary photo style, muted olive greens and dark browns, Kodachrome warm grain.",
+      "sfx_prompt": "muffled radio chatter, quiet pencil marks on paper",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 23,
+      "narration": "The operation ran for 70 years. It was never detected.",
+      "visual_description": "Overhead shot of towering stacks of manila folders and classified documents on a dark wooden surface. Top folder bears a heavy red CLASSIFIED stamp pressed deeply into it. Single hard overhead light source, everything else in shadow.",
+      "sfx_prompt": "paper shifting, heavy rubber stamp impact",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 27,
+      "narration": "It was only exposed in 2020, when the Washington Post published the CIA's own internal history.",
+      "visual_description": "Washington Post front page, February 2020, laid flat on a dark wooden surface. Headline partially visible. Overhead camera, single hard light source creates strong shadows on the newsprint. Kodachrome warm paper tones.",
+      "sfx_prompt": "newspaper laid down, quiet",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 31,
+      "narration": "Quote: 'The intelligence coup of the century.'",
+      "visual_description": "Close-up of a declassified document page. The phrase 'the intelligence coup of the century' is highlighted in bright yellow marker. Slow push-in zoom toward the highlighted text. Aged paper texture, Kodachrome cream tones.",
+      "sfx_prompt": "near silence, faint paper texture",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 34,
+      "narration": "The man who built the machines? He made a gentleman's agreement with the CIA in 1951.",
+      "visual_description": "Black and white photograph of Boris Hagelin — an older gentleman in a business suit, composed expression, 1950s formal portrait style. Frame slightly overexposed at edges, period-accurate vignette. Kodachrome warm overlay converts it to soft sepia.",
+      "sfx_prompt": "silence, subtle vintage film crackle",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 38,
+      "narration": "Crypto AG operated out of Switzerland — a country legally neutral in every conflict it was helping surveil.",
+      "visual_description": "Exterior of a pristine, modern Swiss corporate building — clean glass facade, Swiss mountains visible in the background. Cold blue early morning light. Kodachrome landscape style. The building looks unremarkable, which is the point.",
+      "sfx_prompt": "distant alpine wind, near silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 42,
+      "narration": "120 governments. 70 years. Paying to be watched.",
+      "visual_description": "Slowly rotating globe on a dark background — Cold War-era cartographic style with muted blue oceans and cream landmasses. Red dots appear one by one across 120 countries, each pulsing softly. The globe continues to rotate as dots accumulate.",
+      "sfx_prompt": "quiet, almost inaudible low drone",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 46,
+      "narration": "The operation ended only because Crypto AG was quietly liquidated. Some of those governments still don't know what happened.",
+      "visual_description": "Heavy steel bank vault door swings slowly shut. Extreme close-up of the locking mechanism — tumblers turning, bolts sliding into place. Deep blacks, single amber light catches the polished steel. Cinematic noir lighting.",
+      "sfx_prompt": "heavy vault door boom, mechanical lock tumblers clicking into place, final silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 50,
+      "narration": "The full 26-minute documentary is on the channel. Every government. Every cipher. Every year.",
+      "visual_description": "Channel-branded card — the long-form Crypto AG documentary thumbnail displayed prominently with bold text overlay: 'FULL STORY: 26 MINUTES'. Chronicles of Eras channel name and logo visible. Direct, clean composition against dark background.",
+      "sfx_prompt": "silence",
+      "music_intensity": 0.0,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 54,
+      "narration": "",
+      "visual_description": "LOOP SETUP — identical to opening frame: Black screen. Large white sans-serif text: 'THEY WERE PAYING THE CIA.' Holds for 4 seconds before seamless replay. Mirrors the opening precisely for maximum loop rate.",
+      "sfx_prompt": "complete silence",
+      "music_intensity": 0.0,
+      "pause_after": 4.0,
+      "transition": "fade"
+    }
+  ]
+}
