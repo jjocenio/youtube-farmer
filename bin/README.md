@@ -128,6 +128,10 @@ Shorts mode behavior:
 - reads the input file you pass with `--input`
 - prefers `background_music_shorts.mp3` if it exists
 - if `background_music_shorts.mp3` is missing, it skips background music instead of generating a new track
+- skips the AI disclosure intro
+- skips the CTA outro
+- ignores per-scene `music_intensity`
+- renders scene images in portrait mode so short-form text stays in frame
 
 ## Manifest Format
 
@@ -190,6 +194,7 @@ python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --sample 20:60
 python /Users/jarbas/Documents/youtube-farmer/bin/assemble.py --input short_1.json --shorts
 python /Users/jarbas/Documents/youtube-farmer/bin/publish.py --dry-run
 python /Users/jarbas/Documents/youtube-farmer/bin/publish.py --sync-existing --dry-run
+python /Users/jarbas/Documents/youtube-farmer/bin/publish.py --shorts
 ```
 
 `--sample <length>:<offset>` affects rendering only. It still reuses the normal generated assets, but writes a shorter test export for just that time window from the assembled timeline.
@@ -205,7 +210,7 @@ python /Users/jarbas/Documents/youtube-farmer/bin/publish.py --sync-existing --d
 - generates background music from `metadata.bg_music_prompt` with ElevenLabs into `assets/music/background_music.mp3`
 - in shorts mode, uses `background_music_shorts.mp3` if available and otherwise leaves music off
 - reads `youtube.md`, extracts a `Fal.ai Prompt`, and generates `assets/thumbnail.png`
-- appends a CTA outro at the end of the video
+- appends a CTA outro at the end of long-form videos
 - sets each scene duration from the generated narration length
 - applies a Ken Burns zoom to scene images
 - layers narration, SFX, and looping background music
@@ -281,6 +286,14 @@ Current `youtube.md` support:
 - builds the description from `The Hook`, `Chapter Timestamps`, and `SEO Paragraph`
 - parses tags from `## Tags`
 
+Shorts publishing:
+
+- use `publish.py --shorts` for vertical short-form uploads
+- shorts use the SEO title from `youtube.md`
+- shorts upload the newest MP4 in `output/` unless `--file` is passed
+- shorts upload hidden YouTube tags from the Shorts tags table
+- shorts keep visible hashtags in the description footer
+
 Publishing also writes an internal episode review file at `assets/editorial_review.md` with the selected title source, source basis, and reminder notes for human fact-checking and editorial judgment.
 
 Assembly inserts a short AI disclosure intro before the main program when `ENABLE_AI_DISCLOSURE_INTRO=true`:
@@ -298,6 +311,15 @@ Publishing options for already-uploaded videos:
 
 - `--sync-existing` updates metadata and thumbnail only
 - `--replace-existing` sets the current video to private, then uploads the new media file as a replacement
+- `--shorts` reads `youtube.md` from the current project, uses the Shorts SEO title, uploads the hidden Shorts tags table, and uses the visible hashtag block in the description
+- `--shorts` also prefers the newest MP4 in `output/` unless you pass `--file`
+
+Shorts publishing notes:
+
+- Shorts metadata lives in `youtube.md`
+- the title should come from the Shorts SEO title
+- hidden YouTube tags come from the Shorts tags table
+- visible hashtags stay in the description footer
 
 Shorts publishing:
 

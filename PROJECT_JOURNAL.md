@@ -17,6 +17,7 @@ The main automation lives in:
 2. Run `assemble.py` from inside that video directory
 3. Review/render/sample the video
 4. Use `publish.py` to upload or sync metadata on YouTube
+5. Use `--shorts` flows for vertical short-form exports and uploads when needed
 
 Both scripts are designed to be run from inside the video project directory, not from the repo root.
 
@@ -28,6 +29,8 @@ Typical video project:
 cold_war_chronicles/<video_slug>/
   manifest.json
   youtube.md
+  youtube_short_1.md
+  short_1.json
   assets/
     narration/
     images/
@@ -45,6 +48,7 @@ Shared repo-level reusable assets are also used:
 assets/
   music/
   outro/
+  intro/
 ```
 
 ## `assemble.py` Behavior
@@ -52,6 +56,7 @@ assets/
 ### Inputs
 
 - `manifest.json`
+- `short_*.json` when rendering Shorts
 - `youtube.md`
 - `.env` in the project directory, with fallback to `bin/.env`
 
@@ -105,14 +110,16 @@ File naming is mostly scene-based:
 Other generated assets:
 
 - `assets/music/background_music.mp3`
+- `assets/music/background_music_shorts.mp3` if present for Shorts
 - `assets/outro/like_subscribe_narration.mp3`
+- `assets/intro/ai_disclosure_intro.mp4` if you generate the disclosure opener
 - `assets/thumbnail.png`
 
 ### Generation Services
 
 - Narration: ElevenLabs TTS
 - Scene images: Fal.ai
-- SFX: ElevenLabs sound generation
+- SFX: Freesound first, ElevenLabs fallback
 - Background music: ElevenLabs music
 - Thumbnail: Fal.ai using prompt extracted from `youtube.md`
 
@@ -139,6 +146,12 @@ Background music lookup order:
    - `assets/background_music.wav`
 
 3. only if nothing exists, generate from `metadata.bg_music_prompt`
+
+Shorts mode music behavior:
+
+- prefer `background_music_shorts.mp3` if it exists
+- otherwise skip background music entirely
+- ignore `metadata.bg_music_prompt`
 
 ### Outro Hierarchy
 
@@ -182,11 +195,14 @@ If `youtube.md` is missing or no prompt is found, thumbnail generation is skippe
 ### Rendering Behavior
 
 - 1920x1080 output
+- 1080x1920 output in Shorts mode
 - Ken Burns zoom on images
 - sample rendering supported with `--sample <length>:<offset>`
 - sample affects rendering only, not asset generation
 - output rendering is skipped if the target output file already exists
 - thumbnail generation is also skipped if `assets/thumbnail.png` already exists
+- Shorts mode skips the disclosure intro and CTA outro
+- Shorts mode ignores per-scene `music_intensity`
 
 ### Mixing Behavior
 
@@ -209,6 +225,12 @@ Behavior:
 - background music is scaled by per-scene `music_intensity`, or falls back to `DEFAULT_MUSIC_INTENSITY`
 - background music is looped continuously across the timeline, not restarted per scene
 - music is ducked during narration
+
+Shorts mode mixing:
+
+- narration and SFX still render normally
+- background music uses the shorts-specific file if available
+- `music_intensity` is ignored
 
 ### Silent Scenes
 
@@ -279,6 +301,14 @@ Tags are parsed from:
 
 Tag handling is sanitized conservatively to avoid YouTube `invalidTags` API errors.
 
+Shorts metadata rules:
+
+- Shorts still read `youtube.md` by default
+- title comes from the Shorts SEO title
+- hidden YouTube tags come from the Shorts tags table
+- visible hashtags come from the Shorts `Hashtags` block
+- `publish.py --shorts` uploads the newest MP4 in `output/` unless `--file` is passed
+
 ### Publish Modes
 
 1. Upload mode
@@ -290,6 +320,13 @@ Tag handling is sanitized conservatively to avoid YouTube `invalidTags` API erro
    - `--sync-existing`
    - updates title/description/tags/status/thumbnail for an existing YouTube video
    - does not re-upload the video file
+
+3. Shorts mode
+   - `--shorts`
+   - reads `youtube.md` by default
+   - uses the Shorts SEO title
+   - uploads the newest MP4 in `output/` unless `--file` is passed
+   - uploads hidden Shorts tags separately from visible hashtags
 
 Existing video id resolution:
 
