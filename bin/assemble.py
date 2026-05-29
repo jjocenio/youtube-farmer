@@ -56,6 +56,7 @@ AI_DISCLOSURE_INTRO_VIDEO_ENV = "AI_DISCLOSURE_INTRO_VIDEO"
 
 ELEVENLABS_BASE_URL = "https://api.elevenlabs.io"
 FAL_QUEUE_BASE_URL = "https://queue.fal.run"
+ENV_SOURCES: dict[str, str] = {}
 
 
 class Scene(BaseModel):
@@ -173,7 +174,10 @@ def load_runtime_env(project_dir: Path, script_dir: Path) -> dict[str, str]:
     loaded: dict[str, str] = {}
     for dotenv_path in (project_dir / ".env", script_dir / ".env"):
         if dotenv_path.exists():
-            loaded.update(load_dotenv(dotenv_path))
+            values = load_dotenv(dotenv_path)
+            loaded.update(values)
+            for key in values:
+                ENV_SOURCES[key] = str(dotenv_path)
     return loaded
 
 
@@ -350,6 +354,10 @@ def optional_env(name: str, default: str) -> str:
     return os.getenv(name, default)
 
 
+def env_source_name(name: str) -> str:
+    return ENV_SOURCES.get(name, "runtime environment")
+
+
 def normalize_scene_sfx(value: Any) -> Optional[dict[str, Any]]:
     if not isinstance(value, dict):
         return None
@@ -380,13 +388,22 @@ def mask_secret(value: str, *, prefix: int = 6, suffix: int = 4) -> str:
 
 def print_runtime_env_summary() -> None:
     print("Runtime environment")
-    for key in ("ELEVENLABS_API_KEY", "ELEVENLABS_VOICE_ID", "ELEVENLABS_MODEL_ID", "FAL_KEY", "FAL_MODEL"):
+    for key in (
+        "ELEVENLABS_API_KEY",
+        "ELEVENLABS_VOICE_ID",
+        "ELEVENLABS_MODEL_ID",
+        "FAL_KEY",
+        "FAL_MODEL",
+        "FREESOUND_API_KEY",
+        "FREESOUND_CLIENT_ID",
+    ):
         value = os.getenv(key)
         if not value:
             print(f"  {key}=<missing>")
             continue
         if "KEY" in key:
-            print(f"  {key}={mask_secret(value)} (len={len(value)})")
+            source = env_source_name(key)
+            print(f"  {key}={mask_secret(value)} (len={len(value)}, source={source})")
         else:
             print(f"  {key}={value}")
 
@@ -689,6 +706,9 @@ class PublicImageDownloader:
 
 class FreesoundClient:
     def __init__(self, api_key: str, timeout: float = 60.0) -> None:
+        api_key = api_key.strip()
+        if not api_key:
+            raise ValueError("FREESOUND_API_KEY is empty. FreeSound search requires the long API key from https://freesound.org/apiv2/apply, not the client id.")
         self.client = httpx.AsyncClient(
             timeout=httpx.Timeout(timeout),
             follow_redirects=True,
@@ -737,9 +757,6 @@ class FreesoundClient:
         min_duration = filters.get("min_duration")
         if min_duration is not None:
             parts.append(f"duration:[{float(min_duration)} TO *]")
-        min_rating = filters.get("min_rating")
-        if min_rating is not None:
-            parts.append(f"rating:[{float(min_rating)} TO *]")
         return " ".join(parts)
 
 
