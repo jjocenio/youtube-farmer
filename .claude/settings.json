@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(pip3 install *)",
-      "Bash(python3)"
+      "Bash(python3)",
+      "WebFetch(domain:travelbits.guide)",
+      "Bash(python scripts/google_auth.py --check)",
+      "Bash(python scripts/backlinks_auth.py --check)",
+      "Bash(python scripts/drift_history.py https://travelbits.guide/)",
+      "WebFetch(domain:pagespeed.web.dev)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('Title:', d.get\\('metadata',{}\\).get\\('title',''\\)\\); scenes=d.get\\('timeline',[]\\); print\\('Scenes:', len\\(scenes\\)\\); [print\\(f' {s.get\\(\\\\\"timestamp_start\\\\\",0\\)}s: {s.get\\(\\\\\"narration\\\\\",\\\\\"\\\\\"\\)[:80]}'\\) for s in scenes[:5]]\")"
     ]
   }
 }
