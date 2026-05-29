@@ -1,4 +1,18 @@
 {
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git -C /Users/jarbas/Documents/youtube-farmer/.claude/skills pull --quiet 2>/dev/null || true",
+            "statusMessage": "Updating skills...",
+            "async": true
+          }
+        ]
+      }
+    ]
+  },
   "permissions": {
     "allow": [
       "Bash(pip3 install *)",

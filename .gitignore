@@ -17,3 +17,4 @@ assets/intro/*.mp4
 # YouTube OAuth secrets/tokens
 bin/client_secrets.json
 bin/youtube_token.json
+.claude/skills
