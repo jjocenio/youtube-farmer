@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Stanislav Petrov — The Man Who Saved the World (short_1)",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Cinematic noir, Kodachrome 60s film grain, archival documentary aesthetic, deep shadows, high contrast Cold War era atmosphere",
+    "aspect_ratio": "9:16",
+    "format": "short",
+    "parent_video": "stanislav_petrov_the_man_who_saved_the_world",
+    "hook_text": "One Man. Twelve Minutes. The World.",
+    "bg_music_prompt": "Tense Cold War thriller underscore, sparse piano and low strings slowly building, subtle electronic pulses reminiscent of 1980s Soviet spy thriller scores, dark atmospheric dread escalating to a sharp climax, 50 seconds, vertical-short energy"
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "type": "scene",
+      "narration": "The screen flashes LAUNCH. Five nuclear missiles, incoming.",
+      "visual_description": "Extreme close-up of a Soviet military CRT monitor in a pitch-dark control room, bold red Cyrillic LAUNCH warning text blazing on screen, vertical 9:16 framing with monitor centered for mobile safe zones, deep shadows consuming the edges, Cinematic noir, Kodachrome 60s film grain, archival documentary aesthetic.",
+      "on_screen_text": "",
+      "sfx": {
+        "query": "military alarm klaxon warning siren",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 4.0
+        },
+        "fallback_prompt": "A sharp Soviet-era military alarm klaxon blast followed by a deep cinematic impact boom, urgent and terrifying, Cold War underground bunker atmosphere, punchy and clean."
+      },
+      "music_intensity": 0.4,
+      "pause_after": 0.3,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 3,
+      "type": "scene",
+      "narration": "September 26, 1983. Lt. Colonel Petrov is inside a secret Soviet bunker 62 miles from Moscow — staring at an impossible alarm.",
+      "visual_description": "Low-angle vertical 9:16 shot of a Soviet officer in uniform seated at a command console surrounded by blinking control panels and CRT monitors, underground bunker with eerie green-tinged overhead lighting, officer's face partially shadowed, Kodachrome 60s film grain, cinematic noir lighting, archival documentary aesthetic, subject centered for mobile caption safe zones.",
+      "on_screen_text": "September 26, 1983",
+      "sfx": {
+        "query": "bunker electrical hum ambient",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 10,
+          "min_duration": 2,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "Low underground facility electrical hum, CRT monitor buzz and relay clicks, cold and clinical 1980s Soviet military bunker ambience, continuous tension bed."
+      },
+      "music_intensity": 0.5,
+      "pause_after": 0.2,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 12,
+      "type": "scene",
+      "narration": "The Oko early-warning satellite has just reported five American ICBMs inbound. Soviet doctrine demands Petrov report it immediately — triggering a retaliatory strike.",
+      "visual_description": "Vertical 9:16 split composition: top half shows a Soviet Oko satellite in elliptical orbit against the cold black of space, bottom half reveals a red telephone handset on a military desk, dramatic contrast between the cosmic and the intimate, Kodachrome 60s film grain, cinematic noir, Cold War archival aesthetic, subject centered for mobile safe zones.",
+      "on_screen_text": "5 MISSILES DETECTED",
+      "sfx": {
+        "query": "tension riser orchestral string swell",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "A building tension riser with low strings accelerating into a sharp cinematic sting, Cold War thriller energy, suspenseful and punchy, 6-second duration."
+      },
+      "music_intensity": 0.6,
+      "pause_after": 0.2,
+      "transition": "zoom_in"
+    },
+    {
+      "timestamp_start": 22,
+      "type": "scene",
+      "narration": "But Petrov wasn't scheduled for duty tonight. He helped design this very system — and he knew it had failed before.",
+      "visual_description": "Tight vertical 9:16 portrait of a Soviet officer's face, half-lit by the cold glow of a monitor, the other half consumed by shadow, wall clock in background showing just past midnight, sweat visible on brow, Kodachrome 60s film grain, cinematic noir lighting, archival documentary style, subject centered for mobile framing with top and bottom caption safe zones.",
+      "on_screen_text": "He wasn't supposed to be here",
+      "sfx": {
+        "query": "clock ticking suspense heartbeat",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 10,
+          "min_duration": 1,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "Slow ticking wall clock with a subtle heartbeat pulse underneath, building dread, intimate and terrifying, Cold War spy thriller atmosphere, steady rhythm."
+      },
+      "music_intensity": 0.65,
+      "pause_after": 0.3,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 31,
+      "type": "scene",
+      "narration": "He had twelve minutes to decide. Fifty-fifty odds. Eleven thousand Soviet nuclear warheads sat ready on the other end of his phone call.",
+      "visual_description": "Overhead vertical 9:16 shot looking straight down at a trembling hand hovering over a red military telephone handset on a desk scattered with Soviet military documents and a glowing countdown display, dramatic high-contrast noir lighting, deep shadows framing the hand, Kodachrome 60s film grain, archival Cold War documentary aesthetic, safe zone for caption overlay at top and bottom.",
+      "on_screen_text": "12 MINUTES",
+      "sfx": {
+        "query": "tension drone low frequency pulse",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 10,
+          "min_duration": 1,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "Deep tension drone with a rhythmic low-frequency heartbeat pulse, escalating dread, cinematic thriller underscore, building toward an unbearable climactic decision."
+      },
+      "music_intensity": 0.75,
+      "pause_after": 0.4,
+      "transition": "zoom_in"
+    },
+    {
+      "timestamp_start": 41,
+      "type": "scene",
+      "narration": "He made his choice. And what the Soviet government did to him after... you won't believe.",
+      "visual_description": "Slow-motion extreme close-up of a Soviet officer's face, eyes unreadable, calm amid chaos, uniform insignia visible on shoulder, warm amber spotlight cutting through pitch-black shadow, vertical 9:16 with subject centered for mobile, Kodachrome 60s film grain, archival documentary aesthetic, safe zones at top and bottom for caption text.",
+      "on_screen_text": "What happened next...",
+      "sfx": {
+        "query": "deep cinematic boom reverb tail",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 4.0
+        },
+        "fallback_prompt": "A deep cinematic impact boom with a long low reverberant tail, trailer-style, powerful and haunting, Cold War thriller punctuation, clean and impactful."
+      },
+      "music_intensity": 0.8,
+      "pause_after": 0.5,
+      "transition": "dissolve"
+    },
+    {
+      "timestamp_start": 48,
+      "type": "scene",
+      "narration": "Watch the full story linked below. Subscribe for more Cold War secrets.",
+      "visual_description": "Bold vertical 9:16 title card, Cold War Chronicles channel branding centered for mobile, silhouette of a lone figure at a command console against a faint mushroom cloud horizon, deep red and black color palette, Kodachrome film grain texture overlay, top and bottom safe zones for channel name and subscribe prompt, archival documentary aesthetic.",
+      "on_screen_text": "WATCH THE FULL STORY ▶",
+      "sfx": null,
+      "music_intensity": 0.8,
+      "pause_after": 0.0,
+      "transition": "zoom_in",
+      "is_cta": true
+    }
+  ]
+}
