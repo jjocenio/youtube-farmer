@@ -271,6 +271,14 @@ def extract_proposed_titles(content: str) -> dict[str, str]:
 def build_description(content: str, project_dir: Path, shorts: bool = False) -> str:
     if shorts:
         full_description = extract_section_body(content, "Full Description")
+        if not full_description:
+            full_description = extract_section_body(content, "Caption / Hook")
+        if not full_description:
+            full_description = extract_section_body(content, "Caption")
+        if not full_description:
+            full_description = extract_section_body(content, "Short Description")
+        if not full_description:
+            full_description = extract_section_body(content, "Hook")
         hashtags = extract_hashtags(content, shorts=True)
         if hashtags and full_description:
             return "\n\n".join([full_description, " ".join(hashtags)])
@@ -413,10 +421,10 @@ def extract_hashtags(content: str, shorts: bool = False) -> list[str]:
     if not shorts:
         return []
     match = re.search(r"(?ims)^\s*##\s*Hashtags\s*\n+(?P<body>.+?)(?=(?:\n\s*---|\n\s*##\s|\Z))", content)
-    if not match:
-        return []
-    body = match.group("body")
-    hashtags = []
+    body = match.group("body") if match else ""
+    if not body:
+        body = content
+    hashtags: list[str] = []
     for urlish in re.findall(r"#\w[\w-]*", body):
         hashtags.append(urlish.strip())
     return hashtags[:5]
