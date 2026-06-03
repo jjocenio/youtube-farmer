@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "The Secret Nuclear City Under Greenland — SHORT #2",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style",
+    "aspect_ratio": "9:16",
+    "format": "short",
+    "parent_video": "the_secret_nuclear_city_under_greenland",
+    "hook_text": "THE NUCLEAR CITY THEY BURIED",
+    "bg_music_prompt": "Cold War spy thriller underscore for a 50-second vertical short, tense strings and low brass building from medium tension to a hard stop at the cliffhanger, energetic and ominous, cinematic 1960s espionage aesthetic, driving rhythm, no lyrics, punchy trailer energy"
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "type": "scene",
+      "narration": "Buried under thirty meters of Arctic ice is a nuclear city the U.S. built in secret.",
+      "visual_description": "Extreme close-up vertical 9:16 shot of Arctic ice surface, camera slowly pulling upward from deep underground — dark blue-black ice layers cracking open as the lens rises, filtered yellow light from below contrasting with cold white above, subject centered for mobile, safe zones top and bottom for dual text overlays, Kodachrome 60s film grain, cinematic noir lighting.",
+      "on_screen_text": "NUKES BURIED UNDER ICE",
+      "sfx": {
+        "query": "deep cinematic boom ice crack",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 4.0
+        },
+        "fallback_prompt": "A massive deep cinematic impact boom followed by a resonant ice-crack, low rumbling tail, cold and powerful, like something enormous stirring beneath frozen ground, trailer-style."
+      },
+      "music_intensity": 0.5,
+      "pause_after": 0.3,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 7,
+      "type": "scene",
+      "narration": "In 1960, the Army carved tunnels beneath Greenland's ice — disguised as a research station. The real mission: six hundred nuclear missiles.",
+      "visual_description": "Vertical 9:16 cinematic tracking shot down a long illuminated ice tunnel corridor, arched snow ceiling glowing with electric light, prefabricated military structures lining both sides, lone soldier silhouette centered walking away at vanishing point, strong perspective depth, Kodachrome 60s film grain, historical archival photo style, safe caption zones top and bottom.",
+      "on_screen_text": "600 NUCLEAR MISSILES HIDDEN",
+      "sfx": {
+        "query": "underground industrial hum generator drone",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 12,
+          "min_duration": 2,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "A low underground industrial hum, mechanical drone of generators and ventilation systems in an enclosed tunnel, distant metallic echoes, unsettling and enclosed, 1960s military facility atmosphere."
+      },
+      "music_intensity": 0.6,
+      "pause_after": 0.2,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 16,
+      "type": "scene",
+      "narration": "They never asked Denmark for permission. The Prime Minister sent a vague non-answer. Washington treated it as a green light.",
+      "visual_description": "Vertical 9:16 close-up of a diplomatic document with heavy black redaction bars across classified text, single desk lamp casting hard shadows in a darkened 1950s government office, paper centered with dramatic chiaroscuro lighting, pen and inkwell visible at bottom edge, Kodachrome 60s film grain, cinematic noir lighting, safe zones top and bottom for overlays.",
+      "on_screen_text": "THEY NEVER ASKED PERMISSION",
+      "sfx": {
+        "query": "typewriter stamp bureaucratic paper",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 5,
+          "min_duration": 0.5,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "A sharp typewriter key clatter followed by the heavy thud of an official rubber stamp on paper, crisp and bureaucratic, 1950s government office sound design."
+      },
+      "music_intensity": 0.6,
+      "pause_after": 0.2,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 24,
+      "type": "scene",
+      "narration": "But the ice fought back. Tunnel ceilings drooped toward the nuclear reactor. Walls collapsed. By 1963, the entire project was cancelled.",
+      "visual_description": "Vertical 9:16 dramatic shot of an ice tunnel ceiling sagging and cracking under immense pressure, ice intrusion pushing through the arch from above, emergency lighting flickering, structural failure visible from floor to ceiling with crumbling debris, subject centered for mobile, tension framing with claustrophobic close walls, Kodachrome 60s film grain, cinematic noir lighting.",
+      "on_screen_text": "THE ICE FOUGHT BACK",
+      "sfx": {
+        "query": "metal groan structural creak ice crack",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 1,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "Structural metal groaning under enormous compression, a sharp ice crack, then debris settling — like a building slowly failing, tense and ominous, underground resonance."
+      },
+      "music_intensity": 0.7,
+      "pause_after": 0.2,
+      "transition": "zoom_in"
+    },
+    {
+      "timestamp_start": 33,
+      "type": "scene",
+      "narration": "They abandoned the site — leaving radioactive coolant, two hundred thousand liters of diesel, and biological waste locked in the ice forever. Or so they thought.",
+      "visual_description": "Vertical 9:16 slow aerial pullback from the surface of the Greenland ice sheet, vast white emptiness in all directions, horizon curving at top of frame, a single small marker barely visible at bottom center suggesting something hidden below the ice, cold arctic overcast light, Kodachrome 60s film grain transitioning to stark modern color palette in upper half.",
+      "on_screen_text": "ABANDONED — NEVER CLEANED UP",
+      "sfx": {
+        "query": "arctic wind howl desolate",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 15,
+          "min_duration": 2,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "Arctic wind howling across an empty frozen plain, desolate and vast, low tonal drone underneath suggesting something hidden below the surface, cinematic and foreboding."
+      },
+      "music_intensity": 0.7,
+      "pause_after": 0.3,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 45,
+      "type": "scene",
+      "narration": "What's still buried there — and who's responsible when it melts out — is in the full video. Watch it now and subscribe.",
+      "visual_description": "Vertical 9:16 dramatic split-frame montage — top half shows 1960s Camp Century tunnel lit and populated, bottom half shows the same space as dark void beneath modern ice, bold contrast between past and present, channel branding visible, centered composition for mobile with safe zones for CTA text, Kodachrome 60s film grain on top fading to stark modern aesthetic on bottom.",
+      "on_screen_text": "WATCH THE FULL STORY ▶",
+      "sfx": null,
+      "music_intensity": 0.8,
+      "pause_after": 0.0,
+      "transition": "zoom_in",
+      "is_cta": true
+    }
+  ]
+}
