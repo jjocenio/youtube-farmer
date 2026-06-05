@@ -18,3 +18,5 @@ assets/intro/*.mp4
 bin/client_secrets.json
 bin/youtube_token.json
 .claude/skills
+
+**/.DS_Store
