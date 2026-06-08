@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Britain's Secret Propaganda Machine — Short #1",
+    "voice_id": "TO_BE_SET",
+    "global_visual_style": "Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style",
+    "aspect_ratio": "9:16",
+    "format": "short",
+    "parent_video": "uk_cold_war_black_propaganda_machine",
+    "hook_text": "Britain's 29-Year Secret",
+    "bg_music_prompt": "Tense Cold War espionage orchestral score, low strings and brass stingers building slowly, driving suspense with an undercurrent of urgency, cinematic documentary atmosphere, 140-160 BPM momentum suitable for vertical Shorts, punchy and dynamic with a sense of slowly uncovering a buried truth"
+  },
+  "timeline": [
+    {
+      "timestamp_start": 0,
+      "type": "scene",
+      "narration": "George Orwell invented Big Brother. Then he became one.",
+      "visual_description": "A gaunt man in a hospital bed writing by lamplight, his face turned in profile toward a rain-lashed window casting long shadows across the room, dramatic chiaroscuro lighting, safe zones top and bottom for dual text overlays, Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, vertical 9:16 mobile framing, subject centered in frame.",
+      "on_screen_text": "BIG BROTHER'S INFORMANT",
+      "sfx": {
+        "query": "deep cinematic boom impact",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 4.0
+        },
+        "fallback_prompt": "A deep cinematic impact boom with a long low reverberating tail, powerful trailer-style percussion hit, clean and punchy, sudden silence after the strike."
+      },
+      "music_intensity": 0.5,
+      "pause_after": 0.3,
+      "transition": "fade"
+    },
+    {
+      "timestamp_start": 4,
+      "type": "scene",
+      "narration": "In 1948, Britain secretly launched the Information Research Department — a propaganda unit that officially did not exist.",
+      "visual_description": "Imposing Georgian government building on a fog-drenched London street at dusk, pedestrians in 1940s overcoats passing beneath gas lamps, cold blue-green shadows with a single lit window above, Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, vertical 9:16 composition, building facade centered with grey sky above and wet cobblestones below, safe zones top and bottom.",
+      "on_screen_text": "ESTABLISHED 1948 — IN SECRET",
+      "sfx": {
+        "query": "typewriter mechanical keys clacking",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "Rapid mechanical typewriter keys clacking in an old government office, metallic and rhythmic, 1940s bureaucratic atmosphere with paper carriage return."
+      },
+      "music_intensity": 0.6,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 11,
+      "type": "scene",
+      "narration": "For twenty-nine years, it ran three hundred and fifty black propaganda operations. Forged documents. Fake organisations. Fabricated atrocity stories planted with journalists worldwide.",
+      "visual_description": "Extreme close-up of stacks of manila folders stamped TOP SECRET on a dark wooden desk, scattered forged Soviet letterhead documents beside an Underwood typewriter, a single desk lamp casting hard angular shadows across the papers, Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, vertical 9:16 framing, documents centered with safe zones top and bottom for text overlays.",
+      "on_screen_text": "350 BLACK OPERATIONS",
+      "sfx": {
+        "query": "rubber stamp paper thud document",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "Heavy rubber stamp thudding onto paper in a government office followed by papers shuffling, bureaucratic and ominous, slight room reverb."
+      },
+      "music_intensity": 0.7,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 22,
+      "type": "scene",
+      "narration": "At its peak, six hundred operatives — the largest single branch of the British Foreign Office — running disinformation campaigns across Africa, Asia, and the Middle East.",
+      "visual_description": "Wide-angle Cold War operations room with a giant wall map covered in coloured thread lines spanning Africa and Asia, uniformed men and women in 1960s attire studying pins and markers, dramatic side-lighting from a high frosted window, Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, vertical 9:16 composition, map wall centered with operatives occupying lower third, safe zones top and bottom.",
+      "on_screen_text": "",
+      "sfx": {
+        "query": "tense orchestral string riser suspense",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 10,
+          "min_duration": 2,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "A slow-building orchestral tension riser with low strings and rising brass stabs, Cold War documentary atmosphere, suspenseful and cinematic, 8-10 seconds."
+      },
+      "music_intensity": 0.7,
+      "pause_after": 0.0,
+      "transition": "cut"
+    },
+    {
+      "timestamp_start": 33,
+      "type": "scene",
+      "narration": "But the Soviets knew everything — from day one. A KGB spy had been placed inside the department in its very first weeks.",
+      "visual_description": "A suited 1940s official in a dimly lit private office speaking into a black rotary telephone, his face half-shadowed with a Soviet emblem faintly visible through frosted glass behind him, tension radiating from his clenched posture, Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, vertical 9:16 mobile-safe framing, subject centered in mid-shot, safe zones top and bottom.",
+      "on_screen_text": "THE KGB KNEW EVERYTHING",
+      "sfx": {
+        "query": "rotary telephone ring vintage",
+        "filters": {
+          "license": "Creative Commons 0",
+          "max_duration": 8,
+          "min_duration": 0.5,
+          "min_rating": 3.5
+        },
+        "fallback_prompt": "A vintage rotary telephone ringing twice in an empty stone-floored office, sharp metallic bell tone with slight room reverb, late 1940s atmosphere."
+      },
+      "music_intensity": 0.8,
+      "pause_after": 0.3,
+      "transition": "zoom_in"
+    },
+    {
+      "timestamp_start": 43,
+      "type": "scene",
+      "narration": "Why did they never expose it? The answer changes everything. Watch the full documentary now and subscribe.",
+      "visual_description": "Extreme close-up of a British government TOP SECRET stamp pressed in red ink onto a manila document folder, dramatic directional lighting with deep shadow revealing the word CLASSIFIED, bold and graphic composition, Kodachrome 60s film grain, cinematic noir lighting, historical archival photo style, vertical 9:16 composition, stamp centered in frame, safe zones top and bottom for CTA text overlays.",
+      "on_screen_text": "WATCH THE FULL STORY ▶",
+      "sfx": null,
+      "music_intensity": 0.8,
+      "pause_after": 0.0,
+      "transition": "zoom_in",
+      "is_cta": true
+    }
+  ]
+}
