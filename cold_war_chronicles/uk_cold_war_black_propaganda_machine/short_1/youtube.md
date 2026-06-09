@@ -18,7 +18,7 @@ Orwell Wrote 1984. Then Became an Informant #history #Shorts _(61 chars)_
 
 ## Caption / Hook (first 125 chars matter)
 Britain secretly ran 350 black propaganda ops for 29 years — George Orwell was one of their informants. The full story is linked below.
-▶ Full video: [LINK TO FULL VIDEO]
+▶ Full video: https://www.youtube.com/watch?v=fEwrCl1L1bw
 
 #ColdWar #BritishHistory #propaganda #espionage #Shorts
 
@@ -26,7 +26,7 @@ Britain secretly ran 350 black propaganda ops for 29 years — George Orwell was
 
 ## Long-Form Funnel Bridge
 - **Verbal CTA (say/show on the CTA scene):** "Why did the Soviets never expose it? The answer changes everything — the full documentary is in the link. Subscribe for more Cold War history."
-- **Pinned comment:** "👉 Full documentary — 29 years of forged documents, fake organisations, and why the KGB said nothing about Britain's secret propaganda machine for three decades:\n[LINK TO FULL VIDEO]"
+- **Pinned comment:** "👉 Full documentary — 29 years of forged documents, fake organisations, and why the KGB said nothing about Britain's secret propaganda machine for three decades:\nhttps://www.youtube.com/watch?v=fEwrCl1L1bw"
 
 ---
 
